@@ -1,8 +1,4 @@
-# SHIP-HATS Architecture Diagram
+# SHIP-HATS
 
-![ship archi](/ship-archi.png)
 
-- GSIB - Government Standard Image Build 
-- SOE - Standard ICT Operating Environment 
-- VPC - Virtual Private Cloud 
-- TGW - Transit Gateway 
+Find the <a href="https://www.developer.tech.gov.sg/singapore-government-tech-stack/toolchain/overview"> SHIP-HATS </a> technical documentation here.
