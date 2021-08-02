@@ -35,6 +35,7 @@ The below table is an example of the <a href="roles"> Jira project roles</a> and
 
 
 **Projects**
+
 |  | Administrator | Users | Developer |
 | :------ | -------- | ----------| ----- |
 | Administer Projects | ✓ |   |   |
@@ -45,6 +46,7 @@ The below table is an example of the <a href="roles"> Jira project roles</a> and
 | View Read-only Workflow | ✓ | ✓ | ✓ |
 
 **Issues** 
+
 |  | Administrator | Users | Developer |
 | :------ | -------- | ----------| ----- |
 | Archive Issues | ✓ |   |   |
@@ -63,12 +65,14 @@ The below table is an example of the <a href="roles"> Jira project roles</a> and
 | Transition Issues | ✓ | ✓ | ✓ |
 
 **Voters and Watchers**
+
 |  | Administrator | Users | Developer |
 | :------ | -------- | ----------| ----- |
 | Manage Watchers | ✓ |   | ✓ |
 | View Voters and Watchers | ✓ |   | ✓ |
 
 **Comments** 
+
 |  | Administrator | Users | Developer |
 | :------ | -------- | ----------| ----- |
 | Add Comments | ✓ | ✓ | ✓ |
@@ -78,6 +82,7 @@ The below table is an example of the <a href="roles"> Jira project roles</a> and
 | Edit Own Comments | ✓ | ✓ | ✓ |
 
 **Attachments** 
+
 |  | Administrator | Users | Developer |
 | :------ | -------- | ----------| ----- |
 | Create Attachments | ✓ | ✓ | ✓ |
@@ -85,6 +90,7 @@ The below table is an example of the <a href="roles"> Jira project roles</a> and
 | Delete Own Attachments | ✓ | ✓ | ✓ |
 
 **Time Tracking** 
+
 |  | Administrator | Users | Developer |
 | :------ | -------- | ----------| ----- |
 | Delete All Worklogs | ✓ |   |   |
