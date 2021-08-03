@@ -103,7 +103,7 @@ The below table is an example of the <a href="roles"> Jira project roles</a> and
 Groups are an easier and efficient way to manage user access for multiple users. Users can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/">service request</a> with the required group name and user details such as name and email address. Crowd administrator from the SHIP-HATS team then evaluates the request and approves it accordingly.
 
 
-If approved, the group is created with the agency name prefixed to it. For example, *govtech-codex-documentation*. If a group is already created for managing users in any one of the Atlassian products added to your project on SHIP-HATS, you will be able to see that in all the integrated Atlassian products. Note that user groups are created at a global level and are visible to all SHIP-HATS users.
+If approved, the group is created with the agency name prefixed to it. For example, *govtech-codex-documentation*. If a group is already created for managing users in any one of the Atlassian products added to your project on SHIP-HATS, you will be able to see that in all the integrated Atlassian products. Note that user groups are created at a global level and are visible to all SHIP-HATS users. Jira project administrators can manage user groups for the project.
 
 ### Jira custom permissions
 Administrator can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/">service request</a> to change project permissions for an existing user role.
