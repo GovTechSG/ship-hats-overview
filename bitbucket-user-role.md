@@ -12,7 +12,7 @@ Once you add Bitbucket as your project tool, a Bitbucket project is created. Ple
 | Users | SHIP-HATS users can be assigned as an administrator or added as user to the project. |
 
 ### Bitbucket Users
-You can add and manage users as <a href="https://docs.google.com/document/d/1PYAcEbNSGqEJn1yej1qq3iHvjmwqjHt4/edit#heading=h.tyjcwt">individual users</a> and <a href="https://docs.google.com/document/d/1PYAcEbNSGqEJn1yej1qq3iHvjmwqjHt4/edit#heading=h.3dy6vkm">group</a>. Administrator can view project permissions assigned for users and groups.
+You can add and manage users as individual users and group. Administrator can view project permissions assigned for users and groups.
 
 *To view project permissions:*
 ![bitbucket](bitbucket.png)
