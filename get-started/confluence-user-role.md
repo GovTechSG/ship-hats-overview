@@ -23,4 +23,4 @@ If approved, the group is created with the agency name prefixed to it. For examp
 Administrator can add users individually and manage their permissions for a space.
 
 ### Additional Resources
-Please refer to <a href="https://confluence.atlassian.com/doc/space-permissions-overview-139521.html>"Confluence Space Permission</a> to know more about the possible permissions for the users added to a space.
+Please refer to <a href="https://confluence.atlassian.com/doc/space-permissions-overview-139521.html">Confluence Space Permission</a> to know more about the possible permissions for the users added to a space.
