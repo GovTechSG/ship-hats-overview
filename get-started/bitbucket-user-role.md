@@ -32,4 +32,4 @@ Groups are an easier and efficient way to manage user access for multiple users.
 If approved, the group is created with the agency name prefixed to it. For example, MOE-BCAS. If a group was already created for managing users in any one of the Atlassian products added to your project on SHIP-HATS, you would be able to see that in all the integrated Atlassian products. Bitbucket project administrators can manage user groups for the project.
 
 ### Additional Resources
-Please refer to <a href="https://confluence.atlassian.com/bitbucketserver0711/using-project-permissions-1047557542.html">Bitbucket Project Permissions</a> to know more about the possible permissions for the users added to a project.
+Please refer to <a href="https://confluence.atlassian.com/bitbucketserver0711/using-project-permissions-1047557542.html"> Bitbucket Project Permissions</a> to know more about the possible permissions for the users added to a project.
