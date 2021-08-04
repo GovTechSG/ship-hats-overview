@@ -32,4 +32,4 @@ Users can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/
 If approved, the group is created with the agency name prefixed to it. For example, *govtech-codex-documentation*. If a group was already created for managing users in any one of the Atlassian products added to your project on SHIP-HATS, you would be able to see that in all the integrated Atlassian products. Bamboo project administrators can manage user groups for this project.
 
 ### Additional Resources
-Please refer to <a href="https://confluence.atlassian.com/bamboo/bamboo-permissions-369296034.html">Bamboo project permissions</a> to know more about the possible permissions for the users added to a project.
+Please refer to <a href="https://confluence.atlassian.com/bamboo/bamboo-permissions-369296034.html"> Bamboo project permissions </a> to know more about the possible permissions for the users added to a project.
