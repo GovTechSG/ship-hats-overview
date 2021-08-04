@@ -13,7 +13,7 @@ Once you add Bamboo as your project tool, a Bamboo project is created. Please re
 | Users | SHIP-HATS users can be assigned as an administrator or added as user to the project. |
 
 ### Bamboo Users
-You can add and manage users as individual users and group. Administrator can view **Project permissions **assigned for users and groups.
+You can add and manage users as individual users and group. Administrator can view **Project permissions** assigned for users and groups.
 
 *To view project permissions:*
 1. In <a href="https://bamboo.ship.gov.sg/">SHIP Bamboo</a>, go to **Projects** and choose your project. 
