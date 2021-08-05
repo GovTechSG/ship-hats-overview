@@ -1,7 +1,4 @@
 * [Get Started](get-started)
   * [SHIP-HATS Architecture](archi-diagram)
  * [User Roles and Permissions](user-roles-permisions)
-  * [Jira User Roles and Permissions](get-started/jira-user-role)
-  * [Bitbucket User Roles and Permissions](get-started/bitbucket-user-role)
-  * [Confluence User Roles and Permissions](get-started/confluence-user-role)
-  * [Bamboo User Roles and Permissions](get-started/bamboo-user-roles)
+  
