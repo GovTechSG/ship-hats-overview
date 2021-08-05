@@ -25,7 +25,7 @@ Request or remove additional resources for a subscription. For more information 
 - Perform assigned functional roles and responsibilities within the associated tool(s).
 
 ## Documentations relating to User Roles and permissions
-![Bitbucket User Roles and Permission](get-started/bitbucket-user-role)
-![Bamboo User Roles and Permission](get-started/bamboo-user-roles)
-![Confluence User Roles and Permission](get-started/confluence-user-role)
-![Jira User Roles and Permission](get-started/jira-user-role)
+[Bitbucket User Roles and Permission](get-started/bitbucket-user-role)
+[Bamboo User Roles and Permission](get-started/bamboo-user-roles)
+[Confluence User Roles and Permission](get-started/confluence-user-role)
+[Jira User Roles and Permission](get-started/jira-user-role)
