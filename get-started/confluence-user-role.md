@@ -5,13 +5,13 @@ You can use Confluence for efficient project collaboration and knowledge sharing
 Confluence user roles and permissions
 Once you add Confluence as your project tool, a space is created. Please refer to <a href="https://confluence.atlassian.com/doc/space-permissions-overview-139521.html">Confluence Space Permission</a> to know more about the possible permissions for users added to the space.
 
-### SHIP-HATS - Confluence role mapping
-| SHIP-HATS | Confluence |
+## SHIP-HATS - Confluence role mapping
+| SHIP-HATS Users | Confluence Users |
 | :------- | ----------- |
 | Project Admin | Administrator for the space.</br>When Confluence is added to a SHIP-HATS project, by default the Project Admin is set as the Administrator for a space. Administrator can add other users to this space and manage their permissions. There can be more than one space administrator. |
 | Users | SHIP-HATS users can be assigned as an administrator or added as user to the space. |
 
-### Confluence Users 
+## Confluence Users 
 You can add and manage users as Group and Individual Users. 
 
 ### Confluence Groups 
