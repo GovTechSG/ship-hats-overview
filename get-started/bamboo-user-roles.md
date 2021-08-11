@@ -7,8 +7,8 @@ Once you add Bamboo as your project tool, a Bamboo project is created. Please re
 
 ## SHIP-HATS - Bamboo role mapping
 
-| SHIP-HATS | Bamboo |
-| :-------- | ------ |
+| SHIP-HATS User  | Bamboo User |
+| ---------------  |-------------|
 | Project Admin | Administrator for the project. </br>This role is assigned by default when Bamboo is added to the SHIP-HATS project. Administrator can assign project roles to other users and there can be more than one Administrator. |
 | Users | SHIP-HATS users can be assigned as an administrator or added as user to the project. |
 
