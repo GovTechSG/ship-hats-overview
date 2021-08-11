@@ -81,7 +81,7 @@ The below table is an example of the <a href="roles"> Jira project roles</a> and
 | Edit All Comments | ✓ |   | ✓ |
 | Edit Own Comments | ✓ | ✓ | ✓ |
 
-**Attachments** 
+**File Attachments** 
 
 |  | Administrator | Users | Developer |
 | :------ | -------- | ----------| ----- |
