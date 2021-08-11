@@ -2,16 +2,16 @@
 
 You can use Bitbucket as a centralised place to manage your project source code repositories for an efficient source code management. <a href="https://docs.developer.gov.sg/docs/ship-hats/#/user-roles-permisions">SHIP-HATS Project Admin (PA)</a> can add Atlassian Bitbucket to a SHIP-HATS project. 
  
-### Bitbucket user roles and permissions
+## Bitbucket user roles and permissions
 Once you add Bitbucket as your project tool, a Bitbucket project is created. Please refer to <a href="https://confluence.atlassian.com/bitbucketserver0711/using-project-permissions-1047557542.html">Bitbucket Project Permissions</a> to know more about the possible permissions for users added to the project. 
 
-### SHIP-HATS - Bitbucket role mapping
-| SHIP-HATS | Bitbucket |
+## SHIP-HATS - Bitbucket role mapping
+| SHIP-HATS Users | Bitbucket Users |
 | :-------- | --------- |
 | Project Admin | Administrator for the project. </br> This role is assigned by default when Bitbucket is added to the SHIP-HATS project. Administrator can assign project roles to other users and there can be more than one Administrator. |
 | Users | SHIP-HATS users can be assigned as an administrator or added as user to the project. |
 
-### Bitbucket Users
+## Bitbucket Users
 You can add and manage users as individual users and group. Administrator can view project permissions assigned for users and groups.
 
 *To view project permissions:*
