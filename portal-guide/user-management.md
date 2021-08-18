@@ -57,7 +57,7 @@ Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure yo
 
 From the side menu, click **Users > All Users**. 
 
-![View_All_Users_blurred](View_All_Users_blurred.png)
+![View_All_Users_blurred](View_All_Users_blurred_2.png)
 
 * If a user is a Subscription Administrator, it is indicated by the label Subscr Admin beside the username. 
 * If a user has a Project Admin role in one the projects in the subscription account, it will be indicated in the **Project Role** column. 
@@ -107,6 +107,7 @@ SA and PA can reactivate a suspended user back to their account if required.
 
 2. Search for the user to be reactivated and from the Action column, click ![3_dot](3_dot.png) corresponding to the user. 
 
+![user_status_2](user_status_2.png)
 
 Tip: Refer to View Users to know how to search for users 
 
