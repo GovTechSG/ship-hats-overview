@@ -1,13 +1,15 @@
 # User Management 
 This section describes the following: 
-* Invite Users 
-* Approve New Users 
+
+[Invite Users](Invite-Users)
+[Approve New Users](Approve-New-Users) 
 * View Users 
 * Remove User 
 * Reactivate User 
 
 
-## Invite Users 
+
+#### Invite Users 
 Subscription Administrator (SA) and Project Admin (PA) can invite and add users to the subscription. Note that only SA can add a user as PA to their SHIP-HATS projects. 
 
 ### To invite users:
@@ -37,7 +39,7 @@ Alternatively, from the side menu, click Users > **All Users**. If there is a pe
 
 Note: If there is a number displayed beside **All Users** menu and **Pending Approval** section, it indicates that many user approvals are pending.  
 
-![New user approval_blurred](New user approval_blurred.png)
+![New user approval_blurred](New_user_approval_blurred.png)
 
 3. Click **Approve** corresponding to the user. 
 
