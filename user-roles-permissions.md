@@ -13,7 +13,7 @@
  
 2. **Project Administrator (PA)** -  A subscription can have multiple projects and each project is managed by PAs. An Agency user or a vendor can be assigned as a PA. You may add upto three PAs to a project through the SHIP-HATS portal.
  
-## PA Permissions**
+## PA Permissions
 - Manage project from <a href="https://www.ship.gov.sg/">SHIP-HATS Portal</a>.
 - Add users to a subscription and manage their roles. Note that only SA can assign PA role to a user.
 - Add tools to project.
@@ -21,7 +21,7 @@
  
 3. User is the default role for all the users from the Agency and vendors.
  
-## User Permissions**
+## User Permissions
 - Perform assigned functional roles and responsibilities within the associated tool(s).
 
 ### Tool Specific Details
