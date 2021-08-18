@@ -89,7 +89,7 @@ Tip: Refer to *View Users* to know how to search for users and to sort by Quota 
 
 4. Choose **Remove User**. 
 
-Note, to remove a PA or SA, one of the SA can raise a service request to change the user role for this individual from PA to normal user. Once this is done, follow the steps mentioned in the **Remove User** section. 
+Note, to remove a PA or SA, one of the SA can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/" service request </a> to change the user role for this individual from PA to normal user. Once this is done, follow the steps mentioned in the **Remove User** section. 
 
 Tip:  While creating this service request, we recommend you tag the user whose role is to be modified and the respective SAs and PAs in the ticket. 
 
