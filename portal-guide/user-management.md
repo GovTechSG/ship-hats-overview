@@ -4,8 +4,8 @@ This section describes the following:
 * [Invite Users](#invite-users)
 * [Approve New Users](#approve-new-users) 
 * [View Users](#view-users)
-* [Remove User](remove-user)
-* [Reactivate User](reactivate-user) 
+* [Remove User](#remove-user)
+* [Reactivate User](#reactivate-user) 
 
 
 
