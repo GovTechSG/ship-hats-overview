@@ -44,7 +44,7 @@ Note: If there is a number displayed beside **All Users** menu and **Pending App
 
 3. Click **Approve** corresponding to the user. 
 
-![New user approval_step2_blured](New-user-approval-step2-blured.png)
+![New user approval_step2_blured](New-user-approval-step2-blurred.png)
 
 4. When prompted to confirm this action, click **Yes**. This user is now approved as SHIP-HATS user under this account. 
 
