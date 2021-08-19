@@ -39,11 +39,11 @@ Alternatively, from the side menu, click Users > **All Users**. If there is a pe
 
 Note: If there is a number displayed beside **All Users** menu and **Pending Approval** section, it indicates that many user approvals are pending.  
 
-![New user approval_blurred](New_user_approval_blurred.png)
+![New user approval_blurred](New-user-approval-blurred.png)
 
 3. Click **Approve** corresponding to the user. 
 
-![New user approval_step2_blured](New_user_approval_step2_blured.png)
+![New user approval_step2_blured](New-user-approval-step2-blured.png)
 
 4. When prompted to confirm this action, click **Yes**. This user is now approved as SHIP-HATS user under this account. 
 
@@ -59,7 +59,7 @@ Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure yo
 
 From the side menu, click **Users > All Users**. 
 
-![View_All_Users_blurred](View_All_Users_blurred_2.png)
+![View_All_Users_blurred](View-All-Users-blurred.png)
 
 * If a user is a Subscription Administrator, it is indicated by the label Subscr Admin beside the username. 
 * If a user has a Project Admin role in one the projects in the subscription account, it will be indicated in the **Project Role** column. 
@@ -91,7 +91,7 @@ Tip: Refer to *View Users* to know how to search for users and to sort by Quota 
 
 4. Choose **Remove User**. 
 
-Note, to remove a PA or SA, one of the SA can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/" service request </a> to change the user role for this individual from PA to normal user. Once this is done, follow the steps mentioned in the **Remove User** section. 
+Note, to remove a PA or SA, one of the SA can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/"> service request </a> to change the user role for this individual from PA to normal user. Once this is done, follow the steps mentioned in the **Remove User** section. 
 
 Tip:  While creating this service request, we recommend you tag the user whose role is to be modified and the respective SAs and PAs in the ticket. 
 
@@ -99,15 +99,17 @@ Tip:  While creating this service request, we recommend you tag the user whose r
 
 If SHIP-HATS users are inactive for 60 consecutive days, their status changes from **normal user** to **sleeping user**. If the user continues to be inactive, from day 81 onwards an email notification is sent every day to the user until user becomes active (**normal user**) or until it reaches day 90.  
 
-On day 91, if the user is still inactive on SHIP-HATS, user status changes from **sleeping user** to **suspended user**.  
+On day 91, if the user is still inactive on SHIP-HATS, user status changes from **sleeping user** to **suspended user**, indicated by a grey avatar.  
+
+![avatar-legends](avatar-legends.png)
 
 SA and PA can reactivate a suspended user back to their account if required. 
 
 ### To reactivate user: 
 
-1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to Switch account. From the side menu, click Users > All Users. 
+1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to Switch account. From the side menu, click **Users > All Users**. 
 
-2. Search for the user to be reactivated and from the Action column, click ![3_dot](3_dot.png) corresponding to the user. 
+2. Search for the user to be reactivated and from the **Action** column, click ![3_dot](3_dot.png) corresponding to the user. 
 
 ![user_status_2](user_status_2.png)
 
