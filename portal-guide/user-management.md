@@ -1,15 +1,15 @@
 # User Management 
 This section describes the following: 
 
-[Invite Users](Invite-Users)
-[Approve New Users](Approve-New-Users) 
-* View Users 
-* Remove User 
-* Reactivate User 
+* [Invite Users](#invite-users)
+* [Approve New Users](#approve-new-users) 
+* [View Users](#view-users)
+* [Remove User](remove-user)
+* [Reactivate User](reactivate-User) 
 
 
 
-#### Invite Users 
+## [Invite Users](#invite-users)
 Subscription Administrator (SA) and Project Admin (PA) can invite and add users to the subscription. Note that only SA can add a user as PA to their SHIP-HATS projects. 
 
 ### To invite users:
@@ -24,13 +24,14 @@ By default, a new invitation link has a 14 days expiry date.  Whenever you invit
 3. Click **Email me** to send this link with the expiry date to your SHIP-HATS registered email address and forward it to the intended users so that they can provide required information in the **Invitation Form**. 
 Alternatively, click the copy icon to copy and share the invite link with intended users. Note, in this case, make sure to inform the users about the expiry date of this link. 
 
-## Approve New Users 
+## [Approve New Users](#approve-new-users) 
 Once a user submits the completed SHIP-HATS **Invitation Form**, Subscription Administrator (SA) and Project Admin (PA) will be notified by an email to approve the user registration. 
 
 ### To approve new user registration:
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to Switch account. 
 
 ![pending user approval notification](pending_user_approval_notification.png)
+
 If there is a pending user approval task for you, it will be displayed in the **ALERTS** section.  
 
 2. Click **View** corresponding to that alert. You will be directed to the **Pending Approval** section. 
@@ -49,15 +50,15 @@ Note: If there is a number displayed beside **All Users** menu and **Pending App
 
 Note: Irrespective of agencies, individuals approved as SHIP-HATS users can be added to any SHIP-HATS project and will be billed under the account that initially approved them.  
 
-## View Users
+## [View Users](#view-users)
 
 Subscription Administrator (SA) and Project Admin (PA) can view all users associated with a subscription account and their roles in your account. 
 
 ### To view users: 
 
-Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to Switch account. 
+1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to Switch account. 
 
-From the side menu, click **Users > All Users**. 
+2. From the side menu, click **Users > All Users**. 
 
 ![View_All_Users_blurred](View-All-Users-blurred.png)
 
@@ -70,11 +71,11 @@ From the side menu, click **Users > All Users**.
   * Last Login
 * You can quickly search for a user by typing the username in the search box. 
 
-![search_user_blurred](search_user_blurred.png)
+![search_user_blurred](search-user-blurred.png)
 
 * Click **Export CSV** to download the user list as a .csv file to your local machine. This csv lists the active and removed users along with the approval and removal details.
 
-## Remove User 
+## [Remove User](#remove-user)
 
 We recommend Subscription Admin (SA) and Project Admin (PA) to periodically review the named users in their account, consumed user quota and remove users who are no longer required. 
 
@@ -83,11 +84,11 @@ Note that SA and PA can remove a user who does not have the Project Admin or Sub
 ### To remove a user: 
 
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to Switch account. 
-2. From the side menu, click Users > All Users. 
-3. Search for the user to be removed and from the Action column, click ![3_dot](3_dot.png) corresponding to the user. 
-Tip: Refer to *View Users* to know how to search for users and to sort by Quota Consumed. 
+2. From the side menu, click **Users > All Users**. 
+3. Search for the user to be removed and from the **Action** column, click ![3_dot](3_dot.png) corresponding to the user. 
+Tip: Refer to [View Users](#view-users) to know how to search for users and to sort by **Quota Consumed**. 
 
-![remove_user_cropped_blurred](remove_user_cropped_blurred.png)
+![remove_user_cropped_blurred](remove-user-cropped-blurred.png)
 
 4. Choose **Remove User**. 
 
@@ -95,7 +96,7 @@ Note, to remove a PA or SA, one of the SA can raise a <a href="https://jira.ship
 
 Tip:  While creating this service request, we recommend you tag the user whose role is to be modified and the respective SAs and PAs in the ticket. 
 
-## Reactivate User 
+## [Reactivate User](#reactivate-user)
 
 If SHIP-HATS users are inactive for 60 consecutive days, their status changes from **normal user** to **sleeping user**. If the user continues to be inactive, from day 81 onwards an email notification is sent every day to the user until user becomes active (**normal user**) or until it reaches day 90.  
 
@@ -113,7 +114,7 @@ SA and PA can reactivate a suspended user back to their account if required.
 
 ![user_status_2](user_status_2.png)
 
-Tip: Refer to View Users to know how to search for users 
+Tip: Refer to [View Users](#view-users) to know how to search for users 
 
 3. Choose **Reactivate User**. User, SAs and the requestor will be notified through an email about the reactivation.  
 
