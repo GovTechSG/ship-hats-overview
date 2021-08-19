@@ -5,7 +5,7 @@ This section describes the following:
 * [Approve New Users](#approve-new-users) 
 * [View Users](#view-users)
 * [Remove User](remove-user)
-* [Reactivate User](reactivate-User) 
+* [Reactivate User](reactivate-user) 
 
 
 
