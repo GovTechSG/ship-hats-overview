@@ -10,7 +10,7 @@ SHIP-HATS users may have user roles such as Subscription Admin, Project Admin or
 - [View Billing Info](#view-billing-info)
 - [View and Update Profile](#view-and-update-profile)
   - [View and Update Profile as Subscription Admin and Project Admin](#view-and-update-profile-as-sa-and-pa)
-  - [View and Update Profile as User](#view and update profile as user)
+  - [View and Update Profile as User](#view-and-update-profile-as-user)
 - [Change Password](#change-password)
 
 
