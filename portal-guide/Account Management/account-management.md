@@ -100,7 +100,7 @@ If you are a Subscription Admin, you will be able to view and edit the billing i
 1. Ensure you are in the required account. If needed, refer to [Switch account](#Switch_account).
 2. From the [**Overview**](#Overview) page, mouse hover **Billing Account** at the top right and choose **Billing Info**.
 
-<kpd>![](RackMultipart20210820-4-pysdeh_html_97a4d7d74433895a.png)</kpd>
+<kpd>![](images/billing-info-menu.png)</kpd>
 
 This page has three sections: Billing Information, Approver Information and Signed Service Sheets (SS).
 
