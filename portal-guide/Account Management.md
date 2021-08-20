@@ -26,6 +26,7 @@ If you have not yet setup OpenVPN, refer to How to setup OpenVPN connection.
 2. Click **Log In**.
 
 <kpd>![](Images - Portal Admin Account Management/log-in.png)</kpd>
+<kbd>![Invite_users_3](Invite_users_3.png)</kbd>
 
 3. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#View_Dashboard) of your account.
 
