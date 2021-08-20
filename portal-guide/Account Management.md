@@ -25,7 +25,7 @@ If you have not yet setup OpenVPN, refer to How to setup OpenVPN connection.
 1. Go to [SHIP-HATS portal](https://www.ship.gov.sg/).
 2. Click **Log In**.
 
-<kpd>![](/log-in.png)</kpd>
+<kpd>![](Images - Portal Admin Account Management/log-in.png)</kpd>
 
 3. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#View_Dashboard) of your account.
 
