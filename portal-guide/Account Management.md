@@ -37,7 +37,7 @@ If you are a SHIP-HATS user who is not a SA or PA, upon logging in, you will be 
 
 *To log in to SHIP-HATS as user who is not SA or PA*:
 
-1. Follow steps 1-3 as mentioned in [Log In as Subscription Admin or Project Admin](#Log_in_SA_PA). You will be directed to your **profile**.
+* Follow steps 1-3 as mentioned in [Log In as Subscription Admin or Project Admin](#Log_in_SA_PA). You will be directed to your **profile**.
 
 <kpd>![](RackMultipart20210820-4-pysdeh_html_8bacaf500fcd8c53.png)</kpd>
 
