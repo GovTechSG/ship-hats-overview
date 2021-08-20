@@ -67,7 +67,7 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
 
 2. Choose the required billing account.
 
-<kpd>![](RackMultipart20210820-4-pysdeh_html_3b60adf58880f7de.png)</kpd>
+<kpd>![](images/switch-account-choose-account.png)</kpd>
 
 [Overview](#Overview) of the selected subscription is displayed.
 
