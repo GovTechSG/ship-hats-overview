@@ -120,7 +120,7 @@ You can find the approver details for this account.
 
 You can find the signed service sheets for this account **.**
 
-<kpd>![](RackMultipart20210820-4-pysdeh_html_5a4d8a2bc577a5a7.png)</kpd>
+<kpd>![](images/signed-ss.png)</kpd>
 
 ## [View and Update Profile](#view-and-update-profile)
 
