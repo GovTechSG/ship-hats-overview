@@ -89,7 +89,7 @@ Alternatively, click **Plan details** from **Overview** as shown below.
 
 Note that SHIP-HATS users other than SA and PA can view their associated subscription account&#39;s details such as Billing Account Name and Billing Account Number in their Profile page as shown below. Refer to View and Update Profile as User for additional information.
 
-<kpd>![](RackMultipart20210820-4-pysdeh_html_64ad0291e98fd0f0.png)</kpd>
+<kpd>![](images/view-subscription-details-for-other-users.png)</kpd>
 
 ## [View Billing Info](#view-billing-info)
 
