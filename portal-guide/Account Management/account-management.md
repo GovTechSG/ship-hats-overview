@@ -27,7 +27,7 @@ If you have not yet setup OpenVPN, refer to How to setup OpenVPN connection.
 
 <kpd>![](images/log-in.png)</kpd>
 
-1. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#View_Dashboard) of your account.
+3. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#View_Dashboard) of your account.
 
 Note that if you are SA or PA for more than one account and when you log in, by default, you will be viewing the subscription details of the first account to which you were added as SA or PA. Refer to [Switch account](#Switch_account) to know about switching between accounts.
 
@@ -37,7 +37,7 @@ If you are a SHIP-HATS user who is not a SA or PA, upon logging in, you will be 
 
 *To log in to SHIP-HATS as user who is not SA or PA*:
 
-1. Follow steps 1-3 as mentioned in [Log In as Subscription Admin or Project Admin](#Log_in_SA_PA). You will be directed to your **profile**.
+Follow steps 1-3 as mentioned in [Log In as Subscription Admin or Project Admin](#Log_in_SA_PA). You will be directed to your **profile**.
 
 <kpd>![](RackMultipart20210820-4-pysdeh_html_8bacaf500fcd8c53.png)</kpd>
 
@@ -166,5 +166,5 @@ The **Change Password** page is displayed.
 
 <kpd>![](RackMultipart20210820-4-pysdeh_html_370c8fc8438e2bfa.png)</kpd>
 
-1. Enter **Current password**.
-2. Enter **New Password** , **Confirm new password** and click **Update password**.
+3. Enter **Current password**.
+4. Enter **New Password** , **Confirm new password** and click **Update password**.
