@@ -80,7 +80,7 @@ SA and PA can view the plan details of their subscription account(s) from the da
 1. Ensure you are in the required account. If needed, refer to [Switch account](#Switch_account).
 2. From the [**Overview**](#Overview) page, mouse hover **Billing Account** at the top right and choose **Plan Details**.
 
-<kpd>![](RackMultipart20210820-4-pysdeh_html_4ca467f4a462685f.png)</kpd>
+<kpd>![](images/plan-details.png)</kpd>
 
 <kpd>![](RackMultipart20210820-4-pysdeh_html_5dec0eecebfb6112.png)</kpd>
 
