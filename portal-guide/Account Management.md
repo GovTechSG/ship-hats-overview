@@ -3,7 +3,7 @@
 SHIP-HATS users may have user roles such as Subscription Admin, Project Admin or User. Only an agency user can be a Subscription Admin for an account. Subscription Admin can also be a Project Admin. This section explains the following:
 
 - [Log In as Subscription Admin or Project Admin](#log-in-as-subscription-admin-or-project-admin)
-- [Log In as Users](#log-in-as-user)
+- [Log In as Users](#log-in-as-users)
 - [View Dashboard](#view-dashboard)
 - [Switch account](#switch-account)
 - [View Plan Details](#view-plan-details)
@@ -26,7 +26,6 @@ If you have not yet setup OpenVPN, refer to How to setup OpenVPN connection.
 2. Click **Log In**.
 
 <kpd>![](Images - Portal Admin Account Management/log-in.png)</kpd>
-<kbd>![Invite_users_3](Invite_users_3.png)</kbd>
 
 3. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#View_Dashboard) of your account.
 
@@ -91,7 +90,7 @@ Note that SHIP-HATS users other than SA and PA can view their associated subscri
 
 <kpd>![](RackMultipart20210820-4-pysdeh_html_64ad0291e98fd0f0.png)</kpd>
 
-## [View Billing Info[[#view-billing-info]
+## [View Billing Info](#view-billing-info)
 
 If you are a Subscription Admin, you will be able to view and edit the billing information of their subscription account(s).
 
