@@ -142,7 +142,7 @@ Your personal information and details of accounts in which you are SA and PA are
 
 3. To update your **Personal Information** , click the edit icon.
 
-<kpd>![](RackMultipart20210820-4-pysdeh_html_16fa5e427fbe6865.png)</kpd>
+<kpd>![](images/edit profile-details-blurred.png)</kpd>
 
 ### [View and Update Profile as User](#view-and-update-profile-as-user)
 
