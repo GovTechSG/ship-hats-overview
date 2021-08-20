@@ -27,7 +27,7 @@ If you have not yet setup OpenVPN, refer to How to setup OpenVPN connection.
 
 <kpd>![](RackMultipart20210820-4-pysdeh_html_74e0263cc428679d.png)</kpd>
 
-1. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#View_Dashboard) of your account.
+3. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#View_Dashboard) of your account.
 
 Note that if you are SA or PA for more than one account and when you log in, by default, you will be viewing the subscription details of the first account to which you were added as SA or PA. Refer to [Switch account](#Switch_account) to know about switching between accounts.
 
