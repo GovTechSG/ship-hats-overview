@@ -3,7 +3,7 @@
 SHIP-HATS users may have user roles such as Subscription Admin, Project Admin or User. Only an agency user can be a Subscription Admin for an account. Subscription Admin can also be a Project Admin. This section explains the following:
 
 - [Log In as Subscription Admin or Project Admin](#log-in-as-subscription-admin-or-project-admin)
-- [Log In as Users](#log-in-as-user)
+- [Log In as Users](#log-in-as-users)
 - [View Dashboard](#view-dashboard)
 - [Switch account](#switch-account)
 - [View Plan Details](#view-plan-details)
@@ -27,9 +27,9 @@ If you have not yet setup OpenVPN, refer to How to setup OpenVPN connection.
 
 <kpd>![](images/log-in.png)</kpd>
 
-3. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#View_Dashboard) of your account.
+3. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#view-dashboard) of your account.
 
-Note that if you are SA or PA for more than one account and when you log in, by default, you will be viewing the subscription details of the first account to which you were added as SA or PA. Refer to [Switch account](#Switch_account) to know about switching between accounts.
+Note that if you are SA or PA for more than one account and when you log in, by default, you will be viewing the subscription details of the first account to which you were added as SA or PA. Refer to [Switch account](#switch-account) to know about switching between accounts.
 
 ## [Log In as Users](#log-in-as-users)
 
@@ -37,7 +37,7 @@ If you are a SHIP-HATS user who is not a SA or PA, upon logging in, you will be 
 
 *To log in to SHIP-HATS as user who is not SA or PA*:
 
-Follow steps 1-3 as mentioned in [Log In as Subscription Admin or Project Admin](#Log_in_SA_PA). You will be directed to your **profile**.
+Follow steps 1-3 as mentioned in [Log In as Subscription Admin or Project Admin](#log-in-as-subscription-admin-or-project-admin). You will be directed to your **profile**.
 
 <kpd>![](RackMultipart20210820-4-pysdeh_html_8bacaf500fcd8c53.png)</kpd>
 
@@ -90,7 +90,7 @@ Note that SHIP-HATS users other than SA and PA can view their associated subscri
 
 <kpd>![](RackMultipart20210820-4-pysdeh_html_64ad0291e98fd0f0.png)</kpd>
 
-## [View Billing Info[[#view-billing-info]
+## [View Billing Info](#view-billing-info)
 
 If you are a Subscription Admin, you will be able to view and edit the billing information of their subscription account(s).
 
