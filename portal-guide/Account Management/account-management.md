@@ -114,7 +114,7 @@ SA can edit all the details in this section except **Billing Agency**. Note that
 
 You can find the approver details for this account.
 
-<kpd>![](RackMultipart20210820-4-pysdeh_html_2ff82be8429606f.png)</kpd>
+<kpd>![](images/approver-information.png)</kpd>
 
 **Signed Service Sheets (SS)**
 
