@@ -39,7 +39,7 @@ If you are a SHIP-HATS user who is not a SA or PA, upon logging in, you will be 
 
 Follow steps 1-3 as mentioned in [Log In as Subscription Admin or Project Admin](#log-in-as-subscription-admin-or-project-admin). You will be directed to your **profile**.
 
-<kpd>![](RackMultipart20210820-4-pysdeh_html_8bacaf500fcd8c53.png)</kpd>
+<kpd>![](images/ship-hats-normal-login-profile-page.jpeg)</kpd>
 
 ## [View Dashboard](#view-dashboard)
 
