@@ -53,7 +53,7 @@ The Overview page of the subscription account is the dashboard view of the subsc
 
 Note: The term **Overview** and **Dashboard view** may be used interchangeably.
 
-<kpd>![](RackMultipart20210820-4-pysdeh_html_e6b4fd0702a56573.png)</kpd>
+<kpd>![](images/overview_3.png)</kpd>
 
 ## [Switch account](#switch-account)
 
@@ -63,7 +63,7 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
 
 1. From the [**Overview**](#Overview) page, mouse hover **Billing Account** at the top right and choose **Switch account**.
 
-<kpd>![](RackMultipart20210820-4-pysdeh_html_4221c03575c7edfe.png)</kpd>
+<kpd>![](images/switch-account.png)</kpd>
 
 2. Choose the required billing account.
 
