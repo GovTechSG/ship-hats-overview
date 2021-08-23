@@ -120,7 +120,7 @@ You can find the approver details for this account.
 
 You can find the signed service sheets for this account **.**
 
-<kbd>![](images/signed-ss.png)</kbd>
+<kbd><img src = "images/signed-ss.png" width="600"></kbd>
 
 ## [View and Update Profile](#view-and-update-profile)
 
