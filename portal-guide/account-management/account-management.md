@@ -58,11 +58,11 @@ Note: The term **Overview** and **Dashboard view** may be used interchangeably.
 
 ## [Switch account](#switch-account)
 
-If you are a SA or PA for more than one subscription account in SHIP-HATS, you may need to switch between these accounts to **Manage users**(/Portal Admin - User Management), **Manage Projects**, [**View Plan Details**](#view-plan-details) and [**View Billing Info**](#view-billing-info).
+If you are a SA or PA for more than one subscription account in SHIP-HATS, you may need to switch between these accounts to **Manage users**, **Manage Projects**, [**View Plan Details**](#view-plan-details) and [**View Billing Info**](#view-billing-info).
 
 *To switch account*:
 
-1. From the [**Overview**](#overview) page, mouse hover **Billing Account** at the top right and choose **Switch account**.
+1. From the [**Overview**](#view-dashboard) page, mouse hover **Billing Account** at the top right and choose **Switch account**.
 
 <kbd>![switch-account](account-management-images/switch-account.png)</kbd>
 
@@ -70,7 +70,7 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
 
 <kbd>![choose-account](account-management-images/switch-account-choose-account.png)</kbd>
 
-[Overview](#overview) of the selected subscription is displayed.
+[Overview](#view-dashboard) of the selected subscription is displayed.
 
 ## [View Plan Details](#view-plan-details)
 
@@ -82,7 +82,7 @@ SA and PA can view the plan details of their subscription account(s) from the da
 
 <kbd>![](account-management-images/plan-details.png)</kbd>
 
-3. From the [**Overview**](#Overview) page, mouse hover **Billing Account** at the top right and choose **Plan Details**.
+3. From the [**Overview**](#view-dashboard) page, mouse hover **Billing Account** at the top right and choose **Plan Details**.
 
 <kbd>![plan-details](account-management-images/plan-details-1.png)</kbd>
 
@@ -99,7 +99,7 @@ If you are a Subscription Admin, you will be able to view and edit the billing i
 *To view and edit billing information*:
 
 1. Ensure you are in the required account. If needed, refer to [Switch account](#Switch_account).
-2. From the [**Overview**](#Overview) page, mouse hover **Billing Account** at the top right and choose **Billing Info**.
+2. From the [**Overview**](#view-dashboard) page, mouse hover **Billing Account** at the top right and choose **Billing Info**.
 
 <kbd>![billing-info-menu](account-management-images/billing-info-menu.png)</kbd>
 
@@ -133,7 +133,7 @@ SA and PA can update the profile from the **Overview** page.
 
 *To view and update profile as SA and PA*:
 
-1. From the [**Overview**](#Overview) page, mouse hover your profile avatar at the top right. Your user name and user role for this account are displayed. In the below example, the logged in user is a **Subscription Admin** for this account.
+1. From the [**Overview**](#view-dashboard) page, mouse hover your profile avatar at the top right. Your user name and user role for this account are displayed. In the below example, the logged in user is a **Subscription Admin** for this account.
 
 <!--<kbd>![view-and-update-profile-user-role-and-name](account-management-images/view-and-update-profile-user-role-and-name-blurred.PNG)</kbd>-->
 
