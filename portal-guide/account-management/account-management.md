@@ -44,10 +44,10 @@ Follow steps 1-3 as mentioned in [Log In as Subscription Admin or Project Admin]
 
 ## [View Dashboard](#view-dashboard)
 
-The Overview page of the subscription account is the dashboard view of the subscription account. Subscription Admin (SA) and Project Admin (PA) can view the following details from this page.
+The **Overview** page of the subscription account is the dashboard view of the subscription account. Subscription Admin (SA) and Project Admin (PA) can view the following details from this page.
 
 - Subscription tier for the Billing Account
-- [Plan details](#View_Plan_Details)
+- [Plan details](#view-plan-details)
 - Count of projects hosted on this account
 - Count of users added to this account
 - Projects using shared Bamboo agents and their usage quota.
