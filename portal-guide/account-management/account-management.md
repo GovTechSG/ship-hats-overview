@@ -134,7 +134,7 @@ SA and PA can update the profile from the **Overview** page.
 
 1. From the [**Overview**](#Overview) page, mouse hover your profile avatar at the top right. Your user name and user role for this account are displayed. In the below example, the logged in user is a **Subscription Admin** for this account.
 
-<!--<kbd>![view-and-update-profile-user-role-and-name](account-management-images/view-and-update-profile-user-role-and-name-blurred.PNG)</kbd>-->
+<kbd>![view-and-update-profile-user-role-and-name](account-management-images/view-and-update-profile-user-role-and-name-blurred.PNG)</kbd>
 
 2. Choose **View Profile**.
 
