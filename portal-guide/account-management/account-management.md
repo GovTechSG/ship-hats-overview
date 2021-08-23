@@ -25,7 +25,7 @@ If you have not yet setup OpenVPN, refer to How to setup OpenVPN connection.
 1. Go to [SHIP-HATS portal](https://www.ship.gov.sg/).
 2. Click **Log In**.
 
-<kbd>![log-in](images/log-in.png)</kbd>
+<kbd>![account-management-images/log-in](images/log-in.png)</kbd>
 
 3. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#view-dashboard) of your account.
 
@@ -39,7 +39,7 @@ If you are a SHIP-HATS user who is not a SA or PA, upon logging in, you will be 
 
 Follow steps 1-3 as mentioned in [Log In as Subscription Admin or Project Admin](#log-in-as-subscription-admin-or-project-admin). You will be directed to your **profile**.
 
-<kbd>![](images/ship-hats-normal-login-profile-page.jpeg)</kbd>
+<kbd>![](account-management-images/ship-hats-normal-login-profile-page.jpeg)</kbd>
 
 ## [View Dashboard](#view-dashboard)
 
@@ -53,7 +53,7 @@ The Overview page of the subscription account is the dashboard view of the subsc
 
 Note: The term **Overview** and **Dashboard view** may be used interchangeably.
 
-<kbd>![](images/overview_3.png)</kbd>
+<kbd>![](account-management-images/overview_3.png)</kbd>
 
 ## [Switch account](#switch-account)
 
@@ -63,11 +63,11 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
 
 1. From the [**Overview**](#Overview) page, mouse hover **Billing Account** at the top right and choose **Switch account**.
 
-<kbd>![](images/switch-account.png)</kbd>
+<kbd>![](account-management-images/switch-account.png)</kbd>
 
 2. Choose the required billing account.
 
-<kbd>![](images/switch-account-choose-account.png)</kbd>
+<kbd>![](account-management-images/switch-account-choose-account.png)</kbd>
 
 [Overview](#Overview) of the selected subscription is displayed.
 
@@ -79,17 +79,17 @@ SA and PA can view the plan details of their subscription account(s) from the da
 
 1. Ensure you are in the required account. If needed, refer to [Switch account](#Switch_account).
 
-<kbd>![](images/plan-details.png)</kbd>
+<kbd>![](account-management-images/plan-details.png)</kbd>
 
 3. From the [**Overview**](#Overview) page, mouse hover **Billing Account** at the top right and choose **Plan Details**.
 
-<kbd><img src= "images/plan-details-1.png" width="400"></kbd>
+<kbd><img src= "account-management-images/plan-details-1.png" width="400"></kbd>
 
 Alternatively, click **Plan details** from **Overview** as shown below.
 
 Note that SHIP-HATS users other than SA and PA can view their associated subscription account&#39;s details such as Billing Account Name and Billing Account Number in their Profile page as shown below. Refer to View and Update Profile as User for additional information.
 
-<kbd>![](images/view-subscription-details-for-other-users.png)</kbd>
+<kbd>![](account-management-images/view-subscription-details-for-other-users.png)</kbd>
 
 ## [View Billing Info](#view-billing-info)
 
@@ -100,13 +100,13 @@ If you are a Subscription Admin, you will be able to view and edit the billing i
 1. Ensure you are in the required account. If needed, refer to [Switch account](#Switch_account).
 2. From the [**Overview**](#Overview) page, mouse hover **Billing Account** at the top right and choose **Billing Info**.
 
-<kbd>![](images/billing-info-menu.png)</kbd>
+<kbd>![](account-management-images/billing-info-menu.png)</kbd>
 
 This page has three sections: Billing Information, Approver Information and Signed Service Sheets (SS).
 
 **Billing Information**
 
-<kbd><img src = "images/billing-information.png" width="600"></kbd>
+<kbd><img src = "account-management-images/billing-information.png" width="600"></kbd>
 
 SA can edit all the details in this section except **Billing Agency**. Note that GL Account is applicable for Govtech agencies and Sub-Business Unit is applicable for non-Govtech agencies.
 
@@ -114,13 +114,13 @@ SA can edit all the details in this section except **Billing Agency**. Note that
 
 You can find the approver details for this account.
 
-<kbd>![](images/approver-information.png)</kbd>
+<kbd>![](account-management-images/approver-information.png)</kbd>
 
 **Signed Service Sheets (SS)**
 
 You can find the signed service sheets for this account **.**
 
-<kbd><img src = "images/signed-ss.png" width="600"></kbd>
+<kbd><img src = "account-management-images/signed-ss.png" width="600"></kbd>
 
 ## [View and Update Profile](#view-and-update-profile)
 
@@ -134,7 +134,7 @@ SA and PA can update the profile from the **Overview** page.
 
 1. From the [**Overview**](#Overview) page, mouse hover your profile avatar at the top right. Your user name and user role for this account are displayed. In the below example, the logged in user is a **Subscription Admin** for this account.
 
-<kbd>![](images/View-and-update-profile-user-role-and-name-blurred.PNG)</kbd>
+<kbd>![](account-management-images/View-and-update-profile-user-role-and-name-blurred.PNG)</kbd>
 
 2. Choose **View Profile**.
 
@@ -142,7 +142,7 @@ Your personal information and details of accounts in which you are SA and PA are
 
 3. To update your **Personal Information** , click the edit icon.
 
-<kbd>![](images/edit-profile-details-blurred.png)</kbd>
+<kbd>![](account-management-images/edit-profile-details-blurred.png)</kbd>
 
 ### [View and Update Profile as User](#view-and-update-profile-as-user)
 
@@ -161,11 +161,11 @@ As per IM8 policy, all SHIP-HATS users must change their SHIP-HATS password at l
 1. Mouse hover your avatar at the top-right.
 2. Choose **Change Password.**
 
-<kbd><img src="images/change-password-user.png" width="200"></kbd>
+<kbd><img src="account-management-images/change-password-user.png" width="200"></kbd>
 
 The **Change Password** page is displayed.
 
-<kbd>![](images/change-pwd.png)</kbd>
+<kbd>![](account-management-images/change-pwd.png)</kbd>
 
 3. Enter **Current password**.
 4. Enter **New Password** , **Confirm new password** and click **Update password**.
