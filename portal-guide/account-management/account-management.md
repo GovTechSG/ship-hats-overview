@@ -165,7 +165,7 @@ As per IM8 policy, all SHIP-HATS users must change their SHIP-HATS password at l
 
 The **Change Password** page is displayed.
 
-<kbd>![](account-management-images/change-pwd.png)</kbd>
+<kbd>![change-pwd](account-management-images/change-pwd.png)</kbd>
 
 3. Enter **Current password**.
 4. Enter **New Password** , **Confirm new password** and click **Update password**.
