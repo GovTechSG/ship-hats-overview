@@ -83,7 +83,7 @@ SA and PA can view the plan details of their subscription account(s) from the da
 
 3. From the [**Overview**](#Overview) page, mouse hover **Billing Account** at the top right and choose **Plan Details**.
 
-<kbd><img src= "account-management-images/plan-details-1.png" width="400"></kbd>
+<kbd>![plan-details](account-management-images/plan-details-1.png)</kbd>
 
 Alternatively, click **Plan details** from **Overview** as shown below.
 
