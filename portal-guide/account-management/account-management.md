@@ -14,6 +14,7 @@ SHIP-HATS users may have user roles such as Subscription Admin, Project Admin or
 - [Change Password](#change-password)
 
 
+
 ## [Log In as Subscription Admin or Project Admin](#log-in-as-subscription-admin-or-project-admin)
 
 This section explains how to log in to SHIP-HATS as Subscription Admin (SA) or Project Admin (PA) using a device that has an active OpenVPN connection.
