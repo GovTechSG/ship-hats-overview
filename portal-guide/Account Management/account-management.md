@@ -106,7 +106,7 @@ This page has three sections: Billing Information, Approver Information and Sign
 
 **Billing Information**
 
-<kbd><img src = "images/billing-information.png" width="400"></kbd>
+<kbd><img src = "images/billing-information.png" width="600"></kbd>
 
 SA can edit all the details in this section except **Billing Agency**. Note that GL Account is applicable for Govtech agencies and Sub-Business Unit is applicable for non-Govtech agencies.
 
