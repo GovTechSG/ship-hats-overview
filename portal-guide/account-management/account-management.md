@@ -58,11 +58,11 @@ Note: The term **Overview** and **Dashboard view** may be used interchangeably.
 
 ## [Switch account](#switch-account)
 
-If you are a SA or PA for more than one subscription account in SHIP-HATS, you may need to switch between these accounts to manage users(/Portal Admin - User Management, manage projects, [**View Plan Details**](#view-plan-details) and [**View Billing Info**](#view_billing_info).
+If you are a SA or PA for more than one subscription account in SHIP-HATS, you may need to switch between these accounts to **Manage users**(/Portal Admin - User Management), **Manage Projects**, [**View Plan Details**](#view-plan-details) and [**View Billing Info**](#view-billing-info).
 
 *To switch account*:
 
-1. From the [**Overview**](#Overview) page, mouse hover **Billing Account** at the top right and choose **Switch account**.
+1. From the [**Overview**](#overview) page, mouse hover **Billing Account** at the top right and choose **Switch account**.
 
 <kbd>![switch-account](account-management-images/switch-account.png)</kbd>
 
@@ -70,7 +70,7 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
 
 <kbd>![choose-account](account-management-images/switch-account-choose-account.png)</kbd>
 
-[Overview](#Overview) of the selected subscription is displayed.
+[Overview](#overview) of the selected subscription is displayed.
 
 ## [View Plan Details](#view-plan-details)
 
