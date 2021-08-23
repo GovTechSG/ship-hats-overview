@@ -150,7 +150,7 @@ When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov
 
 <kbd>![](account-management-images/change-password-user.png)</kbd>
 
-<!--<kbd>![edit-profile-details-normal-user](account-management-images/edit-profile-details-normal-user-blurred-1.png)</kbd>-->
+
 
 Alternatively, mouse hover your avatar at the top-right. To view and update user profile, click **View Profile**.
 
