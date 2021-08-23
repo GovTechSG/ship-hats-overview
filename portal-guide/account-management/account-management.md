@@ -63,11 +63,11 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
 
 1. From the [**Overview**](#Overview) page, mouse hover **Billing Account** at the top right and choose **Switch account**.
 
-<kbd>![](account-management-images/switch-account.png)</kbd>
+<kbd>![switch-account](account-management-images/switch-account.png)</kbd>
 
 2. Choose the required billing account.
 
-<kbd>![](account-management-images/switch-account-choose-account.png)</kbd>
+<kbd>![choose-account](account-management-images/switch-account-choose-account.png)</kbd>
 
 [Overview](#Overview) of the selected subscription is displayed.
 
@@ -100,13 +100,13 @@ If you are a Subscription Admin, you will be able to view and edit the billing i
 1. Ensure you are in the required account. If needed, refer to [Switch account](#Switch_account).
 2. From the [**Overview**](#Overview) page, mouse hover **Billing Account** at the top right and choose **Billing Info**.
 
-<kbd>![](account-management-images/billing-info-menu.png)</kbd>
+<kbd>![billing-info-menu](account-management-images/billing-info-menu.png)</kbd>
 
 This page has three sections: Billing Information, Approver Information and Signed Service Sheets (SS).
 
 **Billing Information**
 
-<kbd><img src = "/account-management-images/billing-information.png" width="600"></kbd>
+<kbd>![billing-information](account-management-images/billing-information.png" width="600"></kbd>
 
 SA can edit all the details in this section except **Billing Agency**. Note that GL Account is applicable for Govtech agencies and Sub-Business Unit is applicable for non-Govtech agencies.
 
