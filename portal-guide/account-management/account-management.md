@@ -25,7 +25,7 @@ If you have not yet setup OpenVPN, refer to How to setup OpenVPN connection.
 1. Go to [SHIP-HATS portal](https://www.ship.gov.sg/).
 2. Click **Log In**.
 
-<kbd>![account-management-images/log-in](images/log-in.png)</kbd>
+<kbd>![account-management-images/log-in](account-management-images/log-in.png)</kbd>
 
 3. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#view-dashboard) of your account.
 
@@ -134,7 +134,7 @@ SA and PA can update the profile from the **Overview** page.
 
 1. From the [**Overview**](#Overview) page, mouse hover your profile avatar at the top right. Your user name and user role for this account are displayed. In the below example, the logged in user is a **Subscription Admin** for this account.
 
-<kbd>![](account-management-images/View-and-update-profile-user-role-and-name-blurred.PNG)</kbd>
+<kbd>![](account-management-images/view-and-update-profile-user-role-and-name-blurred.PNG)</kbd>
 
 2. Choose **View Profile**.
 
@@ -148,7 +148,7 @@ Your personal information and details of accounts in which you are SA and PA are
 
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. Click the edit icon to update your details.
 
-<kbd>![](images/edit-profile-details-normal-user-blurred-1.png)</kbd>
+<kbd>![](account-management-images/edit-profile-details-normal-user-blurred-1.png)</kbd>
 
 Alternatively, mouse hover your avatar at the top-right. To view and update user profile, click **View Profile**.
 
