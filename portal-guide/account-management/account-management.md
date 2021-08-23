@@ -78,7 +78,7 @@ SA and PA can view the plan details of their subscription account(s) from the da
 
 *To view plan details of a subscription*:
 
-1. Ensure you are in the required account. If needed, refer to [Switch account](#Switch_account).
+1. Ensure you are in the required account. If needed, refer to [Switch account](#switch-account).
 
 <kbd>![](account-management-images/plan-details.png)</kbd>
 
@@ -98,7 +98,7 @@ If you are a Subscription Admin, you will be able to view and edit the billing i
 
 *To view and edit billing information*:
 
-1. Ensure you are in the required account. If needed, refer to [Switch account](#Switch_account).
+1. Ensure you are in the required account. If needed, refer to [Switch account](#switch-account).
 2. From the [**Overview**](#view-dashboard) page, mouse hover **Billing Account** at the top right and choose **Billing Info**.
 
 <kbd>![billing-info-menu](account-management-images/billing-info-menu.png)</kbd>
@@ -119,7 +119,7 @@ You can find the approver details for this account.
 
 **Signed Service Sheets (SS)**
 
-You can find the signed service sheets for this account **.**
+You can find the signed service sheets for this account.
 
 <kbd>![signed-service-sheet](account-management-images/signed-ss.png)</kbd>
 
@@ -141,7 +141,7 @@ SA and PA can update the profile from the **Overview** page.
 
 Your personal information and details of accounts in which you are SA and PA are listed.
 
-3. To update your **Personal Information** , click the edit icon.
+3. To update your **Personal Information**, click the edit icon.
 
 <kbd>![edit-profile-details-blurred](account-management-images/edit-profile-details-blurred.png)</kbd>
 
@@ -150,7 +150,6 @@ Your personal information and details of accounts in which you are SA and PA are
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. Click the edit icon to update your details.
 
 <kbd>![](account-management-images/change-password-user.png)</kbd>
-
 
 
 Alternatively, mouse hover your avatar at the top-right. To view and update user profile, click **View Profile**.
