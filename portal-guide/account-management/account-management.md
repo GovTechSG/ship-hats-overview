@@ -25,7 +25,7 @@ If you have not yet setup OpenVPN, refer to How to setup OpenVPN connection.
 1. Go to **[SHIP-HATS portal](https://www.ship.gov.sg/)**.
 2. Click **Log In**.
 
-<kbd>![account-management-images/log-in](account-management-images/log-in.png)</kbd>
+<kbd>![log-in](account-management-images/log-in.png)</kbd>
 
 3. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#view-dashboard) of your account.
 
@@ -39,7 +39,7 @@ If you are a SHIP-HATS user who is not a SA or PA, upon logging in, you will be 
 
 Follow steps 1-3 as mentioned in [Log In as Subscription Admin or Project Admin](#log-in-as-subscription-admin-or-project-admin). You will be directed to your **profile**.
 
-<kbd>![](account-management-images/ship-hats-normal-login-profile-page.jpeg)</kbd>
+<kbd>![ship-hats-normal-login-profile](account-management-images/ship-hats-normal-login-profile-page.jpeg)</kbd>
 
 ## [View Dashboard](#view-dashboard)
 
@@ -53,7 +53,7 @@ The Overview page of the subscription account is the dashboard view of the subsc
 
 Note: The term **Overview** and **Dashboard view** may be used interchangeably.
 
-<kbd>![](account-management-images/overview_3.png)</kbd>
+<kbd>![overview](account-management-images/overview_3.png)</kbd>
 
 ## [Switch account](#switch-account)
 
@@ -89,7 +89,7 @@ Alternatively, click **Plan details** from **Overview** as shown below.
 
 Note that SHIP-HATS users other than SA and PA can view their associated subscription account&#39;s details such as Billing Account Name and Billing Account Number in their Profile page as shown below. Refer to View and Update Profile as User for additional information.
 
-<kbd>![](account-management-images/view-subscription-details-for-other-users.png)</kbd>
+<kbd>![view-subscription-details-for-other-users](account-management-images/view-subscription-details-for-other-users.png)</kbd>
 
 ## [View Billing Info](#view-billing-info)
 
@@ -114,7 +114,7 @@ SA can edit all the details in this section except **Billing Agency**. Note that
 
 You can find the approver details for this account.
 
-<kbd>![](account-management-images/approver-information.png)</kbd>
+<kbd>![approver-information](account-management-images/approver-information.png)</kbd>
 
 **Signed Service Sheets (SS)**
 
@@ -134,7 +134,7 @@ SA and PA can update the profile from the **Overview** page.
 
 1. From the [**Overview**](#Overview) page, mouse hover your profile avatar at the top right. Your user name and user role for this account are displayed. In the below example, the logged in user is a **Subscription Admin** for this account.
 
-<kbd>![](account-management-images/view-and-update-profile-user-role-and-name-blurred.PNG)</kbd>
+<kbd>![view-and-update-profile-user-role-and-name](account-management-images/view-and-update-profile-user-role-and-name-blurred.PNG)</kbd>
 
 2. Choose **View Profile**.
 
@@ -142,13 +142,13 @@ Your personal information and details of accounts in which you are SA and PA are
 
 3. To update your **Personal Information** , click the edit icon.
 
-<kbd>![](account-management-images/edit-profile-details-blurred.png)</kbd>
+<kbd>![edit-profile-details-blurred](account-management-images/edit-profile-details-blurred.png)</kbd>
 
 ### [View and Update Profile as User](#view-and-update-profile-as-user)
 
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. Click the edit icon to update your details.
 
-<kbd>![](account-management-images/edit-profile-details-normal-user-blurred-1.png)</kbd>
+<kbd>![edit-profile-details-normal-user](account-management-images/edit-profile-details-normal-user-blurred-1.png)</kbd>
 
 Alternatively, mouse hover your avatar at the top-right. To view and update user profile, click **View Profile**.
 
