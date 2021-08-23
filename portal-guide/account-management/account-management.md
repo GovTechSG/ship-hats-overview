@@ -22,7 +22,7 @@ If you have not yet setup OpenVPN, refer to How to setup OpenVPN connection.
 
 *To log in to SHIP-HATS portal as SA or PA*:
 
-1. Go to [SHIP-HATS portal](https://www.ship.gov.sg/).
+1. Go to **[SHIP-HATS portal](https://www.ship.gov.sg/)**.
 2. Click **Log In**.
 
 <kbd>![account-management-images/log-in](account-management-images/log-in.png)</kbd>
