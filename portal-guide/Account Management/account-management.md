@@ -161,7 +161,7 @@ As per IM8 policy, all SHIP-HATS users must change their SHIP-HATS password at l
 1. Mouse hover your avatar at the top-right.
 2. Choose **Change Password.**
 
-<kbd>![](images/change-password-user.png)</kbd>
+<kbd><img src="images/change-password-user.png" width="600"></kbd>
 
 The **Change Password** page is displayed.
 
