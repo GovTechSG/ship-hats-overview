@@ -9,7 +9,7 @@ This section describes the following:
 
 
 
-## [Inviting users](#invite-users)
+## [Inviting users](#inviting-users)
 Subscription Admin (SA) and Project Admin (PA) can invite and add users to the subscription. Note that only SA can add a user as PA to their SHIP-HATS projects. 
 
 *To invite users:*
