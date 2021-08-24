@@ -10,7 +10,7 @@ SHIP-HATS users may have user roles such as Subscription Admin, Project Admin or
 - [Viewing Billing Info](#viewing-billing-info)
 - [Viewing and updating Profile](#viewing-and-updating-profile)
   - [Viewing and updating Profile as Subscription Admin and Project Admin](#viewing-and-updating-profile-as-sa-and-pa)
-  - [Viewing and updating Profile as User](#view-and-update-profile-as-user)
+  - [Viewing and updating Profile as User](#viewing-and-updating-profile-as-user)
 - [Changing Password](#changing-password)
 
 
@@ -28,7 +28,7 @@ If you have not yet setup OpenVPN, refer to How to setup OpenVPN connection.
 
 <kbd>![log-in](account-management-images/log-in.png)</kbd>
 
-3. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#view-dashboard) of your account.
+3. Enter your SHIP-HATS **Username** , **Password** and click **Log In**. You will be directed to the **Overview** of your subscription account and it is the [Dashboard View](#viewing-dashboard) of your account.
 
 Note that if you are SA or PA for more than one account and when you log in, by default, you will be viewing the subscription details of the first account to which you were added as SA or PA. Refer to [Switch account](#switch-account) to know about switching between accounts.
 
@@ -38,7 +38,7 @@ If you are a SHIP-HATS user who is not a SA or PA, upon logging in, you will be 
 
 *To log in to SHIP-HATS as user who is not SA or PA*:
 
-Follow steps 1-3 as mentioned in [Log In as Subscription Admin or Project Admin](#log-in-as-subscription-admin-or-project-admin). You will be directed to your **profile**.
+Follow steps 1-3 as mentioned in [Logging in as Subscription Admin or Project Admin](#logging-in-as-subscription-admin-or-project-admin). You will be directed to your **profile**.
 
 <kbd>![ship-hats-normal-login-profile](account-management-images/ship-hats-normal-login-profile-page.jpeg)</kbd>
 
@@ -47,7 +47,7 @@ Follow steps 1-3 as mentioned in [Log In as Subscription Admin or Project Admin]
 The **Overview** page of the subscription account is the dashboard view of the subscription account. Subscription Admin (SA) and Project Admin (PA) can view the following details from this page.
 
 - Subscription tier for the Billing Account
-- [Plan details](#view-plan-details)
+- [Plan details](#viewing-plan-details)
 - Count of projects hosted on this account
 - Count of users added to this account
 - Projects using shared Bamboo agents and their usage quota.
@@ -58,11 +58,11 @@ Note: The term **Overview** and **Dashboard view** may be used interchangeably.
 
 ## [Switching account](#switching-account)
 
-If you are a SA or PA for more than one subscription account in SHIP-HATS, you may need to switch between these accounts to **Manage users**, **Manage Projects**, [**View Plan Details**](#view-plan-details) and [**View Billing Info**](#view-billing-info).
+If you are a SA or PA for more than one subscription account in SHIP-HATS, you may need to switch between these accounts to **Manage users**, **Manage Projects**, [**Viewing Plan Details**](#viewing-plan-details) and [**Viewing Billing Info**](#viewing-billing-info).
 
 *To switch account*:
 
-1. From the [**Overview**](#view-dashboard) page, mouse hover **Billing Account** at the top right and choose **Switch account**.
+1. From the [**Overview**](#viewing-dashboard) page, mouse hover **Billing Account** at the top right and choose **Switch account**.
 
 <kbd>![switch-account](account-management-images/switch-account.png)</kbd>
 
@@ -70,7 +70,7 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
 
 <kbd>![choose-account](account-management-images/switch-account-choose-account.png)</kbd>
 
-[Overview](#view-dashboard) of the selected subscription is displayed.
+[Overview](#viewing-dashboard) of the selected subscription is displayed.
 
 ## [Viewing Plan Details](#viewing-plan-details)
 
@@ -78,11 +78,11 @@ SA and PA can view the plan details of their subscription account(s) from the da
 
 *To view plan details of a subscription*:
 
-1. Ensure you are in the required account. If needed, refer to [Switch account](#switch-account).
+1. Ensure you are in the required account. If needed, refer to [Switching account](#switching-account).
 
 <kbd>![](account-management-images/plan-details.png)</kbd>
 
-3. From the [**Overview**](#view-dashboard) page, mouse hover **Billing Account** at the top right and choose **Plan Details**.
+3. From the [**Overview**](#viewing-dashboard) page, mouse hover **Billing Account** at the top right and choose **Plan Details**.
 
 <kbd>![plan-details](account-management-images/plan-details-1.png)</kbd>
 
@@ -98,8 +98,8 @@ If you are a Subscription Admin, you will be able to view and edit the billing i
 
 *To view and edit billing information*:
 
-1. Ensure you are in the required account. If needed, refer to [Switch account](#switch-account).
-2. From the [**Overview**](#view-dashboard) page, mouse hover **Billing Account** at the top right and choose **Billing Info**.
+1. Ensure you are in the required account. If needed, refer to [Switching account](#switching-account).
+2. From the [**Overview**](#viewing-dashboard) page, mouse hover **Billing Account** at the top right and choose **Billing Info**.
 
 <kbd>![billing-info-menu](account-management-images/billing-info-menu.png)</kbd>
 
@@ -133,7 +133,7 @@ SA and PA can update the profile from the **Overview** page.
 
 *To view and update profile as SA and PA*:
 
-1. From the [**Overview**](#view-dashboard) page, mouse hover your profile avatar at the top right. Your user name and user role for this account are displayed. In the below example, the logged in user is a **Subscription Admin** for this account.
+1. From the [**Overview**](#viewing-dashboard) page, mouse hover your profile avatar at the top right. Your user name and user role for this account are displayed. In the below example, the logged in user is a **Subscription Admin** for this account.
 
 <kbd>![view-and-update-profile](account-management-images/view-and-update-profile-user-role-and-name-blurred.png)</kbd>
 
