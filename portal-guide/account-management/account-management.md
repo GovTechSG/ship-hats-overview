@@ -2,20 +2,20 @@
 
 SHIP-HATS users may have user roles such as Subscription Admin, Project Admin or User. Only an agency user can be a Subscription Admin for an account. Subscription Admin can also be a Project Admin. This section explains the following:
 
-- [Log In as Subscription Admin or Project Admin](#log-in-as-subscription-admin-or-project-admin)
-- [Log In as Users](#log-in-as-users)
-- [View Dashboard](#view-dashboard)
-- [Switch account](#switch-account)
-- [View Plan Details](#view-plan-details)
-- [View Billing Info](#view-billing-info)
-- [View and Update Profile](#view-and-update-profile)
-  - [View and Update Profile as Subscription Admin and Project Admin](#view-and-update-profile-as-sa-and-pa)
-  - [View and Update Profile as User](#view-and-update-profile-as-user)
-- [Change Password](#change-password)
+- [Logging in as Subscription Admin or Project Admin](#logging-in-as-subscription-admin-or-project-admin)
+- [Logging in as Users](#logging-in-as-users)
+- [Viewing Dashboard](#viewing-dashboard)
+- [Switching account](#switch-account)
+- [Viewing Plan Details](#viewing-plan-details)
+- [Viewing Billing Info](#viewing-billing-info)
+- [Viewing and updating Profile](#viewing-and-updating-profile)
+  - [Viewing and updating Profile as Subscription Admin and Project Admin](#viewing-and-updating-profile-as-sa-and-pa)
+  - [Viewing and updating Profile as User](#view-and-update-profile-as-user)
+- [Changing Password](#changing-password)
 
 
 
-## [Log In as Subscription Admin or Project Admin](#log-in-as-subscription-admin-or-project-admin)
+## [Logging in as Subscription Admin or Project Admin](#logging-in-as-subscription-admin-or-project-admin)
 
 This section explains how to log in to SHIP-HATS as Subscription Admin (SA) or Project Admin (PA) using a device that has an active OpenVPN connection.
 
@@ -32,7 +32,7 @@ If you have not yet setup OpenVPN, refer to How to setup OpenVPN connection.
 
 Note that if you are SA or PA for more than one account and when you log in, by default, you will be viewing the subscription details of the first account to which you were added as SA or PA. Refer to [Switch account](#switch-account) to know about switching between accounts.
 
-## [Log In as Users](#log-in-as-users)
+## [Logging in as Users](#logging-in-as-users)
 
 If you are a SHIP-HATS user who is not a SA or PA, upon logging in, you will be directed to the SHIP-HATS **Profile** page as shown below.
 
@@ -42,7 +42,7 @@ Follow steps 1-3 as mentioned in [Log In as Subscription Admin or Project Admin]
 
 <kbd>![ship-hats-normal-login-profile](account-management-images/ship-hats-normal-login-profile-page.jpeg)</kbd>
 
-## [View Dashboard](#view-dashboard)
+## [Viewing Dashboard](#viewing-dashboard)
 
 The **Overview** page of the subscription account is the dashboard view of the subscription account. Subscription Admin (SA) and Project Admin (PA) can view the following details from this page.
 
@@ -56,7 +56,7 @@ Note: The term **Overview** and **Dashboard view** may be used interchangeably.
 
 <kbd>![overview](account-management-images/overview_3.png)</kbd>
 
-## [Switch account](#switch-account)
+## [Switching account](#switch-account)
 
 If you are a SA or PA for more than one subscription account in SHIP-HATS, you may need to switch between these accounts to **Manage users**, **Manage Projects**, [**View Plan Details**](#view-plan-details) and [**View Billing Info**](#view-billing-info).
 
@@ -72,7 +72,7 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
 
 [Overview](#view-dashboard) of the selected subscription is displayed.
 
-## [View Plan Details](#view-plan-details)
+## [Viewing Plan Details](#viewing-plan-details)
 
 SA and PA can view the plan details of their subscription account(s) from the dashboard view.
 
@@ -92,7 +92,7 @@ Note that SHIP-HATS users other than SA and PA can view their associated subscri
 
 <kbd>![view-subscription-details-for-other-users](account-management-images/view-subscription-details-for-other-users.png)</kbd>
 
-## [View Billing Info](#view-billing-info)
+## [Viewing Billing Info](#viewing-billing-info)
 
 If you are a Subscription Admin, you will be able to view and edit the billing information of their subscription account(s).
 
@@ -123,11 +123,11 @@ You can find the signed service sheets for this account.
 
 <kbd>![signed-service-sheet](account-management-images/signed-ss.png)</kbd>
 
-## [View and Update Profile](#view-and-update-profile)
+## [Viewing and updating Profile](#viewing-and-updating-profile)
 
 SHIP-HATS users can view and update their profile any time using the [SHIP-HATS portal](https://www.ship.gov.sg/).
 
-### [View and Update profile as SA and PA](#view-and-update-profile-as-sa-and-pa)
+### [Viewing and Updating profile as SA and PA](#viewing-and-updating-profile-as-sa-and-pa)
 
 SA and PA can update the profile from the **Overview** page.
 
@@ -145,7 +145,7 @@ Your personal information and details of accounts in which you are SA and PA are
 
 <kbd>![edit-profile-details-blurred](account-management-images/edit-profile-details-blurred.png)</kbd>
 
-### [View and Update Profile as User](#view-and-update-profile-as-user)
+### [Viewing and updating Profile as User](#viewing-and-updating-profile-as-user)
 
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. Click the edit icon to update your details.
 
@@ -154,7 +154,7 @@ When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov
 
 Alternatively, mouse hover your avatar at the top-right. To view and update user profile, click **View Profile**.
 
-## [Change Password](#change-password)
+## [Changing Password](#changing-password)
 
 As per IM8 policy, all SHIP-HATS users must change their SHIP-HATS password at least once every 12 months. Users can change the password using the SHIP-HATS portal.
 
