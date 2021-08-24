@@ -86,7 +86,7 @@ Note that SA and PA can remove a user who does not have the Project Admin or Sub
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switch account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=switch-account). 
 2. From the side menu, click **Users > All Users**. 
 3. Search for the user to be removed and from the **Action** column, click ![3_dot](3_dot.png) corresponding to the user. 
-Tip: Refer to [View Users](#view-users) to know how to search for users and to sort by **Quota Consumed**. 
+Tip: Refer to [Viewing users](#view-users) to know how to search for users and to sort by **Quota Consumed**. 
 
 <kbd>![remove_user_cropped_blurred](remove-user-cropped-blurred.png)</kbd>
 
@@ -116,7 +116,7 @@ SA and PA can reactivate a suspended user back to their account if required.
 
 <kbd>![user_status_2](user_status_2.png)</kbd>
 
-Tip: Refer to [View Users](#view-users) to know how to search for users 
+Tip: Refer to [Viewing users](#view-users) to know how to search for users 
 
 4. Choose **Reactivate User**. User, SAs and the requestor will be notified through an email about the reactivation.  
 
