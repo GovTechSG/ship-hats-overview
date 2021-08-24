@@ -123,4 +123,4 @@ Tip: Refer to [Viewing users](#view-users) to know how to search for users
 Note:
 * Though the reactivated user can log in using the existing credentials, we recommend reactivated users to reset their password. The email sent to the reactivated users will have the link to reset their password. 
 
-* Once a user has been reactivated, an email notification about this reactivation is sent to the requestor and the SAs 
+* Once a user has been reactivated, an email notification about this reactivation is sent to the requestor and the SAs.
