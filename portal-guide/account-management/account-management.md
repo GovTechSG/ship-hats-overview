@@ -5,7 +5,7 @@ SHIP-HATS users may have user roles such as Subscription Admin, Project Admin or
 - [Logging in as Subscription Admin or Project Admin](#logging-in-as-subscription-admin-or-project-admin)
 - [Logging in as Users](#logging-in-as-users)
 - [Viewing Dashboard](#viewing-dashboard)
-- [Switching account](#switch-account)
+- [Switching account](#switching-account)
 - [Viewing Plan Details](#viewing-plan-details)
 - [Viewing Billing Info](#viewing-billing-info)
 - [Viewing and updating Profile](#viewing-and-updating-profile)
@@ -56,7 +56,7 @@ Note: The term **Overview** and **Dashboard view** may be used interchangeably.
 
 <kbd>![overview](account-management-images/overview_3.png)</kbd>
 
-## [Switching account](#switch-account)
+## [Switching account](#switching-account)
 
 If you are a SA or PA for more than one subscription account in SHIP-HATS, you may need to switch between these accounts to **Manage users**, **Manage Projects**, [**View Plan Details**](#view-plan-details) and [**View Billing Info**](#view-billing-info).
 
