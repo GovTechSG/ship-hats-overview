@@ -24,7 +24,7 @@
 ## User Permissions
 - Perform assigned functional roles and responsibilities within the associated tool(s).
 
-### Tool Specific Details
+### Tools Permissions
 * [Bitbucket User Roles and Permission](get-started/bitbucket-user-role)
 * [Bamboo User Roles and Permission](get-started/bamboo-user-roles)
 * [Confluence User Roles and Permission](get-started/confluence-user-role)
