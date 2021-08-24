@@ -1,8 +1,8 @@
 # User Management 
 This section describes the following: 
 
-* [Inviting users](#invite-users)
-* [Approving new users](#approve-new-users) 
+* [Inviting users](#inviting-users)
+* [Approving new users](#approving-new-users) 
 * [Viewing users](#view-users)
 * [Removing users](#remove-user)
 * [Reactivating users](#reactivate-user) 
@@ -24,7 +24,7 @@ By default, a new invitation link has a 14 days expiry date.  Whenever you invit
 3. Click **Email me** to send this link with the expiry date to your SHIP-HATS registered email address and forward it to the intended users so that they can provide required information in the **Invitation Form**. 
 Alternatively, click the copy icon to copy and share the invite link with intended users. Note, in this case, make sure to inform the users about the expiry date of this link. 
 
-## [Approving new users](#approve-new-users) 
+## [Approving new users](#approving-new-users) 
 Once a user submits the completed SHIP-HATS **Invitation Form**, Subscription Admin (SA) and Project Admin (PA) will be notified by an email to approve the user registration. 
 
 *To approve new user registration:*
@@ -50,7 +50,7 @@ Note: If there is a number displayed beside **All Users** menu and **Pending App
 
 Note: Irrespective of agencies, individuals approved as SHIP-HATS users can be added to any SHIP-HATS project and will be billed under the account that initially approved them.  
 
-## [Viewing users](#view-users)
+## [Viewing users](#viewing-users)
 
 Subscription Admin (SA) and Project Admin (PA) can view all users associated with a subscription account and their roles in your account. 
 
