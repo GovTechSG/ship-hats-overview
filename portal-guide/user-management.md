@@ -12,7 +12,7 @@ This section describes the following:
 ## [Inviting users](#invite-users)
 Subscription Admin (SA) and Project Admin (PA) can invite and add users to the subscription. Note that only SA can add a user as PA to their SHIP-HATS projects. 
 
-### To invite users:
+*To invite users:*
 
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal </a> and ensure you are in the required account. If needed, refer to [Switch account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=switch-account). 
 
@@ -27,7 +27,7 @@ Alternatively, click the copy icon to copy and share the invite link with intend
 ## [Approving new users](#approve-new-users) 
 Once a user submits the completed SHIP-HATS **Invitation Form**, Subscription Admin (SA) and Project Admin (PA) will be notified by an email to approve the user registration. 
 
-### To approve new user registration:
+*To approve new user registration:*
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switch account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=switch-account). 
 
 <kbd>![pending user approval notification](pending_user_approval_notification.png)</kbd>
@@ -54,7 +54,7 @@ Note: Irrespective of agencies, individuals approved as SHIP-HATS users can be a
 
 Subscription Admin (SA) and Project Admin (PA) can view all users associated with a subscription account and their roles in your account. 
 
-### To view users: 
+*To view users:*
 
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switch account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=switch-account). 
 
@@ -81,7 +81,7 @@ We recommend Subscription Admin (SA) and Project Admin (PA) to periodically revi
 
 Note that SA and PA can remove a user who does not have the Project Admin or Subscription Admin roles in the subscription account. 
 
-### To remove a user: 
+*To remove a user:* 
 
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switch account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=switch-account). 
 2. From the side menu, click **Users > All Users**. 
@@ -106,7 +106,7 @@ On day 91, if the user is still inactive on SHIP-HATS, user status changes from 
 
 SA and PA can reactivate a suspended user back to their account if required. 
 
-### To reactivate user: 
+*To reactivate user:*
 
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switch account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=switch-account).
 
