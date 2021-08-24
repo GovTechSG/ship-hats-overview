@@ -28,7 +28,7 @@ Alternatively, click the copy icon to copy and share the invite link with intend
 Once a user submits the completed SHIP-HATS **Invitation Form**, Subscription Admin (SA) and Project Admin (PA) will be notified by an email to approve the user registration. 
 
 ### To approve new user registration:
-1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to Switch account. 
+1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switch account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=switch-account). 
 
 <kbd>![pending user approval notification](pending_user_approval_notification.png)</kbd>
 
@@ -56,7 +56,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 
 ### To view users: 
 
-1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to Switch account. 
+1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switch account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=switch-account). 
 
 2. From the side menu, click **Users > All Users**. 
 
@@ -83,7 +83,7 @@ Note that SA and PA can remove a user who does not have the Project Admin or Sub
 
 ### To remove a user: 
 
-1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to Switch account. 
+1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switch account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=switch-account). 
 2. From the side menu, click **Users > All Users**. 
 3. Search for the user to be removed and from the **Action** column, click ![3_dot](3_dot.png) corresponding to the user. 
 Tip: Refer to [View Users](#view-users) to know how to search for users and to sort by **Quota Consumed**. 
@@ -108,15 +108,17 @@ SA and PA can reactivate a suspended user back to their account if required.
 
 ### To reactivate user: 
 
-1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to Switch account. From the side menu, click **Users > All Users**. 
+1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switch account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=switch-account).
 
-2. Search for the user to be reactivated and from the **Action** column, click ![3_dot](3_dot.png) corresponding to the user. 
+2.  From the side menu, click **Users > All Users**. 
+
+3. Search for the user to be reactivated and from the **Action** column, click ![3_dot](3_dot.png) corresponding to the user. 
 
 <kbd>![user_status_2](user_status_2.png)</kbd>
 
 Tip: Refer to [View Users](#view-users) to know how to search for users 
 
-3. Choose **Reactivate User**. User, SAs and the requestor will be notified through an email about the reactivation.  
+4. Choose **Reactivate User**. User, SAs and the requestor will be notified through an email about the reactivation.  
 
 Note:
 * Though the reactivated user can log in using the existing credentials, we recommend reactivated users to reset their password. The email sent to the reactivated users will have the link to reset their password. 
