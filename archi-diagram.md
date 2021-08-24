@@ -16,7 +16,7 @@
 ### Development Tools
 
 **Jira:** Project management tool that is used to view, track and manage projects and the progress of your team's tasks or bugs for a sprint displayed in an agile board.
-[Overview](https://www.atlassian.com/software/jira/guides/getting-started/overview){:target="_blank"} | [Tutorials](https://www.atlassian.com/software/jira/guides/getting-started/basics#step-2-pick-a-template){:target="_blank"}
+[Overview](https://www.atlassian.com/software/jira/guides/getting-started/overview) | [Tutorials](https://www.atlassian.com/software/jira/guides/getting-started/basics#step-2-pick-a-template){:target="_blank"}
 
 **Confluence:** Shared space for collaboration to view, access and manage all tasks and problems for the entire team enforces the idea of the shared responsibility. Knowledge sharing and environment also encourage experimentation.
 [Overview](https://www.atlassian.com/software/confluence/guides/get-started/confluence-overview#hosting-options){:target="_blank"} | [Tutorials](https://www.atlassian.com/software/confluence/guides/get-started/set-up){:target="_blank"}
