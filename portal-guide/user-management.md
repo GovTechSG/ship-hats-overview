@@ -101,8 +101,8 @@ Tip:  While creating this service request, we recommend you tag the user whose r
 If SHIP-HATS users are inactive for 60 consecutive days, their status changes from **normal user** to **sleeping user**. If the user continues to be inactive, from day 81 onwards an email notification is sent every day to the user until user becomes active (**normal user**) or until it reaches day 90.  
 
 On day 91, if the user is still inactive on SHIP-HATS, user status changes from **sleeping user** to **suspended user**, indicated by a grey avatar.  
-<kbd><img src="profile-legends.png" width="400"></kbd>
-<!--![avatar-legends](avatar-legends.png)</kbd>-->
+
+![profile-legends](profile-legends.png)</kbd>
 
 SA and PA can reactivate a suspended user back to their account if required. 
 
