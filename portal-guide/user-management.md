@@ -1,15 +1,15 @@
 # User Management 
 This section describes the following: 
 
-* [Invite Users](#invite-users)
-* [Approve New Users](#approve-new-users) 
-* [View Users](#view-users)
-* [Remove User](#remove-user)
-* [Reactivate User](#reactivate-user) 
+* [Inviting users](#invite-users)
+* [Approving new users](#approve-new-users) 
+* [Viewing users](#view-users)
+* [Removing users](#remove-user)
+* [Reactivating users](#reactivate-user) 
 
 
 
-## [Invite Users](#invite-users)
+## [Inviting users](#invite-users)
 Subscription Admin (SA) and Project Admin (PA) can invite and add users to the subscription. Note that only SA can add a user as PA to their SHIP-HATS projects. 
 
 ### To invite users:
@@ -24,7 +24,7 @@ By default, a new invitation link has a 14 days expiry date.  Whenever you invit
 3. Click **Email me** to send this link with the expiry date to your SHIP-HATS registered email address and forward it to the intended users so that they can provide required information in the **Invitation Form**. 
 Alternatively, click the copy icon to copy and share the invite link with intended users. Note, in this case, make sure to inform the users about the expiry date of this link. 
 
-## [Approve New Users](#approve-new-users) 
+## [Approving new users](#approve-new-users) 
 Once a user submits the completed SHIP-HATS **Invitation Form**, Subscription Admin (SA) and Project Admin (PA) will be notified by an email to approve the user registration. 
 
 ### To approve new user registration:
@@ -50,7 +50,7 @@ Note: If there is a number displayed beside **All Users** menu and **Pending App
 
 Note: Irrespective of agencies, individuals approved as SHIP-HATS users can be added to any SHIP-HATS project and will be billed under the account that initially approved them.  
 
-## [View Users](#view-users)
+## [Viewing users](#view-users)
 
 Subscription Admin (SA) and Project Admin (PA) can view all users associated with a subscription account and their roles in your account. 
 
@@ -62,7 +62,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 
 <kbd>![View_All_Users_blurred](View-All-Users-blurred.png)</kbd>
 
-* If a user is a Subscription Admin, it is indicated by the label Subscr Admin beside the username. 
+* If a user is a Subscription Admin, it is indicated by the label **Subscr Admin** beside the username. 
 * If a user has a Project Admin role in one the projects in the subscription account, it will be indicated in the **Project Role** column. 
 * You can sort this list in ascending or descending order by anyone of the following: 
   * Name 
@@ -75,7 +75,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 
 * Click **Export CSV** to download the user list as a .csv file to your local machine. This csv lists the active and removed users along with the approval and removal details.
 
-## [Remove User](#remove-user)
+## [Removing users](#remove-user)
 
 We recommend Subscription Admin (SA) and Project Admin (PA) to periodically review the named users in their account, consumed user quota and remove users who are no longer required. 
 
@@ -96,7 +96,7 @@ Note, to remove a PA or SA, one of the SA can raise a <a href="https://jira.ship
 
 Tip:  While creating this service request, we recommend you tag the user whose role is to be modified and the respective SAs and PAs in the ticket. 
 
-## [Reactivate User](#reactivate-user)
+## [Reactivating users](#reactivate-user)
 
 If SHIP-HATS users are inactive for 60 consecutive days, their status changes from **normal user** to **sleeping user**. If the user continues to be inactive, from day 81 onwards an email notification is sent every day to the user until user becomes active (**normal user**) or until it reaches day 90.  
 
