@@ -3,9 +3,9 @@ This section describes the following:
 
 * [Inviting users](#inviting-users)
 * [Approving new users](#approving-new-users) 
-* [Viewing users](#view-users)
-* [Removing users](#remove-user)
-* [Reactivating users](#reactivate-user) 
+* [Viewing users](#viewing-users)
+* [Removing users](#removing-users)
+* [Reactivating users](#reactivating-users) 
 
 
 
@@ -75,7 +75,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 
 * Click **Export CSV** to download the user list as a .csv file to your local machine. This csv lists the active and removed users along with the approval and removal details.
 
-## [Removing users](#remove-user)
+## [Removing users](#removing-users)
 
 We recommend Subscription Admin (SA) and Project Admin (PA) to periodically review the named users in their account, consumed user quota and remove users who are no longer required. 
 
@@ -96,7 +96,7 @@ Note, to remove a PA or SA, one of the SA can raise a <a href="https://jira.ship
 
 Tip:  While creating this service request, we recommend you tag the user whose role is to be modified and the respective SAs and PAs in the ticket. 
 
-## [Reactivating users](#reactivate-user)
+## [Reactivating users](#reactivating-users)
 
 If SHIP-HATS users are inactive for 60 consecutive days, their status changes from **normal user** to **sleeping user**. If the user continues to be inactive, from day 81 onwards an email notification is sent every day to the user until user becomes active (**normal user**) or until it reaches day 90.  
 
@@ -123,4 +123,4 @@ Tip: Refer to [Viewing users](#view-users) to know how to search for users
 Note:
 * Though the reactivated user can log in using the existing credentials, we recommend reactivated users to reset their password. The email sent to the reactivated users will have the link to reset their password. 
 
-* Once a user has been reactivated, an email notification about this reactivation is sent to the requestor and the SAs
+* Once a user has been reactivated, an email notification about this reactivation is sent to the requestor and the SAs.
