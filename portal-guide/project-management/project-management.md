@@ -69,7 +69,7 @@ Subscription Admins can add up to three Project Admins using the SHIP-HATS porta
 
 4. Click **Add another** to select the required user from the drop-down list.
 
-<kbd>![add-pa-3-correct](project-management-images/add-pa-3-correct.png)</kbd>
+<kbd>![add-pa-3-correct](project-management-images/add-pa-3-correct-resized.png)</kbd>
 
 5. Click **Add** to add this user as a project admin. Once successfully added, an email notification will be sent to the requesting SA with copy sent to the other SA and the newly added PA.
 
