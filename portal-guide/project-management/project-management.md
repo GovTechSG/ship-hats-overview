@@ -104,6 +104,6 @@ Note
 
 - While adding tools such as WebInspect Fortify SCA under the **QA &amp; Security** tab, the system displays the quota remaining for your subscription as shown below.
 
-![tool-quota](project-management-images/tool-quota.png)
+<kbd>![tool-quota](project-management-images/tool-quota.png)</kbd>
 
 - Once you have reached the quota, the respective tool name(s) will be disabled in the **Select Tool** drop-down list. If you still want to add these tools, please do raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/).
