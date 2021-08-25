@@ -16,12 +16,12 @@ Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SA
 Tip: Alternatively, if you are viewing **All Projects** , click **Create Project**.
 
 
-![create-new-project](/create-new-project.png)
+![create-new-project](project-management-images/create-new-project.png)
 
 2. Specify **Project Name** , **Project Description** and at least **Project Admin 1**.
 3. Click **Create Project**. The created project details are displayed as shown below.
 
-![newly-created-project](/newly-created-project.png)
+![newly-created-project](project-management-images/newly-created-project.png)
 
 SA or PA can add tools and additional PAs. Note that SA can add up to three PAs using the SHIP-HATS portal.
 
@@ -35,7 +35,7 @@ SA and PAs of a subscription account can view all the projects of the subscripti
 
 Tile view of all the projects in this subscription account is displayed. If needed, refer to Switch account
 
-![](/view-all-projects-tile-view.png)
+![](project-management-images/view-all-projects-tile-view.png)
 
 2. Click **Manage** to view tools that are currently added to the project.
 
@@ -46,9 +46,9 @@ Subscription Admin can remove a project as long as no tool has been added to it.
 *To remove a project*:
 
 1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to Switch account.
-2. Locate the project and click **Manage**. You will see ![remove-project-icon](/remove-project-icon.png) beside the project name as shown below.
+2. Locate the project and click **Manage**. You will see ![remove-project-icon](project-management-images/remove-project-icon.png) beside the project name as shown below.
 
-![remove-project](/remove-project.png)
+![remove-project](project-management-images/remove-project.png)
 
 3. Click the three dots and then choose **Remove project**.
 
@@ -87,16 +87,16 @@ SA or PA can add the required project tools as explained below. You can add tool
 1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to Switch account.
 2. Locate the project and click **Manage**.
 
-![add-new-development-tool](/add-new-development-tool.png)
+![add-new-development-tool](project-management-images/add-new-development-tool.png)
 
 3. Go to the required tab and click **Add tool**.
 4. For example, go to **Development** tab and click **Add tool**.
 
-![add-new-development-tool](/add-new-development-tool.png)
+![add-new-development-tool](project-management-images/add-new-development-tool.png)
 
 5. Select the required tool and click **Add**. This tool gets integrated with your SHIP-HATS project and a project is automatically created in the tool with the same name. For example, in this case, the SHIP-HATS project name is _Govtech-Documentation_ and hence the Jira project inherits this name.
 
-![project-created-for-tools](project-created-for-tools.png)
+![project-created-for-tools](project-management-images/project-created-for-tools.png)
 
 You can add build tools other than Nexus IQ and Nexus Repo in the same manner from the **Build** tab.
 
@@ -104,6 +104,6 @@ Note
 
 - While adding tools such as WebInspect Fortify SCA under the **QA &amp; Security** tab, the system displays the quota remaining for your subscription as shown below.
 
-![tool-quota](/tool-quota.png)
+![tool-quota](project-management-images/tool-quota.png)
 
 - Once you have reached the quota, the respective tool name(s) will be disabled in the **Select Tool** drop-down list. If you still want to add these tools, please do raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/).
