@@ -16,12 +16,12 @@ Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SA
 Tip: Alternatively, if you are viewing **All Projects** , click **Create Project**.
 
 
-![create-new-project](project-management-images/create-new-project.png)
+<kbd>![create-new-project](project-management-images/create-new-project-2.png)</kbd>
 
 2. Specify **Project Name** , **Project Description** and at least **Project Admin 1**.
 3. Click **Create Project**. The created project details are displayed as shown below.
 
-![newly-created-project](project-management-images/newly-created-project.png)
+<kbd>![newly-created-project](project-management-images/newly-created-project.png)</kbd>
 
 SA or PA can add tools and additional PAs. Note that SA can add up to three PAs using the SHIP-HATS portal.
 
@@ -35,7 +35,7 @@ SA and PAs of a subscription account can view all the projects of the subscripti
 
 Tile view of all the projects in this subscription account is displayed. If needed, refer to Switch account
 
-![](project-management-images/view-all-projects-tile-view.png)
+<kbd>![](project-management-images/view-all-projects-tile-view.png)</kbd>
 
 2. Click **Manage** to view tools that are currently added to the project.
 
@@ -48,7 +48,7 @@ Subscription Admin can remove a project as long as no tool has been added to it.
 1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to Switch account.
 2. Locate the project and click **Manage**. You will see ![remove-project-icon](project-management-images/remove-project-icon.png) beside the project name as shown below.
 
-![remove-project](project-management-images/remove-project.png)
+<kbd>![remove-project](project-management-images/remove-project.png)</kbd>
 
 3. Click the three dots and then choose **Remove project**.
 
@@ -61,15 +61,15 @@ Subscription Admins can add up to three Project Admins using the SHIP-HATS porta
 1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to Switch account.
 2. Locate the project and click **Manage**.
 
-![](RackMultipart20210825-4-1cp6jcv_html_cc9ff2828d3da22.png)
+<kbd>![add-pa-1-resized](project-management-images/add-pa-1-resized.png)</kbd>
 
 3. Click the edit icon. **Manage Admin** panel is displayed.
 
-![](RackMultipart20210825-4-1cp6jcv_html_fd2e95fb06693713.png)
+<kbd>![add-pa-2-resized](project-management-images/add-pa-2-resized.png)</kbd>
 
 4. Click **Add another** to select the required user from the drop-down list.
 
-![](RackMultipart20210825-4-1cp6jcv_html_7cced59b8708f085.png)
+<kbd>![add-pa-3-correct](project-management-images/add-pa-3-correct.png)</kbd>
 
 5. Click **Add** to add this user as a project admin. Once successfully added, an email notification will be sent to the requesting SA with copy sent to the other SA and the newly added PA.
 
