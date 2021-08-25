@@ -1,5 +1,5 @@
 Project Management
-This section explains how a Subscription creates SHIP-HATS projects and how the Project Admin can manage these projects by adding the required users and tools.
+This section explains how a Subscription Admin creates SHIP-HATS projects and how Project Admins manages these projects by adding the required users and tools.
 - [Creating new projects](#creating-new-projects) 
 - [Viewing projects](#viewing-projects)
 - [Removing projects](#removing-projects)
@@ -45,7 +45,7 @@ Subscription Admin can remove a project as long as no tool has been added to it.
 
 *To remove a project*:
 
-1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to Switch account.
+1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=switching-account).
 2. Locate the project and click **Manage**. You will see ![remove-project-icon](project-management-images/remove-project-icon.png) beside the project name as shown below.
 
 <kbd>![remove-project](project-management-images/remove-project.png)</kbd>
