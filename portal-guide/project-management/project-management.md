@@ -87,16 +87,16 @@ SA or PA can add the required project tools as explained below. You can add tool
 1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to Switch account.
 2. Locate the project and click **Manage**.
 
-![add-new-development-tool](project-management-images/add-new-development-tool.png)
+<kbd>![add-new-development-tool](project-management-images/add-new-development-tool.png)</kbd>
 
 3. Go to the required tab and click **Add tool**.
 4. For example, go to **Development** tab and click **Add tool**.
 
-![add-new-development-tool](project-management-images/add-new-development-tool.png)
+<kbd>![add-new-development-tool](project-management-images/add-new-development-tool.png)</kbd>
 
 5. Select the required tool and click **Add**. This tool gets integrated with your SHIP-HATS project and a project is automatically created in the tool with the same name. For example, in this case, the SHIP-HATS project name is _Govtech-Documentation_ and hence the Jira project inherits this name.
 
-![project-created-for-tools](project-management-images/project-created-for-tools.png)
+<kbd>![project-created-for-tools](project-management-images/project-created-for-tools.png)</kbd>
 
 You can add build tools other than Nexus IQ and Nexus Repo in the same manner from the **Build** tab.
 
