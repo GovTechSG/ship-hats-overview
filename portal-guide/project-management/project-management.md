@@ -1,5 +1,5 @@
-Project Management
-This section explains how a Subscription Admin creates SHIP-HATS projects and how Project Admins manages these projects by adding the required users and tools.
+# Project Management
+This section explains how a Subscription Admin creates SHIP-HATS projects and how Project Admin manages these projects by adding the required users and tools.
 - [Creating new projects](#creating-new-projects) 
 - [Viewing projects](#viewing-projects)
 - [Removing projects](#removing-projects)
