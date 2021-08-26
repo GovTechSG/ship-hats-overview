@@ -62,7 +62,7 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
 
 *To switch account*:
 
-1. From the [**Overview**](#viewing-dashboard) page, mouse hover **Billing Account** at the top right and choose **Switch account**.
+1. From the [**Overview**](#viewing-dashboard) page, hover over **Billing Account** at the upper-right area of the page and choose **Switch account**.
 
 <kbd>![switch-account](account-management-images/switch-account.png)</kbd>
 
@@ -82,7 +82,7 @@ SA and PA can view the plan details of their subscription account(s) from the da
 
 <kbd>![](account-management-images/plan-details.png)</kbd>
 
-3. From the [**Overview**](#viewing-dashboard) page, mouse hover **Billing Account** at the top right and choose **Plan Details**.
+3. From the [**Overview**](#viewing-dashboard) page,hover over **Billing Account** at the upper-right area of the page and choose **Plan Details**.
 
 <kbd>![plan-details](account-management-images/plan-details-1.png)</kbd>
 
@@ -99,7 +99,7 @@ If you are a Subscription Admin, you will be able to view and edit the billing i
 *To view and edit billing information*:
 
 1. Ensure you are in the required account. If needed, refer to [Switching account](#switching-account).
-2. From the [**Overview**](#viewing-dashboard) page, mouse hover **Billing Account** at the top right and choose **Billing Info**.
+2. From the [**Overview**](#viewing-dashboard) page, hover over **Billing Account** at the upper-right area of the page and choose **Billing Info**.
 
 <kbd>![billing-info-menu](account-management-images/billing-info-menu.png)</kbd>
 
@@ -133,7 +133,7 @@ SA and PA can update the profile from the **Overview** page.
 
 *To view and update profile as SA and PA*:
 
-1. From the [**Overview**](#viewing-dashboard) page, mouse hover your profile avatar at the top right. Your user name and user role for this account are displayed. In the below example, the logged in user is a **Subscription Admin** for this account.
+1. From the [**Overview**](#viewing-dashboard) page, hover over your profile icon at the upper-right corner. Your user name and user role for this account are displayed. In the below example, the logged in user is a **Subscription Admin** for this account.
 
 <kbd>![view-and-update-profile](account-management-images/view-and-update-profile-user-role-and-name-blurred.png)</kbd>
 
@@ -152,7 +152,7 @@ When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov
 <kbd>![](account-management-images/change-password-user.png)</kbd>
 
 
-Alternatively, mouse hover your avatar at the top-right. To view and update user profile, click **View Profile**.
+Alternatively, hover over your profile icon at the upper-right corner. To view and update user profile, click **View Profile**.
 
 ## [Changing Password](#changing-password)
 
@@ -160,7 +160,7 @@ As per IM8 policy, all SHIP-HATS users must change their SHIP-HATS password at l
 
 *To change password*:
 
-1. Mouse hover your avatar at the top-right.
+1. Hover over your profile icon at the upper-right corner.
 2. Choose **Change Password.**
 
 <kbd>![change-pwd-user](account-management-images/change-password-user.png)</kbd>
