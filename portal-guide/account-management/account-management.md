@@ -149,10 +149,12 @@ Your personal information and details of accounts in which you are SA and PA are
 
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. Click the edit icon to update your details.
 
-<kbd>![](account-management-images/change-password-user.png)</kbd>
+<kbd>![](account-management-images/edit-profile-normal-users-blurred.png)</kbd>
 
 
 Alternatively, hover over your profile icon at the upper-right corner. To view and update user profile, click **View Profile**.
+
+<kbd>![](account-management-images/edit-profile-normal-users-alternate-way.png)</kbd>
 
 ## [Changing Password](#changing-password)
 
