@@ -1,6 +1,6 @@
 # Guide for SHIP-HATS Admins and Users
 
-The following sections guide SHIP-HATS’ Admins and Users on how to use it in their Devops journey. It contains the following topics:
+The following sections guide SHIP-HATS Admins and Users on how to use it in their Devops journey. It contains the following topics:
 
 - **Logging In and Logging Out**
 <!--
