@@ -16,7 +16,7 @@ Logging in tells the system who you are and what permissions you have in SHIP-HA
 
 <kbd>![log-in](images/log-in.png)</kbd>
 
-3. Enter your **Username** , **Password** and click **Log In**.
-- If you are a Subscription or Project Admin, you will be directed to the **Dashboard** view. 
+3. Enter your **Username** ,**Password** and click **Log In**.
+- If you are a Subscription Admin or Project Admin, you will be directed to the **Dashboard** view. 
 - If you are just a SHIP-HATS user, you will be directed to your **Profile** page.
 
