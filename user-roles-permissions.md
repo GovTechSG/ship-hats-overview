@@ -11,7 +11,7 @@
 - Request or remove additional resources for a subscription. For more information refer to the <a href="https://www.ship.gov.sg/">SHIP-HATS Portal</a>. For more information, refer to the <a href="https://www.developer.tech.gov.sg/singapore-government-tech-stack/toolchain/subscriptions">Subscription FAQ</a>.
  
  
-2. **Project Administrator (PA)** -  A subscription can have multiple projects and each project is managed by PAs. An Agency user or a vendor can be assigned as a PA. You may add upto three PAs to a project through the SHIP-HATS portal.
+2. **Project Administrator (PA)** -  A subscription can have multiple projects and each project is managed by PAs. An Agency user or a vendor can be assigned as a PA. You may add up to three PAs to a project through the SHIP-HATS portal.
  
 ## PA Permissions
 - Manage project from <a href="https://www.ship.gov.sg/">SHIP-HATS Portal</a>.
