@@ -2,7 +2,7 @@
 
 The following sections guide SHIP-HATS Admins and Users on how to use it in their Devops journey. It contains the following topics:
 
-- **Logging In and Logging Out**
+- [**Logging In and Logging Out**](logging-in-and-logging-out.md)
 <!--
 Prerequisites: Before you start, you must have been invited and onboarded to SHIP-HATS. Once you have been successfully onboarded, make sure that you have setup your OpenVPN Connection.
 
