@@ -17,6 +17,19 @@ Logging in tells the system who you are and what permissions you have in SHIP-HA
 <kbd>![log-in](images/log-in.png)</kbd>
 
 3. Enter your **Username** ,**Password** and click **Log In**.
-- If you are a Subscription Admin or Project Admin, you will be directed to the **Dashboard** view. 
+- If you are a Subscription Admin or Project Admin, you will be directed to the [**Dashboard** view](#viewing-dashboard). 
 - If you are just a SHIP-HATS user, you will be directed to your **Profile** page.
+
+## [Viewing Dashboard](#viewing-dashboard)
+The **Overview** page of the subscription account gives the dashboard view of the subscription account. Only Subscription Admin (SA) and Project Admin (PA) can access this dashboard to view the following details.
+
+- Subscription tier for the Billing Account
+- [Plan details](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=viewing-plan-details)
+- Count of projects hosted on this account
+- Count of users added to this account
+- Projects using shared Bamboo agents and their usage quota.
+
+?> The term **Overview** and **Dashboard view** may be used interchangeably.
+
+![overview](overview-3.png)
 
