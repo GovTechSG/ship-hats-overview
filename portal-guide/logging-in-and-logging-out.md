@@ -5,9 +5,7 @@
 - Before you start, you must have been invited and onboarded to SHIP-HATS. 
 - Once you have successfully onboarded, make sure that you have setup your OpenVPN connection. 
 
-Once the above are successfully completed, you can proceed to log in to SHIP-HATS. 
-
-Logging in tells the system who you are and what permissions you have in SHIP-HATS. For example, if you are a Subscription Admin or Project Admin, you can view the SHIP-HATS Dashboard once you log in. Other “Users” will be directed to their profile page.
+Once the above are successfully completed, you can proceed to log in to SHIP-HATS. Logging in tells the system who you are and what permissions you have in SHIP-HATS. For example, if you are a Subscription Admin or Project Admin, you can view the SHIP-HATS Dashboard once you log in. Other “Users” will be directed to their profile page.
 
 *To log in to SHIP-HATS:*
 
@@ -29,7 +27,9 @@ The **Overview** page of the subscription account gives the dashboard view of 
 - Count of users added to this account
 - Projects using shared Bamboo agents and their usage quota.
 
-?> The term **Overview** and **Dashboard view** may be used interchangeably.
+?> Note: The term **Overview** and **Dashboard view** may be used interchangeably.
+
+
 
 <kbd>![overview](images/overview-3.png)</kbd>
 
