@@ -14,7 +14,7 @@ Logging in tells the system who you are and what permissions you have in SHIP-HA
 1. Go to [SHIP-HATS portal](https://www.ship.gov.sg/).
 2. Click **Log In**.
 
-![log-in](/log-in.png)
+<kbd>![log-in](images/log-in.png)</kbd>
 
 3. Enter your **Username** , **Password** and click **Log In**.
 - If you are a Subscription or Project Admin, you will be directed to the **Dashboard** view. 
