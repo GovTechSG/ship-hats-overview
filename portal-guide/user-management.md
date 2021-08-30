@@ -60,7 +60,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 
 2. From the side menu, click **Users > All Users**. 
 
-<kbd>![View_All_Users_blurred](View-All-Users-blurred.png)</kbd>
+<kbd>![view-all-users-blurred](view-all-users-blurred.png)</kbd>
 
 * If a user is a Subscription Admin, it is indicated by the label **Subscr Admin** beside the username. 
 * If a user has a Project Admin role in one the projects in the subscription account, it will be indicated in the **Project Role** column. 
