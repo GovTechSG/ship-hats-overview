@@ -31,5 +31,5 @@ The **Overview** page of the subscription account gives the dashboard view of 
 
 ?> The term **Overview** and **Dashboard view** may be used interchangeably.
 
-![overview](overview-3.png)
+<kbd>![overview](images/overview-3.png)</kbd>
 
