@@ -1,13 +1,15 @@
-# Logging In and Logging Out 
+# Logging In and Logging Out
 
 **Prerequisites**: 
 
 - Before you start, you must have been invited and onboarded to SHIP-HATS. 
 - Once you have successfully onboarded, make sure that you have setup your OpenVPN connection. 
 
+## Logging In
 Once the above are successfully completed, you can proceed to log in to SHIP-HATS. Logging in tells the system who you are and what permissions you have in SHIP-HATS. For example, if you are a Subscription Admin or Project Admin, you can view the SHIP-HATS [**Dashboard** view](#viewing-dashboard) once you log in. Other “Users” will be directed to their [**Profile**](#viewing-profile-as-users) page.
 
 ?> Note: If you are SA or PA for more than one account and when you log in, by default, you will be viewing the subscription details of the first account to which you were added as SA or PA. Refer to **Switch account** to know about switching between accounts.
+
 
 *To log in to SHIP-HATS:*
 
@@ -38,3 +40,20 @@ When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov
 
 <kbd>![profile-of-other-users](images/profile-of-other-users.png ':size=75%')</kbd>
 
+## Logging Out
+When you are done with your activities on the portal, you can log out as shown below. 
+
+
+*To log out from SHIP-HATS:*
+
+- Hover over your profile icon and click **Log out**.
+ 
+<kbd>![log-out](images/log-out.png)</kbd>
+
+If you are inactive for five minutes on the portal, the system prompts you with the following message. Click **Yes, Keep me signed in** to continue your session.
+
+<kbd>![idle-time-prompt-after-5-mins](images/idle-time-prompt-after-5-mins.png)</kbd>
+
+If you are inactive for 10 minutes on the portal, the system prompts you with the following message. 
+
+<kbd>![session-timed-out](images/session-timed-out.png)</kbd>
