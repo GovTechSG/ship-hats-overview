@@ -29,7 +29,7 @@ The **Overview** page of the subscription account gives the dashboard view of 
 
 
 
-<kbd>![overview](images/overview-3.png)</kbd>
+<kbd>![overview](images/overview-3.png ':size=75%')</kbd>
 
 ## [Viewing Profile as Users](#viewing-profile-as-users)
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their **Profile** page. You may view the details of the subsvription account under which your SHIP-HATS usage is currently billed.
