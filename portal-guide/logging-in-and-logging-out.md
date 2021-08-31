@@ -52,8 +52,8 @@ When you are done with your activities on the portal, you can log out as shown b
 
 If you are inactive for five minutes on the portal, the system prompts you with the following message. Click **Yes, Keep me signed in** to continue your session.
 
-<kbd>![idle-time-prompt-after-5-mins](images/idle-time-prompt-after-5-mins.png ':size=75%')</kbd>
+<kbd>![idle-time-prompt-after-5-mins](images/idle-time-prompt-after-5-mins.png ':size=50%')</kbd>
 
 If you are inactive for 10 minutes on the portal, the system prompts you with the following message. 
 
-<kbd>![session-timed-out](images/session-timed-out.png ':size=75%')</kbd>
+<kbd>![session-timed-out](images/session-timed-out.png ':size=50%')</kbd>
