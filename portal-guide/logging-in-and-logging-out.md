@@ -5,7 +5,7 @@
 - Before you start, you must have been invited and onboarded to SHIP-HATS. 
 - Once you have successfully onboarded, make sure that you have setup your OpenVPN connection. 
 
-Once the above are successfully completed, you can proceed to log in to SHIP-HATS. Logging in tells the system who you are and what permissions you have in SHIP-HATS. For example, if you are a Subscription Admin or Project Admin, you can view the SHIP-HATS [**Dashboard** view](#viewing-dashboard) once you log in. Other “Users” will be directed to their **Profile** page.
+Once the above are successfully completed, you can proceed to log in to SHIP-HATS. Logging in tells the system who you are and what permissions you have in SHIP-HATS. For example, if you are a Subscription Admin or Project Admin, you can view the SHIP-HATS [**Dashboard** view](#viewing-dashboard) once you log in. Other “Users” will be directed to their [**Profile**](#profile-of-other-users) page.
 
 *To log in to SHIP-HATS:*
 
@@ -31,8 +31,8 @@ The **Overview** page of the subscription account gives the dashboard view of 
 
 <kbd>![overview](images/overview-3.png)</kbd>
 
-## Viewing Profile as Users
+## [Viewing Profile as Users](#viewing-profile-as-users)
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their **Profile** page. You may view the details of the subsvription account under which your SHIP-HATS usage is currently billed.
 
-![profile-of-other-users](images/profile-of-other-users.png)
+<kbd>![profile-of-other-users](images/profile-of-other-users.png ':size=75%')</kbd>
 
