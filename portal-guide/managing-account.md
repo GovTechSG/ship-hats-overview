@@ -125,7 +125,7 @@ SA and PA can view the plan details of their subscription account(s) from the da
 
 1. Ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=switch-account).
 
-<kbd>![plan-details](images/plan-details.png ':size=75%')</kbd>
+<kbd>![plan-details](images/plan-details.png ':size=100%')</kbd>
 
 2. From the [**Overview**](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=viewing-dashboard) page, hover over **Billing Account** at the upper-right area of the page and choose **Plan Details**.
 
