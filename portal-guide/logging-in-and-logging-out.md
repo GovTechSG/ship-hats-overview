@@ -67,11 +67,11 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
 
 1. From the [**Overview**](#viewing-dashboard) page, hover over **Billing Account** at the upper-right area of the page and choose **Switch account**.
 
-<kbd>![switch-account](images/switch-account.png)</kbd>
+<kbd>![switch-account](images/switch-account.png ':size=100%')</kbd>
 
 2. Choose the required billing account to view its dashboard.
 
-<kbd>![switch-account](images/switch-account-choose-account.png ':size=75%')</kbd>
+<kbd>![switch-account](images/switch-account-choose-account.png ':size=100%')</kbd>
 
 
 
