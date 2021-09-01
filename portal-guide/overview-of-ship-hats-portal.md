@@ -30,7 +30,7 @@ The following sections guide SHIP-HATS’ Admins and Users on how to use it in t
 - [Reactivating Users](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-users?id=reactivating-users)
 -->
 
-[**Managing Projects in SHIP-HATS**](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-projects)
+[**Managing Projects**](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-projects)
 <!--
 - [Creating New Projects](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-projects?id=creating-new-projects)
 - [Viewing Projects](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-projects?id=viewing-projects)
