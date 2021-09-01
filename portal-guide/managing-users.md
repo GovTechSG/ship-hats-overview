@@ -1,4 +1,4 @@
-# User Management 
+# Managing Users
 This section describes the following: 
 
 * [Inviting users](#inviting-users)
