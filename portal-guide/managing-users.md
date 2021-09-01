@@ -19,7 +19,7 @@ Subscription Admin (SA) and Project Admin (PA) can invite and add users to the s
 2. From the side menu, click **Users > Invite Users**. An invitation link is automatically generated.  
 By default, a new invitation link has a 14 days expiry date.  Whenever you invite new users, the same link will be displayed with the remaining expiry date until it expires. In the example below, SA invites a new user to SHIP-HATS. As the invite was created 2 days earlier, the link is valid for the next 12 days.
 
-<kbd>![Invite_users_3](images/Invite_users_3.png ':size=90%')</kbd>
+<kbd>![Invite_users_3](images/Invite_users_3.png ':size=100%')</kbd>
 
 3. Click **Email me** to send this link with the expiry date to your SHIP-HATS registered email address and forward it to the intended users so that they can provide required information in the **Invitation Form**.
 Alternatively, click the copy icon to copy and share the invite link with intended users. Note, in this case, make sure to inform the users about the expiry date of this link.
@@ -30,7 +30,7 @@ Once a user submits the completed SHIP-HATS **Invitation Form**, Subscription Ad
 *To approve new user registration:*
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=switch-account).
 
-<kbd>![pending user approval notification](images/pending_user_approval_notification.png ':size=75%')</kbd>
+<kbd>![pending user approval notification](images/pending_user_approval_notification.png ':size=100%')</kbd>
 
 &nbsp;&nbsp;&nbsp;If there is a pending user approval task for you, it will be displayed in the **ALERTS** section.  
 
@@ -40,11 +40,11 @@ Alternatively, from the side menu, click **Users** > **All Users**. If there is 
 
 Note: If there is a number displayed beside **All Users** menu and **Pending Approval** section, it indicates that many user approvals are pending.  
 
-<kbd>![New user approval_blurred](images/New-user-approval-blurred.png ':size=75%')</kbd>
+<kbd>![New user approval_blurred](images/New-user-approval-blurred.png ':size=100%')</kbd>
 
 3. Click **Approve** corresponding to the user.
 
-<kbd>![New user approval_step2_blured](images/New-user-approval-step2-blurred.png ':size=75%')</kbd>
+<kbd>![New user approval_step2_blured](images/New-user-approval-step2-blurred.png ':size=100%')</kbd>
 
 4. When prompted to confirm this action, click **Yes**. This user is now approved as SHIP-HATS user under this account.
 
@@ -60,7 +60,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 
 2. From the side menu, click **Users > All Users**.
 
-<kbd>![all-users-blurred](images/all-users-blurred.png ':size=75%')</kbd>
+<kbd>![all-users-blurred](images/all-users-blurred.png ':size=100%')</kbd>
 
 * If a user is a Subscription Admin, it is indicated by the label **Subscr Admin** beside the username.
 * If a user has a Project Admin role in one the projects in the subscription account, it will be indicated in the **Project Role** column.
@@ -71,7 +71,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
   * Last Login
 * You can quickly search for a user by typing the username in the search box.
 
-<kbd>![search_user_blurred](images/search-user-blurred.png ':size=75%')</kbd>
+<kbd>![search_user_blurred](images/search-user-blurred.png ':size=100%')</kbd>
 
 * Click **Export CSV** to download the user list as a .csv file to your local machine. This csv lists the active and removed users along with the approval and removal details.
 
@@ -102,7 +102,7 @@ If SHIP-HATS users are inactive for 60 consecutive days, their status changes fr
 
 On day 91, if the user is still inactive on SHIP-HATS, user status changes from **sleeping user** to **suspended user**, indicated by a grey avatar.  
 
-<kbd>![profile-legends](images/profile-legends.png ':size=75%')</kbd>
+<kbd>![profile-legends](images/profile-legends.png ':size=100%')</kbd>
 
 SA and PA can reactivate a suspended user back to their account if required.
 
@@ -114,7 +114,7 @@ SA and PA can reactivate a suspended user back to their account if required.
 
 3. Search for the user to be reactivated and from the **Action** column, click ![3_dot](3_dot.png) corresponding to the user.
 
-<kbd>![user_status_2](images/user_status_2.png ':size=75%')</kbd>
+<kbd>![user_status_2](images/user_status_2.png ':size=100%')</kbd>
 
 Tip: Refer to [Viewing users](#view-users) to know how to search for users
 
