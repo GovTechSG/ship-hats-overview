@@ -88,7 +88,7 @@ Note that SA and PA can remove a user who does not have the Project Admin or Sub
 3. Search for the user to be removed and from the **Action** column, click ![3_dot](3_dot.png) corresponding to the user.
 Tip: Refer to [Viewing users](#view-users) to know how to search for users and to sort by **Quota Consumed**.
 
-<kbd>![remove_user_cropped_blurred](images/remove-user-cropped-blurred.png ':size=75%')</kbd>
+<kbd>![remove_user_cropped_blurred](images/remove-user-cropped-blurred.png ':size=100%')</kbd>
 
 4. Choose **Remove User**.
 
