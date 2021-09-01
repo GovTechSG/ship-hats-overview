@@ -19,7 +19,7 @@ Subscription Admin (SA) and Project Admin (PA) can invite and add users to the s
 2. From the side menu, click **Users > Invite Users**. An invitation link is automatically generated.  
 By default, a new invitation link has a 14 days expiry date.  Whenever you invite new users, the same link will be displayed with the remaining expiry date until it expires. In the example below, SA invites a new user to SHIP-HATS. As the invite was created 2 days earlier, the link is valid for the next 12 days.
 
-<kbd>![Invite_users_3](images/Invite_users_3.png ':size=75%')</kbd>
+<kbd>![Invite_users_3](images/Invite_users_3.png ':size=90%')</kbd>
 
 3. Click **Email me** to send this link with the expiry date to your SHIP-HATS registered email address and forward it to the intended users so that they can provide required information in the **Invitation Form**.
 Alternatively, click the copy icon to copy and share the invite link with intended users. Note, in this case, make sure to inform the users about the expiry date of this link.
