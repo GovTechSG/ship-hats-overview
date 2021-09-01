@@ -1,4 +1,4 @@
-# Overview of SHIP-HATS portal
+# SHIP-HATS Portal Guide
 The following sections guide SHIP-HATS’ Admins and Users on how to use it in their Devops journey.
 
 [Logging In and Logging Out](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out)
