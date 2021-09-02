@@ -1,6 +1,6 @@
 
 
-# Manage Account
+## Manage Account
 
 SHIP-HATS users may have user roles such as Subscription Admin (SA), Project Admin(PA) or User. Only an agency user can be a Subscription Admin for an account. Subscription Admin can also be a Project Admin. This section explains the following:
 
@@ -17,14 +17,14 @@ SHIP-HATS users may have user roles such as Subscription Admin (SA), Project Adm
 - [View Plan Details](#view-plan-details)
 - [View Billing Information](#view-billing-information)
 
-## [Log In and Log Out](#log-in-and-log-out)
+### [Log In and Log Out](#log-in-and-log-out)
 
 **Prerequisites**: 
 
 - Before you start, you must have been invited and onboarded to SHIP-HATS. 
 - Once you have successfully onboarded, make sure that you have setup your OpenVPN connection. 
 
-### Log In
+#### Log In
 
 Once the above are successfully completed, you can proceed to log in to SHIP-HATS. Logging in tells the system who you are and what permissions you have in SHIP-HATS. For example, if you are a Subscription Admin or Project Admin, you can view the SHIP-HATS [**Dashboard**](#viewing-dashboard) view once you log in. Other “Users” will be directed to their [**Profile**](#viewing-profile-as-users) page.
 
@@ -42,7 +42,7 @@ Refer to [**Switch Account**](#switch-account) to know how to switch between dif
 
 3. Enter your **Username** ,**Password** and click **Log In**.
 
-### Log Out
+#### Log Out
 When you are done with your activities on the portal, you can log out as shown below. 
 
 
@@ -60,7 +60,7 @@ If you are inactive for 10 minutes on the portal, the system prompts you with th
 
 <kbd>![session-timed-out](images/session-timed-out.png ':size=100%')</kbd>
 
-## [View Dashboard](#view-dashboard)
+### [View Dashboard](#view-dashboard)
 The **Overview** page of the subscription account gives the dashboard view of the subscription account. Only Subscription Admin (SA) and Project Admin (PA) can access this dashboard to view the following details.
 
 - Subscription tier for the Billing Account
@@ -74,13 +74,13 @@ The **Overview** page of the subscription account gives the dashboard view of 
 
 <kbd>![overview](images/overview-3.png ':size=100%')</kbd>
 
-## [View Profile as Users](#view-profile-as-users)
+### [View Profile as Users](#view-profile-as-users)
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their **Profile** page. You may view the details of the subsvription account under which your SHIP-HATS usage is currently billed.
 
 <kbd>![profile-of-other-users](images/profile-of-other-users.png ':size=100%')</kbd>
 
 
-## [Switch Account](#switch-account)
+### [Switch Account](#switch-account)
 If you are a SA or PA for more than one subscription account in SHIP-HATS, you may need to switch between these accounts to Manage users, Manage Projects, Viewing Plan Details and Viewing Billing Info.
 
 *To switch account:*
@@ -93,7 +93,7 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
 
 <kbd>![switch-account](images/switch-account-choose-account.png ':size=100%')</kbd>
 
-## [View and Update Admin Profile](#view-and-update-admin-profile)
+### [View and Update Admin Profile](#view-and-update-admin-profile)
 SA and PA can update their profile from the [**Overview**](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=viewing-dashboard) page.
 
 *To view and update profile as SA and PA*:
@@ -107,7 +107,7 @@ SA and PA can update their profile from the [**Overview**](https://docs.develop
 
 <kbd>![edit-profile-details-blurred](images/edit-profile-details-blurred.png ':size=75%')</kbd>
 
-## [View and Update User Profile](#view-and-update-user-profile)
+### [View and Update User Profile](#view-and-update-user-profile)
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. Click the edit icon to update your details.
 
 <kbd>![edit-profile-normal-users-blurred](images/edit-profile-normal-users-blurred.png ':size=75%')</kbd>
@@ -116,7 +116,7 @@ Alternatively, hover over your profile icon at the upper-right corner. To view a
 
 <kbd>![edit-profile-normal-users-alternate-way](images/edit-profile-normal-users-alternate-way.png)</kbd>
 
-## [Change Password](#change-password)
+### [Change Password](#change-password)
 As per IM8 policy, all SHIP-HATS users must change their SHIP-HATS password at least once every 12 months. Users can change the password using the SHIP-HATS portal.
 
 *To change password*:
@@ -133,7 +133,7 @@ The **Change Password** page is displayed.
 3. Enter **Current password**.
 4. Enter **New Password** , **Confirm new password** and click **Update password**.
 
-## [Retrieve Username](#retrieve-username)
+### [Retrieve Username](#retrieve-username)
 If you have forgotten your SHIP-HATS username, you may retrieve it anytime following the below steps.
 
 *To retrieve SHIP-HATS username:*
@@ -153,7 +153,7 @@ If you have forgotten your SHIP-HATS username, you may retrieve it anytime follo
 
 <kbd>![retreive-username-request-success-1.png](images/retreive-username-request-success-1.png ':size=75%')</kbd>
 
-## [Reset Password](#reset-password)
+### [Reset Password](#reset-password)
 If you have forgotten your SHIP-HATS password, you may reset it anytime following the below steps.
 
 *To reset SHIP-HATS password:*
@@ -175,7 +175,7 @@ If you have forgotten your SHIP-HATS password, you may reset it anytime followin
 
 An email will be sent with the reset password link to the respective email address.
 
-## [Reset 2FA](#reset-2fa)
+### [Reset 2FA](#reset-2fa)
 You can reset your 2FA for SHIP-HATS anytime by following the below steps.
 
 *To reset 2FA for SHIP-HATS:*
@@ -197,7 +197,7 @@ You can reset your 2FA for SHIP-HATS anytime by following the below steps.
 
 You will receive a notification stating that your SHIP-HATS 2FA has been reset and with instructions to be followed by you.
 
-## [View Plan Details](#view-plan-details)
+### [View Plan Details](#view-plan-details)
 
 SA and PA can view the plan details of their subscription account(s) from the dashboard view.
 
@@ -217,7 +217,7 @@ Alternatively, click **Plan details** from **Overview** as shown below.
 
 <kbd>![view-subscription-details-for-other-users](images/view-subscription-details-for-other-users.png ':size=75%')</kbd>
 
-## [View Billing Information](#view-billing-information)
+### [View Billing Information](#view-billing-information)
 
 If you are a Subscription Admin, you will be able to view and edit the billing information of their subscription account(s).
 
