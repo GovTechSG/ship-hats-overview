@@ -8,8 +8,8 @@ SHIP-HATS users may have user roles such as Subscription Admin (SA), Project Adm
 - [View Dashboard](#view-dashboard)
 - [View Profile as Users](#view-profile-as-users)
 - [Switch Account](#switch-account)
-- [View and Update Admin Profile](#view-and-update-admin-profile)
-- [View and Update User Profile](#view-and-update-user-profile)
+- [Update Admin Profile](#update-admin-profile)
+- [Update User Profile](#update-user-profile)
 - [Change Password](#change-password)
 - [Retrieve Username](#retrieve-username)
 - [Reset Password](#reset-password)
@@ -93,7 +93,7 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
 
 <kbd>![switch-account](images/switch-account-choose-account.png ':size=100%')</kbd>
 
-## [View and Update Admin Profile](#view-and-update-admin-profile)
+## [Update Admin Profile](#update-admin-profile)
 SA and PA can update their profile from the [**Overview**](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=viewing-dashboard) page.
 
 *To view and update profile as SA and PA*:
@@ -107,7 +107,7 @@ SA and PA can update their profile from the [**Overview**](https://docs.develop
 
 <kbd>![edit-profile-details-blurred](images/edit-profile-details-blurred.png ':size=75%')</kbd>
 
-## [View and Update User Profile](#view-and-update-user-profile)
+## [Update User Profile](#update-user-profile)
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. Click the edit icon to update your details.
 
 <kbd>![edit-profile-normal-users-blurred](images/edit-profile-normal-users-blurred.png ':size=75%')</kbd>
