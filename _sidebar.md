@@ -1,7 +1,7 @@
 * [Get Started](get-started)
   * [SHIP-HATS Architecture](archi-diagram)
   * [User Roles and Permissions](user-roles-permissions)
-  * [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
+ * [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
    * [Manage Account](portal-guide/managing-account)
    * [Manage Users](portal-guide/manage-users)
    * [Manage Projects](portal-guide/managing-projects)
