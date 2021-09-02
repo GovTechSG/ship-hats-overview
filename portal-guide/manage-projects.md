@@ -1,11 +1,11 @@
-# Managing Projects
+# Manage Projects
 This section explains how a Subscription Admin creates SHIP-HATS projects and how Project Admin manages these projects by adding the required users and tools.
-- [Creating new projects](#creating-new-projects)
-- [Viewing projects](#viewing-projects)
-- [Removing projects](#removing-projects)
-- [Adding project tools](#adding-project-tools)
+- [Create new projects](#create-new-projects)
+- [View projects](#view-projects)
+- [Remove projects](#remove-projects)
+- [Add project tools](#add-project-tools)
 
-## [Creating new projects](#creating-new-projects)
+## [Create new projects](#create-new-projects)
 
 Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SAs assign Project Admins (PA). Both SA and PA can manage the projects by adding project tools and add users.
 
@@ -25,7 +25,7 @@ Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SA
 
 SA or PA can add tools and additional PAs. Note that SA can add up to three PAs using the SHIP-HATS portal.
 
-## [Viewing projects](#viewing-projects)
+## [View projects](#view-projects)
 
 SA and PAs of a subscription account can view all the projects of the subscription account.
 
@@ -39,7 +39,7 @@ Tile view of all the projects in this subscription account is displayed. If need
 
 2. Click **Manage** to view tools that are currently added to the project.
 
-## [Removing projects](#removing-projects)
+## [Remove projects](#remove-projects)
 
 Subscription Admin can remove a project as long as no tool has been added to it.
 
@@ -52,7 +52,7 @@ Subscription Admin can remove a project as long as no tool has been added to it.
 
 3. Click the three dots and then choose **Remove project**.
 
-## [Adding project admins](#adding-project-admins)
+## [Add project admins](#add-project-admins)
 
 Subscription Admins can add up to three Project Admins using the SHIP-HATS portal. While creating a project in an account it is mandatory to specify at least one Project Admin. SAs can add the other two PAs anytime in the future.
 
@@ -75,7 +75,7 @@ Subscription Admins can add up to three Project Admins using the SHIP-HATS porta
 
 To know how to remove a Project Admin, refer to **Remove User**.
 
-## [Adding project tools](#adding-project-tools)
+## [Add project tools](#add-project-tools)
 
 SA or PA can add the required project tools as explained below. You can add tools for Development, Build, QA &amp; Security and Release phases as per the tools quota allotted for your subscription type. Note that currently you need to raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/) for adding the following:
 
