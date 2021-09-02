@@ -6,7 +6,7 @@ SHIP-HATS users may have user roles such as Subscription Admin (SA), Project Adm
 
 - [Log In and Log Out](#log-in-and-log-out)
 - [View Dashboard](#view-dashboard)
-- [View Profile as Users](#view-profile-as-users)
+- [View User Profile](#view-user-profile)
 - [Switch Account](#switch-account)
 - [Update Admin Profile](#update-admin-profile)
 - [Update User Profile](#update-user-profile)
@@ -74,7 +74,7 @@ The **Overview** page of the subscription account gives the dashboard view of 
 
 <kbd>![overview](images/overview-3.png ':size=100%')</kbd>
 
-## [View Profile as Users](#view-profile-as-users)
+## [View User Profile](#view-user-profile)
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their **Profile** page. You may view the details of the subsvription account under which your SHIP-HATS usage is currently billed.
 
 <kbd>![profile-of-other-users](images/profile-of-other-users.png ':size=100%')</kbd>
