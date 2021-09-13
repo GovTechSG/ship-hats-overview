@@ -33,14 +33,14 @@ Click on the image to view the video.
 ### Step 2 of 6: Integrating Bitbucket to Bamboo
 As your code repo is in Bitbucket, we need to integrate it into Bamboo to allow and automate testing of the code/application. Bamboo is essentially a build tool that allows constant merging, testing of code  which allows  development teams to receive rapid feedback on their work.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8ky79S2YfRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Step 2 of 6](Slide6.jpg)](https://youtu.be/8ky79S2YfRg)
 
 Click on the image to view the video.
 
 ### Step 3 of 6: Adding a Bamboo Trigger
 Adding a Bamboo Trigger is required so that Bamboo is notified whenever there is a code change in any of the selected source code repositories. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/LyBSH4T4Lc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Step 3 of 6](Slide18.jpg)](https://youtu.be/LyBSH4T4Lc4)
 
 Click on the image to view the video.
 
