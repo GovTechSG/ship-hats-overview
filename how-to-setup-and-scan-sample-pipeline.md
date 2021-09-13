@@ -12,9 +12,9 @@ Continuous Integration(CI) is a software engineering approach where developers m
 3. You must have a basic understanding of the SHIP-HATS CI Tools (Bitbucket, Bamboo, Nexus IQ and Nexus Repository)
 
 For more information on prerequisites, kindly refer to:
-<a href="https://docs.developer.gov.sg/docs/ship-hats-documentation/#/user-roles-permissions">General Information on user roles and permissions</a>
-<a href="https://docs.developer.gov.sg/docs/ship-hats-documentation/#/get-started/bitbucket-user-role">Bitbucket user roles and permissions</a>
-<a href="https://docs.developer.gov.sg/docs/ship-hats-documentation/#/get-started/bamboo-user-roles">Bamboo user roles and permissions</a>
+<a href="https://docs.developer.gov.sg/docs/ship-hats-documentation/#/user-roles-permissions">General Information on user roles and permissions</a><br>
+<a href="https://docs.developer.gov.sg/docs/ship-hats-documentation/#/get-started/bitbucket-user-role">Bitbucket user roles and permissions</a><br>
+<a href="https://docs.developer.gov.sg/docs/ship-hats-documentation/#/get-started/bamboo-user-roles">Bamboo user roles and permissions</a><br>
 
 User Permissions information on Fortify, Nexus IQ and Nexus Repository Manager will be updated soon!
 
