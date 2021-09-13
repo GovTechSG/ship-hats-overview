@@ -1,7 +1,7 @@
 # How to set up a simple pipeline to check out and scan the sample application
 This tutorial is to guide you in setting up a simple pipeline to check out and scan the sample application in SHIP-HATS.
 
-## What is a CI Pipeline?
+## What is a Continuous Integration?
 Continuous Integration(CI) is a software engineering approach where developers merge the code into a shared code repository and then verified by automated build and testing.
 
 ## Prerequisites
