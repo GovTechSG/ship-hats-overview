@@ -1,6 +1,7 @@
 * [Get Started](get-started)
   * [SHIP-HATS Architecture](archi-diagram)
   * [User Roles and Permissions](user-roles-permissions)
+  * [How to set up a simple pipeline in SHIP-HATS](how-to-setup-and-scan-sample-pipeline)
  * [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
    * [Manage Account](portal-guide/manage-account)
    * [Manage Users](portal-guide/manage-users)
