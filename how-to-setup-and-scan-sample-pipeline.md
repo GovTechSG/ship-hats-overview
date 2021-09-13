@@ -25,7 +25,7 @@ Bitbucket is a source code management tool. Source code for your application is 
 
 Normally, an application development team will create an empty repository and check in their code. For this tutorial, we will make use of existing code. We will create a new repository by forking from another repository. 
 
-<a href="https://youtu.be/y0znQiheC4Q" rel="Step 1 of 6">![Step 1 of 6](Slide1.jpg)</a>
+[![Step 1 of 6](Slide1.jpg)](https://youtu.be/y0znQiheC4Q)
 
 Click on the image to view the video.
 
