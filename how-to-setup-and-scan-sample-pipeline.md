@@ -25,8 +25,9 @@ Bitbucket is a source code management tool. Source code for your application is 
 
 Normally, an application development team will create an empty repository and check in their code. For this tutorial, we will make use of existing code. We will create a new repository by forking from another repository. 
 
-<iframe src="https://www.youtube.com/embed/y0znQiheC4Q">Step 1 of 6</iframe>
+<a href="https://youtu.be/y0znQiheC4Q" rel="Step 1 of 6">![Step 1 of 6](slide1.jpg)</a>
 
+Click on the image to view the video.
 
 
 ### Step 2 of 6: Integrating Bitbucket to Bamboo
@@ -34,9 +35,13 @@ As your code repo is in Bitbucket, we need to integrate it into Bamboo to allow 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8ky79S2YfRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+Click on the image to view the video.
+
 ### Step 3 of 6: Adding a Bamboo Trigger
 Adding a Bamboo Trigger is required so that Bamboo is notified whenever there is a code change in any of the selected source code repositories. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LyBSH4T4Lc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Click on the image to view the video.
 
 Step 4 to 6 will be available soon!
