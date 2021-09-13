@@ -25,7 +25,8 @@ Bitbucket is a source code management tool. Source code for your application is 
 
 Normally, an application development team will create an empty repository and check in their code. For this tutorial, we will make use of existing code. We will create a new repository by forking from another repository. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y0znQiheC4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/y0znQiheC4Q"></iframe>
+
 
 
 ## Step 2 of 6: Integrating Bitbucket to Bamboo
