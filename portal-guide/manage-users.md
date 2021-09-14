@@ -5,6 +5,7 @@ This section describes the following:
 * [Approve new users](#approve-new-users)
 * [View users](#view-users)
 * [Remove users](#remove-users)
+* [Change SA or PA](#change-sa-or-pa)
 * [Reactivate users](#reactivate-users)
 
 
@@ -92,11 +93,16 @@ Tip: Refer to [Viewing users](#view-users) to know how to search for users and t
 
 4. Choose **Remove User**.
 
-Note that to remove a PA or SA, one of the SA can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/364"> service request </a> to change the user role for this individual from PA to normal user. Once this is done, follow the steps mentioned in the **Remove User** section.
+?> Note: To remove a PA or SA, one of the SA can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/364"> service request </a> to change the user role for this individual from PA to normal user. Once this is done, follow the steps mentioned in the **Remove User** section.
 
-Similarly, to change/transfer the PA or SA role to another user, one of the SAs can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/364"> service request </a> with the required details, such as the name and email address of the user to whom the PA or SA role is to be transferred.
 
 Tip:  While creating this service request, we recommend you tag the user whose role is to be modified and the respective SAs and PAs in the ticket.
+
+
+## [Change SA or PA](#change-sa-or-pa)
+
+To change or transfer the existing PA or SA role to another user, one of the SAs can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/364"> service request </a> with the required details, such as the name and email address of the user to whom the PA or SA role is to be transferred.
+
 
 ## [Reactivate users](#reactivate-users)
 
