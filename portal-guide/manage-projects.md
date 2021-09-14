@@ -82,6 +82,9 @@ SA or PA can add the required project tools as explained below. You can add tool
 - Build tool - Nexus IQ and Nexus Repo
 - Release and Deploy tool- Digital.ai Release and Digital.ai Deploy
 
+Note that SA and PA must have logged in to SonarQube at least once before proceeding to create applications in SonarQube.
+
+
 *To add project tools*:
 
 1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to Switch account.
