@@ -82,7 +82,7 @@ SA or PA can add the required project tools as explained below. You can add tool
 - Build tool - Nexus IQ and Nexus Repo
 - Release and Deploy tool- Digital.ai Release and Digital.ai Deploy
 
-?> Note: that SA and PA must have logged in to SonarQube at least once before proceeding to create applications in SonarQube.
+?> Note: SA and PA must have logged in to SonarQube at least once before proceeding to create applications in SonarQube.
 
 
 *To add project tools*:
@@ -103,7 +103,7 @@ SA or PA can add the required project tools as explained below. You can add tool
 
 You can add build tools other than Nexus IQ and Nexus Repo in the same manner from the **Build** tab.
 
-Note
+Note:
 
 - While adding tools such as WebInspect Fortify SCA under the **QA &amp; Security** tab, the system displays the quota remaining for your subscription as shown below.
 
