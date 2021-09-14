@@ -32,7 +32,7 @@ Once the above are successfully completed, you can proceed to log in to SHIP-HAT
 
 - If you are an SA or PA for a subscription account, when you log in, by default, you will be viewing the subscription details of the first account to which you were added as SA or PA. 
 
-- SA and PA must log in to SonarQube before proceeding to create applications in SonarQube. Though only SA and PA can create applications in SonarQube, we recommend all users to log in to SonarQube at least once to ease the process if a user role is changed to a PA role in the future.
+- SA and PA must have logged in to SonarQube at least once before proceeding to create applications in SonarQube. Though only SA and PA can create applications in SonarQube, we recommend all users to log in to SonarQube at least once to ease the process if a user role is changed to a PA role in the future.
 
 Refer to [**Switch Account**](#switch-account) to know how to switch between different subscription accounts.
 
