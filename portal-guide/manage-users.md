@@ -114,7 +114,7 @@ SA and PA can reactivate a suspended user back to their account if required.
 
 2.  From the side menu, click **Users > All Users**.
 
-3. Search for the user to be reactivated and from the **Action** column, click ![3_dot](3_dot.png) corresponding to the user.
+3. Search for the user to be reactivated and from the **Action** column, click ![3_dot](images/3_dot.png) corresponding to the user.
 
 <kbd>![user_status_2](images/user_status_2.png ':size=100%')</kbd>
 
