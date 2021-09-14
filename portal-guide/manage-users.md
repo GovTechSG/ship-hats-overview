@@ -85,7 +85,7 @@ Note that SA and PA can remove a user who does not have the Project Admin or Sub
 
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switch account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=switch-account).
 2. From the side menu, click **Users > All Users**.
-3. Search for the user to be removed and from the **Action** column, click ![3_dot](3_dot.png) corresponding to the user.
+3. Search for the user to be removed and from the **Action** column, click ![3_dot](images/3_dot.png) corresponding to the user.
 Tip: Refer to [Viewing users](#view-users) to know how to search for users and to sort by **Quota Consumed**.
 
 <kbd>![remove_user_cropped_blurred](images/remove-user-cropped-blurred.png ':size=100%')</kbd>
