@@ -1,4 +1,4 @@
-# SHIP-HATS Integrated Tools Version
+# SHIP-HATS integrated tools version
 
 | **Category** | **Tools integrated with SHIP-HATS** | **Version on SHIP-HATS** | **Endpoint** |
 | --- | --- | --- | --- |
