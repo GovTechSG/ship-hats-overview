@@ -19,20 +19,20 @@ SHIP-HATS users may have user roles such as Subscription Admin (SA), Project Adm
 
 ## [Log in and Log out](#log-in-and-log-out)
 
-**Prerequisites**: 
+**Prerequisites**:
 
-- Before you start, you must have been invited and onboarded to SHIP-HATS. 
-- Once you have successfully onboarded, make sure that you have setup your OpenVPN connection. 
+- Before you start, you must have been invited and onboarded to SHIP-HATS.
+- Once you have successfully onboarded, make sure that you have setup your OpenVPN connection.
 
 ### Log in
 
 Once the above are successfully completed, you can proceed to log in to SHIP-HATS. Logging in tells the system who you are and what permissions you have in SHIP-HATS. For example, if you are a Subscription Admin or Project Admin, you can view the SHIP-HATS [**Dashboard**](#viewing-dashboard) view once you log in. Other “Users” will be directed to their [**Profile**](#viewing-profile-as-users) page.
 
-**Note:** 
+**Note:**
 
-- If you are an SA or PA for a subscription account, when you log in, by default, you will be viewing the subscription details of the first account to which you were added as SA or PA. 
+- If you are an SA or PA for a subscription account, when you log in, by default, you will be viewing the subscription details of the first account to which you were added as SA or PA.
 
-- SA and PA must have logged in to SonarQube at least once before proceeding to create applications in SonarQube. Though only SA and PA can create applications in SonarQube, we recommend all users to log in to SonarQube at least once to ease the process if a user role is changed to a PA role in the future.
+- SA and PA must have logged in to SonarQube at least once before proceeding to create applications in SonarQube. Though only SA and PA can create applications in SonarQube, we recommend all users to log in to SonarQube at least once to ease the process if a user role is changed to a PA role in the future. Refer to [SHIP-HATS integrated tools version](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/get-started/ship-hats-integrated-tools-version) for SonarQube's URL.
 
 Refer to [**Switch Account**](#switch-account) to know how to switch between different subscription accounts.
 
@@ -47,20 +47,20 @@ Refer to [**Switch Account**](#switch-account) to know how to switch between dif
 3. Enter your **Username** ,**Password** and click **Log In**.
 
 ### Log out
-When you are done with your activities on the portal, you can log out as shown below. 
+When you are done with your activities on the portal, you can log out as shown below.
 
 
 *To log out from SHIP-HATS:*
 
 - Hover over your profile icon and click **Log out**.
- 
+
 <kbd>![log-out](images/log-out.png ':size=100%')</kbd>
 
 If you are inactive for five minutes on the portal, the system prompts you with the following message. Click **Yes, Keep me signed in** to continue your session.
 
 <kbd>![idle-time-prompt-after-5-mins](images/idle-time-prompt-after-5-mins.png ':size=100%')</kbd>
 
-If you are inactive for 10 minutes on the portal, the system prompts you with the following message. 
+If you are inactive for 10 minutes on the portal, the system prompts you with the following message.
 
 <kbd>![session-timed-out](images/session-timed-out.png ':size=100%')</kbd>
 
