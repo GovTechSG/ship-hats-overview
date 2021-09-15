@@ -1,6 +1,6 @@
 # SHIP-HATS integrated tools version
 
-| **Category** | **Tools integrated with SHIP-HATS** | **Version on SHIP-HATS** | **Endpoint** |
+| **Category** | **Tools integrated with SHIP-HATS** | **Version on SHIP-HATS** | **Endpoint(URL)** |
 | --- | --- | --- | --- |
 | Project Management | Jira | 8.18.1 |https://jira.ship.gov.sg/|
 | Documentation and Collaboration | Confluence | 7.12.5 |https://confluence.ship.gov.sg/|
