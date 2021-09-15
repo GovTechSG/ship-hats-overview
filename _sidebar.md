@@ -1,5 +1,5 @@
 * [Get Started](get-started)
-  * [SHIP-HATS Architecture](archi-diagram)
+  * [SHIP-HATS Architecture](architecture-diagram)
   * [Integrated Tools Version](get-started/ship-hats-integrated-tools-version)
   * [User Roles and Permissions](user-roles-permissions)
   * [How to set up a simple pipeline in SHIP-HATS](how-to-setup-and-scan-sample-pipeline)
