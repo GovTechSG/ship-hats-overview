@@ -2,7 +2,7 @@
 title: Architecture Diagram
 layout: layout-page-sidenav
 description: SHIP-HATS Architecture diagram
-redirect_from: /ship-hats-documentation/archi-diagram
+redirect_from: /ship-hats-overview/archi-diagram
 ---
 
 # SHIP-HATS Architecture Diagram
