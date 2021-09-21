@@ -1,3 +1,10 @@
+---
+title: Architecture Diagram
+layout: layout-page-sidenav
+description: SHIP-HATS Architecture diagram
+redirect_from: /ship-hats-overview/archi-diagram
+---
+
 # SHIP-HATS Architecture Diagram
 
 ![ship archi](ship-archi.png)
