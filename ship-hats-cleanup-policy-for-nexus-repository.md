@@ -28,7 +28,7 @@ We highly recommend you to periodically review your repositories and to housekee
 
 2. What should I do if I wish to retain some of my artifacts of a repository beyond 180 days?
 
- Raise a service request to SHIP-HATS with your requirements.
+   Raise a service request to SHIP-HATS with your requirements.
 
 3. Can I have my own cleanup policy?
 
@@ -36,8 +36,8 @@ We highly recommend you to periodically review your repositories and to housekee
 
 4. How to check which of our repositories are using the maximum space?
 
-  Contact your repo administrator to get this information.
+   Contact your repo administrator to get this information.
 
 5. Will there be any communications sent to agencies for the cleanups?
 
-  There was an initial communication sent to our tenants on September 24, 2021 about SHIP-HATS cleanup policy. As this is a recurring task scheduled every day at 01:00 AM, there will be no ongoing communications.
+   There was an initial communication sent to our tenants on September 24, 2021 about SHIP-HATS cleanup policy. As this is a recurring task scheduled every day at   01:00 AM, there will be no ongoing communications.
