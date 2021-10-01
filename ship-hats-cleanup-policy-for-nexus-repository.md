@@ -26,15 +26,15 @@ We highly recommend you to periodically review your repositories and to housekee
 
    No, there will be no customer impact.
 
-1. What should I do if I wish to retain some of my artifacts of a repository beyond 180 days?
+2. What should I do if I wish to retain some of my artifacts of a repository beyond 180 days?
 
  Raise a service request to SHIP-HATS with your requirements.
 
-1. Can I have my own cleanup policy?
+3. Can I have my own cleanup policy?
 
    Yes. Raise a service request to SHIP-HATS with your requirements.
 
-1. How to check which of our repositories are using the maximum space?
+4. How to check which of our repositories are using the maximum space?
 
   Contact your repo administrator to get this information.
 
