@@ -38,6 +38,6 @@ We highly recommend you to periodically review your repositories and to housekee
 
   Contact your repo administrator to get this information.
 
-1. Will there be any communications sent to agencies for the cleanups?
+5. Will there be any communications sent to agencies for the cleanups?
 
   There was an initial communication sent to our tenants on September 24, 2021 about SHIP-HATS cleanup policy. As this is a recurring task scheduled every day at 01:00 AM, there will be no ongoing communications.
