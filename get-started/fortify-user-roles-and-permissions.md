@@ -1,4 +1,4 @@
-# Fortify User Roles and Permissions
+## Fortify User Roles and Permissions
 
 User roles and their permissions determine the actions a user can perform in Fortify Software Security Center (SSC). Fortify as a COTS product comes with system defined roles and permissions. We have customised these system-defined roles and permissions to meet your requirements.
 
