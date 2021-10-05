@@ -169,6 +169,6 @@ All the applications added for this project will be listed.
 
 <kbd>![latest-remove-app-confirmation](images/latest-remove-app-confirmation.png ':size=75%')</kbd>
 
-7. Type the application name without double quotes and click **Proceed**. The application will disappear from your SHIP-HATS portal.
+7. Type the application name without double quotes and click **Proceed**.
 
 ?> Note: Text you enter to confirm is case-sensitive.
