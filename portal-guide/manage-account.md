@@ -112,13 +112,21 @@ SA and PA can update their profile from the [**Overview**](https://docs.develop
 <kbd>![edit-profile-details-blurred](images/edit-profile-details-blurred.png ':size=75%')</kbd>
 
 ## [Update user profile](#update-user-profile)
-When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. Click the edit icon to update your details.
+When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. 
+
+1. Click the edit icon to update your details.
 
 <kbd>![edit-profile-normal-users-blurred](images/edit-profile-normal-users-blurred.png ':size=75%')</kbd>
 
+2. Edit the details as needed and click **Update**. 
+
+<kbd>![save-normal-user-profile-updates](images/save-normal-user-profile-updates.png ':size=75%')</kbd>
+
 Alternatively, hover over your profile icon at the upper-right corner. To view and update user profile, click **View Profile**.
 
-<kbd>![edit-profile-normal-users-alternate-way](images/edit-profile-normal-users-alternate-way.png)</kbd>
+<!--<kbd>![edit-profile-normal-users-alternate-way](images/edit-profile-normal-users-alternate-way.png)</kbd-->
+
+
 
 ## [Change password](#change-password)
 As per IM8 policy, all SHIP-HATS users must change their SHIP-HATS password at least once every 12 months. Users can change the password using the SHIP-HATS portal.
