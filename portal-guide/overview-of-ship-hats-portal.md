@@ -31,6 +31,8 @@ The following sections guide SHIP-HATS’ Admins and Users on how to use it in t
 -->
 
 [Manage Projects](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-projects)
+
+- [Manage Fortify applications](manage-fortify-applications)
 <!--
 - [Creating New Projects](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-projects?id=creating-new-projects)
 - [Viewing Projects](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-projects?id=viewing-projects)
