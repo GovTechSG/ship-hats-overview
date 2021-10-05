@@ -1,15 +1,16 @@
 # SHIP-HATS integrated tools version
+Updated on: 05 October 2021
 
 | **Category** | **Tools integrated with SHIP-HATS** | **Version on SHIP-HATS** | **Endpoint(URL)** |
 | --- | --- | --- | --- |
-| Project Management | Jira | 8.18.1 |https://jira.ship.gov.sg/|
+| Project Management | Jira | 8.18.2 |https://jira.ship.gov.sg/|
 | Documentation and Collaboration | Confluence | 7.12.5 |https://confluence.ship.gov.sg/|
-| Repository Management | Bitbucket | 7.14.1 |https://bitbucket.ship.gov.sg/|
+| Repository Management | Bitbucket | 7.16.0 |https://bitbucket.ship.gov.sg/|
 | Build Management | Bamboo | 7.2.2 | https://bamboo.ship.gov.sg/ |
 | User Group Management for Atlassian tools | Crowd | 4.3.5 | https://crowd.ship.gov.sg|
 | Directory Service Authentication | LDAP | 2.4.44 | NA as it is managed by Crowd. |
-| Build Artifact | Nexus repo | 3.32 | https://nexus.ship.gov.sg/|
-| Software Composition Analysis (SCA) | Nexus IQ | 120 | https://nexus-iq.ship.gov.sg/assets/index.html |
+| Build Artifact | Nexus repo | 3.34 | https://nexus.ship.gov.sg/|
+| Software Composition Analysis (SCA) | Nexus IQ | 124 | https://nexus-iq.ship.gov.sg/assets/index.html |
 | Automated Testing| pCloudy | NA | https://hats.pcloudy.com/|
 | Automatic Code Review | SonarQube | Community edition 8.9 | https://sonar.hats.stack.gov.sg/sonar |
 | Static Application Security Testing (SAST) | Fortify Static Code Analyzer (SCA) | 20.2.0.298 | https://ssc.hats.stack.gov.sg/ssc |
