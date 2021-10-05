@@ -21,7 +21,7 @@ This document guides PAs to do the following from [SHIP-HATS portal](https://www
 - [Get token ID for Fortify applications](#get-token-for-fortify-application)
 - [Remove applications from Fortify SSC](#remove-applications-from-fortify-ssc)
 
-## Add applications to Fortify SSC(#add-applications-to-fortify-ssc)
+## [Add applications to Fortify SSC](#add-applications-to-fortify-ssc)
 
 1. From the side menu, click  **Projects**  >  **All Projects** to view all the projects in this subscription account. If needed, refer to [**Switch account**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account?id=switch-account).
 
@@ -47,7 +47,7 @@ System displays the current quota available to add applications. In the above ex
 
 ?> Note: PA can [Remove applications from Fortify SSC](#remove-applications-from-fortify-ssc).
 
-## Add users to Fortify applications(#add-users-to-fortify-applications)
+## [Add users to Fortify applications](#add-users-to-fortify-applications)
 
 PAs can add users to the added Fortify applications and manage their roles and permissions on [Fortify User](https://ssc-roles.hats.stack.gov.sg/)Management portal.
 
@@ -69,7 +69,7 @@ By default, PAs of associated project in SHIP-HATS dynamically get added to the 
 
 ?> Note: By default, application users have Viewer permission.
 
-## Manage user role in Fortify applications(#manage-user-role-in-fortify-applications)
+## [Manage user role in Fortify applications](#manage-user-role-in-fortify-applications)
 
 PA can assign **Security Lead** , **Security Tester** or **Report Uploader** role to the application users excluding other PAs.
 
@@ -93,7 +93,7 @@ You will see the list of current users for this application.
 
 <kbd>![](images/8596594456fb6478.png ':size=75%')</kbd>-->
 
-## Remove users from Fortify applications(#remove-users-from-fortify-applications)
+## [Remove users from Fortify applications](#remove-users-from-fortify-applications)
 
 PAs can:
 
@@ -113,7 +113,7 @@ You will see the list of current users for this application.
 
 4. Click **Remove** corresponding to the user.
 
-## Get token for Fortify application(#get-token-for-fortify-application)
+## [Get token for Fortify application](#get-token-for-fortify-application)
 
 Project users need a token to authenticate themselves on Fortify before uploading scan results to Fortify Software Security Center (SSC). When PAs add Fortify applications to a project using SHIP-HATS portal, a token is available, and this is shared with the required users.
 
@@ -135,13 +135,13 @@ Tokens are at project level and is generated when the first Fortify application 
 
 <kbd>![token-id-menu](images/token-id-menu.png ':size=75%')</kbd>
 
-1. Copy the Decoded Token ID and share this to the required users.
+6. Copy the Decoded Token ID and share this to the required users.
 
 <kbd>![copy-token-id](images/copy-token-id.png ':size=75%')</kbd>
 
 Tip: When PAs share the token IDs with the users, make sure to include the project name to map the token ids.
 
-## Remove applications from Fortify SSC(#remove-applications-from-fortify-ssc)
+## [Remove applications from Fortify SSC](#remove-applications-from-fortify-ssc)
 
 PA adds and removes applications in Fortify using the [SHIP-HATS portal](https://www.ship.gov.sg/). When an application is removed, all its users automatically are unassigned.
 
