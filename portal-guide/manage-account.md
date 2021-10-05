@@ -75,6 +75,9 @@ The **Overview** page of the subscription account gives the dashboard view of 
 
 ?> Note: The term **Overview** and **Dashboard view** may be used interchangeably.
 
+> [!NOTE]
+> The term **Overview** and **Dashboard view** may be used interchangeably 
+
 
 <kbd>![overview](images/overview-3.png ':size=100%')</kbd>
 
