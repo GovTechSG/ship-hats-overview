@@ -9,5 +9,5 @@
 * Support & FAQs
   * [Subscription FAQ](subscription)
 * Terms & Policy Related
-  * [Service Level Agreement](service-level-agreeement)
+  * [Service Level Agreement](service-level-agreement)
   * [Cleanup Policy for Nexus Repository](ship-hats-cleanup-policy-for-nexus-repository)
