@@ -18,7 +18,7 @@ This document guides PAs to do the following from [SHIP-HATS portal](https://www
 - [Add users to Fortify applications](#add-users-to-fortify-applications)
 - [Manage user role in Fortify applications](#manage-user-role-in-fortify-applications)
 - [Remove users from Fortify applications](#remove-users-from-fortify-applications)
-- [Get token ID for Fortify applications](#get-token-for-fortify-application)
+- [Get token for Fortify applications](#get-token-for-fortify-application)
 - [Remove applications from Fortify SSC](#remove-applications-from-fortify-ssc)
 
 ## [Add applications to Fortify SSC](#add-applications-to-fortify-ssc)
@@ -103,7 +103,7 @@ You will see the list of current users for this application.
 
 ## [Remove users from Fortify applications](#remove-users-from-fortify-applications)
 
-PAs can remove all users excluding PAs of the project in which the application was added.
+PAs can remove all users excluding fellow PAs of the project in which the application was added. To remove fellow PAs, remove them from SHIP-HATS project level.
 
 **To remove users from Fortify applications:**
 
@@ -121,14 +121,14 @@ You will see the list of current users for this application.
 
 ## [Get token for Fortify application](#get-token-for-fortify-application)
 
-Project users need a token to authenticate themselves on Fortify before uploading scan results to Fortify Software Security Center (SSC). When PAs add Fortify applications to a project using SHIP-HATS portal, a token is available, and this is shared with the required users.
+Project users need a token to authenticate themselves on Fortify before uploading scan results to [Fortify Software Security Center (SSC)](https://ssc.hats.stack.gov.sg/ssc/#!/). When PAs add Fortify applications to a project using SHIP-HATS portal, a token is available, and this has to be shared with the required users.
 
 Tokens are at project level and is generated when the first Fortify application is added to the project. Hence, same token is valid for all the Fortify applications added to this project and is valid for a year from the date of its generation.
 
 *To get token ID for Fortify applications:*
 
 1. From the side menu, click  **Projects**  >  **All Projects**  to view all the projects in this subscription account. If needed, refer to [**Switch account**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account?id=switch-account).
-2. Find the project and click  **Manage.**
+2. Find the project and click  **Manage**.
 3. Click **QA &amp; Security**.
 
 <kbd>![share-token-id-manage](images/share-token-id-manage.png ':size=75%')</kbd>
@@ -141,20 +141,20 @@ Tokens are at project level and is generated when the first Fortify application 
 
 <kbd>![token-id-menu](images/token-id-menu.png ':size=75%')</kbd>
 
-6. Copy the Decoded Token ID and share this to the required users.
+6. Copy the **Decoded Token ID** and share this to the required users.
 
 <kbd>![copy-token-id](images/copy-token-id.png ':size=75%')</kbd>
 
-Tip: When PAs share the token IDs with the users, make sure to include the project name to map the token ids.
+Tip: While PAs share tokens with users, make sure to include the project names to map them with the shared tokens.
 
 ## [Remove applications from Fortify SSC](#remove-applications-from-fortify-ssc)
 
-PA adds and removes applications in Fortify using the [SHIP-HATS portal](https://www.ship.gov.sg/). When an application is removed, all its users automatically are unassigned.
+PA [adds applications](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-fortify-applications?id=add-applications-to-fortify-ssc) and removes applications in Fortify using the [SHIP-HATS portal](https://www.ship.gov.sg/). When an application is removed, all its users are automatically  removed.
 
-*To remove applications from Fortify:*
+*To remove applications from Fortify*:
 
 1. From the side menu, click  **Projects**  >  **All Projects**  to view all the projects in this subscription account. If needed, refer to [**Switch account**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account?id=switch-account).
-2. Find the project and click  **Manage.**
+2. Find the project and click  **Manage**.
 3. Click **QA &amp; Security**.
 
 ![latest-delete-app](images/latest-delete-app.png ':size=75%')</kbd>
