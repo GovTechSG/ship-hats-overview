@@ -89,9 +89,11 @@ You will see the list of current users for this application.
 
 ?> Note: You cannot modify the roles of other PAs.
 
-5. Assign the required **Role**. <!--You will see a success message as shown below.
+5. Assign the required **Role**. 
 
-<kbd>![](images/8596594456fb6478.png ':size=75%')</kbd>-->
+<!-- You will see a success message as shown below.
+
+<kbd>![](images/8596594456fb6478.png ':size=75%')</kbd> -->
 
 ## [Remove users from Fortify applications](#remove-users-from-fortify-applications)
 
