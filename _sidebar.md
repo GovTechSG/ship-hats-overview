@@ -5,6 +5,10 @@
   * [User Roles and Permissions](user-roles-permissions)
 * Getting Started
   * [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
+    * [Manage Account](portal-guide/manage-account)
+    * [Manage Users](portal-guide/manage-users)
+    * [Manage Projects](portal-guide/manage-projects)
+      * [Manage Fortify applications](portal-guide/manage-fortify-applications)
   * [How to set up a simple pipeline](how-to-setup-and-scan-sample-pipeline)
 * Support & FAQs
   * [Subscription FAQ](subscription)
