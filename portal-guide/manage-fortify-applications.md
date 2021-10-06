@@ -51,7 +51,7 @@ System displays the current quota available to add applications. In the above ex
 
 PAs can add users to the added Fortify applications and manage their roles and permissions on Fortify User Management portal.
 
-1. Log in to [Fortify User Management portal](https://ssc-roles.hats.stack.gov.sg/) portal.
+1. Log in to [Fortify User Management portal](https://ssc-roles.hats.stack.gov.sg/).
 2. Enter your SHIP-HATS **Username**, **Password** and click **Log in**.
 3. Click the drop-down menu and choose the required app.
 
@@ -65,9 +65,9 @@ By default, PAs of associated project in SHIP-HATS dynamically are added to the 
 
 5. Click the **User(s)** to select the required users.
 
-6. To add the selected **User(s)** for other applications within this subscription, click **App(s)** and select the required applications.
-
 <kbd>![add-multiple-users-apps](images/add-multiple-users-apps.png ':size=75%')</kbd>
+
+6. To add the selected **User(s)** for other applications within this subscription, click **App(s)** and select the required applications.
 
 7. Click **Add**. 
 
@@ -77,12 +77,12 @@ By default, PAs of associated project in SHIP-HATS dynamically are added to the 
 
 ## [Manage user role in Fortify applications](#manage-user-role-in-fortify-applications)
 
-PA can assign **Security Lead** , **Security Tester** or **Report Uploader** role to the application users excluding other PAs.
+PA can assign [**Security Lead** , **Security Tester** or **Report Uploader**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/get-started/fortify-user-roles-and-permissions) role to all application users excluding other PAs.
 
-?> Note: Role assigned to a user in Fortify is global and hence a user will have the same roles across all the apps.
+?> Note: Role assigned to a user in Fortify is global and hence a user will have the same role across all the apps.
 
-1. Log in to [Fortify User Management](https://ssc-roles.hats.stack.gov.sg/) portal.
-2. Enter your SHIP-HA **TS Username, Password** and click **Log in**.
+1. Log in to [Fortify User Management portal](https://ssc-roles.hats.stack.gov.sg/).
+2. Enter your SHIP-HATS **Username**, **Password** and click **Log in**.
 3. Click the **APP** drop-down menu to choose the app.
 
 <kbd>![select-app-to-add-users](images/select-app-to-add-users.png ':size=75%')</kbd>
@@ -103,13 +103,11 @@ You will see the list of current users for this application.
 
 ## [Remove users from Fortify applications](#remove-users-from-fortify-applications)
 
-PAs can:
+PAs can remove all users excluding PAs of the project in which the application was added.
 
-- Remove themselves from a Fortify application.
-- Remove users excluding other PAs of the same project.
-- Remove PAs of a different project.
+**To remove users from Fortify applications:**
 
-1. Log in to [Fortify User Management](https://ssc-roles.hats.stack.gov.sg/) portal.
+1. Log in to [Fortify User Management portal](https://ssc-roles.hats.stack.gov.sg/).
 2. Enter your SHIP-HATS **Username, Password** and click **Log in**.
 3. Click the **APP** drop-down menu to choose the app.
 
@@ -117,7 +115,7 @@ PAs can:
 
 You will see the list of current users for this application.
 
-<kbd>![remove-users-legends](images/remove-users-legends.png ':size=75%')</kbd>
+<kbd>![remove-users-legends-a](images/remove-users-legends-a.png ':size=75%')</kbd>
 
 4. Click **Remove** corresponding to the user.
 
