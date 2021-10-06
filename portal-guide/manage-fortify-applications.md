@@ -8,7 +8,7 @@ Fortify Static Code Analyzer (SCA) is used to analyse the security vulnerabiliti
 
 **Audience**
 
-[SHIP-HATS Project Admin (PA)](https://docs.developer.gov.sg/docs/ship-hats/#/user-roles-permisions)
+- [SHIP-HATS Project Admin (PA)](https://docs.developer.gov.sg/docs/ship-hats/#/user-roles-permisions)
 
 **Objective**
 
@@ -41,7 +41,7 @@ This document guides PAs to do the following from [SHIP-HATS portal](https://www
 
 System displays the current quota available to add applications. In the above example, one application can be added as per the quota displayed.
 
-6. Specify **App name** and click **Add**. The application gets added to the project. _GOVTECH-Documentation-Marvel Heroes_ is a sample app for this tutorial.
+6. Specify **App name** and click **Add**. The application gets added to the project. *GOVTECH-Documentation-Marvel Heroes* is an eaxmple application.
 
 <kbd>![added-app](images/added-app.png ':size=75%')</kbd>
 
