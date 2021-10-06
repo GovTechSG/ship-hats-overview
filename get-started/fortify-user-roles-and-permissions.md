@@ -4,11 +4,11 @@ User roles and their permissions determine the actions a user can perform in For
 
 The following table lists the roles and permissions available on Fortify with SHIP-HATS. The Project Admin (PA) can:
 
-- Assign or unassign roles to users excluding other PAs for each Fortify application.
+- [Assign or unassign roles to users excluding other PAs for each Fortify application](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-fortify-applications?id=manage-user-role-in-fortify-applications).
 - View and edit application version.
-- Remove applications.
+- [Remove applications](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-fortify-applications?id=remove-users-from-fortify-applications).
 - Increase Fortify quota.
-- Retrieve token from SHIP-HATS portal to setup Bamboo pipeline.
+- [Retrieve token from SHIP-HATS portal to setup Bamboo pipeline](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-fortify-applications?id=get-token-for-fortify-application).
 
 <!--Refer to **Manage user role in Fortify applications** for more information.-->
 
