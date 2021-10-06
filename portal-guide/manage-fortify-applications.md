@@ -25,7 +25,7 @@ This document guides PAs to do the following from [SHIP-HATS portal](https://www
 
 1. From the side menu, click  **Projects**  >  **All Projects** to view all the projects in this subscription account. If needed, refer to [**Switch account**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account?id=switch-account).
 
-2. Find the project and click  **Manage.**
+2. Find the project and click  **Manage**.
 
 3. Click **QA &amp; Security**.
 
