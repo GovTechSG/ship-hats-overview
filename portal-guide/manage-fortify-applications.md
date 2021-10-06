@@ -51,7 +51,7 @@ System displays the current quota available to add applications. In the above ex
 
 PAs can add users to the added Fortify applications and manage their roles and permissions on [Fortify User](https://ssc-roles.hats.stack.gov.sg/)Management portal.
 
-1. Log in to [Fortify User Management](https://ssc-roles.hats.stack.gov.sg/) portal.
+1. Log in to [Fortify User Management portal](https://ssc-roles.hats.stack.gov.sg/) portal.
 2. Enter your SHIP-HA **TS Username, Password** and click **Log in**.
 3. Click the drop-down menu and choose the required app.
 
