@@ -49,25 +49,31 @@ System displays the current quota available to add applications. In the above ex
 
 ## [Add users to Fortify applications](#add-users-to-fortify-applications)
 
-PAs can add users to the added Fortify applications and manage their roles and permissions on [Fortify User](https://ssc-roles.hats.stack.gov.sg/)Management portal.
+PAs can add users to the added Fortify applications and manage their roles and permissions on Fortify User Management portal.
 
 1. Log in to [Fortify User Management portal](https://ssc-roles.hats.stack.gov.sg/) portal.
-2. Enter your SHIP-HA **TS Username, Password** and click **Log in**.
+2. Enter your SHIP-HATS **Username**, **Password** and click **Log in**.
 3. Click the drop-down menu and choose the required app.
 
 <kbd>![select-app-to-add-users](images/select-app-to-add-users.png ':size=75%')</kbd>
 
-By default, PAs of associated project in SHIP-HATS dynamically get added to the application as users.
+By default, PAs of associated project in SHIP-HATS dynamically are added to the application as users.
 
 4. Click **Add User** to specify the required details.
 
-<kbd>![add-multiple-users-apps](images/add-multiple-users-apps.png ':size=75%')</kbd>
+<kbd>![add-users](images/add-users.png ':size=75%')</kbd>
 
 5. Click the **User(s)** to select the required users.
-6. To add the selected **User(s)** for other applications within this subscription, click **App(s)** and select the required applications.
-7. Click **Add**. <!--You will see a success message as shown below. <kbd>![](images/93cdf038eb786794.png ':size=75%')</kbd>-->
 
-?> Note: By default, application users have Viewer permission.
+6. To add the selected **User(s)** for other applications within this subscription, click **App(s)** and select the required applications.
+
+<kbd>![add-multiple-users-apps](images/add-multiple-users-apps.png ':size=75%')</kbd>
+
+7. Click **Add**. 
+
+<!--You will see a success message as shown below. <kbd>![](images/93cdf038eb786794.png ':size=75%')</kbd>-->
+
+?> Note: By default, all the application users have Viewer permission.
 
 ## [Manage user role in Fortify applications](#manage-user-role-in-fortify-applications)
 
