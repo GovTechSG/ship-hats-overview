@@ -40,7 +40,7 @@ Click on the image to view the video.
 ### Step 3 of 6: Adding a Bamboo Trigger
 Adding a Bamboo Trigger is required so that Bamboo is notified whenever there is a code change in any of the selected source code repositories. 
 
-[![Step 3 of 6](Slide18.jpg)](https://youtu.be/LyBSH4T4Lc4)
+[![Step 3 of 6](slide19.png)](https://youtu.be/LyBSH4T4Lc4)
 
 Click on the image to view the video.
 
