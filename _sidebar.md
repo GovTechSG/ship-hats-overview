@@ -9,10 +9,11 @@
     * [Manage Users](portal-guide/manage-users)
     * [Manage Projects](portal-guide/manage-projects)
     * [Manage Fortify applications](portal-guide/manage-fortify-applications)
-  * [Tools Guide](tools-faq)
-  * [How to set up a simple pipeline](how-to-setup-and-scan-sample-pipeline)
+ * Tools Guide
+   * [How to set up a simple pipeline](how-to-setup-and-scan-sample-pipeline)
 * Support & FAQs
   * [Subscription FAQ](subscription)
+  * [Tools FAQ](tools-faq)
 * Terms & Policy Related
   * [Service Level Agreement](service-level-agreement)
   * [Cleanup Policy for Nexus Repository](ship-hats-cleanup-policy-for-nexus-repository)
