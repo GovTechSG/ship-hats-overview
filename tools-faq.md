@@ -53,7 +53,7 @@ Submit your requests <a href="https://go.gov.sg/she"> here.</a>
 
 No, however, vendor can set up a Remote Bamboo agent. For this option, the Agency would require to add-on Dedicated Remote Agent.
 
-## About Bamboo Subscription
+### About Bamboo Subscription
 
 **How can I view the number of hours utilised by a Shared agent?**
 
