@@ -33,13 +33,13 @@ For example, if TEAM tier was provisioned on 1 February 2021, the Subscription A
 
 ### 6. Can I add-on or scale-down tools or resources bundled along with my subscription?
 
-Yes. Subscription Administrator may add-on additional tools or resources any time and scale-down newly added tools after the Minimum Commitment Period<sup>iii</sup>. Agency can scale up requirement at any point of time. To add on or scale-down the newly added tools, Subscription Administrator can raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11){:target="_blank"}<sup>ii</sup>. 
+Yes. Subscription Administrator may add-on additional tools or resources any time and scale-down newly added tools after the Minimum Commitment Period<sup>iii</sup>. Agency can scale up requirement at any point of time. To add on or scale-down the newly added tools, Subscription Administrator can raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11)<sup>ii</sup>. 
  
 For example, if TEAM tier was provisioned on 1 February 2021 and later you identify a need to have a total of 40 users, 400 shared agent hours and six applications to be scanned for vulnerabilities. In this case, you may add on 2 sets of eight users, 100 shared agent hours and two more apps to your subscription anytime. To remove these add-ons, Subscription Administrator can raise a service request after 1 August 2021.
 
 ### 7. How do I cancel my subscription?
 
-Subscription Administrator can raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11){:target="_blank"}<sup>ii</sup> to cancel after the Minimum Commitment Period<sup>iii</sup>.  Please note that we do not pro-rate our billings.
+Subscription Administrator can raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11)<sup>ii</sup> to cancel after the Minimum Commitment Period<sup>iii</sup>.  Please note that we do not pro-rate our billings.
 
 ### 8. Can I monitor resource utilisation at subscription and project levels?
 
@@ -59,11 +59,11 @@ Subscription Administrators can monitor Plan Details, Named Users, Projects and 
 
 ### 10. How does SHIP-HATS pricing compare with other commercially available CI/CD tools?
 
-Based on Total Cost of Ownership which includes set up and operating costs (including maintenance and audit), SHIP-HATS’ bundled pricing is approximately 60% more cost-efficient than subscribing to commercial licenses individually. Public officers can visit the [Competitive Pricing Assessment](https://sgdcs.sgnet.gov.sg/sites/IDA-GoSync/gdspdd-ai/ship/_layouts/15/WopiFrame2.aspx?sourcedoc=%7BACB6DFA8-2433-48B8-9A24-BABA8688B0F6%7D&file=SHIP-HATS%20Competitive%20Pricing%20Assessment.pdf&action=default&IsList=1&ListId=%7B609D81FE-D9DB-4B7D-8D1A-1F02CD38880C%7D&ListItemId=80){:target="_blank"} for a cost comparison with Azure DevOps and GitLab.
+Based on Total Cost of Ownership which includes set up and operating costs (including maintenance and audit), SHIP-HATS’ bundled pricing is approximately 60% more cost-efficient than subscribing to commercial licenses individually. Public officers can visit the [Competitive Pricing Assessment](https://sgdcs.sgnet.gov.sg/sites/IDA-GoSync/gdspdd-ai/ship/_layouts/15/WopiFrame2.aspx?sourcedoc=%7BACB6DFA8-2433-48B8-9A24-BABA8688B0F6%7D&file=SHIP-HATS%20Competitive%20Pricing%20Assessment.pdf&action=default&IsList=1&ListId=%7B609D81FE-D9DB-4B7D-8D1A-1F02CD38880C%7D&ListItemId=80) for a cost comparison with Azure DevOps and GitLab.
 
 ### 11. Can I subscribe to individual tools like Jira or Confluence only?
 
-We are not offering tools individually now; our bundles have been carefully designed to enable agencies adopt good DevSecOps practices. However, if you are keen and have valid reasons, please let us know using [SHIP-HATS Enquiries](./ship-hats-enquiries) form so that we may assess the possibility based on the demand.
+We are not offering tools individually now; our bundles have been carefully designed to enable agencies adopt good DevSecOps practices. However, if you are keen and have valid reasons, please let us know using [SHIP-HATS Enquiries](https://go.gov.sg/she) form so that we may assess the possibility based on the demand.
 
 ### 12. Can I request for a trial subscription?
 
