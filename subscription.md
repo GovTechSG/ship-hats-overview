@@ -27,7 +27,7 @@ Yes. Note that users with read-only access are also counted as one of the users 
 
 ### 5. Can I upgrade or downgrade to a different tier and how do I do this?
 
-Yes. Subscription Administrator may upgrade or downgrade to a different tier by raising a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11){:target="_blank"}<sup>ii</sup>. While you may upgrade to an upper tier anytime, you can downgrade to a lower tier after the Minimum Commitment Period<sup>iii</sup>. 
+Yes. Subscription Administrator may upgrade or downgrade to a different tier by raising a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11)<sup>ii</sup>. While you may upgrade to an upper tier anytime, you can downgrade to a lower tier after the Minimum Commitment Period<sup>iii</sup>. 
  
 For example, if TEAM tier was provisioned on 1 February 2021, the Subscription Administrator may raise a service request to upgrade to TRIBE tier anytime. If needed, you may request to downgrade to SQUAD or STARTER tiers after 1 August 2021.
 
