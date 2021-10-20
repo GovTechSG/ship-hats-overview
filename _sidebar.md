@@ -1,4 +1,3 @@
-* [Get Started](get-started)
 * Overview
   * [SHIP-HATS Architecture](architecture-diagram)
   * [Integrated Tools Version](get-started/ship-hats-integrated-tools-version)
