@@ -4,12 +4,9 @@ This page covers Frequently Asked Questions [on tools integrated with SHIP-HATS]
 
 # **Build**  **Tools FAQ**
 
-SHIP-HATS has two tools used for the build component of the Continuous Integration/Continuous Deployment (CI/CD):
+SHIP-HATS uses [Atlassian Bamboo](#bamboo-faq) for the build component of the Continuous Integration/Continuous Deployment (CI/CD).
 
-- Atlassian Bamboo
-- Sonatype Nexus IQ and Sonatype Nexus Repository
-
-## Bamboo FAQs
+## [Bamboo FAQs](#bamboo-faq)
 
 **What is a Bamboo agent?**
 
