@@ -5,11 +5,11 @@ This page covers Frequently Asked Questions [on tools integrated with SHIP-HATS]
 - [Build Tools FAQ](build-tools-faq)
 - [QA and Security Tools FAQ](qa-and-security-tools-faq)
 
-# [Build Tools FAQ](build-tools-faq)
+# [Build Tools FAQ](#build-tools-faq)
 
 SHIP-HATS has two tools used for the build component of the Continuous Integration/Continuous Deployment (CI/CD): 
-- [Atlassian Bamboo](#bamboo-faq)
-- Sonatype Nexus IQ and [Sonatype Nexus Repository](#sonatype-nexus-repository-faq)
+- [Atlassian Bamboo](bamboo-faq)
+- Sonatype Nexus IQ and [Sonatype Nexus Repository](sonatype-nexus-repository-faq)
 
 ## [Bamboo FAQs](#bamboo-faq)
 
@@ -73,7 +73,7 @@ The SA and PA would receive an email notification when utilisation have reached 
 
 No. The number of Shared agent hours will reset on every 1st of the month.
 
-## [Sonatype Nexus Repository FAQ](sonatype-nexus-repository-faq)
+## [Sonatype Nexus Repository FAQ](#sonatype-nexus-repository-faq)
 
 **I want to use Nexus Repository in my project to publish custom libraries for the developers in my team to use. Is it possible?**
 
@@ -87,14 +87,14 @@ Yes, it is possible to use Nexus Repository in SHIP-HATS as proxy to the central
 
 All Artifacts will be deleted 180 days from the date of creation. 
 
-# [QA and Security Tools FAQ](qa-and-security-tools-faq)
+# [QA and Security Tools FAQ](#qa-and-security-tools-faq)
 
 SHIP-HATS has a list of tools used for the Quality assurance (QA) and Security components of the Continuous Integration/Continuous Deployment (CI/CD): 
 
 - [Test Farm](test-farm) 
 - [SonarQube](sonarqube) 
 
-## [Test Farm](test-farm) 
+## [Test Farm](#test-farm) 
 
 **What is a shared Test Farm?**
 
@@ -119,7 +119,7 @@ If you wish to avoid queueing, you can subscribe to Dedicated iOS and Android ad
 
 Agencies are required to raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11) to request access to the Test Farm. 
 
-## [SonarQube](sonarqube) 
+## [SonarQube](#sonarqube) 
 
 **What are the 15 supported languages?**
 
