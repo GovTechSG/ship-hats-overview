@@ -125,13 +125,11 @@ SHIP-HATS has a list of tools used for the Quality assurance (QA) and Security c
 
 It is a cloud-based mobile devices test platform which allows testing of Android and iOS mobile applications or mobile browsers on real device. It allows the user to run test automation on multiple devices in parallel. Since it is a shared Test Farm, your test will be added to a queue system if all the resources are not available at the time of request.Refer [here](https://sgdcs.sgnet.gov.sg/sites/tech/hats/SitePages/Green%20HATS.aspx) for the automated testing framework supported.  
   </details>
-
 <details>
   <summary>2. What test automation frameworks are supported by the Test Farm?</summary><br>
 
 SHIP-HATS support [Appium](https://appium.io/) based open source framework like [Robot Framework](https://robotframework.org/) and  any other testing frameworks that can work with Appium server. 
   </details>
-
 <details>
   <summary>3. What type of applications can use the Test Farm?</summary><br>
 
