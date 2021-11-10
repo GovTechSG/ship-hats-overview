@@ -1,4 +1,4 @@
-# Pre-Onboarding 
+# Pre-Onboarding Guide
 
 This onboarding guide includes pre-requisites required for onboarding SHIP-HATS. 
 
