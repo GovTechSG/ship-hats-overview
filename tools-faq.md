@@ -75,7 +75,7 @@ No, however, vendor can set up a Remote Bamboo agent. For this option, the Agenc
 <details>
   <summary>1. How can I view the number of hours utilised by a Shared agent?</summary><br>
 
-Subscription Administrator (SA) and Project Administrator (PA) may connect to the SHIP-HATS OpenVPN and log in to [SHIP-HATS portal](http://www.ship.gov.sg/) to view the subscription&#39;s utilisation of Shared agent hours.
+Subscription Administrator (SA) and Project Administrator (PA) may connect to the SHIP-HATS OpenVPN and log in to [SHIP-HATS portal](http://www.ship.gov.sg/) to view the subscription's utilisation of Shared agent hours.
   </details>
  <details>
   <summary>2. How do I ensure the number of agent hours subscribed is sufficient for my system?</summary><br>
@@ -85,7 +85,7 @@ Agency can monitor through [SHIP-HATS portal](http://www.ship.gov.sg/) after sub
  <details>
   <summary>3. What happens if my project has maxed out the Shared agent hours?</summary><br>
 
-The SA and PA would receive an email notification when utilisation have reached 90% of the total number of Shared agent hours. Projects that exceed the Shared agent hours will be charged at 100 SGD per block of 100 Shareda Agent hours automatically. At the start of every month, the Shared Agent hours will be reset to its initial subscription quota.
+The SA and PA would receive an email notification when utilisation have reached 90% of the total number of Shared agent hours. Projects that exceed the Shared agent hours will be charged at 100 SGD per block of 100 Shared agent hours automatically. At the start of every month, the Shared agent hours will be reset to its initial subscription quota.
   </details>
  <details>
   <summary>4. Will my Shared agent hours be rolled over to the next month if my project under utilised within the month?</summary><br>
