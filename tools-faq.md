@@ -1,6 +1,6 @@
 # Tools FAQ
 
-This page covers Frequently Asked Questions [on tools integrated with SHIP-HATS](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/architecture-diagram).
+This page covers Frequently Asked Questions on [tools integrated with SHIP-HATS](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/architecture-diagram).
 
 - [Build Tools FAQ](#build-tools-faq)
 - [QA and Security Tools FAQ](#qa-and-security-tools-faq)
