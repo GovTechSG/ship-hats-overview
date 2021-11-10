@@ -1,7 +1,7 @@
 
-# Frequently Asked Questions
+# Subscription Frequently Asked Questions
 
-
+<br>
 <details>
  <summary> 1. How does an agency subscribe to SHIP-HATS?</summary><br>
 
@@ -43,11 +43,13 @@ Yes. Subscription Administrator may add-on additional tools or resources any
  
 For example, if TEAM tier was provisioned on 1 February 2021 and later you identify a need to have a total of 40 users, 400 shared agent hours and six applications to be scanned for vulnerabilities. In this case, you may add on 2 sets of eight users, 100 shared agent hours and two more apps to your subscription anytime. To remove these add-ons, Subscription Administrator can raise a service request after 1 August 2021.
  </details>
+ 
 <details>
  <summary>7. How do I cancel my subscription?</summary><br>
 
 Subscription Administrator can raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11)<sup>ii</sup> to cancel after the Minimum Commitment Period<sup>iii</sup>.  Please note that we do not pro-rate our billings.
  </details>
+ 
 <details>
  <summary>8. Can I monitor resource utilisation at subscription and project levels? </summary><br>
 
@@ -55,6 +57,7 @@ Yes, as a Subscription Administrator or a Project Administrator, you can monitor
 
 Subscription Administrators can monitor Plan Details, Named Users, Projects and Bamboo utilisation hours at the subscription level while Project Administrators can monitor Named Users and Bamboo utilisation hours at the associated project level.
   </details>
+ 
  <details>
   <summary>9. How many projects can be associated with a subscription?</summary><br>
 
@@ -66,6 +69,7 @@ Subscription Administrators can monitor Plan Details, Named Users, Projects and 
 | Tribe         |       48            |
 
  </details>
+ 
 <details>
  <summary>10. How does SHIP-HATS pricing compare with other commercially available CI/CD tools? </summary><br>
 
