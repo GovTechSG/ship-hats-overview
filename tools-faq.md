@@ -22,7 +22,7 @@ A Bamboo agent is a service that allows to run job builds. There are different t
 <details>
   <summary>2. Can I use a Remote agent?</summary><br>
 
-A <a href="https://confluence.atlassian.com/confeval/development-tools-evaluator-resources/bamboo/bamboo-remote-agents-and-local-agents">Remote agent</a> requires hosting, agent installation and/or VPN installation (if required). Registration of Remote agent is subjected to approval by SHIP-HATS team. Please send a service request via SHIP-HATS service desk for registration of Remote Agent.
+A <a href="https://confluence.atlassian.com/confeval/development-tools-evaluator-resources/bamboo/bamboo-remote-agents-and-local-agents">Remote agent</a> requires hosting, agent installation and/or VPN installation (if required). Registration of Remote agent is subjected to approval by SHIP-HATS team. Please send a service request via SHIP-HATS service desk for registration of Remote agent.
   
   </details>
 
@@ -46,13 +46,13 @@ To ensure that Remote agents are clean and secure, refer to [securing your Remot
 
 A Shared Elastic agent is an on-demand Windows or Linux agent launched by Bamboo within SHIP&#39;s network to execute pipeline tasks. To leverage on elastic agent, Agency must specify the required capabilities and SHIP-HATS team will assign an agent that matches the required capabilities, if available.
 
-SHIP-HATS does not offer Mac OS Agent as of now.
+SHIP-HATS does not offer Mac OS agent as of now.
 
 For more information on specifying required capabilities, refer to [Bamboo agent registration process](https://confluence.ship.gov.sg/display/SHIP/Bamboo+Agent+Registration+Process). This page is on SHIP-HATS confluence. Please log in to the account to access.
   </details>
  <details>
   <summary> 6. Which OS is available for the shared elastic agent?</summary><br>
-Though MS Windows and Linux support, we recommend Linux as MS Window agents are quite heavy and would utilise a hefty load of Shared Agent hours. We recommend the Agency subscribe to Remote Agent if they choose MS Window agents.
+Though MS Windows and Linux support, we recommend Linux as MS Window agents are quite heavy and would utilise a hefty load of Shared agent hours. We recommend the Agency subscribe to Remote agent if they choose MS Window agents.
   </details>
  <details>
   <summary>7. What tools are already installed on the Shared agents?</summary><br>
@@ -65,9 +65,9 @@ Refer to [SHIP Bamboo Elastic Agent for SHIP Users.](https://confluence.ship.gov
 Submit your requests <a href="https://go.gov.sg/she"> here.</a>
   </details>
  <details>
-  <summary>9. Is it possible to install SHIP-HATS Bamboo agent on vendor&#39;s development servers for deployment and testing?</summary><br>
+  <summary>9. Is it possible to install SHIP-HATS Bamboo agent on vendor's development servers for deployment and testing?</summary><br>
 
-No, however, vendor can set up a Remote Bamboo agent. For this option, the Agency would require to add-on Dedicated Remote Agent.
+No, however, vendor can set up a Remote Bamboo agent. For this option, the Agency would require to add-on Dedicated Remote agent.
   </details>
 
 ### About Bamboo Subscription
