@@ -23,3 +23,9 @@ error resolution schedule. Please see table below.
 Classification of the severity levels is subject to GovTech&#39;s reasonable discretion. Technical
 support hours are Mondays to Fridays 9.00 am to 5.30 pm except public holidays. If the solution
 is temporary, GovTech will continue to work on the issue until a permanent solution is found.
+
+## Third Party Schedule 
+
+All applicable terms and conditions relating to the following: 
+1. Atlassian Service / Data Center Products - https://www.atlassian.com/legal/privacy-policy/product-family 
+2. OpenVPN - https://openvpn.net/terms  & https://openvpn.net/license 
