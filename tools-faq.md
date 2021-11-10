@@ -2,14 +2,14 @@
 
 This page covers Frequently Asked Questions [on tools integrated with SHIP-HATS](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/architecture-diagram).
 
-- [Build Tools FAQ](build-tools-faq)
-- [QA and Security Tools FAQ](qa-and-security-tools-faq)
+- [Build Tools FAQ](#build-tools-faq)
+- [QA and Security Tools FAQ](#qa-and-security-tools-faq)
 
 # [Build Tools FAQ](#build-tools-faq)
 
 SHIP-HATS has two tools used for the build component of the Continuous Integration/Continuous Deployment (CI/CD): 
-- [Atlassian Bamboo](bamboo-faq)
-- Sonatype Nexus IQ and [Sonatype Nexus Repository](sonatype-nexus-repository-faq)
+- [Atlassian Bamboo](#bamboo-faq)
+- Sonatype Nexus IQ and [Sonatype Nexus Repository](#sonatype-nexus-repository-faq)
 
 ## [Bamboo FAQs](#bamboo-faq)
 
@@ -91,8 +91,8 @@ All Artifacts will be deleted 180 days from the date of creation.
 
 SHIP-HATS has a list of tools used for the Quality assurance (QA) and Security components of the Continuous Integration/Continuous Deployment (CI/CD): 
 
-- [Test Farm](test-farm) 
-- [SonarQube](sonarqube) 
+- [Test Farm](#test-farm) 
+- [SonarQube](#sonarqube) 
 
 ## [Test Farm](#test-farm) 
 
