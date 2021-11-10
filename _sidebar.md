@@ -3,6 +3,7 @@
   * [Integrated Tools Version](get-started/ship-hats-integrated-tools-version)
   * [User Roles and Permissions](user-roles-permissions)
 * Getting Started
+  * [Pre-Onboarding Guide](pre-onboarding)
   * [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
   * Tools Guide
     * [How to set up a simple pipeline](how-to-setup-and-scan-sample-pipeline)
