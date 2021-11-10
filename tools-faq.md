@@ -2,9 +2,14 @@
 
 This page covers Frequently Asked Questions [on tools integrated with SHIP-HATS](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/architecture-diagram).
 
-# **Build**  **Tools FAQ**
+- [Build Tools FAQ](build-tools-faq)
+- [QA and Security Tools FAQ](qa-and-security-tools-faq)
 
-SHIP-HATS uses [Atlassian Bamboo](#bamboo-faq) for the build component of the Continuous Integration/Continuous Deployment (CI/CD).
+# [Build Tools FAQ](build-tools-faq)
+
+SHIP-HATS has two tools used for the build component of the Continuous Integration/Continuous Deployment (CI/CD): 
+- [Atlassian Bamboo](#bamboo-faq)
+- Sonatype Nexus IQ and [Sonatype Nexus Repository](#sonatype-nexus-repository-faq)
 
 ## [Bamboo FAQs](#bamboo-faq)
 
@@ -46,7 +51,7 @@ Refer to [SHIP Bamboo Elastic Agent for SHIP Users.](https://confluence.ship.gov
 
 Submit your requests <a href="https://go.gov.sg/she"> here.</a>
 
-**Is it possible to install SHIP-HATS Bamboo agent on vendor&#39;s development servers for deployment and**  **testing****?**
+**Is it possible to install SHIP-HATS Bamboo agent on vendor&#39;s development servers for deployment and testing?**
 
 No, however, vendor can set up a Remote Bamboo agent. For this option, the Agency would require to add-on Dedicated Remote Agent.
 
@@ -68,3 +73,64 @@ The SA and PA would receive an email notification when utilisation have reached 
 
 No. The number of Shared agent hours will reset on every 1st of the month.
 
+## [Sonatype Nexus Repository FAQ](sonatype-nexus-repository-faq)
+
+**I want to use Nexus Repository in my project to publish custom libraries for the developers in my team to use. Is it possible?**
+
+SHIP-HATS users can request to create a private hosted repository in Nexus Repository to host their custom libraries by raising a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11). 
+
+**Is it possible to use Nexus repository in SHIP-HATS as a proxy to the central repository?**
+
+Yes, it is possible to use Nexus Repository in SHIP-HATS as proxy to the central repository. 
+
+**What is the archival policy for Nexus Repository?**
+
+All Artifacts will be deleted 180 days from the date of creation. 
+
+# [QA and Security Tools FAQ](qa-and-security-tools-faq)
+
+SHIP-HATS has a list of tools used for the Quality assurance (QA) and Security components of the Continuous Integration/Continuous Deployment (CI/CD): 
+
+- [Test Farm](test-farm) 
+- [SonarQube](sonarqube) 
+
+## [Test Farm](test-farm) 
+
+**What is a shared Test Farm?**
+
+It is a cloud-based mobile devices test platform which allows testing of Android and iOS mobile applications or mobile browsers on real device. It allows the user to run test automation on multiple devices in parallel. Since it is a shared Test Farm, your test will be added to a queue system if all the resources are not available at the time of request.Refer [here](https://sgdcs.sgnet.gov.sg/sites/tech/hats/SitePages/Green%20HATS.aspx) for the automated testing framework supported.  
+
+**What test automation frameworks are supported by the Test Farm?**
+
+SHIP-HATS support [Appium](https://appium.io/) based open source framework like [Robot Framework](https://robotframework.org/) and  any other testing frameworks that can work with Appium server.  
+
+**What type of applications can use the Test Farm?**
+
+Any internet or intranet facing application that can be exposed to the internet for testing can use the Test Farm. 
+
+**Can I choose the devices in the Shared Test Farm?**
+Users can pre-book the mobile devices based on OS, brand or model before running their tests by sending an enquiry to enquiries_ENP@tech.gov.sg. The number of devices that agency can book depends on their subscription quota. The test will be executed on the booked mobile devices that agency specifies. 
+
+**When do I purchase a Dedicated iOS or Android add-on?**
+
+If you wish to avoid queueing, you can subscribe to Dedicated iOS and Android add-on. Public officers can refer to the [pricing](https://sgdcs.sgnet.gov.sg/sites/IDA-GoSync/gdspdd-ai/ship/_layouts/15/start.aspx#/SitePages/Pricing.aspx). 
+
+**How do I provision the mobile and desktop browser Test Farm?**
+
+Agencies are required to raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11) to request access to the Test Farm. 
+
+## [SonarQube](sonarqube) 
+
+**What are the 15 supported languages?**
+
+Java, JavaScript, C#, TypeScript, Kotlin, Ruby, Go, Scala, Flex, Python, PHP, HTML, CSS, XML, VB.NET. 
+Do take note that there is no restriction of lines of code and number of applications. 
+
+**Based on SonarQube’s add-ons, what are the 7 others supported languages?**
+
+C, C++, Obj-C, Swift, ABAP, T-SQL, PL/SQL are supported. Public officers can refer to the [pricing](https://sgdcs.sgnet.gov.sg/sites/IDA-GoSync/gdspdd-ai/ship/_layouts/15/start.aspx#/SitePages/Pricing.aspx) for the add-ons.  
+
+**Are COTS (commercial off-the-shelf) products supported on SonarQube?**
+
+Yes. SonarQube can scan for any customisation that the COTS product supports.       
+Example: Configuration files in XML or Javascript/ Java or plugins written in Java or Python 
