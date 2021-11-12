@@ -13,22 +13,26 @@
 
 For vendors, kindly get in touch with the agency that you engage with for SHIP-HATS access.
  </details>
+ 
 <details>
  <summary>2. How much does it cost to subscribe to SHIP-HATS?</summary><br>
 
 Refer to <a href="https://sgdcs.sgnet.gov.sg/sites/IDA-GoSync/gdspdd-ai/ship/SitePages/Pricing.aspx"> pricing details</a> accessible via your GSIB/SOE machine.
  </details>
+ 
 <details>
  <summary> 3. When does billing start for a subscription?</summary><br>
 
 Billing starts only from the first of the following month as we offer free subscription from the day of account provisioning until the first of the following month. 
 For example, if account was provisioned on 5 February 2021, billing starts from 1 March 2021. We charge on a monthly basis, and agency receives invoices every quarter.
  </details>
+ 
 <details>
  <summary> 4. Can there be users who just have “read-only” access? </summary><br>
 
 Yes. Note that users with read-only access are also counted as one of the users of that subscription.
  </details>
+ 
 <details>
  <summary> 5. Can I upgrade or downgrade to a different tier and how do I do this?</summary><br>
 
@@ -36,6 +40,7 @@ Yes. Subscription Administrator may upgrade or downgrade to a different tier by 
  
 For example, if TEAM tier was provisioned on 1 February 2021, the Subscription Administrator may raise a service request to upgrade to TRIBE tier anytime. If needed, you may request to downgrade to SQUAD or STARTER tiers after 1 August 2021.
  </details>
+ 
 <details>
  <summary> 6. Can I add-on or scale-down tools or resources bundled along with my subscription?</summary><br>
 
@@ -75,26 +80,31 @@ Subscription Administrators can monitor Plan Details, Named Users, Projects and 
 
 Based on Total Cost of Ownership which includes set up and operating costs (including maintenance and audit), SHIP-HATS’ bundled pricing is approximately 60% more cost-efficient than subscribing to commercial licenses individually. Public officers can visit the [Competitive Pricing Assessment](https://sgdcs.sgnet.gov.sg/sites/IDA-GoSync/gdspdd-ai/ship/_layouts/15/WopiFrame2.aspx?sourcedoc=%7BACB6DFA8-2433-48B8-9A24-BABA8688B0F6%7D&file=SHIP-HATS%20Competitive%20Pricing%20Assessment.pdf&action=default&IsList=1&ListId=%7B609D81FE-D9DB-4B7D-8D1A-1F02CD38880C%7D&ListItemId=80) for a cost comparison with Azure DevOps and GitLab.
  </details>
+ 
 <details>
  <summary>11. Can I subscribe to individual tools like Jira or Confluence only?</summary><br>
  
 We are not offering tools individually now; our bundles have been carefully designed to enable agencies adopt good DevSecOps practices. However, if you are keen and have valid reasons, please let us know using [SHIP-HATS Enquiries](https://go.gov.sg/she) form so that we may assess the possibility based on the demand.
  </details>
+ 
 <details>
  <summary>12. Can I request for a trial subscription?</summary><br>
 
 Yes, we offer a 1-month trial account subject to availability. Agencies can reach <enquiries_ENP@tech.gov.sg> to request for trial accounts.
  </details>
+ 
 <details>
  <summary>13. What security classification is supported by SHIP-HATS?</summary><br>
 
 SHIP-HATS supports applications and content that are “Restricted” or below.
  </details>
+ 
 <details>
  <summary>14. What are the Basic languages that are available for SonarQube add-on and who can buy them as add-on?</summary><br>
 
 [Languages](https://docs.sonarqube.org/latest/analysis/languages/overview/) supported by SonarQube's [Community edition](https://www.sonarsource.com/plans-and-pricing/community/) are the basic languages. Note that only tenants who have subscribed to **Starter** tier can buy this add-on as it is available by default for other tiers.
  </details>
+ 
 <details>
  <summary>15. Is there any add-on to support multiple branch analysis in SonarQube?</summary><br>
 
