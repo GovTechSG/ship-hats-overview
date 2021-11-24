@@ -12,6 +12,7 @@ SHIP-HATS has two tools used for the build component of the Continuous Integrati
 - Sonatype Nexus IQ and [Sonatype Nexus Repository](#sonatype-nexus-repository-faq)
 
 ## [Bamboo FAQs](#bamboo-faq)
+
 <details>
   <summary> 1. What is a Bamboo agent?</summary><br>
 
