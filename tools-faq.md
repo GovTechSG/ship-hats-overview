@@ -55,7 +55,7 @@ For more information on specifying required capabilities, refer to [Bamboo agent
   </details>
 <br>
 <details>
-  <summary> 6. Which OS is available for the shared elastic agent?</summary>
+  <summary>6. Which OS is available for the shared elastic agent?</summary>
   
 Though MS Windows and Linux support, we recommend Linux as MS Window agents are quite heavy and would utilise a hefty load of Shared agent hours. We recommend the Agency subscribe to Remote agent if they choose MS Window agents.
   </details>
