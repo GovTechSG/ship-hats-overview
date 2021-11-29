@@ -1,12 +1,12 @@
 # SHIP-HATS integrated tools version
-Updated on: 05 October 2021
+Updated on: 29 November 2021
 
 | **Category** | **Tools integrated with SHIP-HATS** | **Version on SHIP-HATS** | **Endpoint(URL)** |
 | --- | --- | --- | --- |
-| Project Management | Jira | 8.18.2 |https://jira.ship.gov.sg/|
-| Documentation and Collaboration | Confluence | 7.12.5 |https://confluence.ship.gov.sg/|
+| Project Management | Jira | 8.20.1 |https://jira.ship.gov.sg/|
+| Documentation and Collaboration | Confluence | 7.14.1 |https://confluence.ship.gov.sg/|
 | Repository Management | Bitbucket | 7.16.0 |https://bitbucket.ship.gov.sg/|
-| Build Management | Bamboo | 7.2.2 | https://bamboo.ship.gov.sg/ |
+| Build Management | Bamboo | 8.0.4 | https://bamboo.ship.gov.sg/ |
 | User Group Management for Atlassian tools | Crowd | 4.3.5 | https://crowd.ship.gov.sg|
 | Directory Service Authentication | LDAP | 2.4.44 | NA as it is managed by Crowd. |
 | Build Artifact | Nexus repo | 3.34 | https://nexus.ship.gov.sg/|
@@ -16,10 +16,10 @@ Updated on: 05 October 2021
 | Static Application Security Testing (SAST) | Fortify Static Code Analyzer (SCA) | 20.2.0.298 | https://ssc.hats.stack.gov.sg/ssc |
 | Dynamic Application Security Testing (DAST) | Fortify WebInspect Enterprise | 20.2.0.208 | https://wie.hats.stack.gov.sg/WIE/|
 | Container Scanner | Prisma Cloud earlier known as Twistlock | 21.04 | https://twistlock.apps.hats.stack.gov.sg/|
-| Consolidated Quality Dashboard | Thinking HATS | 2.7.0 | https://thinking.hats.stack.gov.sg/ |
+| Consolidated Quality Dashboard | Thinking HATS | 2.8.0 | https://thinking.hats.stack.gov.sg/ |
 | Automated Accessibility Testing | Purple HATS | NA | NA as it is a CLI tool. |
-|Deployment | Digital.ai Deploy | 9.8.0 | https://xldeploy.ship.gov.sg/ https://xldeploy-intranet.ship.gov.sg/ |
-| Release tool | Digital.ai Release | 9.8.0 | https://xlrelease.ship.gov.sg/ |
+|Deployment | Digital.ai Deploy | 10.0.5 | https://xldeploy.ship.gov.sg/ https://xldeploy-intranet.ship.gov.sg/ |
+| Release tool | Digital.ai Release | 10.0.5 | https://xlrelease.ship.gov.sg/ |
 | VPN | Open VPN | 2.8.8 | https://vpn.ship.gov.sg |
 
 Note:
