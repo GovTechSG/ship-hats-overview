@@ -15,9 +15,7 @@ Yes. You will be utilising one user for each SA and service account.
 <details>
   <summary>3. How are the number of users calculated for each tool?</summary><br> 
 Each tool is tied to 1 named user.  
-
-For example, if you have a Squad subscription, you have a maximum of 14 named users in total (8 named users for Development tools, 3 for Sonatype, 3 for XebiaLabs).  
-  </details>
+For example, if you have a Squad subscription, you have a maximum of 14 named users in total (8 named users for Development tools, 3 for Sonatype, 3 for XebiaLabs).   </details>
 <br> 
 <details>
   <summary>4. How do I reset my password?</summary><br> 
@@ -48,9 +46,7 @@ Email enquiries_enp@ship.gov.sg or you can submit a ticket on the <a href="https
 <br> 
 <details>
   <summary>3. What are the operating hours for basic support? </summary><br> 
-
 SHIP-HATS basic support to all users is offered from Monday to Friday, 9.00 AM to 5.30 PM. 
-
 Agencies can subscribe to the extended support hours as an add-on if required. 
   </details>
 <br> 
@@ -76,19 +72,16 @@ Yes. A one-month advance notice is required. There is no pro-rated price and is 
 <br> 
 <details>
   <summary>8. How do I subscribe to extended support? </summary><br> 
-
 Email enquiries_enp@tech.gov.sg to subscribe to extended support. 
   </details>
 <br> 
 <details>
   <summary>9. How do I cancel extended support? </summary><br>  
-
 Email enquiries_enp@tech.gov.sg to cancel extended support. 
    </details>
 <br> 
 <details>
   <summary>10. Can I view the history of my support requests? </summary><br>  
-
 Users can refer to their requests on the <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11">SSD portal</a>.
      </details>
      
