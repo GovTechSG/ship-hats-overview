@@ -14,7 +14,7 @@ SHIP-HATS uses three tools used for the development component of the Continuous 
 - [Confluence](#confluence-faq) 
 - [Bitbucket](#bitbucket-faq) 
 
-# [OpenVPN FAQs](#openvpn-faq) 
+## [OpenVPN FAQs](#openvpn-faq) 
 <details>
   <summary> 1. Is there any IP or regional restriction for incoming VPN connections?</summary><br>           
 There are no IP restrictions on incoming connectivity.  
@@ -35,7 +35,7 @@ You will receive an email from your SHIP-HATS administrator containing your user
 OpenVPN works on Linux, Mac, Windows, Android and iOS. 
 </details> 
   
-## [Confluence FAQs](#confluence-faq)
+## [Confluence FAQs]
 
 <details>
   <summary>1. How do I maintain my Confluence pages? </summary><br> 
