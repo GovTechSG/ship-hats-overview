@@ -1,6 +1,6 @@
 # Tools FAQ
 
-This page covers Frequently Asked Questions on [tools integrated with SHIP-HATS](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/architecture-diagram).
+This page covers Frequently Asked Questions on [tools integrated with SHIP-HATS](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/architecture-diagram):
 
 - [Development Tools FAQ](#development-tools-faq)
 - [Build Tools FAQ](#build-tools-faq)
@@ -33,8 +33,7 @@ You will receive an email from your SHIP-HATS administrator containing your user
 <details>
   <summary> 4. Which operating systems are supported by OpenVPN? </summary><br> 
 OpenVPN works on Linux, Mac, Windows, Android and iOS. 
-</details>
-<br> 
+</details> 
   
 ## [Confluence FAQs](#confluence-faq) 
 
@@ -42,7 +41,6 @@ OpenVPN works on Linux, Mac, Windows, Android and iOS.
   <summary>1. How do I maintain my Confluence pages? </summary><br> 
   You can maintain <a href="https://confluence.ship.gov.sg/">Confluence</a> pages by checking the analytics on Confluence. It is available on Confluence>Analytics>Spaces. You should check on inactive pages. It is recommended to delete pages that old or are not in use. 
 </details>
-<br> 
  
 ## [Bitbucket FAQs](#bitbucket-faq)
 <details>
@@ -273,12 +271,10 @@ It will partially fulfil the clause. WebInspect covers the VA component. The Age
 
 Refer to <a href="https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=static-application-security-testing-81s1-g8-g9">DevSecOps playbook</a> for best practices in terms of security testing. 
 </details>
-<br> 
  
 ## [Container Scanner](#container-scanner) 
 
 <details>
-    <summary>Is Container Scanner offered in the subscription tier? </summary><br>
-
+    <summary>1. Is Container Scanner offered in the subscription tier? </summary><br>
 Container Scanner has been added to all tiers and at no cost. 
 </details>
