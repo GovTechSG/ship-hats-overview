@@ -35,7 +35,7 @@ You will receive an email from your SHIP-HATS administrator containing your user
 OpenVPN works on Linux, Mac, Windows, Android and iOS. 
 </details> 
   
-
+## [Confluence FAQs](#confluence-faq)
 <details>
   <summary>1. How do I maintain my Confluence pages? </summary><br> 
   You can maintain <a href="https://confluence.ship.gov.sg/">Confluence</a> pages by checking the analytics on Confluence. It is available on Confluence>Analytics>Spaces. You should check on inactive pages. It is recommended to delete pages that old or are not in use. 
