@@ -36,12 +36,14 @@ OpenVPN works on Linux, Mac, Windows, Android and iOS.
 </details> 
   
 ## [Confluence FAQs](#confluence-faq)
+
 <details>
   <summary>1. How do I maintain my Confluence pages? </summary><br> 
   You can maintain <a href="https://confluence.ship.gov.sg/">Confluence</a> pages by checking the analytics on Confluence. It is available on Confluence>Analytics>Spaces. You should check on inactive pages. It is recommended to delete pages that old or are not in use. 
 </details>
  
 ## [Bitbucket FAQs](#bitbucket-faq)
+
 <details>
   <summary>1.Can I have multiple repositories for a project? </summary><br> 
 Yes, you can host multiple repositories for one project. 
@@ -235,7 +237,6 @@ C, C++, Obj-C, Swift, ABAP, T-SQL, PL/SQL are supported. Public officers can ref
 
 Yes. SonarQube can scan for any customisation that the COTS product supports.
 Example: Configuration files in XML or Javascript/ Java or plugins written in Java or Python.
-
   </details>
   
 ## [Fortify and WebInspect](#fortify-and-webinspect)
