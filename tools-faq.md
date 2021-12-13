@@ -27,7 +27,7 @@ No, any internet device works.
 <br> 
 <details>
   <summary> 3. How do I set up OpenVPN? </summary><br>            
-You will receive an email from your SHIP-HATS administrator containing your username and password details. Go to OpenVPN and log in with your SHIP-HATS credentials.  
+You will receive an email from your SHIP-HATS administrator containing your username and password details. Go to <a href="https://vpn.ship.gov.sg/">OpenVPN</a> and log in with your SHIP-HATS credentials.  
 </details>
 <br> 
 <details>
@@ -40,7 +40,7 @@ OpenVPN works on Linux, Mac, Windows, Android and iOS.
 
 <details>
   <summary>1. How do I maintain my Confluence pages? </summary><br> 
-You can maintain Confluences pages by checking the analytics on Confluence. It is available on Confluence>Analytics>Spaces. You should check on inactive pages. It is recommended to delete pages that old or are not in use. 
+  You can maintain <a href="https://confluence.ship.gov.sg/">Confluence</a> pages by checking the analytics on Confluence. It is available on Confluence>Analytics>Spaces. You should check on inactive pages. It is recommended to delete pages that old or are not in use. 
 </details>
 <br> 
  
@@ -264,14 +264,14 @@ Yes, you can use WebInspect for DAST. Note this is applicable for Internet-facin
 <br> 
 <details>
     <summary>4. IM8 requires me to perform static code review for security vulnerabilities. Will using Fortify SCA fulfil this clause? </summary><br>
-Yes, refer to DevSecOps playbook for best practices in terms of security testing. 
+Yes, refer to <a href="https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=static-application-security-testing-81s1-g8-g9">DevSecOps playbook</a> for best practices in terms of security testing. 
 </details>
 <br> 
 <details>
     <summary>5. IM8 requires me to perform Vulnerability Assessment & Penetration Testing (VAPT) for my Internet-facing application. Will using Fortify WebInspect fulfil this clause? </summary><br>
 It will partially fulfil the clause. WebInspect covers the VA component. The Agency would be required to engage Pentesters to perform penetration testing which is a manual effort. 
 
-Refer to DevSecOps playbook for best practices in terms of security testing. 
+Refer to <a href="https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=static-application-security-testing-81s1-g8-g9">DevSecOps playbook</a> for best practices in terms of security testing. 
 </details>
 <br> 
  
