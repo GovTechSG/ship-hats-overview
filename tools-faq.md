@@ -14,7 +14,7 @@ SHIP-HATS uses three tools used for the development component of the Continuous 
 - [Confluence](#confluence-faq) 
 - [Bitbucket](#bitbucket-faq) 
 
-## [OpenVPN FAQs](#openvpn-faq) 
+# [OpenVPN FAQs](#openvpn-faq) 
 <details>
   <summary> 1. Is there any IP or regional restriction for incoming VPN connections?</summary><br>           
 There are no IP restrictions on incoming connectivity.  
