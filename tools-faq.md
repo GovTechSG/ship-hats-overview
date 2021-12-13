@@ -268,7 +268,6 @@ Yes, refer to <a href="https://docs.developer.tech.gov.sg/docs/devsecops-playboo
 <details>
     <summary>5. IM8 requires me to perform Vulnerability Assessment & Penetration Testing (VAPT) for my Internet-facing application. Will using Fortify WebInspect fulfil this clause? </summary><br>
 It will partially fulfil the clause. WebInspect covers the VA component. The Agency would be required to engage Pentesters to perform penetration testing which is a manual effort. 
-
 Refer to <a href="https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=static-application-security-testing-81s1-g8-g9">DevSecOps playbook</a> for best practices in terms of security testing. 
 </details>
  
