@@ -271,7 +271,7 @@ It will partially fulfil the clause. WebInspect covers the VA component. The Age
 Refer to <a href="https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=static-application-security-testing-81s1-g8-g9">DevSecOps playbook</a> for best practices in terms of security testing. 
 </details>
  
-## [Container Scanner](#container-scanner) 
+# [Container Scanner](#container-scanner) 
 
 <details>
     <summary>1. Is Container Scanner offered in the subscription tier? </summary><br>
