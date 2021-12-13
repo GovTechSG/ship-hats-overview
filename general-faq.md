@@ -10,7 +10,7 @@ A named user refers to licenses that is bound to a specific user. Each named use
 <details>
   <summary>2. Are admin accounts such as Subscription Admin (SA) and Service Accounts considered as a named user account? </summary><br> 
 Yes. You will be utilising one user for each SA and service account.  
-  </details>
+</details>
 <br> 
 <details>
   <summary>3. How are the number of users calculated for each tool?</summary><br> 
@@ -84,5 +84,3 @@ Email enquiries_enp@tech.gov.sg to cancel extended support.
   <summary>10. Can I view the history of my support requests? </summary><br>  
 Users can refer to their requests on the <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11">SSD portal</a>.
 </details>
-     
-     
