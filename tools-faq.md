@@ -8,52 +8,52 @@ This page covers Frequently Asked Questions on [tools integrated with SHIP-HATS]
 
 # [Development Tools FAQ](#development-tools-faq)
 
-SHIP-HATS uses three tools used for the development component of the Continuous Integration Continuous Deployment (CICD): 
+SHIP-HATS uses three tools used for the development component of the Continuous Integration Continuous Deployment (CICD):
 
 - [OpenVPN](#openvpn-faq)
-- [Confluence](#confluence-faq) 
-- [Bitbucket](#bitbucket-faq) 
+- [Confluence](#confluence-faq)
+- [Bitbucket](#bitbucket-faq)
 
-## [OpenVPN FAQs](#openvpn-faq) 
+## [OpenVPN FAQs](#openvpn-faq)
 <details>
-  <summary> 1. Is there any IP or regional restriction for incoming VPN connections?</summary><br>           
-There are no IP restrictions on incoming connectivity.  
+  <summary> 1. Is there any IP or regional restriction for incoming VPN connections?</summary><br>
+There are no IP restrictions on incoming connectivity.
 </details>
-<br> 
+<br>
 <details>
-  <summary> 2. Are there any device requirements? </summary><br> 
-No, any internet device works.   
+  <summary> 2. Are there any device requirements? </summary><br>
+No, any internet device works.
 </details>
-<br> 
+<br>
 <details>
-  <summary> 3. How do I set up OpenVPN? </summary><br>            
-You will receive an email from your SHIP-HATS administrator containing your username and password details. Go to <a href="https://vpn.ship.gov.sg/">OpenVPN</a> and log in with your SHIP-HATS credentials.  
+  <summary> 3. How do I set up OpenVPN? </summary><br>
+You will receive an email from your SHIP-HATS administrator containing your username and password details. Go to <a href="https://vpn.ship.gov.sg/">OpenVPN</a> and log in with your SHIP-HATS credentials.
 </details>
-<br> 
+<br>
 <details>
-  <summary> 4. Which operating systems are supported by OpenVPN?</summary><br> 
-OpenVPN works on Linux, Mac, Windows, Android and iOS. 
-</details> 
-  
+  <summary> 4. Which operating systems are supported by OpenVPN?</summary><br>
+OpenVPN works on Linux, Mac, Windows, Android and iOS.
+</details>
+
 ## [Confluence FAQs](#confluence-faq)
 
 <details>
-  <summary>1. How do I maintain my Confluence pages?</summary><br> 
-  You can maintain <a href="https://confluence.ship.gov.sg/">Confluence</a> pages by checking the analytics on Confluence. It is available on Confluence>Analytics>Spaces. You should check on inactive pages. It is recommended to delete pages that old or are not in use. 
+  <summary>1. How do I maintain my Confluence pages?</summary><br>
+  You can maintain <a href="https://confluence.ship.gov.sg/">Confluence</a> pages by checking the analytics on Confluence. It is available on Confluence>Analytics>Spaces. You should check on inactive pages. It is recommended to delete pages that old or are not in use.
 </details>
- 
+
 ## [Bitbucket FAQs](#bitbucket-faq)
 
 <details>
-  <summary>1.Can I have multiple repositories for a project? </summary><br> 
-Yes, you can host multiple repositories for one project. 
+  <summary>1.Can I have multiple repositories for a project? </summary><br>
+Yes, you can host multiple repositories for one project.
 </details>
-<br> 
+<br>
 <details>
-  <summary>2.Can I synchronise two source code repositories where one repository is maintained outside of SHIP-HATS?  </summary><br> 
-We do not recommend synchronising repositories into SHIP-HATS repositories as this may introduce security vulnerabilities. due to security between the two repositories. It is best to use SHIP-HATS bitbucket as the default and only source code repository to ensure the security settings are intact. 
+  <summary>2.Can I synchronise two source code repositories where one repository is maintained outside of SHIP-HATS?  </summary><br>
+We do not recommend synchronising repositories into SHIP-HATS repositories as this may introduce security vulnerabilities. due to security between the two repositories. It is best to use SHIP-HATS bitbucket as the default and only source code repository to ensure the security settings are intact.
 </details>
- 
+
 # [Build Tools FAQ](#build-tools-faq)
 
 SHIP-HATS has two tools used for the build component of the Continuous Integration/Continuous Deployment (CI/CD):
@@ -238,43 +238,42 @@ C, C++, Obj-C, Swift, ABAP, T-SQL, PL/SQL are supported. Public officers can ref
 Yes. SonarQube can scan for any customisation that the COTS product supports.
 Example: Configuration files in XML or Javascript/ Java or plugins written in Java or Python.
   </details>
-  
+
 ## [Fortify and WebInspect](#fortify-and-webinspect)
 
  <details>
   <summary>1. How are applications counted within Fortify and Webinspect?</summary><br>
-Applications are counted based on the number of components.  
+Applications are counted based on the number of components.
 
-Example: If your system has 2 components such as Internet and Intranet compartment, these are treated as 2 separate applications. This also applies similarly to systems with several components 
+Example: If your system has 2 components such as Internet and Intranet compartment, these are treated as 2 separate applications. This also applies similarly to systems with several components
 
-Example: Mobile apps for 2 OS (Android, iOS), a website, WebAPI and Batchjob are treated as 5 separate applications. 
+Example: Mobile apps for 2 OS (Android, iOS), a website, WebAPI and Batchjob are treated as 5 separate applications.
 </details>
-<br> 
+<br>
 <details>
   <summary>2. My system is built using microservices architecture. How do I determine the total number of applications?</summary><br>
-We recommend assigning 1 Fortify application per microservice to track and manage findings. However, if you want to reduce the number of Fortify applications and does not need to manage insights for each microservice, you can use the same Fortify app for multiple microservices where the last scan of one microservice can be overridden by the scan of another microservice. 
+We recommend assigning 1 Fortify application per microservice to track and manage findings. However, if you want to reduce the number of Fortify applications and does not need to manage insights for each microservice, you can use the same Fortify app for multiple microservices where the last scan of one microservice can be overridden by the scan of another microservice.
 </details>
-<br> 
+<br>
 <details>
     <summary>3. Can WebInspect be used for Dynamic Application Security Testing (DAST)?</summary><br>
-Yes, you can use WebInspect for DAST. Note this is applicable for Internet-facing applications only. 
+Yes, you can use WebInspect for DAST. Note this is applicable for Internet-facing applications only.
 </details>
-<br> 
+<br>
 <details>
     <summary>4. IM8 requires me to perform static code review for security vulnerabilities. Will using Fortify SCA fulfil this clause?</summary><br>
-Yes, refer to <a href="https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=static-application-security-testing-81s1-g8-g9">DevSecOps playbook</a> for best practices in terms of security testing. 
+Yes, refer to <a href="https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=static-application-security-testing-81s1-g8-g9">DevSecOps playbook</a> for best practices in terms of security testing.
 </details>
-<br> 
+<br>
 <details>
     <summary>5. IM8 requires me to perform Vulnerability Assessment & Penetration Testing (VAPT) for my Internet-facing application. Will using Fortify WebInspect fulfil this clause?</summary><br>
-It will partially fulfil the clause. WebInspect covers the VA component. The Agency would be required to engage Pentesters to perform penetration testing which is a manual effort. 
-Refer to <a href="https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=static-application-security-testing-81s1-g8-g9">DevSecOps playbook</a> for best practices in terms of security testing. 
+It will partially fulfil the clause. WebInspect covers the VA component. The Agency would be required to engage Pentesters to perform penetration testing which is a manual effort.
+Refer to <a href="https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=static-application-security-testing-81s1-g8-g9">DevSecOps playbook</a> for best practices in terms of security testing.
 </details>
- 
-## [Container Scanner](#container-scanner) 
+
+## [Container Scanner](#container-scanner)
 
 <details>
     <summary>1. Is Container Scanner offered in the subscription tier </summary><br>
-Container Scanner has been added to all tiers and at no cost. 
+Container Scanner has been added to all tiers and at no cost.
 </details>
-
