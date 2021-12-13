@@ -10,9 +10,9 @@ This page covers Frequently Asked Questions on [tools integrated with SHIP-HATS]
 
 SHIP-HATS uses three tools used for the development component of the Continuous Integration Continuous Deployment (CICD): 
 
--[OpenVPN](#openvpn-faq)
--[Confluence](#confluence-faq) 
--[Bitbucket](#bitbucket-faq) 
+- [OpenVPN](#openvpn-faq)
+- [Confluence](#confluence-faq) 
+- [Bitbucket](#bitbucket-faq) 
 
 ## [OpenVPN FAQs](#openvpn-faq) 
 <details>
