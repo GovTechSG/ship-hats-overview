@@ -35,7 +35,7 @@ You will receive an email from your SHIP-HATS administrator containing your user
 OpenVPN works on Linux, Mac, Windows, Android and iOS. 
 </details> 
   
-## [Confluence FAQs](#confluence-faq) 
+## [Confluence FAQs](#confluence-faq)  
 
 <details>
   <summary>1. How do I maintain my Confluence pages? </summary><br> 
