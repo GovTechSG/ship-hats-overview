@@ -1,5 +1,5 @@
 # SHIP-HATS integrated tools version
-Updated on: 27 November 2021
+Updated on: 18 Dec 2021
 
 | **Category** | **Tools integrated with SHIP-HATS** | **Version on SHIP-HATS** | **Endpoint(URL)** |
 | --- | --- | --- | --- |
@@ -9,8 +9,8 @@ Updated on: 27 November 2021
 | Build Management | Bamboo | 8.0.4 | https://bamboo.ship.gov.sg/ |
 | User Group Management for Atlassian tools | Crowd | 4.3.5 | https://crowd.ship.gov.sg|
 | Directory Service Authentication | LDAP | 2.4.44 | NA as it is managed by Crowd. |
-| Build Artifact | Nexus repo | 3.36 | https://nexus.ship.gov.sg/|
-| Software Composition Analysis (SCA) | Nexus IQ | 125 | https://nexus-iq.ship.gov.sg/assets/index.html |
+| Build Artifact | Nexus repo | 3.36.0 | https://nexus.ship.gov.sg/|
+| Software Composition Analysis (SCA) | Nexus IQ | 129 | https://nexus-iq.ship.gov.sg/assets/index.html |
 | Automated Testing| pCloudy | NA | https://hats.pcloudy.com/|
 | Automatic Code Review | SonarQube | Community edition 8.9 | https://sonar.hats.stack.gov.sg/sonar |
 | Static Application Security Testing (SAST) | Fortify Static Code Analyzer (SCA) | 20.2.0.298 | https://ssc.hats.stack.gov.sg/ssc |
