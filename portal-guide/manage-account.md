@@ -76,7 +76,7 @@ The **Overview** page of the subscription account gives the dashboard view of 
 ?> Note: The term **Overview** and **Dashboard view** may be used interchangeably.
 
 
-<kbd>![overview](images/overview-3.png ':size=100%')</kbd>
+<kbd>![overview](images/ship-update.png ':size=100%')</kbd>
 
 ## [View user profile](#view-user-profile)
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their **Profile** page. You may view the details of the subsvription account under which your SHIP-HATS usage is currently billed.
