@@ -51,7 +51,7 @@ SHIP-HATS extended support is offered from Monday to Friday, 9.00 AM to 10.00 PM
 </details>
 <br>
 <details>
-  <summary>5. Is the basic support free with any subscription tier? </summary><br>
+  <summary>5. Is the basic support free? </summary><br>
 Yes, it is free with any subscription tier.
 </details>
 <br>
