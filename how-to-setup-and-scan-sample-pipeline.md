@@ -1,5 +1,5 @@
 # How to set up a simple pipeline to check out and scan the sample application
-This tutorial is to guide you in setting up a simple pipeline to check out and scan the sample application in SHIP-HATS.
+This tutorial is to guide you in setting up a simple pipeline using Javascript to check out and scan the sample application in SHIP-HATS.
 
 ## What is a Continuous Integration?
 Continuous Integration(CI) is a software engineering approach where developers merge the code into a shared code repository and then verified by automated build and testing.
@@ -44,4 +44,25 @@ Adding a Bamboo Trigger is required so that Bamboo is notified whenever there is
 
 Click on the image to view the video.
 
-Step 4 to 6 will be available soon!
+### Step 4 of 6: Adding Bamboo Tasks
+Adding Bamboo tasks allows the automated execution of code, steps and processes.
+
+[![Step 4 of 6](slide29.png)](https://youtu.be/supsnqoPKqs)
+
+Click on the image to view the video.
+
+### Step 5 of 6: Adding Nexus IQ
+Adding Nexus IQ as a Bamboo task allows the execution of vulnerability scanning for dependencies and libraries.
+
+[![Step 5 of 6](slide25.png)](https://youtu.be/BW7_LRePBa8)
+
+Click on the image to view the video.
+
+### Step 5 of 6: Adding Nexus IQ
+Adding Fortify SCA as a Bamboo task allows the execution of vulnerability scanning for your source code.
+
+[![Step 6 of 6](slide26.png)](https://youtu.be/0GAtczJpKwA)
+
+Click on the image to view the video.
+
+?> As this is a sample pipeline, do reset user access and unlink the repository after completion of the tutorial
