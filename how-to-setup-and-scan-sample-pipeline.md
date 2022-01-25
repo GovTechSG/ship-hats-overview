@@ -47,21 +47,21 @@ Click on the image to view the video.
 ### Step 4 of 6: Adding Bamboo Tasks
 Adding Bamboo tasks allows the automated execution of code, steps and processes.
 
-[![Step 4 of 6](slide29.png)](https://youtu.be/supsnqoPKqs)
+[![Step 4 of 6](slide20.jpg)](https://youtu.be/supsnqoPKqs)
 
 Click on the image to view the video.
 
 ### Step 5 of 6: Adding Nexus IQ
 Adding Nexus IQ as a Bamboo task allows the execution of vulnerability scanning for dependencies and libraries.
 
-[![Step 5 of 6](slide25.png)](https://youtu.be/BW7_LRePBa8)
+[![Step 5 of 6](slide25.jpg)](https://youtu.be/BW7_LRePBa8)
 
 Click on the image to view the video.
 
 ### Step 5 of 6: Adding Nexus IQ
 Adding Fortify SCA as a Bamboo task allows the execution of vulnerability scanning for your source code.
 
-[![Step 6 of 6](slide26.png)](https://youtu.be/0GAtczJpKwA)
+[![Step 6 of 6](slide26.jpg)](https://youtu.be/0GAtczJpKwA)
 
 Click on the image to view the video.
 
