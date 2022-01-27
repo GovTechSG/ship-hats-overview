@@ -58,7 +58,7 @@ Adding Nexus IQ as a Bamboo task allows the execution of vulnerability scanning 
 
 Click on the image to view the video.
 
-### Step 5 of 6: Adding Nexus IQ
+### Step 6 of 6: Adding Fortify SCA
 Adding Fortify SCA as a Bamboo task allows the execution of vulnerability scanning for your source code.
 
 [![Step 6 of 6](Slide26.jpg)](https://youtu.be/0GAtczJpKwA)
