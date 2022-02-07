@@ -66,7 +66,7 @@ If you are inactive for 10 minutes on the portal, the system prompts you with th
 <kbd>![session-timed-out](images/session-timed-out.png ':size=100%')</kbd>
 
 
-## [Log in using TechPass](log-in-techpass)
+## [Log in using TechPass](#log-in-techpass)
 
 *To log in to SHIP-HATS using TechPass:*
 
@@ -149,15 +149,15 @@ SA and PA can update their profile from the [**Overview**](https://docs.develop
 <kbd>![edit-profile-details-blurred](images/edit-profile-details-blurred.png ':size=75%')</kbd>
 
 ## [Update user profile](#update-user-profile)
-When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. 
+When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. To edit user profile page, go to [TechPass Portal](https://portal.techpass.gov.sg/secure/account/profile)
 
-1. Click the edit icon to update your details.
+1. Click **edit profile**.
 
-<kbd>![edit-profile-normal-users-blurred](images/edit-profile-normal-users-blurred.png ':size=75%')</kbd>
+<kbd>![edit-profile-normal-users-](images/editprofilegsib.png ':size=75%')</kbd>
 
-2. Edit the details as needed and click **Update**. 
+2. Edit the details as needed and click **Save**. 
 
-<kbd>![save-normal-user-profile-updates](images/save-normal-user-profile-updates.png ':size=75%')</kbd>
+<kbd>![save-normal-user-profile-updates](images/editprofilegsib2.png ':size=75%')</kbd>
 
 Alternatively, hover over your profile icon at the upper-right corner. To view and update user profile, click **View Profile**.
 
