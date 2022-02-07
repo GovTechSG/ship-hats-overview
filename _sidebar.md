@@ -11,7 +11,7 @@
   * [Subscription FAQ](subscription)
   * [Tools FAQ](tools-faq)
   * [General FAQ](general-faq)
+  * [Maintenance Timing](maintenance-timing)
 * Terms & Policy Related
   * [Service Level Agreement](service-level-agreement)
   * [Cleanup Policy for Nexus Repository](ship-hats-cleanup-policy-for-nexus-repository)
-  * [Maintenance Timing](maintenance-timing)
