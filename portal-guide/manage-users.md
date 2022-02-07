@@ -62,7 +62,7 @@ Note: If there is a number displayed beside **All Users** menu and **Pending App
 
 3. Click **Approve** corresponding to the user.
 
-<kbd>![after adding user](images/tp-add-user-3.png':size=100%')</kbd>
+<kbd>![after adding user](images/tp-add-user-3.png ':size=100%')</kbd>
 
 4. You can choose which tools to give access to. When prompted to confirm this action, click **Confirm**. This user is now approved as SHIP-HATS user under this account.
 
