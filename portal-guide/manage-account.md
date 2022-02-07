@@ -5,6 +5,7 @@
 SHIP-HATS users may have user roles such as Subscription Admin (SA), Project Admin(PA) or User. Only an agency user can be a Subscription Admin for an account. Subscription Admin can also be a Project Admin. This section explains the following:
 
 - [Log in and Log out](#log-in-and-log-out)
+- [Log in using TechPass](#log-in-techpass)
 - [View dashboard](#view-dashboard)
 - [View user profile](#view-user-profile)
 - [Switch account](#switch-account)
@@ -64,21 +65,8 @@ If you are inactive for 10 minutes on the portal, the system prompts you with th
 
 <kbd>![session-timed-out](images/session-timed-out.png ':size=100%')</kbd>
 
-## [View dashboard](#view-dashboard)
-The **Overview** page of the subscription account gives the dashboard view of the subscription account. Only Subscription Admin (SA) and Project Admin (PA) can access this dashboard to view the following details.
 
-- Subscription tier for the Billing Account
-- [Plan details](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=viewing-plan-details)
-- Count of projects hosted on this account
-- Count of users added to this account
-- Projects using shared Bamboo agents and their usage quota.
-
-?> Note: The term **Overview** and **Dashboard view** may be used interchangeably.
-
-
-<kbd>![overview](images/ship-update.png ':size=100%')</kbd>
-
-### [Log in using TechPass](log-in-techpass)
+## [Log in using TechPass](log-in-techpass)
 
 *To log in to SHIP-HATS using TechPass:*
 
@@ -104,6 +92,20 @@ The **Overview** page of the subscription account gives the dashboard view of 
 <kbd>![log-in](images/techpassmdm.png ':size=100%')</kbd>
 
 You have successfully linked your TechPass to SHIP-HATS. You can directly login using TechPass for future access. 
+
+## [View dashboard](#view-dashboard)
+The **Overview** page of the subscription account gives the dashboard view of the subscription account. Only Subscription Admin (SA) and Project Admin (PA) can access this dashboard to view the following details.
+
+- Subscription tier for the Billing Account
+- [Plan details](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=viewing-plan-details)
+- Count of projects hosted on this account
+- Count of users added to this account
+- Projects using shared Bamboo agents and their usage quota.
+
+?> Note: The term **Overview** and **Dashboard view** may be used interchangeably.
+
+
+<kbd>![overview](images/ship-update.png ':size=100%')</kbd>
 
 ## [View user profile](#view-user-profile)
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their **Profile** page. You may view the details of the subsvription account under which your SHIP-HATS usage is currently billed.
