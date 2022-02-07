@@ -6,7 +6,8 @@ This section describes the following:
 * [Approve new users](#approve-new-users)
 * [View users](#view-users)
 * [Remove users](#remove-users)
-* [Change SA or PA](#change-sa-or-pa)
+* [Change SA](#change-sa)
+* [Change PA](#change-pa)
 * [Reactivate users](#reactivate-users)
 
 
@@ -116,10 +117,58 @@ Tip: Refer to [Viewing users](#view-users) to know how to search for users and t
 Tip:  While creating this service request, we recommend you tag the user whose role is to be modified and the respective SAs and PAs in the ticket.
 
 
-## [Change SA or PA](#change-sa-or-pa)
+## [Change SA](#change-sa)
 
-To change or transfer the existing PA or SA role to another user, one of the SAs can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/364"> service request </a> with the required details, such as the name and email address of the user to whom the PA or SA role is to be transferred.
+To change or transfer the existing SA role to another user, one of the SAs can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/364"> service request </a> with the required details, such as the name and email address of the user to whom the SA role is to be transferred.
 
+## [Change PA](#change-pa)
+To change or transfer the existing PA role to another user, one of the SAs can add or remove PA on the [SHIP-HATS Portal](http://www.ship.gov.sg)
+
+### To view existing PAs:
+1. Log in to [SHIP-HATS Portal](http://www.ship.gov.sg)
+2. Click **Users > All users**
+3. Click **Project Role**
+
+kbd>![view user role](images/pa2.png ':size=100%')</kbd>
+
+4. Name of users will be displayed based on the project role.
+
+### To add PAs:
+1. Log in to [SHIP-HATS Portal](http://www.ship.gov.sg)
+2. Click **Overview** > **Project**.
+<kbd>![overview page](images/overviewpage1.png ':size=100%')</kbd>
+3. Click the **pencil** icon.
+
+<kbd>![pa](images/pa1.png ':size=60%')</kbd>
+
+4. Click **+ Add another**. The number of PAs each project is entitled to is based on the [subscription tier](http://www.developer.tech.gov.sg/singapore-government-tech-stack/toolchain/subscription) quota the agency has subscribed to. 
+
+<kbd>![add pa](images/addpacopy.png ':size=60%')</kbd>
+
+5. Choose the designated PA from the drop-down selection and click **Add**. 
+
+<kbd>![add pa](images/add-ppl.png ':size=60%')</kbd>
+
+You have successfully added a PA.
+
+### To remove PAs:
+1. Log in to [SHIP-HATS Portal](http://www.ship.gov.sg)
+2. Click **Overview** > **Project**.
+<kbd>![overview page](images/overviewpage1.png ':size=100%')</kbd>
+3. Click the **pencil** icon.
+
+<kbd>![pa](images/pa1.png ':size=60%')</kbd>
+
+4. Hover over to the name you would like to remove 
+5. Click **Remove**
+
+<kbd>![remove](images/remove-users.png ':size=60%')</kbd>
+
+6. When prompted, click **Yes**
+
+<kbd>![remove confirmation](images/usure.png ':size=60%')</kbd>
+
+You have successfully removed the user as a PA.
 
 ## [Reactivate users](#reactivate-users)
 
