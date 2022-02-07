@@ -79,7 +79,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 
 2. From the side menu, click **Users > All Users**.
 
-<kbd>![all-users-blurred](images/all-users-blurred.png ':size=100%')</kbd>
+<kbd>![all-users-new](images/all-users-new.png ':size=100%')</kbd>
 
 * If a user is a Subscription Admin, it is indicated by the label **Subscr Admin** beside the username.
 * If a user has a Project Admin role in one the projects in the subscription account, it will be indicated in the **Project Role** column.
@@ -90,7 +90,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
   * Last Login
 * You can quickly search for a user by typing the username in the search box.
 
-<kbd>![search_user_blurred](images/search-user-blurred.png ':size=100%')</kbd>
+<kbd>![search_user_(images/export-csv.png ':size=100%')</kbd>
 
 * Click **Export CSV** to download the user list as a .csv file to your local machine. This csv lists the active and removed users along with the approval and removal details.
 
@@ -107,15 +107,9 @@ Note that SA and PA can remove a user who does not have the Project Admin or Sub
 3. Search for the user to be removed and from the **Action** column, click ![3_dot](images/3_dot.png) corresponding to the user.
 Tip: Refer to [Viewing users](#view-users) to know how to search for users and to sort by **Quota Consumed**.
 
-<kbd>![remove_user_cropped_blurred](images/remove-user-cropped-blurred.png ':size=100%')</kbd>
+<kbd>![remove_user](images/remove-users-2.png ':size=100%')</kbd>
 
 4. Choose **Remove User**.
-
-?> Note: To remove a PA or SA, one of the SA can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/364"> service request </a> to change the user role for this individual from PA to normal user. Once this is done, follow the steps mentioned in the **Remove User** section.
-
-
-Tip:  While creating this service request, we recommend you tag the user whose role is to be modified and the respective SAs and PAs in the ticket.
-
 
 ## [Change SA](#change-sa)
 
