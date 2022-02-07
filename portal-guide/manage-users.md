@@ -2,7 +2,7 @@
 This section describes the following:
 
 * [Invite users](#invite-users)
-* [Creation of Account](creation-of-account)
+* [Creation of Account](#creation-of-account)
 * [Approve new users](#approve-new-users)
 * [View users](#view-users)
 * [Remove users](#remove-users)
@@ -26,7 +26,7 @@ By default, a new invitation link has a 14 days expiry date.  Whenever you invit
 3. Click **Email me** to send this link with the expiry date to your SHIP-HATS registered email address and forward it to the intended users so that they can provide required information in the **Invitation Form**.
 Alternatively, click the copy icon to copy and share the invite link with intended users. Note, in this case, make sure to inform the users about the expiry date of this link.
 
-## [Creation of Account](creation-of-account)
+## [Creation of Account](#creation-of-account)
 Users will receive a link to onboard to SHIP-HATS portal upon successful approval. 
 Access the link via the onboarding email and perform the following steps: 
 
