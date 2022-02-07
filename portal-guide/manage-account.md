@@ -78,6 +78,33 @@ The **Overview** page of the subscription account gives the dashboard view of 
 
 <kbd>![overview](images/ship-update.png ':size=100%')</kbd>
 
+### [Log in using TechPass](log-in-techpass)
+
+*To log in to SHIP-HATS using TechPass:*
+
+1. Go to [SHIP-HATS portal](https://www.ship.gov.sg/).
+2. Click **Log In with TechPass**.
+
+<kbd>![log-in](images/tplogin.png ':size=100%')</kbd>
+
+3. Enter your **Enter your TechPass details** and click **Next**.
+
+<kbd>![log-in](images/tp2.png ':size=100%')</kbd>
+
+4. You will be redirected to the GCC log-in page. Enter your TechPass email address along with the verification code from the Authenticator app and click sign in. 
+
+<kbd>![log-in](images/tpgcc1.png ':size=100%')</kbd>
+
+5. Read through the **TechPass** Terms of Use and click **Accept**.
+
+<kbd>![log-in](images/tptou.png ':size=100%')</kbd>
+
+6. Read through the **TechPass MDM** Terms of Use and click **Accept**.
+
+<kbd>![log-in](images/techpassmdm.png ':size=100%')</kbd>
+
+You have successfully linked your TechPass to SHIP-HATS. You can directly login using TechPass for future access. 
+
 ## [View user profile](#view-user-profile)
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their **Profile** page. You may view the details of the subsvription account under which your SHIP-HATS usage is currently billed.
 
