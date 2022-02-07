@@ -12,7 +12,9 @@ Note: This website is not supported by Safari.
 2. Enter the **username** provided in the onboarding email from the SHIP-HATS administrator.
 3. Enter **password** you have set using the link provided in onboarding email.
 4. Click **Sign In**.
+
 ![sign in](openvpn.png)
+
 5. Install and open **Authy** or **Google Authenticator** on your mobile phone from App store or Google Play Store.
 6. Tap + and choose **Scan a QR code**.
 7. Scan the QR code displayed on your internet device. Your OpenVPN account gets added and a six-digit code is displayed on your mobile phone.
