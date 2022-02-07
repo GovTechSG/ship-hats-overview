@@ -36,11 +36,11 @@ Access the link via the onboarding email and perform the following steps:
 
 2. For **public officers**, you will need to enter your **official email address** and click **submit**.
 
-<kbd>![create_account](images/signing.png ':size=100%')</kbd>
+<kbd>![create_account](images/signing2.png ':size=100%')</kbd>
 
 3. For **vendors**, you will be required to enter the following details and click **submit**.
 
-<kbd>![create_account](images/vendor2.png ':size=100%')</kbd>
+<kbd>![create_account](images/vendor3.png ':size=100%')</kbd>
 
 ## [Approve new users](#approve-new-users)
 Once a user submits the completed SHIP-HATS **Invitation Form**, Subscription Admin (SA) and Project Admin (PA) will be notified by an email to approve the user registration.
