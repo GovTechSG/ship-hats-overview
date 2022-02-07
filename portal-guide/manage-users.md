@@ -2,6 +2,7 @@
 This section describes the following:
 
 * [Invite users](#invite-users)
+* [Creation of Account](creation-of-account)
 * [Approve new users](#approve-new-users)
 * [View users](#view-users)
 * [Remove users](#remove-users)
@@ -25,6 +26,22 @@ By default, a new invitation link has a 14 days expiry date.  Whenever you invit
 3. Click **Email me** to send this link with the expiry date to your SHIP-HATS registered email address and forward it to the intended users so that they can provide required information in the **Invitation Form**.
 Alternatively, click the copy icon to copy and share the invite link with intended users. Note, in this case, make sure to inform the users about the expiry date of this link.
 
+## [Creation of Account](creation-of-account)
+Users will receive a link to onboard to SHIP-HATS portal upon successful approval. 
+Access the link via the onboarding email and perform the following steps: 
+
+1. Select your role. 
+
+<kbd>![create_account](images/invitation-form.png ':size=100%')</kbd>
+
+2. For **public officers**, you will need to enter your **official email address** and click **submit**.
+
+<kbd>![create_account](images/signing.png ':size=100%')</kbd>
+
+3. For **vendors**, you will be required to enter the following details and click **submit**.
+
+<kbd>![create_account](images/vendor2.png ':size=100%')</kbd>
+
 ## [Approve new users](#approve-new-users)
 Once a user submits the completed SHIP-HATS **Invitation Form**, Subscription Admin (SA) and Project Admin (PA) will be notified by an email to approve the user registration.
 
@@ -37,17 +54,17 @@ Once a user submits the completed SHIP-HATS **Invitation Form**, Subscription Ad
 
 2. Click **View** corresponding to that alert. You will be directed to the **Pending Approval** section.
 
-Alternatively, from the side menu, click **Users** > **All Users**. If there is a pending user approval task, the **Pending Approval** section get displayed. Here, you can view the users that are pending your approval along with their email address.  
+Alternatively, from the side menu, click **Users** > **All Users**. If there is a pending user approval task, the **Pending** section will display the number of users pending approval. Here, you can view the users that are pending your approval along with their email address.  
 
 Note: If there is a number displayed beside **All Users** menu and **Pending Approval** section, it indicates that many user approvals are pending.  
 
-<kbd>![New user approval_blurred](images/New-user-approval-blurred.png ':size=100%')</kbd>
+<kbd>![add user](images/tp-add-user.png ':size=100%')</kbd>
 
 3. Click **Approve** corresponding to the user.
 
-<kbd>![New user approval_step2_blured](images/New-user-approval-step2-blurred.png ':size=100%')</kbd>
+<kbd>![after adding user](images/tp-add-user-3.png':size=100%')</kbd>
 
-4. When prompted to confirm this action, click **Yes**. This user is now approved as SHIP-HATS user under this account.
+4. You can choose which tools to give access to. When prompted to confirm this action, click **Confirm**. This user is now approved as SHIP-HATS user under this account.
 
 Note: Irrespective of agencies, individuals approved as SHIP-HATS users can be added to any SHIP-HATS project and will be billed under the account that initially approved them.  
 
