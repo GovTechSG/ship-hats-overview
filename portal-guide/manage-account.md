@@ -108,9 +108,17 @@ The **Overview** page of the subscription account gives the dashboard view of 
 <kbd>![overview](images/ship-update.png ':size=100%')</kbd>
 
 ## [View user profile](#view-user-profile)
-When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their **Profile** page. You may view the details of the subsvription account under which your SHIP-HATS usage is currently billed.
+When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their **Profile** page. You may view more information on your subscription ie. the number of fortify and sonarqube applications tied to the subscription.
 
-<kbd>![profile-of-other-users](images/profile-of-other-users.png ':size=100%')</kbd>
+<kbd>![profile-of-other-users](images/info.png ':size=100%')</kbd>
+
+Users can click on the applications to view tokens and the expiry date. The information is also downloadable as CSV
+
+<kbd>![token info](images/fa.png ':size=100%')</kbd>
+
+Users are also able to view the user groups they belong to.
+
+<kbd>![user group](images/profile-2.png ':size=100%')</kbd>
 
 
 ## [Switch account](#switch-account)
