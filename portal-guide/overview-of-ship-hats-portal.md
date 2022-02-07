@@ -8,6 +8,7 @@ The following sections guide SHIP-HATS’ Admins and Users on how to use it in t
   - [Viewing Profile as User](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=viewing-profile-as-users)
 - [Logging Out](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=logging-out)
 - [Switching Account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=switch-account)-->
+[DGP Systems](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/dgp-systems)
 
 [Manage Account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account)
 <!--
