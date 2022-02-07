@@ -90,7 +90,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
   * Last Login
 * You can quickly search for a user by typing the username in the search box.
 
-<kbd>![search_user_(images/export-csv.png ':size=100%')</kbd>
+<kbd>![search_user](images/export-csv.png ':size=100%')</kbd>
 
 * Click **Export CSV** to download the user list as a .csv file to your local machine. This csv lists the active and removed users along with the approval and removal details.
 
