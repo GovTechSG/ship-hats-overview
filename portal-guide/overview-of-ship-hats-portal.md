@@ -8,7 +8,7 @@ The following sections guide SHIP-HATS’ Admins and Users on how to use it in t
   - [Viewing Profile as User](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=viewing-profile-as-users)
 - [Logging Out](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=logging-out)
 - [Switching Account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=switch-account)-->
-[DGP Systems](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/dgp-systems)
+
 
 [Manage Account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account)
 <!--
@@ -34,6 +34,8 @@ The following sections guide SHIP-HATS’ Admins and Users on how to use it in t
 [Manage Projects](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-projects)
 
 [Manage Fortify applications](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-fortify-applications)
+
+[Declaring DGP Systems](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/declaring-dgp-systems)
 <!--
 - [Creating New Projects](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-projects?id=creating-new-projects)
 - [Viewing Projects](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-projects?id=viewing-projects)
