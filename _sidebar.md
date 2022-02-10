@@ -5,7 +5,6 @@
 * Getting Started
   * [Pre-Onboarding Guide](pre-onboarding-guide)
   * [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
-  * [SHIP-HATS OpenVPN Guide](get-started/openvpn-guide)
   * Tools Guide
     * [How to set up a simple pipeline](how-to-setup-and-scan-sample-pipeline)
 * Support & FAQs
