@@ -46,9 +46,4 @@
 
 **Prisma Cloud Compute Edition (formerly TwistLock):** A cloud native container vulnerability scanner that protects custom container images, configured by subscribers. [Tutorials](https://docs.paloaltonetworks.com/prisma/prisma-cloud.html)
 
-### Release Tools
-
-**Digital.ai Release:** Tool for release orchestration for continuous delivery. It enables teams across an organization to model and monitor releases, automate tasks within IT infrastructure, and cut release times by optimising release processes. [Overview](https://digital.ai/resources/release)
-
-**Digital.ai Deploy:** Tool for Automating App Deployment.  As software lifecycles continue to accelerate and deployment environments become numerous, error-free application deployments have become too complex to manage. Organizations need to automate and standardize. [Overview](https://digital.ai/resources/deploy)
 
