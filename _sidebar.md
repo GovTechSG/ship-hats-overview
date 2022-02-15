@@ -16,3 +16,4 @@
 * Terms & Policy Related
   * [Service Level Agreement](service-level-agreement)
   * [Cleanup Policy for Nexus Repository](ship-hats-cleanup-policy-for-nexus-repository)
+  * [SHIP-HATS Policies and Announcements](ship-hats-policy-announcements)
