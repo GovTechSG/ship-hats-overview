@@ -6,8 +6,8 @@ Let’s get you started on your CI/CD journey with SHIP-HATS. We have curated **
 To those getting started on DevSecOps, GovTech engineers have put together a [DevSecOps Playbook](https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=overview) to help.
 
 ?> #ActionCard
-1. Bookmark [DevSecOps Playbook](https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=overview)
-2. Read [Overview]() and [Stage 1 Planning](https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=stage-1-planning) to understand the basics, familiarize how your agency can progress through levels of maturity and plan for adoption.
+  1. Bookmark [DevSecOps Playbook](https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=overview)
+  2. Read [Overview]() and [Stage 1 Planning](https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=stage-1-planning) to understand the basics, familiarize how your agency can progress through levels of maturity and plan for adoption.
 
 ## Resources for help 
 
@@ -16,10 +16,10 @@ To those getting started on DevSecOps, GovTech engineers have put together a [De
 [SHIP-HATS technical documentation](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/) on Singapore Government Developer Portal is open to all agencies and industry partners so they understand the tools well. The repo has Architecture, Tools, User Guides and FAQs. 
 
 ?> #ActionCard
-1. Bookmark [SHIP-HATS technical documentation](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/)
-2. Check out the tools in SHIP-HATS
-  a. **Project Managers & Business Analysts**: Run through [Pre-Onboarding Guide](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/pre-onboarding-guide) and [Subscription FAQ](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/subscription)
-  b. **Developers**: Learn [User Roles and Permission](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/user-roles-permissions?id=user-roles-and-permissions)
+  1. Bookmark [SHIP-HATS technical documentation](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/)
+  2. Check out the tools in SHIP-HATS
+     a. **Project Managers & Business Analysts**: Run through [Pre-Onboarding Guide](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/pre-onboarding-guide) and [Subscription FAQ](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/subscription)
+     b. **Developers**: Learn [User Roles and Permission](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/user-roles-permissions?id=user-roles-and-permissions)
   
 ### #2 Feedback Anytime 
 
