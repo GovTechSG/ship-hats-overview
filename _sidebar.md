@@ -3,6 +3,7 @@
   * [Integrated Tools Version](get-started/ship-hats-integrated-tools-version)
   * [User Roles and Permissions](user-roles-permissions)
 * Getting Started
+  * [Pitstop 1: Preparing to Onboard](preparing-to-onboard)
   * [Pre-Onboarding Guide](pre-onboarding-guide)
   * [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
   * Tools Guide
@@ -16,4 +17,4 @@
 * Terms & Policy Related
   * [Service Level Agreement](service-level-agreement)
   * [Cleanup Policy for Nexus Repository](ship-hats-cleanup-policy-for-nexus-repository)
-  * [SHIP-HATS Policies and Announcements](ship-hats-policy-announcements)
+  
