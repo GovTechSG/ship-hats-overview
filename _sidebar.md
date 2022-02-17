@@ -2,8 +2,9 @@
   * [SHIP-HATS Architecture](architecture-diagram)
   * [Integrated Tools Version](get-started/ship-hats-integrated-tools-version)
   * [User Roles and Permissions](user-roles-permissions)
-* Getting Started
+* Newbie Path
   * [Pitstop 1: Preparing to Onboard](preparing-to-onboard)
+* Getting Started
   * [Pre-Onboarding Guide](pre-onboarding-guide)
   * [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
   * Tools Guide
