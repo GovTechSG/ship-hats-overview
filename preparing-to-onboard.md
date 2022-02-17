@@ -18,3 +18,5 @@ To those getting started on DevSecOps, GovTech engineers have put together a [De
 ### #2 Feedback Anytime 
 
 Your inputs help us to continue to improve the product and support our users. You can submit your [feedback](https://www.developer.tech.gov.sg/singapore-government-tech-stack/toolchain/contact-us) on Developer Portal. 
+
+***Next segment is coming soon***
