@@ -15,6 +15,7 @@
   * [Tools FAQ](tools-faq)
   * [General FAQ](general-faq)
   * [Maintenance Timing](maintenance-timing)
+  * [SHIP-HATS Releases](ship-hats-releases)
 * Terms & Policy Related
   * [Service Level Agreement](service-level-agreement)
   * [Cleanup Policy for Nexus Repository](ship-hats-cleanup-policy-for-nexus-repository)
