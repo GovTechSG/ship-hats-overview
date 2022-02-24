@@ -23,7 +23,7 @@ The log in steps is similar for the tools below. For documentation purposes, we 
 3. Choose **Azure AD**
 ![cloudflare](cloudflare.png)
 4. You will be prompted to sign in to your TechPass if you have not logged in. Proceed to step 6 if you are already logged into TechPass. 
-5. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/)if you are logging in to TechPass for the first time.
+5. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) if you are logging in to TechPass for the first time.
 6. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
 7. Once authenticated, you will be redirected to your dashboard. 
 
@@ -35,7 +35,7 @@ The log in steps is similar for the tools below. For documentation purposes, we 
 2. Click **Single Sign-On(SSO)** on the login dialog.
 ![nexus iq](nexus-iq-tp.png)
 3. You will be prompted to sign in to your TechPass if you have not logged in. Proceed to step 5 if you are already logged into TechPass. 
-4. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/)if you are logging in to TechPass for the first time.
+4. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) if you are logging in to TechPass for the first time.
 5. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
 6. Once authenticated, you will be redirected to your Nexus IQ dashboard.
 
@@ -46,14 +46,14 @@ The log in steps is similar for the tools below. For documentation purposes, we 
 3. Click **Sign with SSO**.
 ![nexus repo](nexus-repo-tp.png)
 4. You will be prompted to sign in to your TechPass if you have not logged in. Proceed to step 6 if you are already logged into TechPass. 
-5. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/)if you are logging in to TechPass for the first time.
+5. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) if you are logging in to TechPass for the first time.
 6. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
 7. Once authenticated, you will be redirected to your Nexus Repo dashboard.
 
 ## Steps to log in with TechPass for Fortify SSC
 1. Go to [Fortify SSC](https://ssc.hats.stack.gov.sg/)
 2. You will be prompted to sign in to your TechPass if you have not logged in. Proceed to step 4 if you are already logged into TechPass. 
-3. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/)if you are logging in to TechPass for the first time.
+3. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) if you are logging in to TechPass for the first time.
 4. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
 5. Once authenticated, you will be redirected to your Fortify SSC dashboard.
 
@@ -70,7 +70,7 @@ Currently you are required to log in to Fortify SSC before logging in to WebInsp
 ![sonarqube](sonarqube-tp.png)
 
 3. You will be prompted to sign in to your TechPass if you have not logged in. Proceed to step 5 if you are already logged into TechPass. 
-4. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/)if you are logging in to TechPass for the first time.
+4. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) if you are logging in to TechPass for the first time.
 5. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
 6. Once authenticated, you will be redirected to your Sonarqube dashboard.
 
@@ -80,7 +80,7 @@ Currently you are required to log in to Fortify SSC before logging in to WebInsp
 
 ![thinking-hats](thinking-hats-tp.png)
 3. You will be prompted to sign in to your TechPass if you have not logged in. Proceed to step 5 if you are already logged into TechPass. 
-4. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/)if you are logging in to TechPass for the first time.
+4. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) if you are logging in to TechPass for the first time.
 5. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
 6. Once authenticated, you will be redirected to your Thinking HATS dashboard.
 
