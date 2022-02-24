@@ -1,4 +1,4 @@
-# Enable TechPass for SHIP-HATS 
+# Use TechPass to access SHIP-HATS and tools 
 
 With the introduction of TechPass as a Single Sign-On to access SHIP-HATS and the integrated tools, minor changes are made to their login process. 
 
