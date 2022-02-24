@@ -1,6 +1,6 @@
 # Use TechPass to access SHIP-HATS and tools 
 
-With the introduction of TechPass as a Single Sign-On to access SHIP-HATS and the integrated tools, minor changes are made to their login process. 
+With the introduction of TechPass as a Single Sign-On to access SHIP-HATS and the integrated tools on both GSIB and GMD devicecs, minor changes are made to the login process. 
 
 ?> Once TechPass is enabled, you will see the changes below.  
 
