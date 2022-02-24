@@ -109,8 +109,7 @@ For existing users, your LDAP accounts will be deleted. There will not be any im
 <br>
 <details>
   <summary> 6. What is the benefit of enabling TechPass for my SHIP-HATS account? </summary><br>
-On GMD device: login to TechPass and access the <a href="http://www.ship.gov.sg/">SHIP-HATS portal</a>. You have successfully onboarded if you are able to access the <a href="http://www.ship.gov.sg/">SHIP-HATS portal</a>. 
-You can use TechPass to access SHIP-HATS services seamlessly on GSIB without logging in to individual tools. and in the future have a single sign on for all SGTS products .
+You can use TechPass to access SHIP-HATS services seamlessly on GSIB and GMD devices without logging in to individual tools and in the future have a single sign on for all SGTS products.
 </details>
 <br>
 
