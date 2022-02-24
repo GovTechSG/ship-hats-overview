@@ -21,7 +21,7 @@ The log in steps is similar for the tools below. For documentation purposes, we 
 1. Go to [Confluence](http://confluence.ship.gov.sg)
 2. You will be directed to Cloudflare
 3. Choose **Azure AD**
-![cloudflare](cloudflare.png ':size=25x50')
+![cloudflare](cloudflare.png)
 4. You will be prompted to sign in to your TechPass if you have not logged in. Proceed to step 6 if you are already logged into TechPass. 
 5. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/)if you are logging in to TechPass for the first time.
 6. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
@@ -33,7 +33,7 @@ The log in steps is similar for the tools below. For documentation purposes, we 
  
 1. Go to [Nexus IQ](https://nexus-iq.ship.gov.sg/)
 2. Click **Single Sign-On(SSO)** on the login dialog.
-![nexus iq](nexus-iq-tp.png ':size=25x50')
+![nexus iq](nexus-iq-tp.png)
 3. You will be prompted to sign in to your TechPass if you have not logged in. Proceed to step 5 if you are already logged into TechPass. 
 4. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/)if you are logging in to TechPass for the first time.
 5. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
@@ -44,7 +44,7 @@ The log in steps is similar for the tools below. For documentation purposes, we 
 1. Go to [Nexus Repo](https://nexus.ship.gov.sg/)
 2. Click **Sign in**.
 3. Click **Sign with SSO**.
-![nexus repo](nexus-repo-tp.png ':size=25x50')
+![nexus repo](nexus-repo-tp.png)
 4. You will be prompted to sign in to your TechPass if you have not logged in. Proceed to step 6 if you are already logged into TechPass. 
 5. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/)if you are logging in to TechPass for the first time.
 6. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
@@ -67,7 +67,7 @@ Currently you are required to log in to Fortify SSC before logging in to WebInsp
 1. Go to [Sonarqube](https://sonar.hats.stack.gov.sg/sonar)
 2. Click **Log in with SAML**.
 
-![sonarqube](sonarqube-tp.png ':size=25x50')
+![sonarqube](sonarqube-tp.png)
 
 3. You will be prompted to sign in to your TechPass if you have not logged in. Proceed to step 5 if you are already logged into TechPass. 
 4. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/)if you are logging in to TechPass for the first time.
@@ -78,7 +78,7 @@ Currently you are required to log in to Fortify SSC before logging in to WebInsp
 1. Go to [Thinking HATS](https://thinking.hats.stack.gov.sg/)
 2. Click **Log in with TechPass**
 
-![thinking-hats](thinking-hats-tp.png ':size=25x50')
+![thinking-hats](thinking-hats-tp.png)
 3. You will be prompted to sign in to your TechPass if you have not logged in. Proceed to step 5 if you are already logged into TechPass. 
 4. Refer to [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/)if you are logging in to TechPass for the first time.
 5. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
