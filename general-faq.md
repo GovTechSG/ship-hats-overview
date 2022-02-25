@@ -9,21 +9,26 @@ A named user refers to licenses that is bound to a specific user. Each named use
 <br>
 <details>
   <summary>2. Are admin accounts such as Subscription Admin (SA) and Service Accounts considered as a named user account? </summary><br>
-Yes. You will be utilising one user for each SA and service account.
+Yes. Subscription Admin (SA) and Service Accounts are considered as a named user account.
 </details>
 <br>
 <details>
-  <summary>3. How do I reset my password?</summary><br>
+  <summary>3. Do Subscription Admin(SA) accounts consume quota? </summary><br>
+No. Subscription Admin (SA) accounts do not consume quota.
+</details>
+<br>
+<details>
+  <summary>4. How do I reset my password?</summary><br>
 You can find the steps to <a href="https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account?id=reset-password">reset password</a> as described in <a href"=https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account">manage accounts</a> in SHIP-HATS Portal Admin guide
 </details>
 <br>
 <details>
-  <summary>4. How do I reset my 2FA?</summary><br>
+  <summary>5. How do I reset my 2FA?</summary><br>
 You can find the steps to <a href="https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account?id=reset-2fa">reset 2FA</a> as described in <a href="https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account">manage accounts in SHIP-HATS Portal Admin guide</a>.
 </details>
 <br>
 <details>
-  <summary>5. What if I have lost my mobile device?</summary><br>
+  <summary>6. What if I have lost my mobile device?</summary><br>
 You can refer to <a href="https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account"> manage accounts</a> for more information on instructions to reset your account.
 </details>
 
