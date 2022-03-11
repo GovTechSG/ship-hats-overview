@@ -36,6 +36,8 @@ You can refer to <a href="https://docs.developer.tech.gov.sg/docs/ship-hats-docu
   <summary>7. Can I access SHIP-HATS tools via GSIB device?</summary><br>
 Yes. You can access SHIP-HATS tools via GSIB. Currently, you are not able to access SHIP-HATS portal via GSIB.
 </details>
+
+
 ## [Basic Support FAQs](#basic-support-faq)
 
 <details>
