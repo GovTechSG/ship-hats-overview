@@ -31,7 +31,11 @@ You can find the steps to <a href="https://docs.developer.tech.gov.sg/docs/ship-
   <summary>6. What if I have lost my mobile device?</summary><br>
 You can refer to <a href="https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account"> manage accounts</a> for more information on instructions to reset your account.
 </details>
-
+<br>
+<details>
+  <summary>7. Can I access SHIP-HATS tools via GSIB device?</summary><br>
+Yes. You can access SHIP-HATS tools via GSIB. Currently, you are not able to access SHIP-HATS portal via GSIB.
+</details>
 ## [Basic Support FAQs](#basic-support-faq)
 
 <details>
