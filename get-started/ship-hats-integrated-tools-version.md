@@ -9,7 +9,7 @@ Updated on: 8 Mar 2022
 | Build Management | Bamboo | 8.0.4 | https://bamboo.ship.gov.sg/ |
 | User Group Management for Atlassian tools | Crowd | 4.3.5 | https://crowd.ship.gov.sg|
 | Directory Service Authentication | LDAP | 2.4.44 | NA as it is managed by Crowd. |
-| Build Artifact | Nexus repo | 3.36=8.0 | https://nexus.ship.gov.sg/|
+| Build Artifact | Nexus repo | 3.37.3-02 | https://nexus.ship.gov.sg/|
 | Software Composition Analysis (SCA) | Nexus IQ | 132 | https://nexus-iq.ship.gov.sg/assets/index.html |
 | Automated Testing| pCloudy | NA | https://hats.pcloudy.com/|
 | Automatic Code Review | SonarQube | Community edition 8.9 | https://sonar.hats.stack.gov.sg/sonar |
