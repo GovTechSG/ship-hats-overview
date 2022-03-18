@@ -25,6 +25,24 @@ Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SA
 
 SA or PA can add tools and additional PAs. Note that SA can add up to three PAs using the SHIP-HATS portal.
 
+## Creation of Project tool with customised project key
+Subscription Admin (SA) and Project Admin (PA) can customise the project keys when adding app tools on SHIP-HATS. This is currently applicable for Jira, Bitbucket and Confluence.  
+
+*To customise project key*: 
+
+1. Go to **Projects> All Projects>** > Manage > to view and select the relevant project. 
+2. Click Add tool under **Development** tab
+3. Choose the required tool.
+
+![chara](images/chara.png)
+
+4.  Select **Customise Project Key**.
+![customise](images/customise.png)
+
+5. Enter the required project key. It can only have 2-10 characters, consisting of uppercase letters A-Z and numbers from0-9. First character must be an alphabet. 
+
+![add](images/addnewkey.png)
+
 ## [View projects](#view-projects)
 
 SA and PAs of a subscription account can view all the projects of the subscription account.
@@ -51,6 +69,23 @@ Subscription Admin can remove a project as long as no tool has been added to it.
 <kbd>![remove-project](images/remove-project.png ':size=100%')</kbd>
 
 3. Click the three dots and then choose **Remove project**.
+
+## [Remove project tools](#remove-project-tools)
+Subscription Admin and Project Admin can remove a tool/app when it is not required. These tools are Jira, Confluence, Bamboo, Fortify and Webinspect. 
+
+1. Go to **Projects> All Projects> Manage**.
+2. Click **Manage** on the tool you’d like to remove. 
+3. Select **Remove App** from the dropdown menu. 
+
+![removetool](images/removetool.png)
+
+4. Click **Remove**
+
+![remove](images/confirmremove.png)
+
+5. Enter the required action  
+
+![proceed](images/proceed.png)
 
 ## [Add project admins](#add-project-admins)
 
