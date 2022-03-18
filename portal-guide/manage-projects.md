@@ -3,7 +3,9 @@ This section explains how a Subscription Admin creates SHIP-HATS projects and ho
 - [Create new projects](#create-new-projects)
 - [View projects](#view-projects)
 - [Remove projects](#remove-projects)
+- [Remove project tools](#remove-project-tools)
 - [Add project tools](#add-project-tools)
+- [Creation of Project tool with customised project key](#create-project-tool-key)
 
 ## [Create new projects](#create-new-projects)
 
@@ -24,24 +26,6 @@ Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SA
 <kbd>![newly-created-project](images/newly-created-project.png ':size=100%')</kbd>
 
 SA or PA can add tools and additional PAs. Note that SA can add up to three PAs using the SHIP-HATS portal.
-
-## Creation of Project tool with customised project key
-Subscription Admin (SA) and Project Admin (PA) can customise the project keys when adding app tools on SHIP-HATS. This is currently applicable for Jira, Bitbucket and Confluence.  
-
-*To customise project key*: 
-
-1. Go to **Projects> All Projects>** > Manage > to view and select the relevant project. 
-2. Click Add tool under **Development** tab
-3. Choose the required tool.
-
-![chara](images/chara.png)
-
-4.  Select **Customise Project Key**.
-![customise](images/customise.png)
-
-5. Enter the required project key. It can only have 2-10 characters, consisting of uppercase letters A-Z and numbers from0-9. First character must be an alphabet. 
-
-![add](images/addnewkey.png)
 
 ## [View projects](#view-projects)
 
@@ -145,3 +129,22 @@ Note:
 <kbd>![tool-quota](images/tool-quota-resized-2.png ':size=100%')</kbd>
 
 - Once you have reached the quota, the respective tool name(s) will be disabled in the **Select Tool** drop-down list. If you still want to add these tools, please do raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/).
+
+
+## [Creation of Project tool with customised project key](#create-project-tool-key)
+Subscription Admin (SA) and Project Admin (PA) can customise the project keys when adding app tools on SHIP-HATS. This is currently applicable for Jira, Bitbucket and Confluence.  
+
+*To customise project key*: 
+
+1. Go to **Projects> All Projects>** > Manage > to view and select the relevant project. 
+2. Click Add tool under **Development** tab
+3. Choose the required tool.
+
+![chara](images/chara.png)
+
+4.  Select **Customise Project Key**.
+![customise](images/customise.png)
+
+5. Enter the required project key. It can only have 2-10 characters, consisting of uppercase letters A-Z and numbers from0-9. First character must be an alphabet. 
+
+![add](images/addnewkey.png)
