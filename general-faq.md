@@ -34,8 +34,9 @@ You can refer to <a href="https://docs.developer.tech.gov.sg/docs/ship-hats-docu
 <br>
 <details>
   <summary>7. Can I access SHIP-HATS tools via GSIB device?</summary><br>
-Yes. You can access SHIP-HATS tools via GSIB.
+Yes. You can access SHIP-HATS tools such as Confluence, Jira, Bamboo, Nexus Repo, Nexus IQ and SHIP-HATS Service Desk via GSIB.
 
+  
 *To access SHIP-HATS tools on GSIB :*
   1. Go to the SHIP-HATS tools you intend to use. ie. <a href="http://confluence.ship.gov.sg"> Confluence</a>
   2. You will be directed to **TechPass**
@@ -45,6 +46,8 @@ Yes. You can access SHIP-HATS tools via GSIB.
   3. Sign in and approve via the **Microsoft Authenticator** app
  
   ![tpapprove](tpapprovenew.png)
+  
+  4. You can sign in with your **SHIP-HATS** id or with TechPass.
 
 </details>
 
