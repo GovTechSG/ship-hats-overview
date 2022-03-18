@@ -47,7 +47,7 @@ Yes. You can access SHIP-HATS tools such as Confluence, Jira, Bamboo, Nexus Repo
  
   ![tpapprove](tpapprovenew.png)
   
-  4. You can sign in with your **SHIP-HATS** id or with TechPass.
+  4. You can sign in with your **SHIP-HATS** user id or with TechPass.
 
 </details>
 
