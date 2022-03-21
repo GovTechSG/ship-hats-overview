@@ -6,11 +6,11 @@ Updated on: 8 Mar 2022
 | Project Management | Jira | 8.20.1 |https://jira.ship.gov.sg/|
 | Documentation and Collaboration | Confluence | 7.14.1 |https://confluence.ship.gov.sg/|
 | Repository Management | Bitbucket | 7.17.5 |https://bitbucket.ship.gov.sg/|
-| Build Management | Bamboo | 8.0.4 | https://bamboo.ship.gov.sg/ |
+| Build Management | Bamboo | 8.0.6 | https://bamboo.ship.gov.sg/ |
 | User Group Management for Atlassian tools | Crowd | 4.3.5 | https://crowd.ship.gov.sg|
 | Directory Service Authentication | LDAP | 2.4.44 | NA as it is managed by Crowd. |
-| Build Artifact | Nexus repo | 3.37.3-02 | https://nexus.ship.gov.sg/|
-| Software Composition Analysis (SCA) | Nexus IQ | 132 | https://nexus-iq.ship.gov.sg/assets/index.html |
+| Build Artifact | Nexus repo | 3.38.0 | https://nexus.ship.gov.sg/|
+| Software Composition Analysis (SCA) | Nexus IQ | 134 | https://nexus-iq.ship.gov.sg/assets/index.html |
 | Automated Testing| pCloudy | NA | https://hats.pcloudy.com/|
 | Automatic Code Review | SonarQube | Community edition 8.9 | https://sonar.hats.stack.gov.sg/sonar |
 | Static Application Security Testing (SAST) | Fortify Static Code Analyzer (SCA) | 20.2.0.298 | https://ssc.hats.stack.gov.sg/ssc |
