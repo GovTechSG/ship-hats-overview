@@ -21,12 +21,12 @@ Note: This website is not supported by Safari.
 8. Enter this six-digit code without any space and click **Confirm Code**.
 9. Download and install the client applicable for your OS(operating system) from the highlighted group as shown in Box 1 in Figure 1
 10. Click **Yourself (user-locked profile)** to download your personal connection profile (.ovpn file) as shown in Box 2 in Figure 1
-![figure 1](openvpnchoose.png)
+![figure 1](openvpnchoose.png  ':size=60%')
 11. Open OpenVPN and import the downloaded profile by clicking **+**. 
-![openvpn](openvpn1up.png)
+![openvpn](openvpn1up.png  ':size=60%')
 12. Go to **File** and click **Browse** to locate the downloaded .ovpn file and click **Add**.
 13. Enter your SHIP-HATS log in credentials on the Imported profile page as shown in figure 1.2 and click connect.
-![figure 1-3](openvpn22.png)
+![figure 1-3](openvpn22.png  ':size=60%')
 
 14. You have successfully installed OpenVPN. You will need to log in to OpenVPN each time you require access to SHIP-HATS.
 
