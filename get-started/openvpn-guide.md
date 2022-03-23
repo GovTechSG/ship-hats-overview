@@ -7,16 +7,12 @@ SHIP-HATS enforces two-factor authentication for OpenVPN to provide an additiona
 ## Setting up OpenVPN
 
 1. Go to [SHIP-HATS OpenVPN](https://vpn.ship.gov.sg/) in your internet facing PC or Mac.
-
-![open vpn](openvpn11.png  ':size=60%')
-
 Note: This website is not supported by Safari.
-
 2. Enter the **username** provided in the onboarding email from the SHIP-HATS administrator.
 3. Enter **password** you have set using the link provided in onboarding email.
 4. Click **Sign In**.
 
-![sign in](openvpn.png  ':size=130%')
+![open vpn](openvpn11.png  ':size=60%')
 
 5. Install and open **Authy** or **Google Authenticator** on your mobile phone from App store or Google Play Store.
 6. Tap + and choose **Scan a QR code**.
