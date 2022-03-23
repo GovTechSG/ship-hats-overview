@@ -55,7 +55,7 @@ Subscription Admin can remove a project as long as no tool has been added to it.
 3. Click the three dots and then choose **Remove project**.
 
 ## [Remove project tools](#remove-project-tools)
-Subscription Admin and Project Admin can remove a tool/app when it is not required. These tools are Jira, Confluence, Bitbucket, Fortify, and Webinspect. 
+Subscription Admin and Project Admin can remove a tool/app when it is not required. These tools are Jira, Confluence, Bitbucket, Fortify, and WebInspect. 
 
 1. Go to **Projects> All Projects> Manage**.
 2. Click **Manage** on the tool you’d like to remove. 
