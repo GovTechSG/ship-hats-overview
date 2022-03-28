@@ -2,10 +2,10 @@
 This section describes the following:
 
 * [Invite users](#invite-users)
-* [Creation of Account](#creation-of-account)
+* [Create Account](#creation-of-account)
 * [Approve new users](#approve-new-users)
 * [View users](#view-users)
-* [Remove users](#remove-users)
+* [Remove users](#remove-users) <!--* [Manage Access](#manage-access)-->
 * [Change SA](#change-sa)
 * [Change PA](#change-pa)
 * [Reactivate users](#reactivate-users)
@@ -27,7 +27,7 @@ By default, a new invitation link has a 14 days expiry date.  Whenever you invit
 3. Click **Email me** to send this link with the expiry date to your SHIP-HATS registered email address and forward it to the intended users so that they can provide required information in the **Invitation Form**.
 Alternatively, click the copy icon to copy and share the invite link with intended users. Note, in this case, make sure to inform the users about the expiry date of this link.
 
-## [Creation of Account](#creation-of-account)
+## [Create Account](#creation-of-account)
 Users will receive a link to onboard to SHIP-HATS portal upon successful approval. 
 Access the link via the onboarding email and perform the following steps: 
 
@@ -94,18 +94,42 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 
 * Click **Export CSV** to download the user list as a .csv file to your local machine. This csv lists the active and removed users along with the approval and removal details.
 
+<!--## [Manage Access](#manage-access)
+
+*To manage access for a user:*
+
+1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=switch-account).
+
+2. From the side menu, click **Users > All Users**.
+
+<kbd>![all-users-new](images/all-users-new.png ':size=100%')</kbd>
+
+3. Search for the user whose access you want to manage. 
+4. From the **Action** column, click ![3_dot](images/3_dot.png) corresponding to the user.  
+5. Select **Manage Access**, and select the tools that you want to enable for the user. Following options are available: 
+- CI tools
+- SonaType tools  
+
+<kbd>![manage-access](images/manage-access.png ':size=100%')</kbd>
+
+6. Click **Proceed**. 
+<br />A confirmation message appears, indicating that the user will receive an email regarding the change. 
+<br />**Tip:** The Proceed button is enabled only when there is a change to the existing selection.   -->
+
+
+
 ## [Remove users](#remove-users)
 
 We recommend Subscription Admin (SA) and Project Admin (PA) to periodically review the named users in their account, consumed user quota and remove users who are no longer required.
 
-Note that SA and PA can remove a user who does not have the Project Admin or Subscription Admin roles in the subscription account.
+**Note:** SA and PA can remove a user who does not have the Project Admin or Subscription Admin roles in the subscription account.
 
 *To remove a user:*
 
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switch account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=switch-account).
 2. From the side menu, click **Users > All Users**.
 3. Search for the user to be removed and from the **Action** column, click ![3_dot](images/3_dot.png) corresponding to the user.
-Tip: Refer to [Viewing users](#view-users) to know how to search for users and to sort by **Quota Consumed**.
+Tip: Refer to [View users](#view-users) to know how to search for users and to sort by **Quota Consumed**.
 
 <kbd>![remove_user](images/remove-users-2.png ':size=100%')</kbd>
 
@@ -123,13 +147,13 @@ To change or transfer the existing PA role to another user, one of the SAs can a
 2. Click **Users > All users**
 3. Click **Project Role**
 
-kbd>![view user role](images/pa2.png ':size=100%')</kbd>
+<kbd>![view user role](images/pa2.png ':size=100%')</kbd>
 
 4. Name of users will be displayed based on the project role.
 
 ### To add PAs:
 1. Log in to [SHIP-HATS Portal](http://www.ship.gov.sg)
-2. Click **Overview** > **Project**.
+2. Click **Overview** > **Project**.  
 <kbd>![overview page](images/overviewpage1.png ':size=100%')</kbd>
 3. Click the **pencil** icon.
 
@@ -174,21 +198,22 @@ On day 91, if the user is still inactive on SHIP-HATS, user status changes from 
 
 SA and PA can reactivate a suspended user back to their account if required.
 
-*To reactivate user:*
+*To reactivate a user:*
 
-1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=switch-account).
+If you are a TechPass user, the SA can raise a service request using the [TechPass Support form](https://form.gov.sg/#!/5f69797d0666cb0011cc59da). This service request will take 1-3 business days.
 
-2.  From the side menu, click **Users > All Users**.
+If you are not a TechPass user, the SA or PA can follow these steps to reactivate a user:
 
-3. Search for the user to be reactivated and from the **Action** column, click ![3_dot](images/3_dot.png) corresponding to the user.
+1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=switch-account).  
+2.  From the side menu, click **Users > All Users**.  
+3. Search for the user to be reactivated and from the **Action** column, click ![3_dot](images/3_dot.png) corresponding to the user.  
 
 <kbd>![user_status_2](images/user_status_2.png ':size=100%')</kbd>
 
-Tip: Refer to [Viewing users](#view-users) to know how to search for users
+<br />**Tip:** Refer to [Viewing users](#view-users) to know how to search for users  
 
 4. Choose **Reactivate User**. User, SAs and the requestor will be notified through an email about the reactivation.  
 
-Note:
-* Though the reactivated user can log in using the existing credentials, we recommend reactivated users to reset their password. The email sent to the reactivated users will have the link to reset their password.
-
-* Once a user has been reactivated, an email notification about this reactivation is sent to the requestor and the SAs.
+**Notes:**
+* Though the reactivated user can log in using the existing credentials, we recommend reactivated users to reset their password. The email sent to the reactivated users includes the link to reset their password.  
+* After a user has been reactivated, an email notification about this reactivation is sent to the requestor and the SAs.

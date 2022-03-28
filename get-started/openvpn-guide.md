@@ -1,6 +1,6 @@
 # SHIP-HATS OpenVPN Guide
 
-This is a guide to set up SHIP-HATS [OpenVPN](https://vpn.ship.gov.sg) on internet devices. All users are required to set up OpenVPN when onboarding to SHIP-HATS or when a reset is needed due to a version upgrade or other reasons. Users connect to OpenVPN to log in to SHIP-HATS Portal and SHIP-HATS tools such as Jira, Confluence, Bitbucket, Bamboo, Sonarqube and Nexus.
+This is a guide to set up SHIP-HATS [OpenVPN](https://vpn.ship.gov.sg) on Internet devices. All users are required to set up OpenVPN when onboarding to SHIP-HATS or when a reset is needed due to a version upgrade or other reasons. Users connect to OpenVPN to log in to SHIP-HATS Portal and SHIP-HATS tools such as Jira, Confluence, Bitbucket, Bamboo, Sonarqube, and Nexus.
 
 SHIP-HATS enforces two-factor authentication for OpenVPN to provide an additional layer of security.
 
@@ -34,4 +34,4 @@ Note: This website is not supported by Safari.
 
 14. You have successfully installed OpenVPN. You will need to log in to OpenVPN each time you require access to SHIP-HATS.
 
-You need to reset the 2FA when the Authy/Authenticator app is uninstalled or when you change the phone instrument.
+**Note:** You need to reset the 2FA if you uninstall the Authy/Authenticator app or when you change the phone instrument.
