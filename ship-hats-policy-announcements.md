@@ -7,7 +7,6 @@
 <details>
  <summary> 25 Oct 2021</summary><br>
  
-### 25 Oct 2021
 In the view of improving our service capability and operation efficiency, SHIP-HATS will be performing phase-1 Bamboo plans clean-up activities by deleting suspended or disabled plans (older than a year ago). Additionally,  we will contact high usage tenants separately to assist them on Plan expiry configurations and housekeeping settings.
 
 We seek your help to housekeep the older plans at your end. On 10th Nov ‘21,  disabled plans older than 1 year will be deleted.  As we continually seek to improve our solutions, we encourage you to refer to the [Bamboo Plans - Housekeep best practices](https://confluence.ship.gov.sg/display/SHIP/Bamboo+clean+up+and+best+practices) – the confluence page documentation with more details.   
@@ -37,7 +36,7 @@ Agencies are reminded NOT to override the default SHIP-HATS Bamboo Plan configur
 <details>
  <summary> 24 Sep 2021 </summary><br>
  
-### 24 Sep 2021
+
 SHIP-HATS will be adding a clean-up policy to the Nexus Repositories to remove old binary repos and artifacts published 6 months ago, which will take effect from 11th Oct 2021.  This Policy is aimed at service maintenance and performance improvement. 
 
 From 11th Oct ‘21 onwards, older artifacts in your nexus repositories will be deleted automatically without any notification. We request agencies to do periodical review of repositories and large blobstores and housekeep them at your end.  As we continually seek to improve our solutions, we encourage you to refer to the [Nexus Repository - Cleanup Policies](https://help.sonatype.com/repomanager3/repository-management/cleanup-policies) – the Sonatype documentation with more details. 
@@ -63,7 +62,7 @@ No notification will be sent to the agency. Please do periodical review and do n
 
 <details>
  <summary> 6 Sep 2021 </summary><br>
-### 6 Sep 2021
+
 SHIP-HATS will be implementing an Authenticated Request Limits (Throttling Policy) to Bitbucket service for all tenants, which will take effect from 15th  Sep 2021. This Policy is aimed at improving service stability and performance improvement.
 
 In the view of recent utilization of bitbucket usage patterns, a token bucket algorithm will be introduced to bitbucket users consuming the services. As we continually seek to improve our solutions, we encourage you to refer to the Bitbucket Rate Limiting – the Atlassian documentation with more details.  
@@ -102,7 +101,7 @@ SHIP-HATS will not recommend to increase the rate limit which will have an impac
 <details>
  <summary> 19 July 2021</summary><br>
 
-### 19 July 2021
+
 SHIP-HATS will be implementing a Fair Usage Policy for the use of Bamboo Elastic Agents, which will take effect from 1st Aug 2021. This Policy is aimed at improving the developer experience so that all our users can run their Bamboo plans in a timely manner.
 
 **Feedback on Bamboo Agent Utilisation**
@@ -139,7 +138,7 @@ No notification will be sent for termination. Please monitor your build plans re
  
 <details>
  <summary>  27 May 2020 </summary><br>
-### 27 May 2020
+
 As part of our security best practices, please be informed that SHIP will accept VPC endpoint acceptance requests only from GCC Restricted AWS accounts. Service consumers must adhere below the terms and conditions when submitting the VPC end point request to SHIP Service Desk. 
 
 Support request should be raised in SHIP Service Desk by respective project admin (or approved by respective project admin).
