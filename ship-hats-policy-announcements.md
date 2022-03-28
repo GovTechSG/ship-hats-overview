@@ -4,7 +4,6 @@
 
 ## SHIP-HATS Policies
 
-
 <details>
  <summary> 25 Oct 2021</summary><br>
  
@@ -31,9 +30,10 @@ Do you have any recommended Bamboo Plan configurations for SHIP-HATS plans?
 Tenants are expected not to keep more than 10 last builds per plan. After successful build, the plan resources (eg, artifacts, build logs) expiry should keep as minimal as possible. Our default recommended expiry is after 3 days of build and release artifacts.
  
 
-Agencies are reminded NOT to override the default SHIP-HATS Bamboo Plan configuration for any of your plans. Please contact us if you need any exemption or assist from us.     
- </details>
-
+Agencies are reminded NOT to override the default SHIP-HATS Bamboo Plan configuration for any of your plans. Please contact us if you need any exemption or assist from us.  
+ 
+  </details>
+ 
 <details>
  <summary> 24 Sep 2021 </summary><br>
  
@@ -59,7 +59,7 @@ Please contact your repo administrator to have a check on this.
 No notification will be sent to the agency. Please do periodical review and do necessary housekeeping of Repos, images and artifacts at your end. Do contact us if you require any support.
 
   </details>
- 
+
 
 <details>
  <summary> 6 Sep 2021 </summary><br>
