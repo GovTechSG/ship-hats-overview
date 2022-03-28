@@ -33,7 +33,6 @@ Tenants are expected not to keep more than 10 last builds per plan. After succes
 
 Agencies are reminded NOT to override the default SHIP-HATS Bamboo Plan configuration for any of your plans. Please contact us if you need any exemption or assist from us.     
  </details>
- 
 
 <details>
  <summary> 24 Sep 2021 </summary><br>
