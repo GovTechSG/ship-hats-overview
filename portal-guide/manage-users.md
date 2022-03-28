@@ -196,21 +196,21 @@ On day 91, if the user is still inactive on SHIP-HATS, user status changes from 
 
 <kbd>![profile-legends](images/profile-legends.png ':size=100%')</kbd>
 
-SA and PA can reactivate a suspended user back to their account if required.
+<!--SA and PA can reactivate a suspended user back to their account if required.-->
 
 *To reactivate a user:*
 
-If you are a TechPass user, the SA can raise a service request using the [TechPass Support form](https://form.gov.sg/#!/5f69797d0666cb0011cc59da). This service request will take 1-3 business days.
+If you are **a TechPass user**, the SA can raise a service request using the [TechPass Support form](https://form.gov.sg/#!/5f69797d0666cb0011cc59da). This service request will take 1-3 business days.
 
-If you are not a TechPass user, the SA or PA can follow these steps to reactivate a user:
+If you are **not a TechPass user**, the SA or PA can complete the following steps to reactivate a user:
 
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=switch-account).  
 2.  From the side menu, click **Users > All Users**.  
 3. Search for the user to be reactivated and from the **Action** column, click ![3_dot](images/3_dot.png) corresponding to the user.  
 
-<kbd>![user_status_2](images/user_status_2.png ':size=100%')</kbd>
-
-<br />**Tip:** Refer to [Viewing users](#view-users) to know how to search for users  
+<kbd>![user_status_2](images/user_status_2.png ':size=100%')</kbd><br />
+   
+> **Tip:** Refer to [Viewing users](#view-users) to know how to search for users  
 
 4. Choose **Reactivate User**. User, SAs and the requestor will be notified through an email about the reactivation.  
 
