@@ -7,6 +7,7 @@
 <details>
  <summary> 25 Oct 2021</summary><br>
  
+ 
 In the view of improving our service capability and operation efficiency, SHIP-HATS will be performing phase-1 Bamboo plans clean-up activities by deleting suspended or disabled plans (older than a year ago). Additionally,  we will contact high usage tenants separately to assist them on Plan expiry configurations and housekeeping settings.
 
 We seek your help to housekeep the older plans at your end. On 10th Nov ‘21,  disabled plans older than 1 year will be deleted.  As we continually seek to improve our solutions, we encourage you to refer to the [Bamboo Plans - Housekeep best practices](https://confluence.ship.gov.sg/display/SHIP/Bamboo+clean+up+and+best+practices) – the confluence page documentation with more details.   
@@ -71,8 +72,8 @@ In the view of recent utilization of bitbucket usage patterns, a token bucket al
 
 Find below the guideline for tenants with this Rate limiting setting turned ON.
 | **Guideline** | **Action Required** |
-| --| -- |
-|1. From 15 Sep ‘21 onwards, Rate limiting will be imposed and token bucket size and token bucket fill rate configured with the default settings.  | Review your build plans and requests regularly. If you are receiving returned error code 429 (ie when too many requests in a given amount of time);  look for the below options to mitigate the impact of rate-limiting </br> - Suggest users to review their code/scripts that the requests are not made in large bursts. </br> - Spread your requests. Use multiple users and split repos to perform the request rather than stick with one user. </br> - Cache API calls for at least a few seconds, and try to avoid making repetitive API calls. </br> - Avoid tight loops by writing scripts that wait for each REST request to finish before a new one is fired.</br> </br>If any of the above doesn’t help, please reach out to us SHIP-HATS Service Desk for further advice. |
+| -- | -- |
+| 1. From 15 Sep ‘21 onwards, Rate limiting will be imposed and token bucket size and token bucket fill rate configured with the default settings.  | Review your build plans and requests regularly. If you are receiving returned error code 429 (ie when too many requests in a given amount of time);  look for the below options to mitigate the impact of rate-limiting </br> - Suggest users to review their code/scripts that the requests are not made in large bursts. </br> - Spread your requests. Use multiple users and split repos to perform the request rather than stick with one user. </br> - Cache API calls for at least a few seconds, and try to avoid making repetitive API calls. </br> - Avoid tight loops by writing scripts that wait for each REST request to finish before a new one is fired.</br> </br>If any of the above doesn’t help, please reach out to us SHIP-HATS Service Desk for further advice. |
 | 2. Agencies with reasonable bitbucket requests as standard operational. | Nil |
 | 3. Agencies are reminded NOT to perform load test or massive requests. | Nil. You will be receiving 429 returned error if your requests exceeded the rate limit configured and do necessary mitigation |
 
@@ -113,7 +114,7 @@ We reviewed feedback that we have received through various channels such as the 
 To further reduce bamboo agent waiting times, we are putting in place a Fair Usage Policy with the following guidelines:
 
 | **Guideline** | **Action Required** |
-| --| -- |
+| -- | -- |
 | From 1 Aug ‘21 onwards, in order to free up resources for the next build, builds taking more than 500 minutes will be terminated automatically without any notification. | Review build plans regularly and reach out to the Service Desk for any specific use-cases that require more than 500 minutes.  We will assess the need on a case-by-case basis. |
 |  2. Agencies are recommended to run jobs in their own CI/CD pipeline, only schedule jobs when necessary during low peak hours. | Nil |
 |  3. Agencies are reminded NOT to perform load tests using elastic bamboo agents. | Nil |
