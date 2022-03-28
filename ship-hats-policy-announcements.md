@@ -1,6 +1,6 @@
 # SHIP-HATS Policy and Announcements
 
-?> The policies and annoucements below have been emailed out to SHIP-HATS users. It is cross posted here for ease of use
+?> The policies and annoucements below have been emailed out to SHIP-HATS users. It is cross posted here for ease of use.
 
 ## SHIP-HATS Policies
 
