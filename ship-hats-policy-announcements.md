@@ -4,11 +4,15 @@
 
 ## SHIP-HATS Policies
 
+<details>
+ <summary> 25 Oct 2021</summary><br>
+ 
 ### 25 Oct 2021
 In the view of improving our service capability and operation efficiency, SHIP-HATS will be performing phase-1 Bamboo plans clean-up activities by deleting suspended or disabled plans (older than a year ago). Additionally,  we will contact high usage tenants separately to assist them on Plan expiry configurations and housekeeping settings.
 
-We seek your help to housekeep the older plans at your end. On 10th Nov ‘21,  disabled plans older than 1 year will be deleted.  As we continually seek to improve our solutions, we encourage you to refer to the [Bamboo Plans - Housekeep best practices](https://confluence.ship.gov.sg/display/SHIP/Bamboo+clean+up+and+best+practices) – the confluence page documentation with more details.    
+We seek your help to housekeep the older plans at your end. On 10th Nov ‘21,  disabled plans older than 1 year will be deleted.  As we continually seek to improve our solutions, we encourage you to refer to the [Bamboo Plans - Housekeep best practices](https://confluence.ship.gov.sg/display/SHIP/Bamboo+clean+up+and+best+practices) – the confluence page documentation with more details.   
 
+ 
 #### FAQs
 
 **1. What if I want to keep one or few of disabled plans for our future reference?**
@@ -26,8 +30,13 @@ Do you have any recommended Bamboo Plan configurations for SHIP-HATS plans?
 Tenants are expected not to keep more than 10 last builds per plan. After successful build, the plan resources (eg, artifacts, build logs) expiry should keep as minimal as possible. Our default recommended expiry is after 3 days of build and release artifacts.
  
 
-Agencies are reminded NOT to override the default SHIP-HATS Bamboo Plan configuration for any of your plans. Please contact us if you need any exemption or assist from us.     
-
+Agencies are reminded NOT to override the default SHIP-HATS Bamboo Plan configuration for any of your plans. Please contact us if you need any exemption or assist from us.  
+ 
+  </details>
+ 
+<details>
+ <summary> 24 Sep 2021 </summary><br>
+ 
 ### 24 Sep 2021
 SHIP-HATS will be adding a clean-up policy to the Nexus Repositories to remove old binary repos and artifacts published 6 months ago, which will take effect from 11th Oct 2021.  This Policy is aimed at service maintenance and performance improvement. 
 
@@ -49,6 +58,11 @@ Please contact your repo administrator to have a check on this.
 
 No notification will be sent to the agency. Please do periodical review and do necessary housekeeping of Repos, images and artifacts at your end. Do contact us if you require any support.
 
+  </details>
+
+
+<details>
+ <summary> 6 Sep 2021 </summary><br>
 ### 6 Sep 2021
 SHIP-HATS will be implementing an Authenticated Request Limits (Throttling Policy) to Bitbucket service for all tenants, which will take effect from 15th  Sep 2021. This Policy is aimed at improving service stability and performance improvement.
 
@@ -83,6 +97,11 @@ No notification will be sent for termination. Please monitor your build plans an
 
 SHIP-HATS will not recommend to increase the rate limit which will have an impact to system stability and performance. Perhaps you may try out the possible mitigation options shared above to reduce the impact. You can reach out to us to assess your use cases and suggest further.  Kindly note that we will assess the need on a case-by-case basis.
 
+ </details>
+ 
+<details>
+ <summary> 19 July 2021</summary><br>
+
 ### 19 July 2021
 SHIP-HATS will be implementing a Fair Usage Policy for the use of Bamboo Elastic Agents, which will take effect from 1st Aug 2021. This Policy is aimed at improving the developer experience so that all our users can run their Bamboo plans in a timely manner.
 
@@ -116,7 +135,10 @@ Drop an email to enquiries_ship@tech.gov.sg with more details. Our team will eva
 
 No notification will be sent for termination. Please monitor your build plans regularly and contact us if you require any support.
 
-
+ </details>
+ 
+<details>
+ <summary>  27 May 2020 </summary><br>
 ### 27 May 2020
 As part of our security best practices, please be informed that SHIP will accept VPC endpoint acceptance requests only from GCC Restricted AWS accounts. Service consumers must adhere below the terms and conditions when submitting the VPC end point request to SHIP Service Desk. 
 
@@ -126,3 +148,5 @@ For non-Restricted accounts; service consumer must seek approval from SHIP team 
 FYI. New clause will be added in upcoming SHIP Service Agreement which should be formally approved by the agency. For existing approved accounts, SHIP team will make an assessment reach out tenant(s) if required.
 
 Drop us a note if you require any clarifications on this matter.
+
+  </details>
