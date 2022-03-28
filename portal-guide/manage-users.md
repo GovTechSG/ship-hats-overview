@@ -116,7 +116,6 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 
 6. Click **Proceed**. 
 <br />A confirmation message appears, indicating that the user will receive an email regarding the change. 
-<br />
 
    >**Notes:**
    >- You will be able to update access only if the numbers of users align with the approved quota of users.
