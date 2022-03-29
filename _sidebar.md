@@ -8,9 +8,9 @@
   * [Pre-Onboarding Guide](pre-onboarding-guide)
   * [Use TechPass to Access SHIP-HATS and Tools](use-techpass-to-access-ship-hats-and-tools)
   * [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
-  * Tools Guide
-    * [OpenVPN Setup Guide](get-started/openvpn-guide)
   * [Set up a Pipeline](how-to-setup-and-scan-sample-pipeline)
+* Tools Guide
+  * [OpenVPN Setup Guide](get-started/openvpn-guide)
 * Support & FAQs
   * [Subscription FAQ](subscription)
   * [Tools FAQ](tools-faq)
