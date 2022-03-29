@@ -118,7 +118,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 <br />A confirmation message appears, indicating that the user will receive an email regarding the change. 
 
    >**Notes:**
-   >- You will be able to update access only if the numbers of users align with the approved quota of users.
+   >- You will be able to update access only if the numbers of users align with the approved tools quota for the users.
    >- The Proceed button is enabled only when there is a change to the existing selection.
    >- A PA or SA user will be able to update their own access.
    >- You will not be able to proceed if both the options are cleared.
@@ -209,7 +209,7 @@ On day 91, if the user is still inactive on SHIP-HATS, user status changes from 
 
 *To reactivate a user:*
 
-If you are **a TechPass user**, the SA can raise a service request using the [TechPass Support form](https://form.gov.sg/#!/5f69797d0666cb0011cc59da). This service request will take 1-3 business days.
+If you are **a TechPass user**, the SA can raise a service request using the [TechPass Support form](https://form.gov.sg/#!/5f69797d0666cb0011cc59da). It will take 1-3 business days to process the service request.
 
 If you are **not a TechPass user**, the SA or PA can complete the following steps to reactivate a user:
 

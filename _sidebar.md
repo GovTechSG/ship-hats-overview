@@ -6,11 +6,11 @@
   * [Pitstop 1: Preparing to Onboard](preparing-to-onboard)
 * Getting Started
   * [Pre-Onboarding Guide](pre-onboarding-guide)
-  * [Use TechPass to access SHIP-HATS and tools](use-techpass-to-access-ship-hats-and-tools)
+  * [Use TechPass to Access SHIP-HATS and Tools](use-techpass-to-access-ship-hats-and-tools)
   * [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
   * Tools Guide
-  * [OpenVPN Setup Guide](get-started/openvpn-guide)
-    * [How to set up a simple pipeline](how-to-setup-and-scan-sample-pipeline)
+    * [OpenVPN Setup Guide](get-started/openvpn-guide)
+  * [Set up a Pipeline](how-to-setup-and-scan-sample-pipeline)
 * Support & FAQs
   * [Subscription FAQ](subscription)
   * [Tools FAQ](tools-faq)
