@@ -1,4 +1,3 @@
-
 # Subscription Frequently Asked Questions
 
 <br>

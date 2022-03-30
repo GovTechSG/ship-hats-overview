@@ -22,10 +22,10 @@ Updated on: 28 Mar 2022
 | Release tool | Digital.ai Release | 10.0.5 | https://xlrelease.ship.gov.sg/ |
 | VPN | Open VPN | 2.8.8 | https://vpn.ship.gov.sg |
 
-Note:
-
-- Visit our Confluence page on [Purple HATS](https://confluence.ship.gov.sg/display/HATSKB/Purple+HATS) to know more about how to use it.
-
-- As the pCloudy web dashboard needs proxy settings configured in your browser, we recommend you use Firefox to use pCloudy so that these proxy settings do not impact your system&#39;s proxy. For more information, visit [pCloudy Onboarding guide for SHIP-HATS](https://confluence.ship.gov.sg/display/HATSKB/pCloudy+Onboarding+Guide).
-
-- To access Digital.ai services, please raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/214). In this request you will be asked to provide an email address. The login credentials for Digital.ai Deploy (Intranet) and Digital.ai Release will be sent to this email address as an encrypted .zip file. We will include the details on how to open this file in the service request raised by you.
+>**Notes:**
+>- To know more on how to use Purple Hats, refer to our Confluence page on [Purple HATS](https://confluence.ship.gov.sg/display/HATSKB/Purple+HATS).
+>- As the pCloudy web dashboard needs proxy settings configured in your browser, we recommend you use Firefox to use pCloudy so that these proxy settings do not impact your system&#39;s proxy. For more information, refer to [pCloudy Onboarding guide for SHIP-HATS](https://confluence.ship.gov.sg/display/HATSKB/pCloudy+Onboarding+Guide).
+>- To access Digital.ai services, raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/214). In this request you will be asked to provide an email address. 
+To the email address provided, following information will be sent:  
+    - Login credentials for Digital.ai Deploy (Intranet) and Digital.ai Release as an encrypted .zip file  
+    - Details on how to open this file in the service request raised by you
