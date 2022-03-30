@@ -27,7 +27,7 @@
 - [Jira User Roles and Permission](get-started/jira-user-role)
 - [Fortify User Roles and Permissions](get-started/fortify-user-roles-and-permissions)
 
----
+
 <!-- 
 <a href="https://www.developer.tech.gov.sg/singapore-government-tech-stack/toolchain/overview.html">SHIP-HATS</a> tenants are managed through subscriptions. Following are the roles and permissions available to agencies and vendors within the SHIP-HATS web portal.
  
