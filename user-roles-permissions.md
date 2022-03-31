@@ -4,9 +4,9 @@
 
 | **Role** | **Description** | **Permissions** |  
 | --- | --- | --- |
-| **Subscription Administrator (SA)** | Each subscription is managed by SA. Only an agency user can be assigned as a SA and there can be up to two SAs per subscription. By default, a SA has all the rights in a subscription. | [SA Permissions](#sa-permissions) |
-| **Project Administrator (PA)** | A subscription can have multiple projects and each project is managed by PAs. An Agency user or a vendor can be assigned as a PA. You may add up to three PAs to a project through the SHIP-HATS portal. | [PA Permissions](#pa-permissions) |  
-| **User** | User is the default role for all the users from the Agency and vendors. | Perform assigned functional roles and responsibilities within the associated tool(s). For tool-specific permissions, refer to [Tools Permissions](#tools-permissions).|  
+| **Subscription Administrator (SA)** | Each subscription is managed by SA. Only an agency user can be assigned as a SA and there can be up to two SAs per subscription. By default, a SA has all the rights in a subscription. | Refer to [SA Permissions](#sa-permissions) for details. |
+| **Project Administrator (PA)** | A subscription can have multiple projects and each project is managed by PAs. An Agency user or a vendor can be assigned as a PA. You may add up to three PAs to a project through the SHIP-HATS portal. | Refer to [PA Permissions](#pa-permissions) for details. |  
+| **User** | User is the default role for all the users from the Agency and vendors. | Refer to [User Permissions](#user-permissions) for details. For tool-specific permissions, refer to [Tools Permissions](#tools-permissions).|  
 
 ## SA Permissions
 - Manage a subscription including upgrading or downgrading to a different tier from [SHIP-HATS Portal](https://www.ship.gov.sg/). For more information, refer to the [Subscription FAQs](subscription).
@@ -19,6 +19,9 @@
 - Add users to a subscription and manage their roles. Note that only SA can assign PA role to a user.
 - Add tools to project.
 - Add users to a project and manage their roles within the tools.
+
+## User Permissions
+- Perform assigned functional roles and responsibilities within the associated tool(s).
 
 ## Tools Permissions  
 - [Bitbucket User Roles and Permission](get-started/bitbucket-user-role)
