@@ -29,20 +29,67 @@ By default, a new invitation link has a 14 days expiry date.  Whenever you invit
 Alternatively, click the copy icon to copy and share the invite link with intended users. Note, in this case, make sure to inform the users about the expiry date of this link.
 
 ## [Create Account](#create-account)
-Users will receive a link to onboard to SHIP-HATS portal upon successful approval. 
-Access the link via the onboarding email and perform the following steps: 
+You will receive a link to onboard to SHIP-HATS portal upon successful approval. 
 
+Access the link via the onboarding email and perform the following steps based on the account that you want to create. 
+<!--
 1. Select your role. 
 
    <kbd>![create_account](images/invitation-form.png ':size=100%')</kbd>
 
-2. For **public officers**, you will need to enter your **official email address** and click **submit**.
+2. For **public officers**, enter your **official email address**, and then click **submit**.
 
    <kbd>![create_account](images/signing2.png ':size=100%')</kbd>
 
-3. For **vendors**, you will be required to enter the following details and click **submit**.
+3. For **vendors**, enter the following details, and then click **submit**:  
 
+   - First Name: Enter your first name
+   - Last Name: Enter your last name
+   - Company Email Address: Enter your company email address.   
+      Email addresses that are included in our approved list will be approved. If you provide an email address that is not included in our approved list, you may 
+   - Mobile Number
+   - Organization 
+   - Department
+
+   <kbd>![create_account](images/vendor3.png ':size=100%')</kbd>-->
+
+### Create an account for a Public Officer
+
+1. In the Invitation form, select the role as **Public Officer**. 
+
+1. Enter the following details, and then click **Submit**.  
+
+   - **First Name:** Enter first name of the user.
+   - **Last Name:** Enter last name of the user.
+   - **Public Service Email Address:** Enter official email address of the user.
+   - **Require SEED Account:** Select this checkbox if the user requires a SEED account. This account is required only for a user who is actively involved in development work on a non-GSIB device.  
+<br />
+
+   <kbd>![create_account](images/signing2.png ':size=100%')</kbd>
+
+### Create an account for a Vendor
+
+1. In the Invitation form, select the role as **Vendor**.  
+
+   <kbd>![create_vendor_account](images/new-account-vendor.png ':size=60%')</kbd>
+1. Enter the following details, and then click **Submit**.  
+
+   - **First Name:** Enter first name of the user.
+   - **Last Name:** Enter last name  of the user.
+   - **Company Email Address:** Enter email address of the user. 
+   
+      >**Note:** Only email addresses that are included in our approved list will be approved. If you provide an email address that is not included in our approved list, in the SHIP-HATS portal when approving the user, you will see a message indicating that this domain will be required to be included in TechPass. As required, you may select the **Proceed to whitelist domain** option to raise a service request. 
+      >
+      ><kbd>![unapproved_domain](images/vendor-unapproved-user-domain.png ':size=100%')</kbd>
+
+   - **Mobile Number:** Enter your mobile number.
+   - **Organization:** Enter your organization name. 
+   - **Department:** Enter your department name
+   - **Require SEED Account:** Select this checkbox if you require a SEED account. This account is required only for users who are actively involved in development work on a non-GSIB device.  
+<br />
+   
    <kbd>![create_account](images/vendor3.png ':size=100%')</kbd>
+
 
 ## [Approve new users](#approve-new-users)
 Once a user submits the completed SHIP-HATS **Invitation Form**, Subscription Admin (SA) and Project Admin (PA) will be notified by an email to approve the user registration.
