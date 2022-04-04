@@ -156,8 +156,8 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 3. Search for the user whose access you want to manage. 
 4. From the **Action** column, click ![3_dot](images/3_dot.png) corresponding to the user.  
 5. Select **Manage Access**, and select the tools that you want to enable for the user. Following options are available: 
-   - CI tools
-   - SonaType tools  
+   - **CI tools:** Select this option if the user is required to have access to JIRA, Confluence, Bitbucket, Bamboo, pCloudy, SonarQube, Fortify SCA & WebInspect, and Prisma Cloud services.
+   - **SonaType tools:** Select this option if the ser is required to have access to Nexus Repository and Nexus IQ Scan services.
 
    <kbd>![manage-access](images/manage-access.png ':size=100%')</kbd>
 
