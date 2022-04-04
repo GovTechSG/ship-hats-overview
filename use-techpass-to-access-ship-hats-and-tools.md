@@ -37,7 +37,7 @@ After you have authenticated, you will be redirected to your dashboard.
     
     ![nexus iq](nexus-iq-tp.png)
     
-    You will be prompted to sign in to your TechPass if you have not logged in. If you are logging in to TechPass for the first time, refer to the [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/).
+    If you have not logged into your TechPass, you will be prompted to sign in. For more details, refer to the [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) if you are logging in to TechPass for the first time.
     
 1. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
 1. After you have authenticated, you will be redirected to your Nexus IQ dashboard.
@@ -48,15 +48,15 @@ After you have authenticated, you will be redirected to your dashboard.
 1. Click **Sign in**.
 1. Click **Sign In with SSO**.  
     
-    ![nexus repo](nexus-repo-tp.png)
+    ![nexus repo](nexus-repo-tp.png)  
     
-    You will be prompted to sign in to your TechPass if you have not logged in. If you are logging in to TechPass for the first time, refer to the [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/). 
+    If you have not logged into your TechPass, you will be prompted to sign in. For more details, refer to the [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) if you are logging in to TechPass for the first time.   
 1. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
 1. After you have authenticated, you will be redirected to your Nexus Repo dashboard.
 
 ## Fortify SSC
 1. Go to [Fortify SSC](https://ssc.hats.stack.gov.sg/).  
-    You will be prompted to sign in to your TechPass if you have not logged in. If you are logging in to TechPass for the first time, refer to the [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/). 
+    If you have not logged into your TechPass, you will be prompted to sign in. For more details, refer to the [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) if you are logging in to TechPass for the first time. 
 1. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
 1. After you have authenticated, you will be redirected to your Fortify SSC dashboard.
 
@@ -73,7 +73,7 @@ Currently you are required to log in to Fortify SSC before logging in to WebInsp
 
     ![sonarqube](sonarqube-tp.png)
 
-    You will be prompted to sign in to your TechPass if you have not logged in. If you are logging in to TechPass for the first time, refer to the [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/).
+    If you have not logged into your TechPass, you will be prompted to sign in. For more details, refer to the [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) if you are logging in to TechPass for the first time.
 1. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
 1. After you have authenticated, you will be redirected to your SonarQube dashboard.
 
@@ -83,7 +83,7 @@ Currently you are required to log in to Fortify SSC before logging in to WebInsp
 
     ![thinking-hats](thinking-hats-tp.png)
 
-    You will be prompted to sign in to your TechPass if you have not logged in. If you are logging in to TechPass for the first time, refer to the [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/).
+    If you have not logged into your TechPass, you will be prompted to sign in. For more details, refer to the [TechPass user guide](https://docs.developer.tech.gov.sg/docs/techpass-user-guide/#/) if you are logging in to TechPass for the first time.
 
 1. Authenticate and approve your TechPass login using your Microsoft authenticator app with your SG Govt M365 profile. 
 1. After you have authenticated, you will be redirected to your Thinking HATS dashboard.
