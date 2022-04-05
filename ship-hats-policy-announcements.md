@@ -4,6 +4,56 @@
 
 ## SHIP-HATS Policies
 
+### 25 Oct 2021
+
+In the view of improving our service capability and operation efficiency, SHIP-HATS will be performing phase-1 Bamboo plans clean-up activities by deleting suspended or disabled plans (older than a year ago). Additionally,  we will contact high usage tenants separately to assist them on Plan expiry configurations and housekeeping settings.
+
+We seek your help to housekeep the older plans at your end. On 10th Nov, 2021, disabled plans older than 1 year will be deleted.  As we continually seek to improve our solutions, we encourage you to refer to the [Bamboo Plans - Housekeep best practices](https://confluence.ship.gov.sg/display/SHIP/Bamboo+clean+up+and+best+practices) confluence page for more details.   
+
+Agencies are requested **not** to override the default SHIP-HATS Bamboo Plan configuration for any of your plans. Please contact us if you require any exemption or support from us.  
+
+
+#### FAQs
+
+<details>
+ <summary>What if I want to keep one or few of disabled plans for our future reference?</summary><br />  
+
+We strongly recommend you to housekeep them at your local environment. However, you can still change the configuration at SHIP-HATS Bamboo system by updating the plan from disabled to enable state.
+</details>
+<br >
+<details>
+ <summary><b>Will there be any notification send to agency what are all the disabled plans were terminated?</b></summary><br>
+No notification will be sent to the agency. Please work with your Project Admin and complete the required housekeeping actions.
+</details>
+<br >
+
+<details>
+ <summary>Which resources will be removed by deleting the suspended or disabled plans?</summary><br>
+Deleting a plan completely removes the plan from SHIP-HATS Bamboo system. In addition, deleting a plan deletes the corresponding branch plans from Bamboo. Kindly review all your disabled or suspended plans and contact us if you have any concern before 10th Nov, 2021.  
+
+<br >
+<b>Note:</b> If your source code is configured in Bitbucket repo and branch, there will be no impact to these linked bitbucket repos. 
+
+
+</details>
+<br >
+
+<details>
+ <summary>I have bamboo plans configured in SHIP-HATS. Can I delete or manage the plans by myself?</summary><br>
+Yes. Users with <b>Admin</b> permission to the project plans can delete or manage the plans. For further guidance, please work with the Project Admin for your requirement.
+</details>
+<br >
+
+<details>
+ <summary>Do you have any recommended Bamboo Plan configurations for SHIP-HATS plans? </summary><br>
+Tenants are expected not to keep more than 10 last builds per plan. After successful build, the plan resources (eg, artifacts, build logs) expiry should keep as minimal as possible. Our default recommended expiry is after 3 days of build and release artifacts.
+</details>
+<br >
+
+
+
+
+<!--
 <details>
  <summary> 25 Oct 2021</summary><br>
  
@@ -33,7 +83,7 @@ Tenants are expected not to keep more than 10 last builds per plan. After succes
 Agencies are reminded NOT to override the default SHIP-HATS Bamboo Plan configuration for any of your plans. Please contact us if you need any exemption or assist from us.  
  
   </details>
- 
+ -->
 <details>
  <summary> 24 Sep 2021 </summary><br>
  

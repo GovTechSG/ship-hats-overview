@@ -114,7 +114,7 @@ After a user submits the completed SHIP-HATS **Invitation Form**, Subscription A
 
 4. In **Grant user access for:**, You can choose which tools to give access to. Following options are available:
    - **CI tools:** Select this option if the user is required to have access to JIRA, Confluence, Bitbucket, Bamboo, pCloudy, SonarQube, Fortify SCA & WebInspect, and Prisma Cloud services.
-   - **SonaType tools:** Select this option if the ser is required to have access to Nexus Repository and Nexus IQ Scan services.  
+   - **SonaType tools:** Select this option if the user is required to have access to Nexus Repository and Nexus IQ Scan services.  
 
 1. Click **Confirm**.  
 This user is now approved as SHIP-HATS user under this account.
@@ -161,7 +161,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 4. From the **Action** column, click ![3_dot](images/3_dot.png) corresponding to the user.  
 5. Select **Manage Access**, and select the tools that you want to enable for the user. Following options are available: 
    - **CI tools:** Select this option if the user is required to have access to JIRA, Confluence, Bitbucket, Bamboo, pCloudy, SonarQube, Fortify SCA & WebInspect, and Prisma Cloud services.
-   - **SonaType tools:** Select this option if the ser is required to have access to Nexus Repository and Nexus IQ Scan services.
+   - **SonaType tools:** Select this option if the user is required to have access to Nexus Repository and Nexus IQ Scan services.
 
    <kbd>![manage-access](images/manage-access.png ':size=100%')</kbd>
 
