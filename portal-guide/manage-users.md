@@ -16,7 +16,7 @@ This section describes the following:
 ## [Invite users](#invite-users)
 Subscription Admin (SA) and Project Admin (PA) can invite and add users to the subscription. Note that only SA can add a user as PA to their SHIP-HATS projects.
 
-*To invite users:*
+### To invite users:
 
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal </a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=switch-account).
 
@@ -53,7 +53,7 @@ Access the link via the onboarding email and perform the following steps based o
 
    <kbd>![create_account](images/vendor3.png ':size=100%')</kbd>-->
 
-### Create an account for a Public Officer
+### To create an account for a Public Officer:
 
 1. In the Invitation form, select the role as **Public Officer**. 
 
@@ -67,7 +67,7 @@ Access the link via the onboarding email and perform the following steps based o
 
    <kbd>![create_account](images/signing2.png ':size=100%')</kbd>
 
-### Create an account for a Vendor
+### To create an account for a Vendor:
 
 1. In the Invitation form, select the role as **Vendor**.  
 
