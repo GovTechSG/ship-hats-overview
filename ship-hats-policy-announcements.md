@@ -16,9 +16,8 @@ Agencies are requested **not** to override the default SHIP-HATS Bamboo Plan con
 #### FAQs
 
 <details>
- <summary>What if I want to keep one or few of disabled plans for our future reference?</summary><br />  
-
-We strongly recommend you to housekeep them at your local environment. However, you can still change the configuration at SHIP-HATS Bamboo system by updating the plan from disabled to enable state.
+ <summary><b>What if I want to keep one or few of disabled plans for our future reference?</b></summary><br />
+ We strongly recommend you to housekeep them at your local environment. However, you can still change the configuration at SHIP-HATS Bamboo system by updating the plan from disabled to enable state.
 </details>
 <br >
 <details>
@@ -28,7 +27,7 @@ No notification will be sent to the agency. Please work with your Project Admin 
 <br >
 
 <details>
- <summary>Which resources will be removed by deleting the suspended or disabled plans?</summary><br>
+ <summary><b>Which resources will be removed by deleting the suspended or disabled plans?</b></summary><br>
 Deleting a plan completely removes the plan from SHIP-HATS Bamboo system. In addition, deleting a plan deletes the corresponding branch plans from Bamboo. Kindly review all your disabled or suspended plans and contact us if you have any concern before 10th Nov, 2021.  
 
 <br >
@@ -39,13 +38,13 @@ Deleting a plan completely removes the plan from SHIP-HATS Bamboo system. In add
 <br >
 
 <details>
- <summary>I have bamboo plans configured in SHIP-HATS. Can I delete or manage the plans by myself?</summary><br>
+ <summary><b>I have bamboo plans configured in SHIP-HATS. Can I delete or manage the plans by myself?</b></summary><br>
 Yes. Users with <b>Admin</b> permission to the project plans can delete or manage the plans. For further guidance, please work with the Project Admin for your requirement.
 </details>
 <br >
 
 <details>
- <summary>Do you have any recommended Bamboo Plan configurations for SHIP-HATS plans? </summary><br>
+ <summary><b>Do you have any recommended Bamboo Plan configurations for SHIP-HATS plans?</b></summary><br>
 Tenants are expected not to keep more than 10 last builds per plan. After successful build, the plan resources (eg, artifacts, build logs) expiry should keep as minimal as possible. Our default recommended expiry is after 3 days of build and release artifacts.
 </details>
 <br >
