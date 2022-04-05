@@ -21,4 +21,4 @@
   - [Announcement and Policies](ship-hats-policy-announcements)
   - [Service Level Agreement](service-level-agreement)
   - [Cleanup Policy for Nexus Repository](ship-hats-cleanup-policy-for-nexus-repository)
-  
+- [Document History](document-history)
