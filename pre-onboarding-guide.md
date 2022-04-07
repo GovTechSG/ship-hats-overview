@@ -1,6 +1,8 @@
-# Pre-Onboarding Guide
+# Pre-Onboarding
 
-This onboarding guide includes pre-requisites required to onboard SHIP-HATS. 
+**Topics**
+- [Pre-Requisites](#pre-requisites)
+- [Quick start guide to onboarding process](#quick-start-guide-to-onboarding-process)
 
 ## Pre-Requisites 
 
@@ -26,7 +28,8 @@ This onboarding guide includes pre-requisites required to onboard SHIP-HATS.
 
 >**Note:** The onboarding link only lasts for 14 days. If you require an extension, send an email to [enquiries_ENP@tech.gov.sg](mailto:enquiries_ENP@tech.gov.sg) 
 
-## Quick guide to onboarding process 
+## Quick start guide to the onboarding process 
+
 1. Use gov.sg email to send a request to [enquiries_ENP@tech.gov.sg](mailto:enquiries_ENP@tech.gov.sg) with the email address of your Primary Subscription Admin (SA).  
 1. The SA receives the onboarding link via email.
 1. Open the invitation link on an Internet device, enter the fields, and then submit the onboarding form. 

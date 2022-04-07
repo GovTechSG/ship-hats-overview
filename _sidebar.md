@@ -6,11 +6,17 @@
   - [Pitstop 1: Preparing to Onboard](preparing-to-onboard)
 - Getting Started
   - [Pre-Onboarding Guide](pre-onboarding-guide)
-  - [Use TechPass to Access SHIP-HATS and Tools](use-techpass-to-access-ship-hats-and-tools)
-  - [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
-  - [Set up a Pipeline](how-to-setup-and-scan-sample-pipeline)
-- Tools Guide
-  - [OpenVPN Setup Guide](get-started/openvpn-guide)
+  - [Set up a CI Pipeline](how-to-setup-and-scan-sample-pipeline)
+- [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
+- Tools
+  - [Tools Permission](ship-hats-tools-permission)
+    - [Bitbucket User Roles and Permission](get-started/bitbucket-user-role)
+    - [Bamboo User Roles and Permission](get-started/bamboo-user-roles)
+    - [Confluence User Roles and Permission](get-started/confluence-user-role)
+    - [Jira User Roles and Permission](get-started/jira-user-role)
+    - [Fortify User Roles and Permissions](get-started/fortify-user-roles-and-permissions)
+  - [Access SHIP-HATS Tools](use-techpass-to-access-ship-hats-and-tools)
+  - [OpenVPN](get-started/openvpn-guide)
 - Support & FAQs
   - [Subscription FAQ](subscription)
   - [Tools FAQ](tools-faq)
