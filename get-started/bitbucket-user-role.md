@@ -14,22 +14,26 @@ Once you add Bitbucket as your project tool, a Bitbucket project is created. Ple
 ### Bitbucket Users
 You can add and manage users as individual users and group. Administrator can view project permissions assigned for users and groups.
 
-*To view project permissions:*
-![bitbucket](bitbucket.png)
+### To view project permissions:
 
 1. In <a href="https://bitbucket.ship.gov.sg">SHIP Bitbucket</a>, go to Projects and choose your project. 
 
-1. Click ![settings](settings.png)**Project settings**. Note that if you do not have Admin permissions, you will not be able to view this option.
+1. Click ![settings](settings.png) **Project settings**. If you do not have Admin permissions, you will not be able to view this option.
+
+    ![bitbucket](bitbucket.png)
+
 
 1. From the sidebar, select **Project permissions**. You will be able to view the **Project permissions**.
 
-#### Bitbucket User access
+### Bitbucket User access  
+
 Administrator can add users individually and manage their permissions.
 
-#### Bitbucket Group access 
+### Bitbucket Group access   
+
 Groups are an easier and efficient way to manage user access for multiple users.  Users can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/">service request</a> with the required group name, project name and user details such as name and email address. Crowd administrator in the SHIP-HATS team evaluates the request and approves it accordingly.  
 
 If approved, the group is created with the agency name prefixed to it. For example, MOE-BCAS. If a group was already created for managing users in any one of the Atlassian products added to your project on SHIP-HATS, you would be able to see that in all the integrated Atlassian products. Bitbucket project administrators can manage user groups for the project.
 
-#### Additional Resources
+### Additional Resources
 Please refer to <a href="https://confluence.atlassian.com/bitbucketserver0711/using-project-permissions-1047557542.html"> Bitbucket Project Permissions</a> to know more about the possible permissions for the users added to a project.
