@@ -1,5 +1,19 @@
 # SHIP-HATS Portal Guide
 The following sections guide SHIP-HATS’ Admins and Users on how to use it in their Devops journey.
+
+
+## [Manage Account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account)
+
+## [Manage Users](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-users)
+
+## [Manage Projects](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-projects)
+
+## [Manage Fortify applications](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-fortify-applications)
+
+## [Declaring DGP Systems](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/declaring-dgp-systems)
+
+
+
 <!--
 [Logging In and Logging Out](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out)
 
@@ -10,7 +24,6 @@ The following sections guide SHIP-HATS’ Admins and Users on how to use it in t
 - [Switching Account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=switch-account)-->
 
 
-[Manage Account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account)
 <!--
 - [Viewing and Modifying Profile of Administrators](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-account?id=viewing-and-updating-profile-as-sa-or-pa)
 - [Viewing and Modifying Profile of Users](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-account?id=viewing-and-updating-profile-as-user)
@@ -22,7 +35,6 @@ The following sections guide SHIP-HATS’ Admins and Users on how to use it in t
 - [Viewing Billing Information](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-account?id=viewing-billing-info)
 -->
 
-[Manage Users](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-users)
 <!--
 - [Inviting Users](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-users?id=inviting-users)
 - [Approving New Users](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-users?id=approving-new-users)
@@ -31,11 +43,7 @@ The following sections guide SHIP-HATS’ Admins and Users on how to use it in t
 - [Reactivating Users](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-users?id=reactivating-users)
 -->
 
-[Manage Projects](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-projects)
 
-[Manage Fortify applications](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-fortify-applications)
-
-[Declaring DGP Systems](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/declaring-dgp-systems)
 <!--
 - [Creating New Projects](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-projects?id=creating-new-projects)
 - [Viewing Projects](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/managing-projects?id=viewing-projects)
