@@ -2,7 +2,7 @@
 
 **Topics**
 - [Pre-Requisites](#pre-requisites)
-- [Quick start guide to onboarding process](#quick-start-guide-to-onboarding-process)
+- [Quick start guide to onboarding process](#quick-start-guide-to-the-onboarding-process)
 
 ## Pre-Requisites 
 
