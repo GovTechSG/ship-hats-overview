@@ -8,18 +8,13 @@
   - [Pre-Onboarding Guide](pre-onboarding-guide)
   - [Set up a CI Pipeline](how-to-setup-and-scan-sample-pipeline)
 - [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
-  <!--- [Manage Account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-account)
-  - [Manage Users](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-users)
-  - [Manage Projects](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-projects)
-  - [Manage Fortify applications](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-fortify-applications)
-  - [Declaring DGP Systems](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/declaring-dgp-systems)-->
 - Tools
   - [Tools Permission](ship-hats-tools-permission)
-    - [Bitbucket User Roles and Permission](get-started/bitbucket-user-role)
+    <!--- [Bitbucket User Roles and Permission](get-started/bitbucket-user-role)
     - [Bamboo User Roles and Permission](get-started/bamboo-user-roles)
     - [Confluence User Roles and Permission](get-started/confluence-user-role)
     - [Jira User Roles and Permission](get-started/jira-user-role)
-    - [Fortify User Roles and Permissions](get-started/fortify-user-roles-and-permissions)
+    - [Fortify User Roles and Permissions](get-started/fortify-user-roles-and-permissions)-->
   - [Access SHIP-HATS Tools](use-techpass-to-access-ship-hats-and-tools)
   - [OpenVPN](get-started/openvpn-guide)
 - Support & FAQs
