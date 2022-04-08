@@ -18,7 +18,7 @@ Subscription Admin (SA) and Project Admin (PA) can invite and add users to the s
 
 ### To invite users:
 
-1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal </a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/logging-in-and-logging-out?id=switch-account).
+1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal </a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
 
 2. From the side menu, click **Users > Invite Users**. An invitation link is automatically generated.  
 By default, a new invitation link has a 14 days expiry date.  Whenever you invite new users, the same link will be displayed with the remaining expiry date until it expires. In the example below, SA invites a new user to SHIP-HATS. As the invite was created 2 days earlier, the link is valid for the next 12 days.
@@ -90,7 +90,7 @@ Access the link via the onboarding email and perform the following steps based o
 After a user submits the completed SHIP-HATS **Invitation Form**, Subscription Admin (SA) and Project Admin (PA) will be notified by an email to approve the user registration.
 
 ### To approve new user registration:
-1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/logging-in-and-logging-out?id=switch-account).
+1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
 
    <kbd>![pending user approval notification](pending_user_approval_notification.png ':size=100%')</kbd>
 
@@ -127,7 +127,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 
 ### To view users:
 
-1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/logging-in-and-logging-out?id=switch-account).
+1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
 
 2. From the side menu, click **Users > All Users**.
 
@@ -151,7 +151,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 ### To manage access for a user:
 
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. 
-   If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/logging-in-and-logging-out?id=switch-account).
+   If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
 
 2. From the side menu, click **Users > All Users**.
 
@@ -264,7 +264,7 @@ If you are **a TechPass user**, the SA can raise a service request using the [Te
 
 If you are **not a TechPass user**, the SA or PA can complete the following steps to reactivate a user:
 
-1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/logging-in-and-logging-out?id=switch-account).  
+1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).  
 2.  From the side menu, click **Users > All Users**.  
 3. Search for the user to be reactivated and from the **Action** column, click ![3_dot](3_dot.png) corresponding to the user.  
 
