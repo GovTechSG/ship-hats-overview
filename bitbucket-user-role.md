@@ -6,7 +6,9 @@ You can use Bitbucket as a centralised place to manage your project source code 
 - [Bitbucket User Roles and Permissions](#bitbucket-user-roles-and-permissions)
 - [Assign Permissions](#assign-permissions)
 - [Review Permissions](#review-permissions)
- 
+
+
+
 ## Bitbucket User Roles and Permissions
 After you add Bitbucket as your project tool, a Bitbucket project is created. Please refer to <a href="https://confluence.atlassian.com/bitbucketserver0711/using-project-permissions-1047557542.html">Bitbucket Project Permissions</a> to know more about the possible permissions for users added to the project. 
 
