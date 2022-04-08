@@ -24,6 +24,15 @@
 - Perform assigned functional roles and responsibilities within the associated tool(s).
 
 ## Tools Permissions  
+- [Bitbucket User Roles and Permission](bitbucket-user-role)
+- [Bamboo User Roles and Permission](bamboo-user-roles)
+- [Confluence User Roles and Permission](confluence-user-role)
+- [Jira User Roles and Permission](jira-user-role)
+- [Fortify User Roles and Permissions](fortify-user-roles-and-permissions)
+
+
+<!-- 
+## Tools Permissions  
 - [Bitbucket User Roles and Permission](get-started/bitbucket-user-role)
 - [Bamboo User Roles and Permission](get-started/bamboo-user-roles)
 - [Confluence User Roles and Permission](get-started/confluence-user-role)
@@ -31,7 +40,7 @@
 - [Fortify User Roles and Permissions](get-started/fortify-user-roles-and-permissions)
 
 
-<!-- 
+
 <a href="https://www.developer.tech.gov.sg/singapore-government-tech-stack/toolchain/overview.html">SHIP-HATS</a> tenants are managed through subscriptions. Following are the roles and permissions available to agencies and vendors within the SHIP-HATS web portal.
  
 1. **Subscription Administrator (SA)** - Each subscription is managed by SA. Only an agency user can be assigned as a SA and there can be up to two SAs per subscription. By default, a SA has all the rights in a subscription.

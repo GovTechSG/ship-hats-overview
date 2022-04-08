@@ -4,9 +4,13 @@
 
 **Topics**
 
-- [Assign Permissions](ship-bitbucket-assign-permissions)
-- [Review Project Permissions and User](ship-bitbukcet-review-permissions)
+- [Bitbucket User Roles and Permission](bitbucket-user-role)
 - [Security for Bitbucket](ship-bitbucket-security)
-- [Bitbucket: Protect changes to sensitive files/folders](ship-bitbucket-protect-changes-sensitive)
+- [Protect changes to sensitive files/folders](ship-bitbucket-protect-changes-sensitive)
+
+
+<!--
 - [Best Practices]()
 - [Agency education links for ship services]()
+- [FAQs](ship-bitbucket-faqs)
+-->

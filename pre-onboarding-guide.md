@@ -38,4 +38,4 @@
 1. Agency's approver is required to reply 'Approved’ after receiving the email. 
 1. After approver replies, SHIP-HATS Team provisions the Primary SA and Secondary SA's account. 
 1. SAs will receive an email to inform that your account is provisioned. 
-1. SAs log into [SHIP-HATS Portal](http://ship.gov.sg) after their accounts have been provisioned and send the [invitation link](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-users?id=invite-users) to their users for them to self-create accounts and approve the user accounts.
+1. SAs log into [SHIP-HATS Portal](http://ship.gov.sg) after their accounts have been provisioned and send the [invitation link](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-users?id=invite-users) to their users for them to self-create accounts and approve the user accounts.

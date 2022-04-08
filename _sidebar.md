@@ -1,17 +1,23 @@
 - Overview
   - [SHIP-HATS Architecture](architecture-diagram)
-  - [Integrated Tools Version](get-started/ship-hats-integrated-tools-version)
+  - [Integrated Tools Version](ship-hats-integrated-tools-version)
   - [User Roles and Permissions](user-roles-permissions)
 - Newbie Path
   - [Pitstop 1: Preparing to Onboard](preparing-to-onboard)
 - Getting Started
   - [Pre-Onboarding Guide](pre-onboarding-guide)
   - [Set up a CI Pipeline](how-to-setup-and-scan-sample-pipeline)
-- [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
+- [SHIP-HATS Portal Guide](overview-of-ship-hats-portal)
+  - [Manage Account](manage-account)
+  - [Manage Users](manage-users)
+  - [Manage Projects](manage-projects)
+  - [Manage Fortify applications](manage-fortify-applications)
+  - [Declaring DGP Systems](declaring-dgp-systems)
 - Tools
   - [Tools Permission](ship-hats-tools-permission)
   - [Access Tools](use-techpass-to-access-ship-hats-and-tools)
-  - [OpenVPN](get-started/openvpn-guide)
+  - [OpenVPN](openvpn-guide)
+  - [Bitbucket](ship-bitbucket-overview)
 - Support & FAQs
   - [Subscription FAQ](subscription)
   - [Tools FAQ](tools-faq)
@@ -23,3 +29,10 @@
   - [Service Level Agreement](service-level-agreement)
   - [Cleanup Policy for Nexus Repository](ship-hats-cleanup-policy-for-nexus-repository)
 - [Document History](document-history)
+
+<!--
+  - [Integrated Tools Version](get-started/ship-hats-integrated-tools-version)
+  - [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
+  - [OpenVPN](get-started/openvpn-guide)
+
+-->

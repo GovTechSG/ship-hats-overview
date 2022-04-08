@@ -1,4 +1,4 @@
-# Bitbucket: Protect changes to sensitive files/folders
+# Protect Changes to Sensitive Files and Folders
 
 Sometimes, you may want to prevent changes to sensitive folders in bitbucket, and the default Bitbucket permissions are not granular enough. To accomplish this, we can configure a pre-receive hook at the repository level using the ScriptRunner plugin for bitbucket. The steps to do this are given below:
 
