@@ -1,4 +1,4 @@
-# Overview
+# SonarQube
 
 SonarQube is an automatic code review tool to detect bugs, vulnerabilities, and code smell. We support two versions of SonarQube:
 - Sonarqube Community Version

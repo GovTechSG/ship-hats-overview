@@ -16,7 +16,7 @@ Once you add Confluence as your project tool, a space is created. Please refer t
 
 You can add and manage users as Group and Individual Users. 
 
-#### Confluence Groups 
+### Confluence Groups 
 
 Groups are an easier and efficient way to manage user access for multiple users. Users can raise a <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11/">service request</a> with the required group name, project name and user details such as name and email address. Crowd administrator in the SHIP-HATS team evaluates the request and approves it accordingly.  
 

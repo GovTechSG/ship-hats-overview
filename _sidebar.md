@@ -10,7 +10,7 @@
 - [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
 - Tools
   - [Tools Permission](ship-hats-tools-permission)
-  - [Access SHIP-HATS Tools](use-techpass-to-access-ship-hats-and-tools)
+  - [Access Tools](use-techpass-to-access-ship-hats-and-tools)
   - [OpenVPN](get-started/openvpn-guide)
 - Support & FAQs
   - [Subscription FAQ](subscription)
