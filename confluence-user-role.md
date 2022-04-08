@@ -1,6 +1,6 @@
 # Atlassian Confluence – Roles and Permissions
 
-You can use Confluence for efficient project collaboration and knowledge sharing among your team. It also enables you to manage your project documentation. <a href="https://docs.developer.gov.sg/docs/ship-hats/#/user-roles-permisions">SHIP-HATS Project Admin (PA)</a> can add Atlassian Confluence to the SHIP-HATS project. 
+You can use Confluence for efficient project collaboration and knowledge sharing among your team. It also enables you to manage your project documentation. <a href="https://docs.developer.gov.sg/docs/ship-hats-documentation/#/user-roles-permisions">SHIP-HATS Project Admin (PA)</a> can add Atlassian Confluence to the SHIP-HATS project. 
  
 Confluence user roles and permissions
 Once you add Confluence as your project tool, a space is created. Please refer to <a href="https://confluence.atlassian.com/doc/space-permissions-overview-139521.html">Confluence Space Permission</a> to know more about the possible permissions for users added to the space.

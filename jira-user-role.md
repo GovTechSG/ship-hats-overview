@@ -1,5 +1,5 @@
 # Atlassian Jira - Roles and Permissions
-You can use Jira for bug tracking, issue tracking and project management. <a href="https://docs.developer.gov.sg/docs/ship-hats/#/user-roles-permisions">SHIP-HATS Project Admin (PA)</a> can add Atlassian Jira to the SHIP-HATS project.
+You can use Jira for bug tracking, issue tracking and project management. <a href="https://docs.developer.gov.sg/docs/ship-hats-documentation/#/user-roles-permisions">SHIP-HATS Project Admin (PA)</a> can add Atlassian Jira to the SHIP-HATS project.
 
 Now that you have added Jira as your project tool, let us look at the project roles recommended for all users.
 

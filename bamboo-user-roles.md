@@ -1,6 +1,6 @@
 # Atlassian Bamboo – Roles and Permissions
 
-You can use Bamboo for continuous integration. It allows developers to automatically build, integrate, test the source code and prepare for deployment. <a href="https://docs.developer.gov.sg/docs/ship-hats/#/user-roles-permisions">SHIP-HATS Project Admin (PA)</a> can add Atlassian Bamboo to a SHIP-HATS project. 
+You can use Bamboo for continuous integration. It allows developers to automatically build, integrate, test the source code and prepare for deployment. <a href="https://docs.developer.gov.sg/docs/ship-hats-documentation/#/user-roles-permisions">SHIP-HATS Project Admin (PA)</a> can add Atlassian Bamboo to a SHIP-HATS project. 
  
 ### Bamboo user roles and permissions
 Once you add Bamboo as your project tool, a Bamboo project is created. Please refer to <a href="https://confluence.atlassian.com/bamboo/bamboo-permissions-369296034.html"> Bamboo project permissions </a> to know more about the possible permissions for users added to the project. 
