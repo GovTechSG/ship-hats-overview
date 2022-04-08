@@ -25,7 +25,9 @@ Updated on: 28 Mar 2022
 >**Notes:**
 >- To know more on how to use Purple Hats, refer to our Confluence page on [Purple HATS](https://confluence.ship.gov.sg/display/HATSKB/Purple+HATS).
 >- As the pCloudy web dashboard needs proxy settings configured in your browser, we recommend you use Firefox to use pCloudy so that these proxy settings do not impact your system&#39;s proxy. For more information, refer to [pCloudy Onboarding guide for SHIP-HATS](https://confluence.ship.gov.sg/display/HATSKB/pCloudy+Onboarding+Guide).
->- To access Digital.ai services, raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/214). In this request you will be asked to provide an email address. 
+
+<!--- To access Digital.ai services, raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/214). In this request you will be asked to provide an email address. 
 To the email address provided, following information will be sent:  
     - Login credentials for Digital.ai Deploy (Intranet) and Digital.ai Release as an encrypted .zip file  
     - Details on how to open this file in the service request raised by you
+    -->
