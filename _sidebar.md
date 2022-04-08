@@ -15,6 +15,11 @@
   - [Declaring DGP Systems](declaring-dgp-systems)
 - Tools
   - [Tools Permission](ship-hats-tools-permission)
+    - [Bitbucket User Roles and Permission](get-started/bitbucket-user-role)
+    - [Bamboo User Roles and Permission](get-started/bamboo-user-roles)
+    - [Confluence User Roles and Permission](get-started/confluence-user-role)
+    - [Jira User Roles and Permission](get-started/jira-user-role)
+    - [Fortify User Roles and Permissions](get-started/fortify-user-roles-and-permissions)
   - [Access Tools](use-techpass-to-access-ship-hats-and-tools)
   - [OpenVPN](openvpn-guide)
   - [Bitbucket](ship-bitbucket-overview)
