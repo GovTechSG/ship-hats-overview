@@ -36,12 +36,12 @@ Once the above are successfully completed, you can proceed to log in to SHIP-HAT
 Refer to [**Switch Account**](#switch-account) to know how to switch between different subscription accounts.
 
 
-*To log in to SHIP-HATS:*
+### To log in to SHIP-HATS:
 
 1. Go to [SHIP-HATS portal](https://www.ship.gov.sg/).
 2. Click **Log In**.
 
-<kbd>![log-in](log-in.png ':size=100%')</kbd>
+    <kbd>![log-in](log-in.png ':size=100%')</kbd>
 
 3. Enter your **Username** ,**Password** and click **Log In**.
 
@@ -49,7 +49,7 @@ Refer to [**Switch Account**](#switch-account) to know how to switch between dif
 When you are done with your activities on the portal, you can log out as shown below.
 
 
-*To log out from SHIP-HATS:*
+### To log out from SHIP-HATS:
 
 - Hover over your profile icon and click **Log out**.
 
@@ -124,7 +124,7 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
 
 ### To switch account:
 
-1. From the [**Overview**](#viewing-dashboard) page, hover over **Billing Account** at the upper-right area of the page and choose **Switch account**.
+1. From the [**Overview**](#view-dashboard) page, hover over **Billing Account** at the upper-right area of the page and choose **Switch account**.
 
     <kbd>![switch-account](switch-account.png ':size=100%')</kbd>
 
@@ -133,7 +133,7 @@ If you are a SA or PA for more than one subscription account in SHIP-HATS, you m
     <kbd>![switch-account](switch-account-choose-account.png ':size=100%')</kbd>
 
 ## [Update admin profile](#update-admin-profile)
-SA and PA can update their profile from the [**Overview**](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/logging-in-and-logging-out?id=viewing-dashboard) page.
+SA and PA can update their profile from the [**Overview**](#view-dashboard) page.
 
 ### To view and update profile as SA and PA:
 
@@ -147,15 +147,18 @@ SA and PA can update their profile from the [**Overview**](https://docs.develop
     <kbd>![edit-profile-details-blurred](edit-profile-details-blurred.png ':size=75%')</kbd>
 
 ## [Update user profile](#update-user-profile)
-When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. To edit user profile page, go to [TechPass Portal](https://portal.techpass.gov.sg/secure/account/profile)
+When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. 
+
+### To edit user profile page:
+1. Go to the [TechPass Portal](https://portal.techpass.gov.sg/secure/account/profile).
 
 1. Click **edit profile**.
 
-<kbd>![edit-profile-normal-users-](editprofilegsib.png ':size=75%')</kbd>
+    <kbd>![edit-profile-normal-users-](editprofilegsib.png ':size=75%')</kbd>
 
 2. Edit the details as needed and click **Save**. 
 
-<kbd>![save-normal-user-profile-updates](editprofilegsib2.png ':size=75%')</kbd>
+    <kbd>![save-normal-user-profile-updates](editprofilegsib2.png ':size=75%')</kbd>
 
 Alternatively, hover over your profile icon at the upper-right corner. To view and update user profile, click **View Profile**.
 
@@ -166,81 +169,81 @@ Alternatively, hover over your profile icon at the upper-right corner. To view a
 ## [Change password](#change-password)
 As per IM8 policy, all SHIP-HATS users must change their SHIP-HATS password at least once every 12 months. Users can change the password using the SHIP-HATS portal.
 
-*To change password*:
+### To change password:
 
 1. Hover over your profile icon at the upper-right corner.
 2. Choose **Change Password.**
 
-<kbd>![change-pwd-user](change-password-user.png ':size=75%')</kbd>
+    <kbd>![change-pwd-user](change-password-user.png ':size=75%')</kbd>
 
-The **Change Password** page is displayed.
+    The **Change Password** page is displayed.
 
-<kbd>![change-pwd](change-pwd.png ':size=75%')</kbd>
+    <kbd>![change-pwd](change-pwd.png ':size=75%')</kbd>
 
 3. Enter **Current password**.
-4. Enter **New Password** , **Confirm new password** and click **Update password**.
+4. Enter **New Password** , **Confirm new password**, and then click **Update password**.
 
 ## [Retrieve username](#retrieve-username)
 If you have forgotten your SHIP-HATS username, you may retrieve it anytime following the below steps.
 
-*To retrieve SHIP-HATS username:*
+### To retrieve SHIP-HATS username:
 
 1. Disconnect from your **OpenVPN Connect** client.
 2. Go to [SHIP-HATS portal](https://www.ship.gov.sg/).
 
-<kbd>![reset-pwd-login-page-1](reset-pwd-login-page-1.png ':size=75%')</kbd>
+    <kbd>![reset-pwd-login-page-1](reset-pwd-login-page-1.png ':size=75%')</kbd>
 
 3. Click the link indicated in the above image to reset your password. You will be directed to the **Self-help Requests** page.
 
-<kbd>![retrieve-username-self-help-page](retrieve-username-self-help-page.png ':size=75%')</kbd>
+    <kbd>![retrieve-username-self-help-page](retrieve-username-self-help-page.png ':size=75%')</kbd>
 
 4. Click **Retrieve Username**.
 5. Enter **Email Address** used for** registering with SHIP-HATS.
 6. Select the checkbox to confirm that you are not a robot and click **Submit**.
 
-<kbd>![retreive-username-request-success-1.png](retreive-username-request-success-1.png ':size=75%')</kbd>
+    <kbd>![retreive-username-request-success-1.png](retreive-username-request-success-1.png ':size=75%')</kbd>
 
 ## [Reset password](#reset-password)
 If you have forgotten your SHIP-HATS password, you may reset it anytime following the below steps.
 
-*To reset SHIP-HATS password:*
+### To reset SHIP-HATS password:
 
 1. Disconnect from your **OpenVPN Connect** client.
 2. Go to [SHIP-HATS portal](https://www.ship.gov.sg/).
 
-<kbd>![reset-pwd-login-page-1](reset-pwd-login-page-1.png ':size=75%')</kbd>
+    <kbd>![reset-pwd-login-page-1](reset-pwd-login-page-1.png ':size=75%')</kbd>
 
 3. Click the link indicated in the above image to reset your password. You will be directed to the **Self-help Requests** page.
 
-<kbd>![reset-pwd-self-help-page](reset-pwd-self-help-page.png ':size=75%')</kbd>
+    <kbd>![reset-pwd-self-help-page](reset-pwd-self-help-page.png ':size=75%')</kbd>
 
 1. Click **Reset Password**.
 2. Enter your **Username** or **Email Address** used for** registering with SHIP-HATS.
 3. Select the checkbox to confirm that you are not a robot and click **Submit**.
 
-<kbd>![reset-pwd-link-request-success](reset-pwd-link-request-success.png ':size=75%')</kbd>
+    <kbd>![reset-pwd-link-request-success](reset-pwd-link-request-success.png ':size=75%')</kbd>
 
 An email will be sent with the reset password link to the respective email address.
 
 ## [Reset 2FA](#reset-2fa)
 You can reset your 2FA for SHIP-HATS anytime by following the below steps.
 
-*To reset 2FA for SHIP-HATS:*
+### To reset 2FA for SHIP-HATS:
 
 1. Disconnect from your **OpenVPN Connect** client.
 2. Go to [SHIP-HATS portal](https://www.ship.gov.sg/).
 
-<kbd>![reset-pwd-login-page-1](reset-pwd-login-page-1.png ':size=75%')</kbd>
+    <kbd>![reset-pwd-login-page-1](reset-pwd-login-page-1.png ':size=75%')</kbd>
 
 3. Click the link indicated in the above image to reset your password. You will be directed to the **Self-help Requests** page.
 
-<kbd>![reset-2fa-self-help-page](reset-2fa-self-help-page.png ':size=75%')</kbd>
+    <kbd>![reset-2fa-self-help-page](reset-2fa-self-help-page.png ':size=75%')</kbd>
 
 4. Click **Reset 2FA**.
 5. Enter your **Username** used for** registering with SHIP-HATS.
 6. Select the checkbox to confirm that you are not a robot and click **Submit**.
 
-<kbd>![2fa-reset-request-success](2fa-reset-request-success.png ':size=75%')</kbd>
+    <kbd>![2fa-reset-request-success](2fa-reset-request-success.png ':size=75%')</kbd>
 
 You will receive a notification stating that your SHIP-HATS 2FA has been reset and with instructions to be followed by you.
 
@@ -248,32 +251,31 @@ You will receive a notification stating that your SHIP-HATS 2FA has been reset a
 
 SA and PA can view the plan details of their subscription account(s) from the dashboard view.
 
-*To view plan details of a subscription*:
+### To view plan details of a subscription:
 
-1. Ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/logging-in-and-logging-out?id=switch-account).
+1. Ensure you are in the required account. If needed, refer to [Switching account](#switch-account).
 
-<kbd>![plan-details](plan-details.png ':size=100%')</kbd>
+    <kbd>![plan-details](plan-details.png ':size=100%')</kbd>
 
-2. From the [**Overview**](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/logging-in-and-logging-out?id=viewing-dashboard) page, hover over **Billing Account** at the upper-right area of the page and choose **Plan Details**.
+2. From the [**Overview**](#view-dashboard) page, hover over **Billing Account** at the upper-right area of the page and choose **Plan Details**.
 
-<kbd>![plan-details](plan-details-1.png ':size=50%')</kbd>
+    <kbd>![plan-details](plan-details-1.png ':size=50%')</kbd>
 
 Alternatively, click **Plan details** from **Overview** as shown below.
 
-?> Note that SHIP-HATS users other than SA and PA can view their associated subscription account's details such as **Billing Account Name** and **Billing Account Number** from their **Profile** page as shown below. Refer to [**View and Update Profile as User**](#viewing-and-updating-profile-as-user) for additional information.
-
-<kbd>![view-subscription-details-for-other-users](view-subscription-details-for-other-users.png ':size=75%')</kbd>
+>**Note:** SHIP-HATS users other than SA and PA can view their associated subscription account details, such as **Billing Account Name** and **Billing Account Number**, from their **Profile** page as shown below. Refer to [View user profile](#view-user-profile) and [Update user profile](#update-user-profile) for additional information.
+><kbd>![view-subscription-details-for-other-users](view-subscription-details-for-other-users.png ':size=75%')</kbd>
 
 ## [View billing information](#view-billing-information)
 
 If you are a Subscription Admin, you will be able to view and edit the billing information of their subscription account(s).
 
-*To view and edit billing information*:
+### To view and edit billing information:
 
-1. Ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/logging-in-and-logging-out?id=switch-account).
-2. From the [**Overview**](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/logging-in-and-logging-out?id=viewing-dashboard) page, hover over **Billing Account** at the upper-right area of the page and choose **Billing Info**.
+1. Ensure you are in the required account. If needed, refer to [Switching account](#switch-account).
+2. From the [**Overview**](#view-dashboard) page, hover over **Billing Account** at the upper-right area of the page, and then choose **Billing Info**.
 
-<kbd>![billing-info-menu](billing-info-menu.png ':size=75%')</kbd>
+    <kbd>![billing-info-menu](billing-info-menu.png ':size=75%')</kbd>
 
 This page has three sections: Billing Information, Approver Information and Signed Service Sheets (SS).
 
@@ -283,7 +285,7 @@ This page has three sections: Billing Information, Approver Information and Sign
 
 SA can edit all the details in this section except **Billing Agency**.
 
-?> Note that GL Account is applicable for Govtech agencies and Sub-Business Unit is applicable for non-Govtech agencies.
+>**Note:** GL Account is applicable for Govtech agencies and Sub-Business Unit is applicable for non-Govtech agencies.
 
 **Approver Information**
 
