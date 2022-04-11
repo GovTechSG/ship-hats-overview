@@ -13,8 +13,8 @@ Continuous Integration(CI) is a software engineering approach where developers m
 
 For more information on prerequisites, refer to:  
 - [General Information on user roles and permissions](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/user-roles-permissions)
-- [Bitbucket user roles and permissions](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/get-started/bitbucket-user-role)
-- [Bamboo user roles and permissions](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/get-started/bamboo-user-roles)
+- [Bitbucket user roles and permissions](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/bitbucket-user-role)
+- [Bamboo user roles and permissions](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/bamboo-user-roles)
 
 >**Note:** User Permissions information on Fortify, Nexus IQ, and Nexus Repository Manager will be updated soon!
 
