@@ -14,7 +14,7 @@ To declare systems:
 4. Click on Add system 
 
 
-    ?>Note: You can have more than 1 systems added.
+    >Note: You can have more than 1 systems added.
 
 5. Scroll through the drop down and select your system. 
 

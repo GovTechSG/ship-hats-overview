@@ -77,7 +77,7 @@ PAs can add users to the added Fortify applications and manage their roles and p
 
 ## [Manage user role in Fortify applications](#manage-user-role-in-fortify-applications)
 
-PA can assign [**Security Lead** , **Security Tester** or **Report Uploader**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/get-started/fortify-user-roles-and-permissions) role to all application users excluding other PAs.
+PA can assign [**Security Lead** , **Security Tester** or **Report Uploader**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/fortify-user-roles-and-permissions) role to all application users excluding other PAs.
 
 ?> Note: Role assigned to a user in Fortify is global and hence a user will have the same role across all the apps.
 
@@ -93,7 +93,7 @@ PA can assign [**Security Lead** , **Security Tester** or **Report Uploader**](h
 
     <kbd>![choose-roles-for-users](choose-roles-for-users.png ':size=75%')</kbd>
 
-    ?> Note: You cannot modify the roles of other PAs.
+    >**Note:** You cannot modify the roles of other PAs.
 
 5. Assign the required **Role**. 
 
