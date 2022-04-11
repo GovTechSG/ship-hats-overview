@@ -27,7 +27,7 @@ SHIP-HATS users may have user roles such as Subscription Admin (SA), Project Adm
 
 ### Log in
 
-Once the above are successfully completed, you can proceed to log in to SHIP-HATS. Logging in tells the system who you are and what permissions you have in SHIP-HATS. For example, if you are a Subscription Admin or Project Admin, you can view the SHIP-HATS [**Dashboard**](#viewing-dashboard) view once you log in. Other “Users” will be directed to their [**Profile**](#viewing-profile-as-users) page.
+Once the above are successfully completed, you can proceed to log in to SHIP-HATS. Logging in tells the system who you are and what permissions you have in SHIP-HATS. For example, if you are a Subscription Admin or Project Admin, you can view the SHIP-HATS [**Dashboard**](#view-dashboardview-dashboard) view once you log in. Other “Users” will be directed to their [**Profile**](#view-user-profileview-user-profile) page.
 
 **Note:**
 
