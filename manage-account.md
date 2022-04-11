@@ -27,9 +27,9 @@ SHIP-HATS users may have user roles such as Subscription Admin (SA), Project Adm
 
 ### Log in
 
-Once the above are successfully completed, you can proceed to log in to SHIP-HATS. Logging in tells the system who you are and what permissions you have in SHIP-HATS. For example, if you are a Subscription Admin or Project Admin, you can view the SHIP-HATS [**Dashboard**](#view-dashboardview-dashboard) view once you log in. Other “Users” will be directed to their [**Profile**](#view-user-profileview-user-profile) page.
+Once the above are successfully completed, you can proceed to log in to SHIP-HATS. Logging in tells the system who you are and what permissions you have in SHIP-HATS. For example, if you are a Subscription Admin or Project Admin, you can view the SHIP-HATS [**Dashboard**](#view-dashboard) view once you log in. Other “Users” will be directed to their [**Profile**](#view-user-profile) page.
 
->**Note:**
+>**Notes:**
 >- If you are an SA or PA for a subscription account, when you log in, by default, you will be viewing the subscription details of the first account to which you were added as SA or PA.
 >- SA and PA must have logged in to SonarQube at least once before proceeding to create applications in SonarQube. Though only SA and PA can create applications in SonarQube, we recommend all users to log in to SonarQube at least once to ease the process if a user role is changed to a PA role in the future. Refer to [SHIP-HATS integrated tools version](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/ship-hats-integrated-tools-version) for SonarQube's URL.
 
@@ -66,28 +66,28 @@ If you are inactive for 10 minutes on the portal, the system prompts you with th
 
 ## [Log in using TechPass](#log-in-techpass)
 
-*To log in to SHIP-HATS using TechPass:*
+### To log in to SHIP-HATS using TechPass:
 
 1. Go to [SHIP-HATS portal](https://www.ship.gov.sg/).
 2. Click **Log In with TechPass**.
 
-<kbd>![log-in](tplogin.png ':size=100%')</kbd>
+    <kbd>![log-in](tplogin.png ':size=100%')</kbd>
 
 3. Enter your **Enter your TechPass details** and click **Next**.
 
-<kbd>![log-in](tp2.png ':size=100%')</kbd>
+    <kbd>![log-in](tp2.png ':size=100%')</kbd>
 
 4. You will be redirected to the GCC log-in page. Enter your TechPass email address along with the verification code from the Authenticator app and click sign in. 
 
-<kbd>![log-in](tpgcc1.png ':size=100%')</kbd>
+    <kbd>![log-in](tpgcc1.png ':size=100%')</kbd>
 
 5. Read through the **TechPass** Terms of Use and click **Accept**.
 
-<kbd>![log-in](tptou.png ':size=100%')</kbd>
+    <kbd>![log-in](tptou.png ':size=100%')</kbd>
 
 6. Read through the **TechPass MDM** Terms of Use and click **Accept**.
 
-<kbd>![log-in](techpassmdm.png ':size=100%')</kbd>
+    <kbd>![log-in](techpassmdm.png ':size=100%')</kbd>
 
 You have successfully linked your TechPass to SHIP-HATS. You can directly login using TechPass for future access. 
 
@@ -95,12 +95,12 @@ You have successfully linked your TechPass to SHIP-HATS. You can directly login 
 The **Overview** page of the subscription account gives the dashboard view of the subscription account. Only Subscription Admin (SA) and Project Admin (PA) can access this dashboard to view the following details.
 
 - Subscription tier for the Billing Account
-- [Plan details](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/account-management/account-management?id=viewing-plan-details)
+- [Plan details](#view-plan-details)
 - Count of projects hosted on this account
 - Count of users added to this account
 - Projects using shared Bamboo agents and their usage quota.
 
-?> Note: The term **Overview** and **Dashboard view** may be used interchangeably.
+>**Note:** The term **Overview** and **Dashboard view** may be used interchangeably.
 
 
 <kbd>![overview](ship-update.png ':size=100%')</kbd>
@@ -122,29 +122,29 @@ Users are also able to view the user groups they belong to.
 ## [Switch account](#switch-account)
 If you are a SA or PA for more than one subscription account in SHIP-HATS, you may need to switch between these accounts to Manage users, Manage Projects, Viewing Plan Details and Viewing Billing Info.
 
-*To switch account:*
+### To switch account:
 
 1. From the [**Overview**](#viewing-dashboard) page, hover over **Billing Account** at the upper-right area of the page and choose **Switch account**.
 
-<kbd>![switch-account](switch-account.png ':size=100%')</kbd>
+    <kbd>![switch-account](switch-account.png ':size=100%')</kbd>
 
 2. Choose the required billing account to view its dashboard.
 
-<kbd>![switch-account](switch-account-choose-account.png ':size=100%')</kbd>
+    <kbd>![switch-account](switch-account-choose-account.png ':size=100%')</kbd>
 
 ## [Update admin profile](#update-admin-profile)
 SA and PA can update their profile from the [**Overview**](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/logging-in-and-logging-out?id=viewing-dashboard) page.
 
-*To view and update profile as SA and PA*:
+### To view and update profile as SA and PA:
 
-1. From the [**Overview**](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/logging-in-and-logging-out?id=viewing-dashboard) page, hover over your profile icon at the upper-right corner. Your user name and user role for this account are displayed. In the below example, the logged in user is a **Subscription Admin** for this account.
+1. From the [**Overview**](#view-dashboard) page, hover over your profile icon at the upper-right corner. Your user name and user role for this account are displayed. In the below example, the logged in user is a **Subscription Admin** for this account.
 
-<kbd>![view-and-update-profile-user-role-and-name-blurred](view-and-update-profile-user-role-and-name-blurred.png ':size=75%')</kbd>
+    <kbd>![view-and-update-profile-user-role-and-name-blurred](view-and-update-profile-user-role-and-name-blurred.png ':size=75%')</kbd>
 
 2. Choose **View Profile**. Your personal information and details of accounts in which you are SA and PA are listed.
 3. To update your **Personal Information**, click the edit icon.
 
-<kbd>![edit-profile-details-blurred](edit-profile-details-blurred.png ':size=75%')</kbd>
+    <kbd>![edit-profile-details-blurred](edit-profile-details-blurred.png ':size=75%')</kbd>
 
 ## [Update user profile](#update-user-profile)
 When users other than SA or PA log in to [SHIP-HATS portal](https://www.ship.gov.sg/), they are directed to their profile page. To edit user profile page, go to [TechPass Portal](https://portal.techpass.gov.sg/secure/account/profile)
