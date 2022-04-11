@@ -96,11 +96,12 @@ may see this security message like the one below. 
 
 <br >
 
-  ![Security for Bitbucket FAQ Commit](ship-bitbucket-security-faq-commit.png)
+![Security for Bitbucket FAQ Commit](ship-bitbucket-security-faq-commit.png)
 
+<br >
+Notice the error on the finding at line 5. You will notice that security for Bitbucket assumed as a hardcoded secret key.  
 
-Notice the error on the finding at line 5. You will notice that security for Bitbucket assumed as a hardcoded secret key. To resolve this, you can complete one of the following steps:
-
+To resolve this, you can complete one of the following steps:
 - You can store your secrets in a more secure manner as a best
 practice
 - Add a comment `pragma: allowlist secret` to whitelist
