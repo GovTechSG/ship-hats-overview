@@ -5,7 +5,7 @@ This section explains how a Subscription Admin creates SHIP-HATS projects and ho
 - [Remove projects](#remove-projects)
 - [Remove project tools](#remove-project-tools)
 - [Add project tools](#add-project-tools)
-- [Creation of Project tool with customised project key](#create-project-tool-key)
+- [Create Project tool with customised project key](#creation-of-project-tool-with-customised-project-key)
 
 ## [Create new projects](#create-new-projects)
 
@@ -127,7 +127,7 @@ You can add build tools other than Nexus IQ and Nexus Repo in the same manner fr
 >- Once you have reached the quota, the respective tool name(s) will be disabled in the **Select Tool** drop-down list. If you still want to add these tools, please do raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/).
 
 
-## [Creation of Project tool with customised project key](#create-project-tool-key)
+## [Creation of Project tool with customised project key](#creation-of-project-tool-with-customised-project-key)
 Subscription Admin (SA) and Project Admin (PA) can customise the project keys when adding app tools on SHIP-HATS. This is currently applicable for Jira, Bitbucket and Confluence.  
 
 ### To customise project key: 
