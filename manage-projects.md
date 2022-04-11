@@ -13,7 +13,7 @@ Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SA
 
 ### To create a new project:
 
-1. From the side menu, click **Projects** > **Create New**.
+1. From the side menu, click **Projects** > **Create New**.  
 
 >**Tip:** Alternatively, if you are viewing **All Projects** , click **Create Project**.  
 
@@ -133,7 +133,7 @@ Subscription Admin (SA) and Project Admin (PA) can customise the project keys wh
 ### To customise project key: 
 
 1. Go to **Projects> All Projects>** > Manage > to view and select the relevant project. 
-2. Click Add tool under **Development** tab
+2. Click Add tool under **Development** tab.
 3. Choose the required tool.
 
     ![chara](chara.png)
