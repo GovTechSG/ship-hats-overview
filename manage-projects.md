@@ -16,7 +16,7 @@ Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SA
 1. From the side menu, click **Projects** > **Create New**.
 
     > **Tip:** Alternatively, if you are viewing **All Projects** , click **Create Project**.
-
+    
 
     <kbd>![create-new-project](create-new-project-2.png ':size=100%')</kbd>
 
