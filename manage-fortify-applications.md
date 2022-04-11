@@ -8,7 +8,7 @@ Fortify Static Code Analyzer (SCA) is used to analyse the security vulnerabiliti
 
 **Audience**
 
-- [SHIP-HATS Project Admin (PA)](https://docs.developer.gov.sg/docs/ship-hats/#/user-roles-permissions)
+- [SHIP-HATS Project Admin (PA)](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/user-roles-permissions)
 
 **Objective**
 
