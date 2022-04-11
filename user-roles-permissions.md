@@ -4,8 +4,8 @@
 
 | **Role** | **Description** | **Permissions** |  
 | --- | --- | --- |
-| **Subscription Administrator (SA)** | Each subscription is managed by SA. Only an agency user can be assigned as a SA and there can be up to two SAs per subscription. By default, a SA has all the rights in a subscription. | Refer to [SA Permissions](#sa-permissions) for detailed permissions. |
-| **Project Administrator (PA)** | A subscription can have multiple projects and each project is managed by PAs. An Agency user or a vendor can be assigned as a PA. The number of PAs that can be added to a project through the SHIP-HATS portal vary based on your [subscription tier level](https://confluence.ship.gov.sg/pages/viewpage.action?pageId=294454456). | Refer to [PA Permissions](#pa-permissions) for detailed permissions. |  
+| **Subscription Administrator (SA)** | Each subscription is managed by SA. Only an agency user can be assigned as an SA and there can be up to two SAs per subscription. By default, an SA has all the rights in a subscription. SAs can view the limit of projects, project admins, and users quota within the SHIP-HATS Portal pages. | Refer to [SA Permissions](#sa-permissions) for detailed permissions. |
+| **Project Administrator (PA)** | A subscription can have multiple projects and each project is managed by PAs. An Agency user or a vendor can be assigned as a PA. <br> **Note:** The number of PAs that can be added to a project through the SHIP-HATS portal vary based on your subscription tier level. PAs can view the limit of projects, project admins, and users quota within the SHIP-HATS Portal pages. | Refer to [PA Permissions](#pa-permissions) for detailed permissions. |  
 | **User** | User is the default role for all the users from the Agency and vendors. | Refer to [User Permissions](#user-permissions) for detailed permissions. For tool-specific permissions, refer to [Tools Permissions](#tools-permissions).|  
 
 ## SA Permissions
