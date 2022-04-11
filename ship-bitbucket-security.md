@@ -90,14 +90,16 @@ To see how to scan your Bitbucket repository for hardcoded secrets using Securit
 <details>
 <summary>I tried to commit my code and got a security message. What should I do?
 </summary>
+<br>
 If you tried to commit a code with some hardcoded password or keys, you
 may see this security message like the one below. 
 
 <br >
-![Text Description automatically
-generated](media/image3.jpeg){width="6.5in" height="2.25in"}
 
-Notice the error on the finding at line 5. You will find a finding that security for Bitbucket assumed as a hardcoded secret key. To resolve this, you can complete one of the following steps:
+  ![Security for Bitbucket FAQ Commit](ship-bitbucket-security-faq-commit.png)
+
+
+Notice the error on the finding at line 5. You will notice that security for Bitbucket assumed as a hardcoded secret key. To resolve this, you can complete one of the following steps:
 
 - You can store your secrets in a more secure manner as a best
 practice
