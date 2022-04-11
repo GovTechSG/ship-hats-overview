@@ -29,7 +29,7 @@ You can add and manage users as individual users and group. Administrator can vi
 
     ![bitbucket](bitbucket.png)
 
-1. From the sidebar, select **Project permissions**. You will be able to view the **Project permissions**.
+3. From the sidebar, select **Project permissions**. You will be able to view the **Project permissions**.
 
 ### Bitbucket User access  
 
