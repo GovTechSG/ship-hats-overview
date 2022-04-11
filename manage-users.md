@@ -184,6 +184,7 @@ We recommend Subscription Admin (SA) and Project Admin (PA) to periodically revi
 ### To remove a user:
 
 1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switch account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/account-management/account-management?id=switch-account).
+1. Log in to <a href="https://www.ship.gov.sg/"> SHIP-HATS portal</a> and ensure you are in the required account. If needed, refer to [Switch account](manage-account?id=switch-account).
 2. From the side menu, click **Users > All Users**.
 3. Search for the user to be removed and from the **Action** column, click ![3_dot](3_dot.png) corresponding to the user.
    >**Tip:** Refer to [View users](#view-users) to know how to search for users and to sort by **Quota Consumed**.
