@@ -97,13 +97,12 @@ You have successfully linked your TechPass to SHIP-HATS. You can directly login 
 The **Overview** page of the subscription account gives the dashboard view of the subscription account. Only Subscription Admin (SA) and Project Admin (PA) can access this dashboard to view the following details.
 
 - Subscription tier for the Billing Account
-- [Plan details](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/account-management/account-management?id=viewing-plan-details)
+- [Plan details](#view-plan-detailsview-plan-details)
 - Count of projects hosted on this account
 - Count of users added to this account
 - Projects using shared Bamboo agents and their usage quota.
 
-?> Note: The term **Overview** and **Dashboard view** may be used interchangeably.
-
+>**Note:** The term **Overview** and **Dashboard view** may be used interchangeably.
 
 <kbd>![overview](images/ship-update.png ':size=100%')</kbd>
 
@@ -272,8 +271,8 @@ If you are a Subscription Admin, you will be able to view and edit the billing i
 
 *To view and edit billing information*:
 
-1. Ensure you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=switch-account).
-2. From the [**Overview**](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/portal-guide/logging-in-and-logging-out?id=viewing-dashboard) page, hover over **Billing Account** at the upper-right area of the page and choose **Billing Info**.
+1. Ensure you are in the required account. If needed, refer to [Switching account](#switch-accountswitch-account).
+2. From the [**Overview**](#view-dashboardview-dashboard) page, hover over **Billing Account** at the upper-right area of the page and choose **Billing Info**.
 
 <kbd>![billing-info-menu](images/billing-info-menu.png ':size=75%')</kbd>
 
