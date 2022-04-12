@@ -1,6 +1,6 @@
 # Document History
 
-The following table describes important additions to the Ship-Hats documentation. We also update the documentation frequently to address the feedback that you send us.
+The following table describes important additions to the SHIP-HATS documentation. We also update the documentation frequently to address the feedback that you send us.
 
 | Change | Description | Date |
 | --- | --- | --- |  
