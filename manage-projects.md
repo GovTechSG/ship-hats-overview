@@ -6,6 +6,7 @@ This section explains how a Subscription Admin creates SHIP-HATS projects and ho
 - [Remove project tools](#remove-project-tools)
 - [Add project tools](#add-project-tools)
 - [Create Project tool with customised project key](#creation-of-project-tool-with-customised-project-key)
+- [Manage users within a Project Tool](#manage-users-within-a-project-tool)
 
 ## [Create new projects](#create-new-projects)
 
@@ -128,7 +129,7 @@ You can add build tools other than Nexus IQ and Nexus Repo in the same manner fr
 
 
 ## [Creation of Project tool with customised project key](#creation-of-project-tool-with-customised-project-key)
-Subscription Admin (SA) and Project Admin (PA) can customise the project keys when adding app tools on SHIP-HATS. This is currently applicable for Jira, Bitbucket and Confluence.  
+Subscription Admin (SA) and Project Admin (PA) can customise the project keys when adding app tools on SHIP-HATS. This is currently applicable for Jira, Bitbucket, and Confluence.  
 
 ### To customise project key: 
 
@@ -145,3 +146,21 @@ Subscription Admin (SA) and Project Admin (PA) can customise the project keys wh
 5. Enter the required project key. It can only have 2-10 characters, consisting of uppercase letters A-Z and numbers from0-9. First character must be an alphabet. 
 
     ![add](addnewkey.png)
+
+<!--CODEX-49288 https://gdsjira.ship.gov.sg/browse/PORTAL-2133 -->
+<!--
+## Manage Users within a Project Tool
+
+Subscription Admin and Project Admin can manage users within a project tool or app when it is not required. These tools are Bamboo, Bitbucket, Confluence, and JIRA. 
+
+### To manage users for your project tool or app:
+
+1. Go to **Projects** > **All Projects**.
+1. Navigate to your project, and then select **Manage**.
+1. Click **Manage** on the project tool whose users you want to manage. 
+1. In the **Manage Tool** window that appears, from the dropdown, select **Manage users**. 
+1. To manage users, follow the on-screen instructions. 
+
+    >**Note:** The link to tool or app server, includes the project key that you selected. This enables you to get to the project in the tool or app server directly. This is applicable for all Atlassian apps (Bamboo, Bitbucket, Confluence, and JIRA). 
+
+-->    
