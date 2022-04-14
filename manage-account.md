@@ -93,13 +93,14 @@ If you are inactive for 10 minutes on the portal, the system prompts you with th
 You have successfully linked your TechPass to SHIP-HATS. You can directly login using TechPass for future access. 
 
 ## [View dashboard](#view-dashboard)
-The **Overview** page of the subscription account gives the dashboard view of the subscription account. Only Subscription Admin (SA) and Project Admin (PA) can access this dashboard to view the following details.
+The **Overview** page of the subscription account gives the dashboard view of the subscription account. Only Subscription Admin (SA) and Project Admin (PA) can access this dashboard to view the following details:
 
 - Subscription tier for the Billing Account
 - [Plan details](#view-plan-details)
 - Count of projects hosted on this account
 - Count of users added to this account
 - Projects using shared Bamboo agents and their usage quota.
+- Announcements as reminders to regularly maintain the system names/ID that are tied to your subscription to keep it up to date.
 
 >**Note:** The term **Overview** and **Dashboard view** may be used interchangeably.
 
