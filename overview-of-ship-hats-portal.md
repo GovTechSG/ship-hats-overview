@@ -1,11 +1,11 @@
 # SHIP-HATS Portal Guide
 The following sections guide SHIP-HATS’ Admins and Users on how to use it in their Devops journey.
 
-- [Manage Account](manage-account)
-- [Manage Users](manage-users)
-- [Manage Projects](manage-projects)
-- [Manage Fortify applications](manage-fortify-applications)
-- [Declaring DGP Systems](declaring-dgp-systems)
+## [Manage Account](manage-account)
+## [Manage Users](manage-users)
+## [Manage Projects](manage-projects)
+## [Manage Fortify applications](manage-fortify-applications)
+## [Declaring DGP Systems](declaring-dgp-systems)
 
 
 

@@ -13,6 +13,7 @@ By default, SonarQube Community edition is available with all the tier subscript
 
 As an SA, after you have bought the add-on, you cannot remove the add-on if you are using the Developer edition in your subscription. You will need to remove all Developer edition apps before you can downgrade and remove the add-on. 
 
+
 ## [Set up Community Edition](sonarqube-set-up-community-edition)
 ## [Set up Developer Edition](sonarqube-set-up-developer-edition)
 ## [Self Help Guide](sonarqube-self-help-guide)
