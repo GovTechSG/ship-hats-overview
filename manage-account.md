@@ -303,7 +303,7 @@ You can find the signed service sheets for this account.
 
 
 <!-- CODEX-49280(https://gdsjira.ship.gov.sg/browse/PORTAL-1084 + https://gdsjira.ship.gov.sg/browse/PORTAL-1760) -->
-<!--
+
 ## Off-board an Account
 
 If you are a Subscription Admin (SA), you can off-board your subscription account after the trial period has lapsed or project is coming to an end. 
@@ -342,5 +342,3 @@ If you are a Subscription Admin (SA), you can off-board your subscription accoun
 - Changing the PA function is disabled. 
 - User invitations are disabled. 
 - After the termination date, SA or PA will not be able to view the subscription details for the off-boarded account. However, if SA or PA have other subscription accounts, theu will continue to view details for these additional subscriptions accounts.
-
--->
