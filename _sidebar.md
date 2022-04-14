@@ -8,7 +8,6 @@
   - [Pre-Onboarding Guide](pre-onboarding-guide)
   - [Set up a CI Pipeline](how-to-setup-and-scan-sample-pipeline)
   - [OpenVPN](openvpn-guide)
-
 - [SHIP-HATS Portal Guide](overview-of-ship-hats-portal)
   - [Manage Account](manage-account)
   - [Manage Users](manage-users)
@@ -24,9 +23,8 @@
     - [Fortify User Roles and Permissions](fortify-user-roles-and-permissions)
   - [Access Tools](use-techpass-to-access-ship-hats-and-tools)
   - [Bitbucket](ship-bitbucket-overview)
-
-<!--
   - [SonarQube](hats-sonarqube-overview)
+<!--
   - [Bamboo]()
   - [Confluence]()
   - [Fortify]()

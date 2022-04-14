@@ -1,7 +1,6 @@
-# Set up SonarQube Community Version
+# Set up SonarQube Developer Edition
 
-
-To set up SonarQube Community version, complete the following steps:
+To set up SonarQube Developer edition, complete the following steps:
 
 1. [Retrieve App Key and Token ID](#retrieve-app-key-and-token-id)
 2. [Configure Bamboo plan](#configure-bamboo-plan)
@@ -12,12 +11,12 @@ To set up SonarQube Community version, complete the following steps:
 
 ## Retrieve App Key and Token ID
 
-Only **Project Admin (PA)** can get the details of SonarQube application. Please contact your **PA** to retrieve **App Key** and **Token ID**.
+Only **Project Admin (PA)** can get the details of the SonarQube application. Please contact your **PA** to retrieve **App Key** and **Token ID**.
 
 ### Pre-requisites
 
 - All Project Admins must log in to https://sonar.hats.stack.gov.sg/sonar with their SHIP LDAP credentials to trigger the account creation.
-- This also applies to project admins that are added subsequently. In this case, the project admins must log in first before being assigned as a project admin. 
+- This also applies to project admins that are added subsequently. In this case, the project admins must log in before being assigned as a project admin. 
 
 Failing to so may result in an error when either of the scenarios occurs:
 - Creating new application (Sonarqube/Fortify)
@@ -55,10 +54,11 @@ Failing to so may result in an error when either of the scenarios occurs:
 - [Configure Variables](#configure-variables)
 - [Configure Requirements](#configure-requirements)
 - [Configure Tasks](#configure-tasks)
+- [Configure Branches (Optional)](#configure-branches)
 
 ### Configure Repositories (Bitbucket)
 
-1.  Sample repository from Bitbucket.
+1.  Sample repository from Bitbucket. We will run the SonarQube scan on both **develop** and **master** branch.
 
     ![](hats-community-image3.png)
 
@@ -70,9 +70,9 @@ Failing to so may result in an error when either of the scenarios occurs:
     
     ![](hats-community-image5.png)
 
-1.  In **Repository**, enter repository name, and then select the desired branch. The name choice is up to you.
+1.  In **Repository**, enter repository name, and then select the **master** branch. The name choice is up to you.
     
-    ![](hats-community-image6.png)
+    ![](hats-developer-configure-repo.png)
 
 ### Configure Variables
 
@@ -112,7 +112,7 @@ Failing to so may result in an error when either of the scenarios occurs:
 
     ![](hats-community-image12.png)
 
-1.  Click **Add Tasks** again, search for *script*, and then click **Script**.
+1.  Click **Add Task** again, search for *script*, and then click **Script**.
 
     ![](hats-community-image13.png)
 
@@ -131,15 +131,49 @@ Failing to so may result in an error when either of the scenarios occurs:
 
     >**Note:** Do **not** store the token as plaintext in the script.
 
-    ![](hats-community-image16.png)
+    In the Developer version:
+    - An extra parameter `-Dsonar.branch.name` is available.
+    - The URL is https://sonar1.hats.stack.gov.sg/sonar instead of https://sonar.hats.stack.gov.sg/sonar
+
+    <br> 
+
+    ![](hats-developer-configure-task.png)
 
     >**Using variables in bash**
     >-   Bamboo variables are exported as bash shell variables. All full stops (periods) are converted to underscores.
-    >-   For example, the variable `bamboo.my.variable` is `\$bamboo_my_variable` in bash. This is related to File Script tasks (not Inline Script tasks).
+    >-   For example, the variable `bamboo.my.variable` is `$bamboo_my_variable` in bash. This is related to File Script tasks (not Inline Script tasks).
+
+### Configure Branches
+
+This is an optional step.
+
+1. In **Plan configuration**, click **Branches**, and then click **Create plan branch**.
+
+    ![](hats-developer-create-branch.png)
+
+1. Add the branch name in the repository that you created in step 1 in the [Configure Repository](#configure-repositories-bitbucket) section, and then click **Create**.
+
+    ![](hats-developer-branch.png)
+
+1. If the **Plan branch** does not switch to the new branch, click the dropdown to switch to the new branch. 
+
+    ![](hats-developer-plan-branch.png)
+
+1. In the **Plan branch configuration**, click **Repositories**, and then click the repository created in step 4 in the [Configure Repository](#configure-repositories-bitbucket) section.
+
+    ![](hats-developer-save-repo.png)
+
+1. In the **Branch** field, click the dropdown and change to the newly created branch in step 2 in the [Configure Branches](#configure-branches) section.
+1. Click **Save Repository**.
+
 
 ---
 
 ## Sonar Scan for different languages
+
+>**Note:** Remove the line `-Dsonar.branch.name=${bamboo.planRepository.branchName} \` if you are not using branch analysis.
+
+
 **Topics**
 - [Sonar Scan for Java](#sonar-scan-for-java)
 - [Sonar Scan for MSBuild](#sonar-scan-for-msbuild)
@@ -155,6 +189,7 @@ Failing to so may result in an error when either of the scenarios occurs:
         ```
         sonar-scanner \
         -Dsonar.projectKey=<App Key> \
+        -Dsonar.branch.name=${bamboo.planRepository.branchName} \
         -Dsonar.sources=src/main/java \
         -Dsonar.java.binaries=target/classes \
         -Dsonar.language=java \
@@ -166,6 +201,7 @@ Failing to so may result in an error when either of the scenarios occurs:
         ```
         sonar-scanner \
         -Dsonar.projectKey=hats_multi \
+        -Dsonar.branch.name=${bamboo.planRepository.branchName} \
         -Dsonar.sources=src/main/java \
         -Dsonar.java.binaries=target/classes \
         -Dsonar.language=java \
@@ -180,7 +216,7 @@ Failing to so may result in an error when either of the scenarios occurs:
     - Official documentation for the version 8.9
     <https://docs.sonarqube.org/8.9/analysis/scan/sonarscanner-for-gradle/>
 
-    1. Declare org.sonarqube plugin in build.gradle in your repository
+    1. Declare **org.sonarqube** plugin in **build.gradle** in your repository.
 
          ```
         plugins {
@@ -194,6 +230,7 @@ Failing to so may result in an error when either of the scenarios occurs:
         ```
         gradle sonarqube \
         -Dsonar.projectKey=<App Key> \
+        -Dsonar.branch.name=${bamboo.planRepository.branchName} \
         -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
         -Dsonar.login=<Token-from-SHIP-HATS-Portal>
         ```
@@ -203,6 +240,7 @@ Failing to so may result in an error when either of the scenarios occurs:
         ```
         gradle sonarqube \
         -Dsonar.projectKey=hats_multi \
+        -Dsonar.branch.name=${bamboo.planRepository.branchName} \
         -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
         -Dsonar.login=${bamboo.sonarqube_token_secret}
         ```
@@ -214,7 +252,7 @@ Failing to so may result in an error when either of the scenarios occurs:
     ```
     # Start of scan
 
-    sonar-scanner.bat -D"sonar.projectKey=<App Key from SHIP HATS self help portal>" -D"sonar.sources=." -D"sonar.host.url=https://sonar.hats.stack.gov.sg/sonar" -D"sonar.login=<Token-from-SHIP-HATS-Portal>"
+    sonar-scanner.bat -D"sonar.projectKey=<App Key from SHIP HATS self help portal>" -Dsonar.branch.name=${bamboo.planRepository.branchName} -D"sonar.sources=." -D"sonar.host.url=https://sonar.hats.stack.gov.sg/sonar" -D"sonar.login=<Token-from-SHIP-HATS-Portal>"
 
     # Rebuild your solution
 
@@ -289,6 +327,7 @@ Failing to so may result in an error when either of the scenarios occurs:
     ```
     sonar-scanner \
     -Dsonar.projectKey=\<App Key from SHIP HATS Portal\> \
+    -Dsonar.branch.name=${bamboo.planRepository.branchName} \
     -Dsonar.sources=. \
     -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
     -Dsonar.login=<Token-from-SHIP-HATS-Portal\>
@@ -299,6 +338,7 @@ Failing to so may result in an error when either of the scenarios occurs:
     ```
     sonar-scanner \
     -Dsonar.projectKey=hats_multi \
+    -Dsonar.branch.name=${bamboo.planRepository.branchName} \
     -Dsonar.sources=. \
     -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
     -Dsonar.login=${bamboo.sonarqube_token_secret}
@@ -329,11 +369,11 @@ Jest provides a `jest.config.js` file for configuration. To pass test coverage i
 
     **Configurations for generating the required test coverage report format**
 
-    - The directory where Jest should output its coverage files
+    - The directory where Jest should output its coverage files:
 
         ```coverageDirectory: \'coverage\',```
 
-    - A list of reporter names that Jest uses when writing coverage reports
+    - A list of reporter names that Jest uses when writing coverage reports:
 
         ```coverageReporters: \[\'lcov\', \'text\', \'text-summary\', \'json\'\],```
     
@@ -343,6 +383,7 @@ Jest provides a `jest.config.js` file for configuration. To pass test coverage i
     ```
     sonar-scanner \
     -Dsonar.projectKey=<App Key from SHIP HATS Portal\> \
+    -Dsonar.branch.name=${bamboo.planRepository.branchName} \
     -Dsonar.sources=. \
     -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
     -Dsonar.login=<Token-from-SHIP-HATS-Portal\> \
@@ -354,8 +395,10 @@ Jest provides a `jest.config.js` file for configuration. To pass test coverage i
     ```
     sonar-scanner \
     -Dsonar.projectKey=hats_multi \
+    -Dsonar.branch.name=${bamboo.planRepository.branchName} \
     -Dsonar.sources=. \
     -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
     -Dsonar.login=${bamboo.sonarqube_token_secret} \
     -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
     ```
+
