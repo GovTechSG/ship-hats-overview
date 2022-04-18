@@ -6,7 +6,7 @@ This section explains how a Subscription Admin creates SHIP-HATS projects and ho
 - [Remove project tools](#remove-project-tools)
 - [Add project tools](#add-project-tools)
 - [Create Project tool with customised project key](#creation-of-project-tool-with-customised-project-key)
-- [Manage users within a Project Tool](#manage-users-within-a-project-tool)
+<!--- [Manage users within a Project Tool](#manage-users-within-a-project-tool)-->
 
 ## [Create new projects](#create-new-projects)
 

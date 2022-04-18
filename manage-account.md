@@ -17,7 +17,7 @@ SHIP-HATS users may have user roles such as Subscription Admin (SA), Project Adm
 - [Reset 2FA](#reset-2fa)
 - [View plan details](#view-plan-details)
 - [View billing information](#view-billing-information)
-- [Off-board an account](#off-board-an-account)
+<!-- - [Off-board an account](#off-board-an-account)-->
 
 ## [Log in and Log out](#log-in-and-log-out)
 
