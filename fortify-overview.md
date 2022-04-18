@@ -1,0 +1,29 @@
+# Fortify SCA
+
+Fortify SCA helps you identify security vulnerabilities in software source code. Developers find and fix security defects in real-time during the coding process, with integrations to IDEs.
+
+- Gain comprehensive, accurate language coverage and enable compliance.
+- Secure custom and open source code with fast and highly optimized static scans.  
+
+**Topics**  
+
+- [Fortify SSC User Roles](fortify-user-roles-and-permissions)
+- [Set up Bamboo Plan](fortify-set-up-bamboo-plan)
+- [Generate PDF report from fpr file](fortify-generate-pdf)
+- [Add users to Fortify App on SSC](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-fortify-applications?id=manage-user-role-in-fortify-applications)
+- [Manage Application Version](fortify-manage-application-version)
+- [Manage Fortify user tokens](fortify-manage-user-tokens)
+
+## Additional Resources
+
+For more information on Fortify SCA, refer to following resources:
+- 
+- https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview
+
+|**Area**|**Resource**|  
+|---|---|
+|Fortify Static Code Analyzer|https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview|
+|API Sample|https://ssc.hats.stack.gov.sg/ssc/html/docs/docs.html#!/overview/|
+|API Authentication|https://ssc.hats.stack.gov.sg/ssc/html/docs/docs.html#!/auth|
+|API Sample URL Used go collect data for your project|https://ssc.hats.stack.gov.sg/ssc/api/v1/projectVersions/<your_project_version_id>/issueGroups?groupingtype=FOLDER&qm=issues&showhidden=false&showremoved=false&showshortfileNames=true&showsuppressed=false|
+
