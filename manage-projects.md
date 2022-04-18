@@ -148,7 +148,7 @@ Subscription Admin (SA) and Project Admin (PA) can customise the project keys wh
     ![add](addnewkey.png)
 
 <!--CODEX-49288 https://gdsjira.ship.gov.sg/browse/PORTAL-2133 -->
-
+<!--
 ## Manage Users within a Project Tool
 
 Subscription Admin and Project Admin can manage users within a project tool or app when it is not required. These tools are Bamboo, Bitbucket, Confluence, and JIRA. 
@@ -162,3 +162,5 @@ Subscription Admin and Project Admin can manage users within a project tool or a
 1. To manage users, follow the on-screen instructions. 
 
     >**Note:** The link to tool or app server, includes the project key that you selected. This enables you to get to the project in the tool or app server directly. This is applicable for all Atlassian apps (Bamboo, Bitbucket, Confluence, and JIRA).   
+
+    -->
