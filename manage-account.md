@@ -100,7 +100,8 @@ The **Overview** page of the subscription account gives the dashboard view of 
 - Count of projects hosted on this account
 - Count of users added to this account
 - Projects using shared Bamboo agents and their usage quota.
-- Announcements as reminders to regularly maintain the system names/ID that are tied to your subscription to keep it up to date.
+<!-- - Announcements as reminders to regularly maintain the system names/ID that are tied to your subscription to keep it up to date.-->
+<!--CODEX-53573 -->
 
 >**Note:** The term **Overview** and **Dashboard view** may be used interchangeably.
 

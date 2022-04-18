@@ -1,4 +1,5 @@
 - [Overview](ship-hats-overview)
+  <!--- [What's New](what-s-new)-->
   - [SHIP-HATS Architecture](architecture-diagram)
   - [Integrated Tools Version](ship-hats-integrated-tools-version)
   - [User Roles and Permissions](user-roles-permissions)
