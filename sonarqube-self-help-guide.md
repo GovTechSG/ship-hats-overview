@@ -190,7 +190,7 @@ For more information on setting up SonarQube for your CICD pipeline, refer to th
     For this documentation, we are using the option **Specific analysis**.
 1.	In the **Analysis from** dropdown, click to select an option of your choice. By default, **Last 30 days** is selected. 
 
-    <kbd>![New Code Settings](hats-sonarqube-configure-new-code-setting.png)
+    <kbd>![New Code Settings](hats-sonarqube-configure-new-code-setting.png)</kbd>
 
 ### To filter issues:
 
@@ -198,17 +198,17 @@ For more information on setting up SonarQube for your CICD pipeline, refer to th
 - To access resolved issues (for example, bug, vulnerability, code smell, etc.), under the **Resolution** dropdown, click **Fixed**.
 - If you want to filter issues based specific date range, under the **Creation Date** section, select the required start and end date.
 
-<kbd>![Filter Issues](hats-sonarqube-filter-issues.png)
+<kbd>![Filter Issues](hats-sonarqube-filter-issues.png)</kbd>
 
 
 ## FAQs
 Refer to this document if you have previously been assigned permissions in SonarQube via groups and have lost your access. 
 <details>
-<summary>My SonarQube Projects are not appearing
+<summary><b>My SonarQube Projects are not appearing</b>
 </summary>
 <br>
-During the month of June 2021, we have implemented LDAP group support in SonarQube. Due to this change, the user membership from the [SHIP-HATS portal](www.ship.gov.sg) will be automatically synced in SonarQube based on your SHIP-HATS subscription. If your subscription contains 20 users, all 20 users should be able to access SonarQube without the SA having to raise a service request to manage users in SonarQube.
-We are able to do this because each SHIP-HATS subscription has a master LDAP group containing all the members of the subscription. Depending on whether you already have a group in SonarQube, we will create or rename your existing group name for it to be automatically synchronized in SonarQube. However, any groups created in SonarQube previously might not work as intended since it is not created in SHIP LDAP and will lead to unnsuccessful sync, causing the users in the group to lose access to their projects.
+<p>During the month of June 2021, we have implemented LDAP group support in SonarQube. Due to this change, the user membership from the [SHIP-HATS portal](www.ship.gov.sg) will be automatically synced in SonarQube based on your SHIP-HATS subscription. If your subscription contains 20 users, all 20 users should be able to access SonarQube without the SA having to raise a service request to manage users in SonarQube.</p>
+<p>We are able to do this because each SHIP-HATS subscription has a master LDAP group containing all the members of the subscription. Depending on whether you already have a group in SonarQube, we will create or rename your existing group name for it to be automatically synchronized in SonarQube. However, any groups created in SonarQube previously might not work as intended since it is not created in SHIP LDAP and will lead to unnsuccessful sync, causing the users in the group to lose access to their projects.</p>
 
 <b>To fix this issue:</b>
 
@@ -218,14 +218,14 @@ We will manually find your master LDAP group and create or rename your existing 
 
 
 <details>
-<summary>How do we manage users in Sonarqube moving forward?
+<summary><b>How do we manage users in Sonarqube moving forward?</b>
 </summary>
 <br>
 <b>To manage users within your subscription:</b>  
  
-1. The Subscription Admin (SA) and Project Admin (PA) can log in to the [SHIP-HATS portal](https://www.ship.gov.sg).
-2. Add or remove members under the subscription.   
-The user membership will be synced to the master LDAP group created for you and will be synced to the SonarQube group.
+<ol><li>The Subscription Admin (SA) and Project Admin (PA) can log in to the [SHIP-HATS portal](https://www.ship.gov.sg).</li>
+<li>Add or remove members under the subscription.   
+The user membership will be synced to the master LDAP group created for you and will be synced to the SonarQube group.</li></ol>
 
 </details>
 
