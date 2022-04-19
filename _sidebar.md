@@ -17,21 +17,21 @@
   - [Declaring DGP Systems](declaring-dgp-systems)
 - Tools
   - [Tools Permission](ship-hats-tools-permission)
-    - [Bitbucket User Roles and Permission](bitbucket-user-role)
+    <!--- [Bitbucket User Roles and Permission](bitbucket-user-role)
     - [Bamboo User Roles and Permission](bamboo-user-roles)
     - [Confluence User Roles and Permission](confluence-user-role)
     - [Jira User Roles and Permission](jira-user-role)
-    - [Fortify User Roles and Permissions](fortify-user-roles-and-permissions)
+    - [Fortify User Roles and Permissions](fortify-user-roles-and-permissions)-->
   - [Access Tools](use-techpass-to-access-ship-hats-and-tools)
   - [Bitbucket](ship-bitbucket-overview)
-    - [Bitbucket User Roles and Permission](bitbucket-user-role)
+    <!--- [Bitbucket User Roles and Permission](bitbucket-user-role)
     - [Security for Bitbucket](ship-bitbucket-security)
     - [Protect changes to sensitive files/folders](ship-bitbucket-protect-changes-sensitive)
-    - [Create a Repository](ship-bitbucket-create-repository)
+    - [Create a Repository](ship-bitbucket-create-repository)-->
   - [SonarQube](hats-sonarqube-overview)
-    - [Set up Community Edition](sonarqube-set-up-community-edition)
+    <!--- [Set up Community Edition](sonarqube-set-up-community-edition)
     - [Set up Developer Edition](sonarqube-set-up-developer-edition)
-    - [Self Help Guide](sonarqube-self-help-guide)
+    - [Self Help Guide](sonarqube-self-help-guide)-->
 <!--
   - [Bamboo]()
   - [Confluence]()
