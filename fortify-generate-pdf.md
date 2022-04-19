@@ -26,7 +26,7 @@
     -output specifies the name of the output file for the PDF report
     ```
 
-    You can use the following template names for the template parameter:
+1. You can use the following template names for the template parameter:
     - Developer Workbook
     - DISA STIG
     - CWE Top 25 2019
@@ -41,7 +41,7 @@
     - MISRA
     - PCI SSF Compliance
 
-    After the report generation task is successful, specify an artifact definition as shown below so that you can download the PDF report when your bamboo plan is complete.
+1. After the report generation task is successful, specify an artifact definition as shown below so that you can download the PDF report when your bamboo plan is complete.
 
     ![Edit artifact definition](hats-fortify-edit-artifact-definition.png)
 

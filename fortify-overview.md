@@ -13,17 +13,4 @@ Fortify SCA helps you identify security vulnerabilities in software source code.
 - [Add users to Fortify App on SSC](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-fortify-applications?id=manage-user-role-in-fortify-applications)
 - [Manage Application Version](fortify-manage-application-version)
 - [Manage Fortify user tokens](fortify-manage-user-tokens)
-
-## Additional Resources
-
-For more information on Fortify SCA, refer to following resources:
-- 
-- https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview
-
-|**Area**|**Resource**|  
-|---|---|
-|Fortify Static Code Analyzer|https://www.microfocus.com/en-us/products/static-code-analysis-sast/overview|
-|API Sample|https://ssc.hats.stack.gov.sg/ssc/html/docs/docs.html#!/overview/|
-|API Authentication|https://ssc.hats.stack.gov.sg/ssc/html/docs/docs.html#!/auth|
-|API Sample URL Used go collect data for your project|https://ssc.hats.stack.gov.sg/ssc/api/v1/projectVersions/<your_project_version_id>/issueGroups?groupingtype=FOLDER&qm=issues&showhidden=false&showremoved=false&showshortfileNames=true&showsuppressed=false|
-
+- [Additional Resources](fortify-additional-resources)

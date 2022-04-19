@@ -82,9 +82,14 @@ If you have not created the Fortify App, go to the [SHIP-HATS](https://www.ship.
 
 1. Assign values from your environment variables under **Default Plan Configuration** > **Variables**.  
     - Do remember to omit *bamboo* infront of the variable name. For example, if your **Fortify Software Security Center token** is *${bamboo.fortify.secret.token}*, your variable set here should be *fortify.secret.token*
-    - Ensure that your Fortify job has the following a required capability to use the correct HATS image to build your Fortify job:
+
+        ![Default Plan Configuration Variables](fortify-default-job-config-variables.png)
+
+    - Ensure that your Fortify job has the following required capability to use the correct HATS image to build your Fortify job:
         - For Linux builds, use *hats_linux_image exists*
         - For Windows builds, use *hats_windows_image exist*
+
+            ![Default Job Requirements](fortify-default-job-requirements.png)
 
 ## Helper Scripts
 If your team prefers to use scripts (Script Task), you can reference to the helper script by CTMO. It includes an established flow of running the Fortify scan.
