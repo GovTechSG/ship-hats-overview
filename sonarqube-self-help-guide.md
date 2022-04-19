@@ -37,9 +37,11 @@ You can copy the content from the following tables (**Conditions on New Code** &
 -  Removing the rows for **metrics** that are not required
 - Updating the **value** to a value of your choice.
 
+
 **Conditions on New Code**
-| **Metric_id** | **Metric** | **Operator** |  **Value** |
-| --- | --- | --- | --- |
+
+| **Metric_id** | **Metric** | **Operator** |  **Value** |  
+| --- | --- | --- | --- |  
 | new_technical_debt | Added Technical Debt | is greater than | 1min |  
 | new_branch_coverage	 | Condition Coverage	| is less than | 2.00% | 
 | new_conditions_to_cover	|Conditions to Cover|	is greater than	|3|
@@ -71,8 +73,9 @@ new_uncovered_lines	|Uncovered Lines	| is greater than|	25
 ---
 
 **Conditions on Overall Code**
-| **Metric_id** | **Metric** | **Operator** | **Value** |
-| --- | --- | --- | --- |
+
+| **Metric_id** | **Metric** | **Operator** | **Value** |  
+| --- | --- | --- | --- |  
 blocker_violations	|Blocker Issues	|is greater than|	26
 bugs	|Bugs	|is greater than|	27
 classes		|Classes	|is greater than|	28
