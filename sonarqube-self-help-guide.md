@@ -207,7 +207,7 @@ Refer to this document if you have previously been assigned permissions in Sonar
 <summary><b>My SonarQube Projects are not appearing</b>
 </summary>
 <br>
-<p>During the month of June 2021, we have implemented LDAP group support in SonarQube. Due to this change, the user membership from the [SHIP-HATS portal](www.ship.gov.sg) will be automatically synced in SonarQube based on your SHIP-HATS subscription. If your subscription contains 20 users, all 20 users should be able to access SonarQube without the SA having to raise a service request to manage users in SonarQube.</p>
+<p>During the month of June 2021, we have implemented LDAP group support in SonarQube. Due to this change, the user membership from the <a href="https://www.ship.gov.sg">SHIP-HATS portal</a> will be automatically synced in SonarQube based on your SHIP-HATS subscription. If your subscription contains 20 users, all 20 users should be able to access SonarQube without the SA having to raise a service request to manage users in SonarQube.</p>
 <p>We are able to do this because each SHIP-HATS subscription has a master LDAP group containing all the members of the subscription. Depending on whether you already have a group in SonarQube, we will create or rename your existing group name for it to be automatically synchronized in SonarQube. However, any groups created in SonarQube previously might not work as intended since it is not created in SHIP LDAP and will lead to unnsuccessful sync, causing the users in the group to lose access to their projects.</p>
 
 <b>To fix this issue:</b>
