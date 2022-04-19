@@ -223,7 +223,7 @@ We will manually find your master LDAP group and create or rename your existing 
 <br>
 <b>To manage users within your subscription:</b>  
  
-<ol><li>The Subscription Admin (SA) and Project Admin (PA) can log in to the [SHIP-HATS portal](https://www.ship.gov.sg).</li>
+<ol><li>The Subscription Admin (SA) and Project Admin (PA) can log in to the <a href="https://www.ship.gov.sg">SHIP-HATS portal</a>.</li>
 <li>Add or remove members under the subscription.   
 The user membership will be synced to the master LDAP group created for you and will be synced to the SonarQube group.</li></ol>
 
