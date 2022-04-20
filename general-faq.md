@@ -130,9 +130,7 @@ On GSIB devices: login to TechPass and access any of the SHIP-HATS tools. You ha
   <summary>5. What happens to my current LDAP account once I onboard to TechPass?  </summary><br>
 <p>For existing users, your LDAP accounts will be deleted. There will not be any impact on existing user permissions on each SHIP-HATS tool. New users onboarding to SHIP-HATS will be given a TechPass account upon successful onboard.</p>
 <p><b> Note:</b> After you have onboarded using TechPass, you will be able to log in to HATS services via TechPass only.</p>
-<!-- https://jira.ship.gov.sg/browse/CODEX-39034 
-Note: After you have onboarded using TechPass, you will not be able to log in to HATS services via LDAP account.
-Note: After you have onboarded using TechPass, you will be able to log in to HATS services via TechPass only. -->
+<!-- https://jira.ship.gov.sg/browse/CODEX-39034-->
 </details>
 <br>
 <details>
