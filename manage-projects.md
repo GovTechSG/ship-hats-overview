@@ -156,11 +156,26 @@ Subscription Admin and Project Admin can manage users within a project tool or a
 ### To manage users for your project tool or app:
 
 1. Go to **Projects** > **All Projects**.
+
+    <kbd>![All Projects](portal-projects-all-projects.png)</kbd>
+
 1. Navigate to your project, and then select **Manage**.
+
+    <kbd>![All Projects](portal-projects-manage.png  ':size=60%')</kbd>
+
 1. Click **Manage** on the project tool whose users you want to manage. 
+
+    <kbd>![All Projects](portal-projects-manage-app.png)</kbd>
+
 1. In the **Manage Tool** window that appears, from the dropdown, select **Manage users**. 
+
+    <kbd>![All Projects](portal-projects-manage-tool.png  ':size=60%')</kbd>
+
 1. To manage users, follow the on-screen instructions. 
 
-    >**Note:** The link to tool or app server, includes the project key that you selected. This enables you to get to the project in the tool or app server directly. This is applicable for all Atlassian apps (Bamboo, Bitbucket, Confluence, and JIRA).   
+    >**Note:** The link to tool or app server, includes the project key that you selected. This enables you to get to the project in the tool or app server directly. This is applicable for all Atlassian apps (Bamboo, Bitbucket, Confluence, and JIRA).  
+    >
+    ><kbd>![All Projects](portal-projects-manage-users.png  ':size=60%')</kbd>
+
 
     -->
