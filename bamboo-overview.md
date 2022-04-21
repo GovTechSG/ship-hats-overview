@@ -135,11 +135,11 @@ If you already ran with `6.10.4 JAR` file, you can skip these steps as `6.10.4 J
 1. Go to **Agent** > **Elastic Agent : Manage elastic image configurations**.
 1. Go to the bottom of the page and enter the required values.
 
-    <kbd>![Elastic Image Configuration Details]()
+    <kbd>![Elastic Image Configuration Details](bamboo-elastic-image-config-details.png)</kbd>
 
 1. Select the **Use Virtual Private Cloud** check box, and then select the following Subnets.
 
-    <kbd>![Subnets]()</kbd>
+    <kbd>![Subnets](bamboo-subnets.png)</kbd>
 
 >**Notes:**
 >- The Latests AMI IDs can find in this page : [SHIP Bamboo Elastic Agent for SHIP Users - SHIP - SHIP Confluence](https://confluence.ship.gov.sg/display/SHIP/SHIP+Bamboo+Elastic+Agent+for+SHIP+Users).
@@ -382,4 +382,4 @@ This will allow all tenants to have equal usage on the shared pool of bamboo ela
 
 ## Bamboo FAQs
 
-- [Bamboo FAQs](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/tools-faq?id=bamboo-faq)
+- [Bamboo FAQs](tools-faq/#bamboo-faqs)
