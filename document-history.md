@@ -3,8 +3,15 @@
 The following table describes important additions to the SHIP-HATS documentation. We also update the documentation frequently to address the feedback that you send us.
 
 | Change | Description | Date |
-| --- | --- | --- |  
+| --- | --- | --- | 
+|[SonarQube](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/hats-sonarqube-overview)|SonarQube documentation added|April 2022|
+|[Bitbucket](ship-bitbucket-overview)|Bitbucket documentation added|April 2022|
+|[Manage users within a Project Tool](#manage-users-within-a-project-tool)|How to manage users within a Project tool|April 2022|
+|[SonarQube](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/hats-sonarqube-overview)|Provision SonarQube Developer Edition|April 2022| 
+|[Off-board an account](#off-board-an-account)|Subscription Admin (SA) can now submit Subscription off-board request.|April 2022|
+|[What's New](what-s-new)|List of product changes|April 2022|
 | [Approve new users](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-users?id=approve-new-users) | Introduction of Whitelisted Domains | April 2022 |  
+|[Fortify](fortify-overview)|Fortify documentation added|April 2022|
 | [Manage Access](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-users?id=manage-access) | Feature to manage access for CI and SonaType tools | April 2022 |  
 | [Reactivate Users](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/portal-guide/manage-users?id=reactivate-users) | Feature to reactivate a TechPass user | March 2022  |  
 | [Use TechPass to access SHIP-HATS and tools](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/use-techpass-to-access-ship-hats-and-tools) | Ability to use TechPass to access various tools | February 2022 |   

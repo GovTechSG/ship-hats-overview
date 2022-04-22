@@ -17,7 +17,7 @@ SHIP-HATS users may have user roles such as Subscription Admin (SA), Project Adm
 - [Reset 2FA](#reset-2fa)
 - [View plan details](#view-plan-details)
 - [View billing information](#view-billing-information)
-<!-- - [Off-board an account](#off-board-an-account)-->
+- [Off-board an account](#off-board-an-account)
 
 ## [Log in and Log out](#log-in-and-log-out)
 
@@ -99,11 +99,10 @@ The **Overview** page of the subscription account gives the dashboard view of 
 - [Plan details](#view-plan-details)
 - Count of projects hosted on this account
 - Count of users added to this account
-- Projects using shared Bamboo agents and their usage quota.
-<!-- 
+- Projects using shared Bamboo agents and their usage quota. 
 - Announcements about SHIP-HATS services, maintenance notice, generic subscription updates, and any urgent or important messages.
     <kbd>![Portal Announcements](portal-announcements.png ':size=60%')
--->
+
 <!--CODEX-53573 -->
 
 >**Note:** The term **Overview** and **Dashboard view** may be used interchangeably.
@@ -307,7 +306,7 @@ You can find the signed service sheets for this account.
 
 
 <!-- CODEX-49280(https://gdsjira.ship.gov.sg/browse/PORTAL-1084 + https://gdsjira.ship.gov.sg/browse/PORTAL-1760) -->
-<!--
+
 ## Off-board an Account
 
 If you are a Subscription Admin (SA), you can off-board your subscription account after the trial period has lapsed or project is coming to an end. 
@@ -346,4 +345,3 @@ If you are a Subscription Admin (SA), you can off-board your subscription accoun
 - Changing the PA function is disabled. 
 - User invitations are disabled. 
 - After the termination date, SA or PA will not be able to view the subscription details for the off-boarded account. However, if SA or PA have other subscription accounts, theu will continue to view details for these additional subscriptions accounts.
--->

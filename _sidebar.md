@@ -1,5 +1,5 @@
 - [Overview](ship-hats-overview)
-  <!--- [What's New](what-s-new)-->
+  - [What's New](what-s-new)
   - [SHIP-HATS Architecture](architecture-diagram)
   - [Integrated Tools Version](ship-hats-integrated-tools-version)
   - [User Roles and Permissions](user-roles-permissions)
@@ -17,11 +17,9 @@
   - [Declaring DGP Systems](declaring-dgp-systems)
 - Tools
   - [Tools Permission](ship-hats-tools-permission)
-    - [Bitbucket User Roles and Permission](bitbucket-user-role)
     - [Bamboo User Roles and Permission](bamboo-user-roles)
     - [Confluence User Roles and Permission](confluence-user-role)
     - [Jira User Roles and Permission](jira-user-role)
-    - [Fortify User Roles and Permissions](fortify-user-roles-and-permissions)
   - [Access Tools](use-techpass-to-access-ship-hats-and-tools)
   - [Bitbucket](ship-bitbucket-overview)
     - [Bitbucket User Roles and Permission](bitbucket-user-role)
@@ -58,7 +56,9 @@
   - [OpenVPN](get-started/openvpn-guide)
 
 -->
-<!--- [Bamboo]()
+<!--
+  - [Bamboo](bamboo-overview)
+
   - [Confluence]()
   - [JIRA]()
   - [pCloudy]()
