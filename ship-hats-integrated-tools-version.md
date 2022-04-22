@@ -18,8 +18,6 @@ Updated on: 28 Mar 2022
 | Container Scanner | Prisma Cloud earlier known as Twistlock | 21.04 | https://twistlock.apps.hats.stack.gov.sg/|
 | Consolidated Quality Dashboard | Thinking HATS | 2.8.0 | https://thinking.hats.stack.gov.sg/ |
 | Automated Accessibility Testing | Purple HATS | NA | NA as it is a CLI tool. |
-|Deployment | Digital.ai Deploy | 10.0.5 | https://xldeploy.ship.gov.sg/ https://xldeploy-intranet.ship.gov.sg/ |
-| Release tool | Digital.ai Release | 10.0.5 | https://xlrelease.ship.gov.sg/ |
 | VPN | Open VPN | 2.8.8 | https://vpn.ship.gov.sg |
 
 >**Notes:**
@@ -31,3 +29,10 @@ To the email address provided, following information will be sent:
     - Login credentials for Digital.ai Deploy (Intranet) and Digital.ai Release as an encrypted .zip file  
     - Details on how to open this file in the service request raised by you
     -->
+
+  <!--
+  
+  |Deployment | Digital.ai Deploy | 10.0.5 | https://xldeploy.ship.gov.sg/ https://xldeploy-intranet.ship.gov.sg/ |
+| Release tool | Digital.ai Release | 10.0.5 | https://xlrelease.ship.gov.sg/ |
+  
+  -->  
