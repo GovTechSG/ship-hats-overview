@@ -4,13 +4,13 @@
 
 Fortify Static Code Analyzer (SCA) is used to analyse the security vulnerabilities in your applications. Project Admins can add applications to their projects in the [SHIP-HATS portal](https://www.ship.gov.sg/) for Static Code Analysis(SCA) using Fortify SCA and Dynamic Code Analysis(DCA) using Fortify WebInspect. Both SCA and DCA scan results can be sent to the same Fortify Application.
 
-?> Note: App, application and Fortify application are the same and are used interchangeably in this document.
+> **Note:** App, application and Fortify application are the same and are used interchangeably in this document.
 
 **Audience**
 
 - [SHIP-HATS Project Admin (PA)](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/user-roles-permissions)
 
-**Objective**
+**Topics**
 
 This document guides PAs to do the following from [SHIP-HATS portal](https://www.ship.gov.sg/):
 
@@ -25,7 +25,7 @@ This document guides PAs to do the following from [SHIP-HATS portal](https://www
 
 1. From the side menu, click  **Projects**  >  **All Projects** to view all the projects in this subscription account. If needed, refer to [**Switch account**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
 
-2. Find the project and click  **Manage**.
+2. Find the project, and then click  **Manage**.
 
 3. Click **QA &amp; Security**.
 
@@ -35,7 +35,7 @@ This document guides PAs to do the following from [SHIP-HATS portal](https://www
 
     <kbd>![add-fortify-tool](add-fortify-tool.png ':size=75%')</kbd>
 
-5. Click the drop-down menu and choose **Fortify SCA &amp; WebInspect**.
+5. Click the drop-down menu, and then choose **Fortify SCA &amp; WebInspect**.
 
     <kbd>![add-app-name-quota](add-app-name-quota.png ':size=75%')</kbd>
 
@@ -45,15 +45,15 @@ This document guides PAs to do the following from [SHIP-HATS portal](https://www
 
     <kbd>![added-app](added-app.png ':size=75%')</kbd>
 
-?> Note: PA can [Remove applications from Fortify SSC](#remove-applications-from-fortify-ssc).
+> **Note:** PA can [Remove applications from Fortify SSC](#remove-applications-from-fortify-ssc).
 
 ## [Add users to Fortify applications](#add-users-to-fortify-applications)
 
 PAs can add users to the added Fortify applications and manage their roles and permissions on Fortify User Management portal.
 
 1. Log in to [Fortify User Management portal](https://ssc-roles.hats.stack.gov.sg/).
-2. Enter your SHIP-HATS **Username**, **Password** and click **Log in**.
-3. Click the drop-down menu and choose the required app.
+2. Enter your SHIP-HATS **Username**, **Password**, and then click **Log in**.
+3. Click the drop-down menu, and then choose the required app.
 
     <kbd>![select-app-to-add-users](select-app-to-add-users.png ':size=75%')</kbd>
 
@@ -67,22 +67,22 @@ PAs can add users to the added Fortify applications and manage their roles and p
 
     <kbd>![add-multiple-users-apps](add-multiple-users-apps.png ':size=75%')</kbd>
 
-6. To add the selected **User(s)** for other applications within this subscription, click **App(s)** and select the required applications.
+6. To add the selected **User(s)** for other applications within this subscription, click **App(s)**, and then select the required applications.
 
 7. Click **Add**. 
 
 <!--You will see a success message as shown below. <kbd>![](93cdf038eb786794.png ':size=75%')</kbd>-->
 
-?> Note: By default, all the application users have Viewer permission.
+> **Note:** By default, all the application users have Viewer permission.
 
 ## [Manage user role in Fortify applications](#manage-user-role-in-fortify-applications)
 
 PA can assign [**Security Lead** , **Security Tester** or **Report Uploader**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/fortify-user-roles-and-permissions) role to all application users excluding other PAs.
 
-?> Note: Role assigned to a user in Fortify is global and hence a user will have the same role across all the apps.
+> **Note:** Role assigned to a user in Fortify is global and hence a user will have the same role across all the apps.
 
 1. Log in to [Fortify User Management portal](https://ssc-roles.hats.stack.gov.sg/).
-2. Enter your SHIP-HATS **Username**, **Password** and click **Log in**.
+2. Enter your SHIP-HATS **Username**, **Password**, and then click **Log in**.
 3. Click the **APP** drop-down menu to choose the app.
 
     <kbd>![select-app-to-add-users](select-app-to-add-users.png ':size=75%')</kbd>
@@ -108,7 +108,7 @@ PAs can remove all users excluding fellow PAs of the project in which the applic
 **To remove users from Fortify applications:**
 
 1. Log in to [Fortify User Management portal](https://ssc-roles.hats.stack.gov.sg/).
-2. Enter your SHIP-HATS **Username, Password** and click **Log in**.
+2. Enter your SHIP-HATS **Username, Password**, and then click **Log in**.
 3. Click the **APP** drop-down menu to choose the app.
 
     <kbd>![select-app-to-add-users](select-app-to-add-users.png ':size=75%')</kbd>
@@ -128,7 +128,7 @@ Tokens are at project level and is generated when the first Fortify application 
 ### To get token ID for Fortify applications:
 
 1. From the side menu, click  **Projects**  >  **All Projects**  to view all the projects in this subscription account. If needed, refer to [**Switch account**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
-2. Find the project and click  **Manage**.
+2. Find the project, and then click  **Manage**.
 3. Click **QA &amp; Security**.
 
     <kbd>![share-token-id-manage](share-token-id-manage.png ':size=75%')</kbd>
@@ -137,7 +137,7 @@ Tokens are at project level and is generated when the first Fortify application 
 
     <kbd>![share-token-id-manage](share-token-id-manage.png ':size=75%')</kbd>
 
-5. Click the drop-down arrow and choose **Token for bamboo pipeline**.
+5. Click the drop-down arrow, and then choose **Token for bamboo pipeline**.
 
     <kbd>![token-id-menu](token-id-menu.png ':size=75%')</kbd>
 
@@ -145,7 +145,7 @@ Tokens are at project level and is generated when the first Fortify application 
 
     <kbd>![copy-token-id](copy-token-id.png ':size=75%')</kbd>
 
-Tip: While PAs share tokens with users, make sure to include the project names to map them with the shared tokens.
+> **Tip:** While PAs share tokens with users, make sure to include the project names to map them with the shared tokens.
 
 ## [Remove applications from Fortify SSC](#remove-applications-from-fortify-ssc)
 
@@ -154,7 +154,7 @@ PA [adds applications](https://docs.developer.tech.gov.sg/docs/ship-hats-documen
 ### To remove applications from Fortify:
 
 1. From the side menu, click  **Projects**  >  **All Projects**  to view all the projects in this subscription account. If needed, refer to [**Switch account**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
-2. Find the project and click  **Manage**.
+2. Find the project, and then click  **Manage**.
 3. Click **QA &amp; Security**.
 
 ![latest-delete-app](latest-delete-app.png ':size=75%')</kbd>
@@ -175,6 +175,11 @@ PA [adds applications](https://docs.developer.tech.gov.sg/docs/ship-hats-documen
 
     <kbd>![latest-remove-app-confirmation](latest-remove-app-confirmation.png ':size=75%')</kbd>
 
-7. Type the application name without double quotes and click **Proceed**.
+7. Type the application name without double quotes, and then click **Proceed**.
 
-?> Note: Text you enter to confirm is case-sensitive.
+    > **Note:** Text you enter to confirm is case-sensitive.
+
+--- 
+
+### Related Topics
+- [Manage Application Version](fortify-manage-application-version)
