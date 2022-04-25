@@ -56,21 +56,22 @@ If you have not created the Fortify App, go to the [SHIP-HATS](https://www.ship.
  
 1.	Enter the following details:
     - In **Application type**, select the lanuguage that you use. If the language you use does not belong in the list, select *Other*.
-    - For **Additional Fortify SCA translation options**, refer to https://www.microfocus.com/documentation/fortify-static-code/ for more information.
+    - For **Additional Fortify SCA translation options**, refer to https://www.microfocus.com/documentation/fortify-static-code-analyzer-and-tools/2020/SCA_Guide_20.2.0.pdf for more information.
     - For **Includes list** and **Excludes list**, you can specify which directory within the code repository you want to include and exclude from the scan.  
     <br>
     
     ![Fortify SCA Configuration](hats-fortify-sca-config-other.png)
 
-1.	Check the **Run Fortify SCA Scan** check box, and then specify a name for the generated FPR file in **Results.file**.
+1.	Check the **Run Fortify SCA Scan** check box, and then specify a name for the generated FPR file in the **Results.file** field.
 
     ![Run Fortify SCA Scan](hats-fortify-sca-config-adv.png)
  
-1.	Select the **Upload Fortify SCA scan results to Fortify Software Security Center** to automatically upload the scan results to [Fortify SSC](https://ssc.hats.stack.gov.sg/).
+1.	Select the **Upload Fortify SCA scan results to Fortify Software Security Center** to automatically upload the scan results to [Fortify SSC](https://ssc.hats.stack.gov.sg/), and then enter details for the following parameters:
 
     ![Fortify SCA Scan](hats-fortify-scan.png)
 
-1.	Enter details for the following parameters: 
+    >**Note:** Make sure that you append *bamboo* in all your variables. For example, your variable is ${fortify.password}, you must reference it in Bamboo as ${bamboo.fortify.password}.
+
     - **Fortify Software Security Center URL:**  You can use the same value as shown in the guide
     - **Fortify Software Security Center token:** Add in the environment variable containing the decoded value of the token under the Retrieval of Decoded Token step
     - **Application name:** Add your Fortify application name as shown in Fortify SSC (refer to image below)
@@ -80,12 +81,11 @@ If you have not created the Fortify App, go to the [SHIP-HATS](https://www.ship.
 
 1.	Click **Save** and you are ready to run your Fortify scan.
 
-1. Assign values from your environment variables under **Default Plan Configuration** > **Variables**.  
-    - Do remember to omit *bamboo* infront of the variable name. For example, if your **Fortify Software Security Center token** is *${bamboo.fortify.secret.token}*, your variable set here should be *fortify.secret.token*
+1. Assign values from your environment variables under **Default Plan Configuration** > **Variables** as shown below:  
 
-        ![Default Plan Configuration Variables](fortify-default-job-config-variables.png)
+    ![Default Plan Configuration Variables](fortify-default-job-config-variables.png)
 
-    - Ensure that your Fortify job has the following required capability to use the correct HATS image to build your Fortify job:
+1. Under **Default Job**, make sure that your Fortify job has the following required capability to use the correct HATS image to build your Fortify job:
         - For Linux builds, use *hats_linux_image exists*
         - For Windows builds, use *hats_windows_image exist*
 
