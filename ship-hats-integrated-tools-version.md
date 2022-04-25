@@ -3,10 +3,10 @@ Updated on: 28 Mar 2022
 
 | **Category** | **Tools integrated with SHIP-HATS** | **Version on SHIP-HATS** | **Endpoint(URL)** |
 | --- | --- | --- | --- |
-| Project Management | Jira | 8.20.1 |https://jira.ship.gov.sg/|
+| Project Management | Jira | 8.20.6 |https://jira.ship.gov.sg/|
 | Documentation and Collaboration | Confluence | 7.14.1 |https://confluence.ship.gov.sg/|
 | Repository Management | Bitbucket | 7.17.5 |https://bitbucket.ship.gov.sg/|
-| Build Management | Bamboo | 8.0.6 | https://bamboo.ship.gov.sg/ |
+| Build Management | Bamboo | 8.2.1 | https://bamboo.ship.gov.sg/ |
 | User Group Management for Atlassian tools | Crowd | 4.3.5 | https://crowd.ship.gov.sg|
 | Directory Service Authentication | LDAP | 2.4.44 | NA as it is managed by Crowd. |
 | Build Artifact | Nexus repo | 3.38.0 | https://nexus.ship.gov.sg/|
