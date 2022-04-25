@@ -2,11 +2,11 @@
 
 This section contains release information for the SHIP-HATS platform releases.
 
-<!--## Release 3.15.15
+<!--## Release 3.15.16
 
 this is where future content will appear.-->
 
-## Release 3.15.14
+## Release 3.15.14 and 3.15.15
 
 The following section contains the new features, enhancements, and changes released on April 22, 2022:
 
