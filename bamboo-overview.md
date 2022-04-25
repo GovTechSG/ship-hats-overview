@@ -13,6 +13,7 @@ For more information on Bamboo, refer to https://www.atlassian.com/software/bamb
 **Topics**  
 
 - [Roles and Permissions](#roles-and-permissions)
+- [Access Bamboo](#access-bamboo)
 - [Install a Remote Agent](#install-a-remote-agent)
 - [Upgrade Remote Agent](#upgrade-remote-agent)
 - [Create an Elastic Agent](#create-an-elastic-agent)
@@ -64,6 +65,11 @@ Users can raise a [service request](https://jira.ship.gov.sg/servicedesk/custome
 
 If approved, the group is created with the agency name prefixed to it. For example, *govtech-codex-documentation*. If a group was already created for managing users in any one of the Atlassian products added to your project on SHIP-HATS, you would be able to see that in all the integrated Atlassian products. Bamboo project administrators can manage user groups for this project.
 
+## Access Bamboo
+
+- [Access Bamboo](use-techpass-to-access-ship-hats-and-tools#confluence-jira-gdsjira-bitbucket-and-bamboo)
+
+
 ## Install a Remote Agent
 
 ### Prerequisites
@@ -88,7 +94,7 @@ For more information, refer to the [Atlassian](https://confluence.atlassian.com/
 
 ## Upgrade Remote Agent 
 
-### To uplgrade remote agent after Bamboo version 8.0.6 is deployed:
+### To upgrade remote agent after Bamboo version 8.0.6 is deployed:
 
 If you already ran with `6.10.4 JAR` file, you can skip these steps as `6.10.4 JAR` is compatible with `8.0.6`.
 

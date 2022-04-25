@@ -10,6 +10,7 @@ For more information on Bitbucket, refer to https://www.atlassian.com/software/b
 **Topics**
 
 - [Bitbucket User Roles and Permission](bitbucket-user-role)
+- [Access Bitbucket](use-techpass-to-access-ship-hats-and-tools#confluence-jira-gdsjira-bitbucket-and-bamboo)
 - [Security for Bitbucket](ship-bitbucket-security)
 - [Protect changes to sensitive files/folders](ship-bitbucket-protect-changes-sensitive)
 - [Create a Repository](ship-bitbucket-create-repository)
