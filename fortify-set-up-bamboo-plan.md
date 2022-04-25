@@ -62,7 +62,7 @@ If you have not created the Fortify App, go to the [SHIP-HATS](https://www.ship.
     
     ![Fortify SCA Configuration](hats-fortify-sca-config-other.png)
 
-1.	Check the **Run Fortify SCA Scan** check box, and then specify a name for the generated FPR file in the **Results.file** field.
+1.	Check the **Run Fortify SCA Scan** check box, and then specify a name for the generated FPR file in the **Results file** field.
 
     ![Run Fortify SCA Scan](hats-fortify-sca-config-adv.png)
  
@@ -70,7 +70,7 @@ If you have not created the Fortify App, go to the [SHIP-HATS](https://www.ship.
 
     ![Fortify SCA Scan](hats-fortify-scan.png)
 
-    >**Note:** Make sure that you append *bamboo* in all your variables. For example, your variable is ${fortify.password}, you must reference it in Bamboo as ${bamboo.fortify.password}.
+    >**Note:** Make sure that you append *bamboo* in all your variables. For example, your variable is *${fortify.password}*, you must reference it in Bamboo as *${bamboo.fortify.password}*.
 
     - **Fortify Software Security Center URL:**  You can use the same value as shown in the guide
     - **Fortify Software Security Center token:** Add in the environment variable containing the decoded value of the token under the Retrieval of Decoded Token step
@@ -86,10 +86,10 @@ If you have not created the Fortify App, go to the [SHIP-HATS](https://www.ship.
     ![Default Plan Configuration Variables](fortify-default-job-config-variables.png)
 
 1. Under **Default Job**, make sure that your Fortify job has the following required capability to use the correct HATS image to build your Fortify job:
-        - For Linux builds, use *hats_linux_image exists*
-        - For Windows builds, use *hats_windows_image exist*
+    - For Linux builds, use *hats_linux_image exists*
+    - For Windows builds, use *hats_windows_image exist*
 
-            ![Default Job Requirements](fortify-default-job-requirements.png)
+    ![Default Job Requirements](fortify-default-job-requirements.png)
 
 ## Helper Scripts
 If your team prefers to use scripts (Script Task), you can reference to the helper script by CTMO. It includes an established flow of running the Fortify scan.
