@@ -17,10 +17,10 @@
   - [Declaring DGP Systems](declaring-dgp-systems)
 - Tools
   - [Tools Permission](ship-hats-tools-permission)
-    - [Bamboo User Roles and Permission](bamboo-user-roles)
     - [Confluence User Roles and Permission](confluence-user-role)
     - [Jira User Roles and Permission](jira-user-role)
   - [Access Tools](use-techpass-to-access-ship-hats-and-tools)
+  - [Bamboo](bamboo-overview)
   - [Bitbucket](ship-bitbucket-overview)
     - [Bitbucket User Roles and Permission](bitbucket-user-role)
     - [Security for Bitbucket](ship-bitbucket-security)
@@ -58,6 +58,7 @@
 -->
 <!--
   - [Bamboo](bamboo-overview)
+    - [Set up VPC Endpoint Connections](set-up-aws-vpc-endpoint-connections)
 
   - [Confluence]()
   - [JIRA]()
