@@ -35,6 +35,7 @@
     - [Application Version](fortify-manage-application-version)
     - [Fortify user tokens](fortify-manage-user-tokens) 
     - [Additional Resources](fortify-additional-resources)    
+  - [pCloudy](pcloudy-overview)    
   - [SonarQube](hats-sonarqube-overview)
     - [Community Edition](sonarqube-set-up-community-edition)
     - [Developer Edition](sonarqube-set-up-developer-edition)
@@ -63,7 +64,7 @@
 
   - [Confluence]()
   - [JIRA]()
-  - [pCloudy]()
+  - [pCloudy](pcloudy-overview)
   - [WebInspect]()
   - [Prisma Cloud]()
   - [Purple HATS]()-->

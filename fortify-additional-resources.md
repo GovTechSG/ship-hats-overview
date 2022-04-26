@@ -1,8 +1,11 @@
 # Additional Resources
 
+## FAQs
+- [Fortify FAQs](tools-faq/#fortify-and-webinspect)
 
+
+## Resources
 For more information on Fortify SCA, refer to following resources:
-
 
 
 |**Area**|**Resource**|  

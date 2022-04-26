@@ -35,3 +35,7 @@ Note: This website is not supported by Safari.
 1. You have successfully installed OpenVPN. You will need to log in to OpenVPN each time you require access to SHIP-HATS.
 
     >**Note:** You need to reset the 2FA if you uninstall the Authy/Authenticator app or when you change the phone instrument.
+
+## FAQs
+
+- [Tools FAQ](tools-faq#openvpn-faq)

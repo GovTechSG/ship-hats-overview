@@ -13,7 +13,7 @@ We seek your help to housekeep the older plans at your end. On 10th Nov, 2021, d
 Agencies are requested **not** to override the default SHIP-HATS Bamboo Plan configuration for any of your plans. Please contact us if you require any exemption or support from us.  
 
 
-#### FAQs
+**FAQs**
 
 <details>
  <summary><b>What if I want to keep one or few of disabled plans for our future reference?</b></summary><br />
@@ -91,21 +91,21 @@ SHIP-HATS will be adding a clean-up policy to the Nexus Repositories to remove o
 
 From 11th Oct ‘21 onwards, older artifacts in your nexus repositories will be deleted automatically without any notification. We request agencies to do periodical review of repositories and large blobstores and housekeep them at your end.  As we continually seek to improve our solutions, we encourage you to refer to the [Nexus Repository - Cleanup Policies](https://help.sonatype.com/repomanager3/repository-management/cleanup-policies) – the Sonatype documentation with more details. 
 
-Questions? 
+**Questions?** 
 
 For further queries, please contact SHIP-HATS Operation support via email at enquiries_ship@tech.gov.sg, and if you have any feedback on product improvements, feel free to let us know at https://go.gov.sg/she.
 
 
 
-#### FAQs
+**FAQs**
 
-**1. How to check which repositories are using the most space?**
+- **How to check which repositories are using the most space?**
 
-Please contact your repo administrator to have a check on this.   
+  Please contact your repo administrator to have a check on this.   
 
-**2. Will there be any notification send to agency when the older artifacts are purged?**
+- **Will there be any notification send to agency when the older artifacts are purged?**
 
-No notification will be sent to the agency. Please do periodical review and do necessary housekeeping of Repos, images and artifacts at your end. Do contact us if you require any support.
+  No notification will be sent to the agency. Please do periodical review and do necessary housekeeping of Repos, images and artifacts at your end. Do contact us if you require any support.
 
   </details>
 
@@ -120,13 +120,15 @@ In the view of recent utilization of bitbucket usage patterns, a token bucket al
 **Bitbucket Rate Limiting Policy**
 
 Find below the guideline for tenants with this Rate limiting setting turned ON.
+
+
 | **Guideline** | **Action Required** |
 | -- | -- |
-| 1. From 15 Sep ‘21 onwards, Rate limiting will be imposed and token bucket size and token bucket fill rate configured with the default settings.  | Review your build plans and requests regularly. If you are receiving returned error code 429 (ie when too many requests in a given amount of time);  look for the below options to mitigate the impact of rate-limiting </br> - Suggest users to review their code/scripts that the requests are not made in large bursts. </br> - Spread your requests. Use multiple users and split repos to perform the request rather than stick with one user. </br> - Cache API calls for at least a few seconds, and try to avoid making repetitive API calls. </br> - Avoid tight loops by writing scripts that wait for each REST request to finish before a new one is fired.</br>If any of the above doesn’t help, reach out to us SHIP-HATS Service Desk for further advice. |
-| 2. Agencies with reasonable bitbucket requests as standard operational. | Nil |
-| 3. Agencies are reminded NOT to perform load test or massive requests. | Nil. You will be receiving 429 returned error if your requests exceeded the rate limit configured and do necessary mitigation |
+| From 15 Sep ‘21 onwards, Rate limiting will be imposed and token bucket size and token bucket fill rate configured with the default settings.  | Review your build plans and requests regularly. If you are receiving returned error code 429 (ie when too many requests in a given amount of time);  look for the below options to mitigate the impact of rate-limiting </br> - Suggest users to review their code/scripts that the requests are not made in large bursts. </br> - Spread your requests. Use multiple users and split repos to perform the request rather than stick with one user. </br> - Cache API calls for at least a few seconds, and try to avoid making repetitive API calls. </br> - Avoid tight loops by writing scripts that wait for each REST request to finish before a new one is fired.</br>If any of the above doesn’t help, reach out to us SHIP-HATS Service Desk for further advice. |
+| Agencies with reasonable bitbucket requests as standard operational. | Nil |
+| Agencies are reminded NOT to perform load test or massive requests. | Nil. You will be receiving 429 returned error if your requests exceeded the rate limit configured and do necessary mitigation |
 
-Questions?
+**Questions?**
 
 For further queries, please contact SHIP-HATS Operation support via email at enquiries_ship@tech.gov.sg, and if you have any feedback on product improvements, feel free to let us know at https://go.gov.sg/she.
 
@@ -134,17 +136,17 @@ For further queries, please contact SHIP-HATS Operation support via email at enq
 
 **FAQs**
 
-**1. Where and how can we see request counts on our Bitbucket requests (eg. Git, SSH, Push/Pull commits)?**
+- **Where and how can we see request counts on our Bitbucket requests (eg. Git, SSH, Push/Pull commits)?**
 
-There is currently no way for end-users to check this. If you experience any issues due to any integration of plugins or tools, contact SHIP-HATS Service Desk team to assess and advise on it.  
+  There is currently no way for end-users to check this. If you experience any issues due to any integration of plugins or tools, contact SHIP-HATS Service Desk team to assess and advise on it.  
 
-**2. Will there be any notification send to agency when rate limit is exceeded?**
+- **Will there be any notification send to agency when rate limit is exceeded?**
 
-No notification will be sent for termination. Please monitor your build plans and responses received on the requests at your end.
+  No notification will be sent for termination. Please monitor your build plans and responses received on the requests at your end.
 
-**3. Shall I request to increase the rate limit?**
+- **Shall I request to increase the rate limit?**
 
-SHIP-HATS will not recommend to increase the rate limit which will have an impact to system stability and performance. Perhaps you may try out the possible mitigation options shared above to reduce the impact. You can reach out to us to assess your use cases and suggest further.  Kindly note that we will assess the need on a case-by-case basis.
+  SHIP-HATS will not recommend to increase the rate limit which will have an impact to system stability and performance. Perhaps you may try out the possible mitigation options shared above to reduce the impact. You can reach out to us to assess your use cases and suggest further.  Kindly note that we will assess the need on a case-by-case basis.
 
  </details>
  
@@ -176,25 +178,25 @@ For further queries, please contact SHIP-HATS Operation support via email at enq
 
 **FAQs**
 
-**1. We have a scheduled build plan running every month for about 8-9hrs. Can I request for exemption?**
+- **We have a scheduled build plan running every month for about 8-9hrs. Can I request for exemption?**
 
-Drop an email to enquiries_ship@tech.gov.sg with more details. Our team will evaluate and advise.
+  Drop an email to enquiries_ship@tech.gov.sg with more details. Our team will evaluate and advise.
 
-**2. Will there be any notification send to the agency when the build plan is terminated?**
+- **Will there be any notification send to the agency when the build plan is terminated?**
 
-No notification will be sent for termination. Please monitor your build plans regularly and contact us if you require any support.
+  No notification will be sent for termination. Please monitor your build plans regularly and contact us if you require any support.
 
  </details>
  
 <details>
  <summary>  27 May 2020 </summary><br>
 
-As part of our security best practices, please be informed that SHIP will accept VPC endpoint acceptance requests only from GCC Restricted AWS accounts. Service consumers must adhere below the terms and conditions when submitting the VPC end point request to SHIP Service Desk. 
 
-Support request should be raised in SHIP Service Desk by respective project admin (or approved by respective project admin).
-Agency should use only **programmatic access** for any VPC end point services connecting with SHIP services.
+- As part of our security best practices, SHIP will accept VPC endpoint acceptance requests only from GCC Restricted AWS accounts. Service consumers must adhere below the terms and conditions when submitting the VPC end point request to SHIP Service Desk. 
+- Support request should be raised in SHIP Service Desk by respective project admin (or approved by respective project admin).
+- Agency should use only **programmatic access** for any VPC end point services connecting with SHIP services.
 For non-Restricted accounts; service consumer must seek approval from SHIP team for any new VPC end point requests.  
-FYI. New clause will be added in upcoming SHIP Service Agreement which should be formally approved by the agency. For existing approved accounts, SHIP team will make an assessment reach out tenant(s) if required.
+- A New clause will be added in upcoming SHIP Service Agreement which should be formally approved by the agency. For existing approved accounts, SHIP team will make an assessment reach out tenant(s) if required.
 
 Drop us a note if you require any clarifications on this matter.
 
