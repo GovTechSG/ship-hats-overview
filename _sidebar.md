@@ -35,7 +35,6 @@
     - [Application Version](fortify-manage-application-version)
     - [Fortify user tokens](fortify-manage-user-tokens) 
     - [Additional Resources](fortify-additional-resources)    
-  - [pCloudy](pcloudy-overview)    
   - [SonarQube](hats-sonarqube-overview)
     - [Community Edition](sonarqube-set-up-community-edition)
     - [Developer Edition](sonarqube-set-up-developer-edition)
@@ -61,6 +60,7 @@
 <!--
   - [Bamboo](bamboo-overview)
     - [Set up VPC Endpoint Connections](set-up-aws-vpc-endpoint-connections)
+  - [pCloudy](pcloudy-overview)    
 
   - [Confluence]()
   - [JIRA]()
