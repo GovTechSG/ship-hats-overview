@@ -384,7 +384,7 @@ This will allow all tenants to have equal usage on the shared pool of bamboo ela
 ### Fair Usage Policies
 
 - Elastic bamboo agent jobs running more than 500 minutes continuously will be terminated to avoid impacting availability of the shared resources.
-- Agencies with specific requirements could write in to enquires_SHIP@tech.gov.sg for evaluation by the SHIP team. Requests will be reviewed based on actual use-case. 
+- Agencies with specific requirements can write to the [SHIP team](mailto:enquiries_ship@tech.gov.sg) (at enquiries_ship@tech.gov.sg) for evaluation. Requests will be reviewed based on actual use-case. 
 - Elastic bamboo agents should not be used to perform load testing. For agency that needs to conduct performance or load testing, please run the load test using own remote agent.
 - Run jobs in your CI pipeline. Schedule jobs only when necessary, and during low peak hours. You could reach out to SHIP team to find out the recommended timing.
 
