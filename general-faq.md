@@ -1,5 +1,5 @@
 # General FAQ
-
+<!--
 ## [General User FAQ](#general-user-faq)
 
 <details>
@@ -131,7 +131,7 @@ On GSIB devices: login to TechPass and access any of the SHIP-HATS tools. You ha
 <p>For existing users, your LDAP accounts will be deleted. There will not be any impact on existing user permissions on each SHIP-HATS tool. New users onboarding to SHIP-HATS will be given a TechPass account upon successful onboard.</p>
 <p><b> Note:</b> After you have onboarded using TechPass, you will be able to log in to HATS services via TechPass only.</p>
 <!-- https://jira.ship.gov.sg/browse/CODEX-39034-->
-</details>
+<!--</details>
 <br>
 <details>
   <summary> 6. What is the benefit of enabling TechPass for my SHIP-HATS account? </summary><br>
@@ -140,9 +140,11 @@ You can use TechPass to access SHIP-HATS services seamlessly on GSIB and GMD dev
 <br>
 
 ---
+-->
+Choose a tab to view related FAQs.
 
 <!-- tabs:start -->
-### ****General User****
+### **General User**
 
 <details>
   <summary>1. What is a named user?</summary><br>
@@ -193,7 +195,7 @@ Yes. You can access SHIP-HATS tools such as Confluence, Jira, Bamboo, Nexus Repo
 
 </details>
 
-### ****Basic Support****
+### **Basic Support**
 
 <details>
   <summary>1. What is basic support? </summary><br>
@@ -246,7 +248,7 @@ Email enquiries_enp@tech.gov.sg to cancel extended support.
 Users can refer to their requests on the <a href="https://jira.ship.gov.sg/servicedesk/customer/portal/11">SSD portal</a>.
 </details>
 
-### ****TechPass****
+### **TechPass**
 <details>
   <summary>1. What is TechPass? </summary><br>
 TechPass is a Single Sign- On, Identity Access Management solution for developer services in Singapore Government Technology Stack (not only enabling users to access and transition seamlessly between services but also improving downstream user experiences). With their TechPass ID, users can seamlessly access  Singapore Government Tech Stack (SGTS) developer services by signing in once. For more details, refer to <a href="https://www.developer.tech.gov.sg/singapore-government-tech-stack/service-management/techpass.html"> TechPass overview.</a> </details>
