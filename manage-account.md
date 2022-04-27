@@ -320,10 +320,27 @@ If you are a Subscription Admin (SA), you can off-board your subscription accoun
 ### To off-board an account:
 
 1. Log in to the [SHIP-HATS portal](https://www.ship.gov.sg/). 
-1. Select an expected date to off-board. 
+1. Click **Overview** > **Billing Account** > **Plan Details**.
+    <kbd>![plan-details](plan-details.png ':size=100%')</kbd>
+1. In the **Plan Details** page that appears, click **Manage Plans**, and then click **Terminate Subscription**.
+    <kbd>![Terminate Subscription](portal-terminate-subscription.png ':size=100%')</kbd>
+1. In the **Terminate Subscription** form that appears, enter the required details.
+    
+    - In the **Termination Date** field, select an expected date to off-board. This date should be at least one week before the termination. 
 
-    - For a subscribed account, there is a minimum commitment of 6 months stated in the service sheet. Therefore, you will be allowed to select a date after fulfilling the 6 month period only.
-    - If you are on a trial account, you can select a date of your choice to off-board the account.
+        - For a subscribed account, there is a minimum commitment of 6 months stated in the service sheet. Therefore, you will be allowed to select a date after fulfilling the 6 month period only.
+        - If you are on a trial account, you can select a date of your choice to off-board the account.
+
+    <br>
+    
+    <kbd>![Terminate Subscription Form](portal-terminate-subscription-form.png ':size=100%')</kbd>
+
+1. Click **Submit**. A success message appears. 
+
+    <kbd>![Terminate Subscription Success](portal-terminate-subscription-success.png ':size=60%')</kbd>
+
+
+<!--
 1. After you have a confirmed date, create a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11) with following details:  
 
     - In the **Title** field, add the title in the following format: *[REQUEST TO OFF-BOARD] AgencyName - BillingRef - SubscriptionTitle*
@@ -338,10 +355,12 @@ If you are a Subscription Admin (SA), you can off-board your subscription accoun
         - Master billing crowd/ldap group name  
 
     You will receive an email confirmation with further details. 
-
-**After you have raised the service request for off-boarding:**
-- When SA or PA logs in to the SHIP-HATS portal, in the **Alerts** section, you will see a termination message.
-- Tools cannot be added
-- Changing the PA function is disabled. 
-- User invitations are disabled. 
-- After the termination date, SA or PA will not be able to view the subscription details for the off-boarded account. However, if SA or PA have other subscription accounts, theu will continue to view details for these additional subscriptions accounts.
+-->
+**After the Subscription Termination form is submitted:**
+- A termination message will be visible on the SHIP-HATS portal Dashboard 
+    <kbd>![Terminate Subscription](portal-terminate-subscription-message.png ':size=60%')</kbd>
+- Adding or removing PA is disabled 
+- User invitations are disabled and new users cannot be approved
+- New Projects, Applications, or Tools cannot be added
+    <kbd>![Terminate Subscription Error](portal-terminate-subscription-error.png ':size=60%')</kbd>
+- After the termination date, SA or PA will not be able to view the subscription details for the off-boarded account. However, if SA or PA have other subscription accounts, they will continue to view details for these additional subscriptions accounts.
