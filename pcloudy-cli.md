@@ -1,26 +1,4 @@
-# pCloudy Overview
-
-pCloudy is an automated test farm that executes automated tests on browsers (such as desktop, mobile) and mobile apps. Mobile devices are managed via a desktop web browser. Automation is triggered from Bamboo using Robot Framework.
-
-For more information on pCloudy Test Farm, see https://www.pcloudy.com/.
-
-
-**Topics**  
-
-<!--- [Roles and Permissions](#roles-and-permissions)-->
-<!--- [Access pCloudy]()-->
-- [Register Devices in Apple Developer Portal](pcloudy-register-devices)
-- [pCloudy CLI](pcloudy-cli)
-- [FAQs](pcloudy-faqs)
-- [Additional Resources]()
-
-<!--
-## Roles and Permissions
-
--->
-
-
-## pCloudy CLI
+# CLI
 
 pCloudy CLI is a Command Line Interface(CLI) tool to be used as part of the Bamboo pipeline to help book and release devices on pCloudy.
 
@@ -37,15 +15,18 @@ pCloudy CLI is a Command Line Interface(CLI) tool to be used as part of the Bamb
 - [CLI Documentation]()
 
 
-### Prerequisites
+## Prerequisites
 - The user must be a Project Admin (PA) in order to retrieve the pCloudy token from the SHIP-HATS Self Help Portal.
 - Make sure that your bamboo plan has an elastic image configuration of the HATS security agent dedicated to it (check with the HATS team)
 
-### Retrieving PCloudy Token
+## Retrieve PCloudy Token
+
 To use the pCloudy CLI in bamboo, you would need to retrieve your pCloudy token from your pCloudy application from the SHIP-HATS Self Help portal.
 
-1. Login to the SHIP-HATS Self Help Portal (https://www.ship.gov.sg)
-1. Click Projects on the left side bar, "All Projects" and "Manage" on the project that your pCloudy application is in. If your pCloudy application is already created, you can jump to step 5. If you want to create a new pCloudy application, go to step 3.  
+### To retrieve PCloudy token:
+
+1. Log in to the [SHIP-HATS Portal](https://www.ship.gov.sg).
+1. Click **Projects** on the left side bar, "All Projects" and "Manage" on the project that your pCloudy application is in. If your pCloudy application is already created, you can jump to step 5. If you want to create a new pCloudy application, go to step 3.  
 
     <kbd>![All Projects]()
 1. Click on QA & Security and Click Add tool  
@@ -61,13 +42,16 @@ To use the pCloudy CLI in bamboo, you would need to retrieve your pCloudy token 
     <kbd>![All Projects]()
 
 
-### Set up your Bamboo Plan
+## Set up Bamboo Plan
 
+### To set up your Bamboo plan:
 After you have your pCloudy token, you can use the pCloudy CLI in your bamboo plans, to book and release devices on pCloudy.
 
 You can also use the pCloudy CLI to upload files to pCloudy.
 
-### Upload Files
+## Upload Files
+
+### To upload files:
 You can use the pCloudy CLI to upload files to pCloudy, with the command: `pcloudy-cli upload-file`. This is an optional step.
 
 This is mainly used to upload your application to pCloudy for testing.
@@ -114,29 +98,85 @@ You can then use a tool like `jq`  or `awk`  or `grep`  to get the data you want
 
 
 
+## Book Device
 
-
-
-### Book Device
 Regardless of whether you upload your test file or not to pCloudy, you can use the pCloudy CLI to book a device for testing.
 
+### To book device:
+
 - You need your token for this command
-- This command will return you the rid  (used for releasing the booked device early) and the api_endpoint (the appium endpoint you would use to run your robots tests)
+- This command will return you the `rid` (used for releasing the booked device early) and the `api_endpoint` (the appium endpoint you would use to run your robots tests)
 - You can choose between browser testing or application testing  
+- The required options are:
+    - --pcloudy-token, -P
+    - --duration, -d
+    - --platform, -p
+- Ensure that at least one of these options are used to set the test type of the booked device:
+    - --app-name, -a
+    - --browser, -b
+- Optional options:
+    - --platform-version
+    - --device-name
 
-The required options are:
-- --pcloudy-token, -P
-- --duration, -d
-- --platform, -p
+<!-- tabs:start -->
+### **Browser Testing**
 
-Ensure that at least one of these options are used to set the test type of the booked device:
-- --app-name, -a
-- --browser, -b
+**Command Format** 
+```
+pcloudy-cli book-device \
+    -P <your pCloudy Token> \
+    -d <duration to book the device (minutes)> \
+    -p <device platform, [ios,android]> \
+    -b # -b for browser based tests
+```
+**Android Example: Book Android device for browser testing, 10 minutes**
+```
+pcloudy-cli book-device -P "$token" -d 10 -p android -b
+```
 
-Optional options:
-- --platform-version
-- --device-name
+**iOS Example: Book iOS device for browser testing, 10 minutes**
+```
+pcloudy-cli book-device -P "$token" -d 10 -p ios -b
+```
 
+### **App Testing**
+
+**Command Format**
+```
+pcloudy-cli book-device \
+    -P <your pCloudy Token> \
+    -d <duration to book the device (minutes)> \
+    -p <device platform, [ios,android]> \
+    -a <filename of app to test> # -a for app based tests
+```    
+**Android Example: Book Android device for app testing, 20 minutes**  
+
+Ensure the package file to be in the current directory
+```
+pcloudy-cli book-device -P "$token" -d 20 -p android -a "demo_app.apk"
+```
+**iOS Example: Book iOS device for app testing, 20 minutes**  
+
+Ensure the package file to be in the current directory
+```
+pcloudy-cli book-device -P "$token" -d 20 -p ios -a "demo_app.ipa"
+```
+### **Additional (Optional) Parameters**
+
+**Book specific device based on platform version: Book specific iOS device with platform version 14.1.0**  
+
+```
+pcloudy-cli book-device -P "$token" -d 20 -p ios -b --platform-version "14.1.0"
+```
+
+**Book specific device based on device full name**
+```
+pcloudy-cli book-device -P "$token" -d 20 -p ios -b --full-name "Apple_iPhoneXR_Ios_14.4.0_f1c43"
+```
+
+<!-- tabs:end -->
+
+---
 <details>
  <summary> <b>Broswer Testing</b></summary><br>
 
@@ -205,10 +245,9 @@ pcloudy-cli book-device -P "$token" -d 20 -p ios -b --full-name "Apple_iPhoneXR_
 
 ---
 
-### Expected Outputs
+## Expected Outputs
 
 If the command ran successfully, you should get a stdout of:
-
 
 
 <details>
