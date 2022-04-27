@@ -13,7 +13,6 @@ Please raise a service ticket as we will only accept pending user registration s
 
     You will be able to connect to the devices via SHIP Bamboo for automated testing. If you want the devices to be able to access your UAT environment, you can whitelist the static public IP address 202.55.81.214, that the mobile devices identified by.
 
-
 - **Are pCloudy devices hosted in GovTech data center or vendor’s location?**   
     
     The devices are being located at the vendor's data center in Singapore.
