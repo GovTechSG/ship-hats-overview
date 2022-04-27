@@ -322,118 +322,51 @@ Close All Apps
 <!-- tabs:end -->
 
 
-<details>
- <summary> <b>[BROWSER TESTING] Sample Robot Framework Test Script</b></summary><br>
-
-**Settings**
-```
-Documentation    To test basic demo app
- 
-Library          AppiumLibrary
-```
-
-**Keywords**
-```
-Do Google Search
-    Go To Url   https://www.google.com
-    Input text  //input[@aria-label="Search"]   "pCloudy"
-    Press Keycode  66
-```
-
-**Test Cases**
-```
-Launch Browser Init
-    Open Application  ${ENDPOINT}  platformName=Android  browserName=Chrome  deviceName=${DEVICE_ID}  pCloudy_EnableVideo=true  pCloudy_EnablePerformanceData=true  pCloudy_EnableDeviceLogs=true
-Search for something on Google
-    Do Google Search
-Close All Apps
-    Close All Applications
-```
-
-
- </details>
-
-<br>
-
-Note that the sample APK file is already uploaded with the name of `pCloudyAppiumDemo.apk`
-
-- If you upload a package file with the same filename, the filename will be appended with a random numerical identifier by default - e.g, ` pCloudyAppiumDemo-1638321800.apk`
-- Value of the APP_PACKAGE use `com.pcloudy.appiumdemo`
-
-<details>
-<summary><b>[APP TESTING] Sample Robot Framework Test Script</b></summary>
-
-**Settings**
-
-```
-Library         AppiumLibrary
-```
-
-**Keywords**
-```
-Launch App Init
-    Open Application  ${ENDPOINT}  platformName=Android  platformVersion=${VERSION}  deviceName=${DEVICE_ID}  appPackage=${APP_PACKAGE}  pCloudy_EnableVideo=true  pCloudy_EnablePerformanceData=true  pCloudy_EnableDeviceLogs=true
- 
-Book a flight
-    Click Element   id=com.pcloudy.appiumdemo:id/accept
-    Log To Console  Accept Button is clicked
- 
-    Wait Until Page Contains Element  id=com.pcloudy.appiumdemo:id/flightButton  20
-    Click Element   id=com.pcloudy.appiumdemo:id/flightButton
-    Log To Console  Book a flight button clicked
- 
-    Wait Until Page Contains Element  id=com.pcloudy.appiumdemo:id/spinnerfrom  20
-    Click Element   id=com.pcloudy.appiumdemo:id/spinnerfrom
-    Log To Console  From location drop down is clicked
- 
-    Wait Until Page Contains Element  //*[@id="android:id/text1" or @text="Bangalore, India (BLR)"]  20
-    Click Element   //*[@id="android:id/text1" or @text="Bangalore, India (BLR)"]
-    Log To Console  From Location is selected
- 
-    Click Element   id=com.pcloudy.appiumdemo:id/spinnerto
-    Log To Console  To location drop down is clicked 
-    Capture Page Screenshot
- 
-    Click Element   //*[@id="android:id/text1" or @text="Pune, India (PNQ)"]
-    Log To Console  To location is selected
- 
-    Click Element   id=com.pcloudy.appiumdemo:id/singleTrip
-    Log To Console  One way trip is selected
- 
-    Click Element   id=com.pcloudy.appiumdemo:id/txtdepart
-    Log To Console  Departure time is selected
- 
-    Wait Until Page Contains Element  //*[@id="android:id/button1" or @text="OK"]  20
-    Click Element   //*[@id="android:id/button1" or @text="OK"]
-    Log To Console  Okay button is selected
- 
-    Wait Until Page Contains Element  com.pcloudy.appiumdemo:id/searchFlights  20
-    Click Element   com.pcloudy.appiumdemo:id/searchFlights
-    Log To Console  Search flight button is clicked
-    Capture Page Screenshot
-```
-
-**Test Cases**
-
-``` 
-Test booking flight
-    [Documentation]  As a user
-    ...    I want to book a flight
-    Launch App Init
-    Book a flight
-Close All Apps
-    Close All Applications
-```
-
- </details>
-
----
 
 
 **Passing Parameters into Test Script**
 
 To run the Robot Framework script, you will need to provide the Appium Endpoint and deviceName to the `Open Application` keyword in order to connect to pCloudy remote devices.
 
+<!-- tabs:start -->
+### **Browser Testing**
+
+Bamboo Script Task to run Robot Framework tests
+
+Line 2 ~ 5 are the retrieval of the parameters to pass into your test
+```
+OUTPUT=$(pcloudy-cli book-device -P "$token" -p android -d 15 -b)
+RID=$(echo "$OUTPUT" | jq -r ".rid")
+APP_URL=$(echo "$OUTPUT" | jq -r ".appium_endpoint")
+DEVICE_ID=$(echo "$OUTPUT" | jq -r ".device_name")
+``` 
+ 
+The sample robot framework script above is saved in the file `test.robot`
+```
+robot --variable ENDPOINT:"$APP_URL/wd/hub" --variable DEVICE_ID:"$DEVICE_ID" test.robot
+```
+
+### **App Testing**
+
+Bamboo Script Task to run Robot Framework tests
+
+Line 2 ~ 5 are the retrieval of the parameters to pass into your test
+```
+OUTPUT=$(pcloudy-cli book-device -P "$token" -p android -d 15 -b)
+RID=$(echo "$OUTPUT" | jq -r ".rid")
+APP_URL=$(echo "$OUTPUT" | jq -r ".appium_endpoint")
+DEVICE_ID=$(echo "$OUTPUT" | jq -r ".device_name")  
+``` 
+
+The sample robot framework script above is saved in the file `testapp.robot`
+```
+robot --variable ENDPOINT:"$APP_URL/wd/hub" --variable DEVICE_ID:"$DEVICE_ID" \
+--variable APP_PACKAGE:'com.pcloudy.appiumdemo' --variable VERSION:"$VERSION" testapp.robot
+```
+
+<!-- tabs:end -->
+
+<!--
  <details>
 <summary><b>[BROWSER TESTING] Bamboo Script Task to run Robot Framework tests</b></summary>
 
@@ -472,14 +405,73 @@ robot --variable ENDPOINT:"$APP_URL/wd/hub" --variable DEVICE_ID:"$DEVICE_ID" \
  </details> 
 
 ---
+-->
 
-### Download Tests Logs
+## Download Test Logs
 After your tests are complete you can also download the logs from pCloudy using the pcloudy-cli download-logs-data  command. This is an optional step.
 
+### To download test logs
 - You will need your pCloudy Token and `rid`  used to book the device
 - The logs will also be based on the tests ran on the booked device
 - Log files will be downloaded into the bamboo agent, where you can persist them by saving them as bamboo artifacts.
 
+<!-- tabs:start -->
+
+### **Command Format**
+
+```
+pcloudy-cli download-logs-data -P <your pCloudy Token> -r <rid string when the device was booked>
+``` 
+ 
+**Example: Download the logs of tests ran on booked device with rid of 52485**
+```
+pcloudy-cli download-logs-data -P "$token" -r 52485
+```
+
+### **Output Format**
+
+If successfuly, the command would exit successfully with a stdout of:
+
+```
+{"success_logs": ["STRING", ...], "failed_logs": ["STRING", ...]}
+```
+
+**Example**
+```
+pcloudy-cli download-logs-data -P "$token" -r 52485
+>> {"success_logs": [".pcloudy_appium_logs/52485/cpu.txt", ".pcloudy_appium_logs/52485/mem.txt", ".pcloudy_appium_logs/52485/net.txt", ".pcloudy_appium_logs/52485/bat.txt", ".pcloudy_appium_logs/52485/appium_stdout.txt", ".pcloudy_appium_logs/52485/appium_stderr.txt"], "failed_logs: [".pcloudy_appium_logs/52485/log.txt"]}
+```
+
+### **Directory Structure Format**
+
+The downloaded logs will be stored in the current project's directory , in the bamboo agent, with a format of:  
+
+```
+./.pcloudy_appium_logs
+|-- rid (NUMBER)
+|   |-- *.txt (log files)
+|   `-- ...
+`-- ...
+```
+
+
+**Example**
+```
+./.pcloudy_appium_logs
+`-- 52485
+    |-- appium_stderr.txt
+    |-- appium_stdout.txt
+    |-- bat.txt
+    |-- cpu.txt
+    |-- log.txt
+    |-- mem.txt
+    `-- net.txt
+```
+
+
+<!-- tabs:end -->
+
+<!--
 <details>
 <summary><b>Command Format</b></summary>
 
@@ -539,12 +531,28 @@ The downloaded logs will be stored in the current project's directory , in the b
 ```
 
  </details>
+-->
 
-### Release Device
+## Release Device
 After your tests are complete and you want to release the booked device, you can run the pcloudy-cli release-device  command.
 
+### To release device:
 - You will need to use the same token and rid  when booking the device
-    
+    <!-- tabs:start -->
+
+    ### **Command Format**
+
+    ```
+    pcloudy-cli release-device -P <your pCloudy Token> -r <rid string when the device was booked>
+    ```
+
+    **Example: Release a booked device with an rid of 52485**
+    ```
+    pcloudy-cli release-device -P "$token" -r 52485
+    ```
+
+    <!-- tabs:end -->
+
     <details>
     <summary><b>Command Format</b></summary>
     <br>
@@ -560,7 +568,24 @@ After your tests are complete and you want to release the booked device, you can
 
     </details>
 
-- If successfuly, the command would exit successfully with a stdout of:
+- If successful, the command would exit successfully with a stdout of:
+
+    <!-- tabs:start -->
+
+    ### **Command Format**
+
+    ```
+    {"rid": "INTEGER"}
+    ```
+
+    **Example**
+    ```
+    pcloudy-cli release-device -P "$token" -r 52485
+    >> {"rid": "52485"}
+    ```
+    
+    <!-- tabs:end -->
+
 
     <details>
     <summary><b>Command Format</b></summary>
