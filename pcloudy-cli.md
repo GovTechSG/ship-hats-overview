@@ -26,20 +26,20 @@ To use the pCloudy CLI in bamboo, you would need to retrieve your pCloudy token 
 ### To retrieve PCloudy token:
 
 1. Log in to the [SHIP-HATS Portal](https://www.ship.gov.sg).
-1. Click **Projects** on the left side bar, "All Projects" and "Manage" on the project that your pCloudy application is in. If your pCloudy application is already created, you can jump to step 5. If you want to create a new pCloudy application, go to step 3.  
+1. Click **Projects** > **All Projects**, and then click **Manage** on the project that your pCloudy application is in. If your pCloudy application is already created, you can jump to step 5. If you want to create a new pCloudy application, go to next step.  
 
-    <kbd>![All Projects]()
-1. Click on QA & Security and Click Add tool  
+    <kbd>![All Projects](pcloudy-manage.png)
+1. Click **QA & Security**, and then click **Add tool**.  
 
-    <kbd>![All Projects]()
+    <kbd>![All Projects](pcloudy-qa-security.png)
 
-1. Click on - Select tool - and select pCloudy Device Farm & HATS Browser Farm. Then add the tool
+1. Click **Select tool**, and then select **pCloudy Device Farm & HATS Browser Farm**.
 
-    <kbd>![All Projects]()
+    <kbd>![All Projects](pcloudy-add-new-tool.png)
 
-1. Wait for the tool to finish loading and appear on the webpage. Copy the pCloudy token
+1. Click **Add**, and then copy the pCloudy token that appears.
 
-    <kbd>![All Projects]()
+    <kbd>![All Projects](pcloudy-copy-token.png)
 
 
 ## Set up Bamboo Plan
@@ -51,20 +51,21 @@ You can also use the pCloudy CLI to upload files to pCloudy.
 
 ## Upload Files
 
-### To upload files:
-You can use the pCloudy CLI to upload files to pCloudy, with the command: `pcloudy-cli upload-file`. This is an optional step.
+This is an optional step. This is mainly used to upload your application to pCloudy for testing.
 
-This is mainly used to upload your application to pCloudy for testing.
+
+### To upload files:
+
+You can use the pCloudy CLI with the command: `pcloudy-cli upload-file`. 
 
 - You need your token for this command
 - The name of the uploaded file may be different from the original name of the file
 - The file cannot be empty
 - The file can only have the extensions of `.zip` , `.apk`, or `.ipa`. 
 - The name of the file may only contain the alphanumeric characters and ( `-` , `_` , `.` ) characters
-
-The required options are:
-- --pcloudy-token, -P
-- --file, -f
+- The required options are:
+    - --pcloudy-token, -P
+    - --file, -f
 
 <!-- tabs:start -->
 ### **Command Format**
@@ -102,7 +103,7 @@ You can then use a tool like `jq`  or `awk`  or `grep`  to get the data you want
 
 Regardless of whether you upload your test file or not to pCloudy, you can use the pCloudy CLI to book a device for testing.
 
-### To book device:
+### To book a device:
 
 - You need your token for this command
 - This command will return you the `rid` (used for releasing the booked device early) and the `api_endpoint` (the appium endpoint you would use to run your robots tests)
@@ -207,7 +208,7 @@ You can then use a tool like jq  or awk  or grep  to get the data you want out o
 
 ## Run your tests
 
-After booking the device (and optionally uploading your apk file), you can run additional commands to perform your pCloudy tests. In this case, we are using Robot Framework as the testing framework in this example.
+After booking the device (and optionally uploading your apk file), you can run additional commands to perform your pCloudy tests. In this example, we are using Robot Framework as the testing framework.
 
 ### To run your tests:
 
@@ -367,7 +368,7 @@ robot --variable ENDPOINT:"$APP_URL/wd/hub" --variable DEVICE_ID:"$DEVICE_ID" \
 <!-- tabs:end -->
 
 ## Download Test Logs
-After your tests are complete you can also download the logs from pCloudy using the pcloudy-cli download-logs-data  command. This is an optional step.
+After your tests are complete you can also download the logs from pCloudy using the pcloudy-cli download-logs-data command. This is an optional step.
 
 ### To download test logs:
 - You will need your pCloudy Token and `rid`  used to book the device
@@ -431,7 +432,7 @@ The downloaded logs will be stored in the current project's directory , in the b
 ## Release Device
 After your tests are complete and you want to release the booked device, you can run the pcloudy-cli release-device  command.
 
-### To release device:
+### To release a device:
 - You will need to use the same token and rid  when booking the device
     <!-- tabs:start -->
 
