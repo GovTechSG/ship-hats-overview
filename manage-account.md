@@ -332,12 +332,12 @@ If you are a Subscription Admin (SA), you can off-board your subscription accoun
         - If you are on a trial account, you can select a date of your choice to off-board the account.
 
     <br>
-    
+
     <kbd>![Terminate Subscription Form](portal-terminate-subscription-form.png ':size=100%')</kbd>
 
 1. Click **Submit**. A success message appears. 
 
-    <kbd>![Terminate Subscription Success](portal-terminate-subscription-success.png ':size=60%')</kbd>
+    <kbd>![Terminate Subscription Success](portal-terminate-subscription-success.png)</kbd>
 
 
 <!--
@@ -358,9 +358,9 @@ If you are a Subscription Admin (SA), you can off-board your subscription accoun
 -->
 **After the Subscription Termination form is submitted:**
 - A termination message will be visible on the SHIP-HATS portal Dashboard 
-    <kbd>![Terminate Subscription](portal-terminate-subscription-message.png ':size=60%')</kbd>
+    <kbd>![Terminate Subscription](portal-terminate-subscription-message.png)</kbd>
 - Adding or removing PA is disabled 
 - User invitations are disabled and new users cannot be approved
 - New Projects, Applications, or Tools cannot be added
-    <kbd>![Terminate Subscription Error](portal-terminate-subscription-error.png ':size=60%')</kbd>
+    <kbd>![Terminate Subscription Error](portal-terminate-subscription-error.png)</kbd>
 - After the termination date, SA or PA will not be able to view the subscription details for the off-boarded account. However, if SA or PA have other subscription accounts, they will continue to view details for these additional subscriptions accounts.
