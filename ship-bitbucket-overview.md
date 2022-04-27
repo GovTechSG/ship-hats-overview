@@ -14,7 +14,7 @@ For more information on Bitbucket, refer to https://www.atlassian.com/software/b
 - [Security for Bitbucket](ship-bitbucket-security)
 - [Protect changes to sensitive files/folders](ship-bitbucket-protect-changes-sensitive)
 - [Create a Repository](ship-bitbucket-create-repository)
-- [FAQs](tools-faq/#bitbucket-faqs)
+- [FAQs](tools-faq)
 
 <!--
 - [Best Practices]()
