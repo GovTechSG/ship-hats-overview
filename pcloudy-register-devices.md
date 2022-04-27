@@ -14,10 +14,10 @@
 ## Retrieve UUID from pCloudy
 
 ### To register UUID from pCloudy:
-1. Log in to the device farm (https://hats.pcloudy.com)
+1. Log in to the [pCloudy device farm](https://hats.pcloudy.com).
 1. Click on Devices > UUID, you will be able to see the list of iOS devices.
 
-    <kbd>![UUID]()</kbd>
+    <kbd>![UUID](pcloudy-uuid.png)</kbd>
 
 
 ## Register devices in the Apple Developer Account
@@ -28,7 +28,7 @@
 1. Click on "Devices"
 1. Register single devices or multiple devices (via device file)
 Devices UI
-    <kbd>![Register a New Device]()</kbd>
+    <kbd>![Register a New Device](pcloudy-register-a-device.png)</kbd>
 
 ## Additional Resources
 - Register a single device: https://help.apple.com/developer-account/#/dev40df0d9fa
