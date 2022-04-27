@@ -112,6 +112,34 @@ The required options are:
 - --pcloudy-token, -P
 - --file, -f
 
+<!-- tabs:start -->
+### **Command Format**
+
+```
+pcloudy-cli upload-file -P <your pCloudy Token> -f <Path to file to upload>
+``` 
+ 
+**Example: Upload a test build of an Android application to pCloudy**
+```
+pcloudy-cli upload-file -P "$token" -f artifacts/test_build_12_21.apk
+```
+
+### **Output Format**
+
+If successful, the command would exit successfully with a stdout of:
+
+```
+{"uploaded_filename": "STRING"}
+```
+
+**Example pcloudy-cli upload-file -P "$token" -f artifacts/test_build_12_21.apk**
+```
+>> {"uploaded_filename": "test_build_12_21-1637507508.apk"}
+```
+
+You can then use a tool like `jq`  or `awk`  or `grep`  to get the data you want out of the stdout.
+
+<!-- tabs:end -->
 
 
 
