@@ -176,78 +176,31 @@ pcloudy-cli book-device -P "$token" -d 20 -p ios -b --full-name "Apple_iPhoneXR_
 
 <!-- tabs:end -->
 
----
-<details>
- <summary> <b>Broswer Testing</b></summary><br>
-
-**Command Format** 
-```
-pcloudy-cli book-device \
-    -P <your pCloudy Token> \
-    -d <duration to book the device (minutes)> \
-    -p <device platform, [ios,android]> \
-    -b # -b for browser based tests
-```
-**Android Example: Book Android device for browser testing, 10 minutes**
-```
-pcloudy-cli book-device -P "$token" -d 10 -p android -b
-```
-
-**iOS Example: Book iOS device for browser testing, 10 minutes**
-```
-pcloudy-cli book-device -P "$token" -d 10 -p ios -b
-```
-
- </details>
-
---- 
-<details>
- <summary> <b>App Testing</b></summary><br>
-
-**Command Format**
-```
-pcloudy-cli book-device \
-    -P <your pCloudy Token> \
-    -d <duration to book the device (minutes)> \
-    -p <device platform, [ios,android]> \
-    -a <filename of app to test> # -a for app based tests
-```    
-**Android Example: Book Android device for app testing, 20 minutes**  
-
-Ensure the package file to be in the current directory
-```
-pcloudy-cli book-device -P "$token" -d 20 -p android -a "demo_app.apk"
-```
-**iOS Example: Book iOS device for app testing, 20 minutes**  
-
-Ensure the package file to be in the current directory
-```
-pcloudy-cli book-device -P "$token" -d 20 -p ios -a "demo_app.ipa"
-```
- </details> 
-
----
-
-<details>
- <summary> <b>Additional (Optional) Parameters</b></summary><br>
-
-**Book specific device based on platform version: Book specific iOS device with platform version 14.1.0**  
-
-```
-pcloudy-cli book-device -P "$token" -d 20 -p ios -b --platform-version "14.1.0"
-```
-
-**Book specific device based on device full name**
-```
-pcloudy-cli book-device -P "$token" -d 20 -p ios -b --full-name "Apple_iPhoneXR_Ios_14.4.0_f1c43"
-```
- </details> 
 
 ---
 
 ## Expected Outputs
 
 If the command ran successfully, you should get a stdout of:
+
+<!-- tabs:start -->
+
+### **Output Format**
+
+```
+{"rid": "INTEGER", "api_endpoint": "STRING, Appium Endpoint", ...other device information}
+``` 
+ 
+**Example**
+```
+pcloudy-cli book-device -P 6ba4b6d2f0fecc6f2b9ee16bee2d2eb8 -d 10 -p ios -b
+>> {"duration": 10, "platform": "ios", "full_name": "Apple_iPhoneXR_Ios_14.4.0_f1c43", "version": "14.4.0", "rid": "52485", "platform_name": "Ios", "browser_name": "14", "device_name": "14", "appium_endpoint": "https://hats.pcloudy.com/appium/hubble/n6nn6382nbnf-6643"}
+```
+
+You can then use a tool like jq  or awk  or grep  to get the data you want out of the stdout.
+
+
+<!-- tabs:end -->
 
 
 <details>
