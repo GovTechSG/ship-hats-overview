@@ -388,4 +388,4 @@ This will allow all tenants to have equal usage on the shared pool of bamboo ela
 
 ## Bamboo FAQs
 
-- [Bamboo FAQs](tools-faq/#bamboo-faqs)
+- [Bamboo FAQs](tools-faq)
