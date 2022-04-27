@@ -366,47 +366,6 @@ robot --variable ENDPOINT:"$APP_URL/wd/hub" --variable DEVICE_ID:"$DEVICE_ID" \
 
 <!-- tabs:end -->
 
-<!--
- <details>
-<summary><b>[BROWSER TESTING] Bamboo Script Task to run Robot Framework tests</b></summary>
-
-Line 2 ~ 5 are the retrieval of the parameters to pass into your test
-```
-OUTPUT=$(pcloudy-cli book-device -P "$token" -p android -d 15 -b)
-RID=$(echo "$OUTPUT" | jq -r ".rid")
-APP_URL=$(echo "$OUTPUT" | jq -r ".appium_endpoint")
-DEVICE_ID=$(echo "$OUTPUT" | jq -r ".device_name")
-``` 
- 
-The sample robot framework script above is saved in the file `test.robot`
-```
-robot --variable ENDPOINT:"$APP_URL/wd/hub" --variable DEVICE_ID:"$DEVICE_ID" test.robot
-```
-
- </details>
-
- <details>
-<summary><b>[APP TESTING] Bamboo Script Task to run Robot Framework tests</b></summary>
-
-Line 2 ~ 5 are the retrieval of the parameters to pass into your test
-```
-OUTPUT=$(pcloudy-cli book-device -P "$token" -p android -d 15 -b)
-RID=$(echo "$OUTPUT" | jq -r ".rid")
-APP_URL=$(echo "$OUTPUT" | jq -r ".appium_endpoint")
-DEVICE_ID=$(echo "$OUTPUT" | jq -r ".device_name")  
-``` 
-
-The sample robot framework script above is saved in the file `testapp.robot`
-```
-robot --variable ENDPOINT:"$APP_URL/wd/hub" --variable DEVICE_ID:"$DEVICE_ID" \
---variable APP_PACKAGE:'com.pcloudy.appiumdemo' --variable VERSION:"$VERSION" testapp.robot
-```
-
- </details> 
-
----
--->
-
 ## Download Test Logs
 After your tests are complete you can also download the logs from pCloudy using the pcloudy-cli download-logs-data  command. This is an optional step.
 
@@ -471,67 +430,6 @@ The downloaded logs will be stored in the current project's directory , in the b
 
 <!-- tabs:end -->
 
-<!--
-<details>
-<summary><b>Command Format</b></summary>
-
-```
-pcloudy-cli download-logs-data -P <your pCloudy Token> -r <rid string when the device was booked>
-``` 
- 
-**Example: Download the logs of tests ran on booked device with rid of 52485**
-```
-pcloudy-cli download-logs-data -P "$token" -r 52485
-```
- </details>
-
-
-
-If successfuly, the command would exit successfully with a stdout of:
-
-<details>
-<summary><b>Output Format</b></summary>
-
-```
-{"success_logs": ["STRING", ...], "failed_logs": ["STRING", ...]}
-```
-
-**Example**
-```
-pcloudy-cli download-logs-data -P "$token" -r 52485
->> {"success_logs": [".pcloudy_appium_logs/52485/cpu.txt", ".pcloudy_appium_logs/52485/mem.txt", ".pcloudy_appium_logs/52485/net.txt", ".pcloudy_appium_logs/52485/bat.txt", ".pcloudy_appium_logs/52485/appium_stdout.txt", ".pcloudy_appium_logs/52485/appium_stderr.txt"], "failed_logs: [".pcloudy_appium_logs/52485/log.txt"]}
-```
- </details>
-
-The downloaded logs will be stored in the current project's directory , in the bamboo agent, with a format of:  
-
- <details>
-<summary><b>Directory Sturcture Format</b></summary>
-
-```
-./.pcloudy_appium_logs
-|-- rid (NUMBER)
-|   |-- *.txt (log files)
-|   `-- ...
-`-- ...
-```
-
-
-**Example**
-```
-./.pcloudy_appium_logs
-`-- 52485
-    |-- appium_stderr.txt
-    |-- appium_stdout.txt
-    |-- bat.txt
-    |-- cpu.txt
-    |-- log.txt
-    |-- mem.txt
-    `-- net.txt
-```
-
- </details>
--->
 
 ## Release Device
 After your tests are complete and you want to release the booked device, you can run the pcloudy-cli release-device  command.
@@ -553,21 +451,6 @@ After your tests are complete and you want to release the booked device, you can
 
     <!-- tabs:end -->
 
-    <details>
-    <summary><b>Command Format</b></summary>
-    <br>
-
-    ```
-    pcloudy-cli release-device -P <your pCloudy Token> -r <rid string when the device was booked>
-    ```
-
-    **Example: Release a booked device with an rid of 52485**
-    ```
-    pcloudy-cli release-device -P "$token" -r 52485
-    ```
-
-    </details>
-
 - If successful, the command would exit successfully with a stdout of:
 
     <!-- tabs:start -->
@@ -583,26 +466,8 @@ After your tests are complete and you want to release the booked device, you can
     pcloudy-cli release-device -P "$token" -r 52485
     >> {"rid": "52485"}
     ```
-    
+
     <!-- tabs:end -->
-
-
-    <details>
-    <summary><b>Command Format</b></summary>
-    <br>
-
-    ```
-    {"rid": "INTEGER"}
-    ```
-
-    **Example**
-    ```
-    pcloudy-cli release-device -P "$token" -r 52485
-    >> {"rid": "52485"}
-    ```
-    </details>
-
-
 
 ## CLI Documentation
 
