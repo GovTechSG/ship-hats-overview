@@ -203,36 +203,123 @@ You can then use a tool like jq  or awk  or grep  to get the data you want out o
 <!-- tabs:end -->
 
 
-<details>
- <summary> <b>Output Format</b></summary><br>
-
-```
-{"rid": "INTEGER", "api_endpoint": "STRING, Appium Endpoint", ...other device information}
-``` 
- 
-**Example**
-```
-pcloudy-cli book-device -P 6ba4b6d2f0fecc6f2b9ee16bee2d2eb8 -d 10 -p ios -b
->> {"duration": 10, "platform": "ios", "full_name": "Apple_iPhoneXR_Ios_14.4.0_f1c43", "version": "14.4.0", "rid": "52485", "platform_name": "Ios", "browser_name": "14", "device_name": "14", "appium_endpoint": "https://hats.pcloudy.com/appium/hubble/n6nn6382nbnf-6643"}
-```
-
-You can then use a tool like jq  or awk  or grep  to get the data you want out of the stdout.
-
- </details>
 
 
-
-
---- 
-
-
-### Run your tests
-**Sample Test Script**  
+## Run your tests
 
 After booking the device (and optionally uploading your apk file), you can run additional commands to perform your pCloudy tests. In this case, we are using Robot Framework as the testing framework in this example.
 
+### To run your tests:
+
+**Sample Test Script**  
+
 In this test script, we are running mobile browser testing.
 This script is saved into a test file named `test.txt`.
+
+Note that the sample APK file is already uploaded with the name of `pCloudyAppiumDemo.apk`.
+
+- If you upload a package file with the same filename, the filename will be appended with a random numerical identifier by default - e.g, ` pCloudyAppiumDemo-1638321800.apk`.
+- Value of the APP_PACKAGE use `com.pcloudy.appiumdemo`.
+
+<!-- tabs:start -->
+
+### **Browser Testing**
+
+Sample Robot Framework Test Script
+
+**Settings**
+```
+Documentation    To test basic demo app
+ 
+Library          AppiumLibrary
+```
+
+**Keywords**
+```
+Do Google Search
+    Go To Url   https://www.google.com
+    Input text  //input[@aria-label="Search"]   "pCloudy"
+    Press Keycode  66
+```
+
+**Test Cases**
+```
+Launch Browser Init
+    Open Application  ${ENDPOINT}  platformName=Android  browserName=Chrome  deviceName=${DEVICE_ID}  pCloudy_EnableVideo=true  pCloudy_EnablePerformanceData=true  pCloudy_EnableDeviceLogs=true
+Search for something on Google
+    Do Google Search
+Close All Apps
+    Close All Applications
+```
+
+
+### **App Testing**
+
+Sample Robot Framework Test Script
+
+**Settings**
+
+```
+Library         AppiumLibrary
+```
+
+**Keywords**
+```
+Launch App Init
+    Open Application  ${ENDPOINT}  platformName=Android  platformVersion=${VERSION}  deviceName=${DEVICE_ID}  appPackage=${APP_PACKAGE}  pCloudy_EnableVideo=true  pCloudy_EnablePerformanceData=true  pCloudy_EnableDeviceLogs=true
+ 
+Book a flight
+    Click Element   id=com.pcloudy.appiumdemo:id/accept
+    Log To Console  Accept Button is clicked
+ 
+    Wait Until Page Contains Element  id=com.pcloudy.appiumdemo:id/flightButton  20
+    Click Element   id=com.pcloudy.appiumdemo:id/flightButton
+    Log To Console  Book a flight button clicked
+ 
+    Wait Until Page Contains Element  id=com.pcloudy.appiumdemo:id/spinnerfrom  20
+    Click Element   id=com.pcloudy.appiumdemo:id/spinnerfrom
+    Log To Console  From location drop down is clicked
+ 
+    Wait Until Page Contains Element  //*[@id="android:id/text1" or @text="Bangalore, India (BLR)"]  20
+    Click Element   //*[@id="android:id/text1" or @text="Bangalore, India (BLR)"]
+    Log To Console  From Location is selected
+ 
+    Click Element   id=com.pcloudy.appiumdemo:id/spinnerto
+    Log To Console  To location drop down is clicked 
+    Capture Page Screenshot
+ 
+    Click Element   //*[@id="android:id/text1" or @text="Pune, India (PNQ)"]
+    Log To Console  To location is selected
+ 
+    Click Element   id=com.pcloudy.appiumdemo:id/singleTrip
+    Log To Console  One way trip is selected
+ 
+    Click Element   id=com.pcloudy.appiumdemo:id/txtdepart
+    Log To Console  Departure time is selected
+ 
+    Wait Until Page Contains Element  //*[@id="android:id/button1" or @text="OK"]  20
+    Click Element   //*[@id="android:id/button1" or @text="OK"]
+    Log To Console  Okay button is selected
+ 
+    Wait Until Page Contains Element  com.pcloudy.appiumdemo:id/searchFlights  20
+    Click Element   com.pcloudy.appiumdemo:id/searchFlights
+    Log To Console  Search flight button is clicked
+    Capture Page Screenshot
+```
+
+**Test Cases**
+
+``` 
+Test booking flight
+    [Documentation]  As a user
+    ...    I want to book a flight
+    Launch App Init
+    Book a flight
+Close All Apps
+    Close All Applications
+```
+
+<!-- tabs:end -->
 
 
 <details>
