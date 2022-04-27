@@ -9,8 +9,9 @@ For more information on pCloudy Test Farm, see https://www.pcloudy.com/.
 
 <!--- [Roles and Permissions](#roles-and-permissions)-->
 <!--- [Access pCloudy]()-->
-- [Register Devices in Apple Developer Portal](pcloudy-register-devices)
-- [pCloudy CLI](pcloudy-cli)
+- [Register Devices](pcloudy-register-devices)
+- [CLI](pcloudy-cli)
+- [Testing](pcloudy-testing)
 - [FAQs](pcloudy-faqs)
 - [Additional Resources]()
 

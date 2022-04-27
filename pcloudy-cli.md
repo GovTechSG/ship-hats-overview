@@ -1,18 +1,18 @@
-# CLI
+# pCloudy CLI
 
 pCloudy CLI is a Command Line Interface(CLI) tool to be used as part of the Bamboo pipeline to help book and release devices on pCloudy.
 
 **Topics**
-- [Prerequisites]()
-- [Retrieving your PCloudy Token]()
-- [Setting up your Bamboo Plan]()
-- [Upload Files (Optional)]()
-- [Book Device]()
-- [Expected Outputs]()
-- [Run your tests]()
-- [Download Tests Logs (Optional)]()
-- [Release Device]()
-- [CLI Documentation]()
+- [Prerequisites](#prerequisites)
+- [Retrieve PCloudy Token](#retrieve-pcloudy-token)
+- [Set up Bamboo Plan](#set-up-bamboo-plan)
+- [Upload Files (Optional)](#upload-files)
+- [Book Device](#book-device)
+- [Expected Outputs](#expected-outputs)
+- [Run your tests](#run-your-tests)
+- [Download Tests Logs (Optional)](#download-test-logs)
+- [Release Device](#release-device)
+- [CLI Documentation](#cli-documentation)
 
 
 ## Prerequisites
@@ -369,7 +369,7 @@ robot --variable ENDPOINT:"$APP_URL/wd/hub" --variable DEVICE_ID:"$DEVICE_ID" \
 ## Download Test Logs
 After your tests are complete you can also download the logs from pCloudy using the pcloudy-cli download-logs-data  command. This is an optional step.
 
-### To download test logs
+### To download test logs:
 - You will need your pCloudy Token and `rid`  used to book the device
 - The logs will also be based on the tests ran on the booked device
 - Log files will be downloaded into the bamboo agent, where you can persist them by saving them as bamboo artifacts.
@@ -413,7 +413,6 @@ The downloaded logs will be stored in the current project's directory , in the b
 `-- ...
 ```
 
-
 **Example**
 ```
 ./.pcloudy_appium_logs
@@ -426,8 +425,6 @@ The downloaded logs will be stored in the current project's directory , in the b
     |-- mem.txt
     `-- net.txt
 ```
-
-
 <!-- tabs:end -->
 
 
@@ -546,41 +543,3 @@ Description	|pCloudy CLI command used to release a booked device early on pCloud
 --help	|Show the various options for the command and their respective descriptions
 --pcloudy-token, -P <TEXT>	|The SHIP-HATS subscription's project's pcloudy application token.
 --rid, -r <TEXT>	|The rid of the booked device to be released early
-
----
-
-## Automated Testing
-Please refer to [pCloudy CLI](https://confluence.ship.gov.sg/x/Foo4IQ) tool to get started with mobile automated testing.
-
-If you need technical assistance on connecting to pcloudy devices, please raise a service request [here](https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/149).
-
-## Manual Testing
-### Prerequisites
-To access the [pCloudy web dashboard](https://hats.pcloudy.com), make sure you have the following:
-- SHIP VPN
-- Internet access and Firefox browser/ Firefox Developer Edition browser, preferably on a non-government issued laptop/ development laptop
-- The required proxy configuration will be provided during on-boarding.
-
-As the dashboard can only be accessed via the proxy:
-- We strongly recommend the use of Firefox browser as it is tied to browser-level settings. If Chrome is used, it will affect the system-level settings.
-- Please note that only pCloudy site will be accessible, all other Internet sites are blocked. Unauthorized access to other websites are being monitored and logged.
-
->**Notes:**
->- Applicable for users doing manual testing - the account password will expire every year.
->- The current video format provided is in FLV. The pCloudy team is working on making the default video format to be MP4.
->- The devices in pCloudy are not meant to be used to develop functional testing script. Please use emulators/simulators from Android Studio and Xcode for respective OS.
->- When installing an app on an iOS device the app has to be re-signed with the UDID of the device. If you are unable to do the automated resigning, then you can resign manually using the UDID. You can copy the UDID and paste it in your Apple Developer account to resign manually
->- Please raise a service ticket for us to dedicate a Linux elastic agent to your Bamboo plan. The  elastic agent dedicated would have pcloudy-cli and another required packages installed.
->- When developing your functional testing scripts with Robot Framework, please do note the versions of Python and the following packages:  
-    >- Appium Server, v1.19
-    >- Python, v3.8.5 and above
-    >- Robot Framework, v3.2.2 OR pabot, v1.10.0
-
-### Usage of Pabot
-
-Pabot allows parallel execution of tests. However, there is a known issue where the path of the embedded screenshots in the log file does not align with the filepath of the screenshots taken when tests fail. They are stored under the `pabot_results/` folder instead.
-
-We strongly encouraged you to use Robot Framework i.e. `robot` command, where the screenshots are well embedded into the HTML report generated.
-
-
-
