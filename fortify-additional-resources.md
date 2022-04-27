@@ -1,7 +1,7 @@
 # Additional Resources
 
 ## FAQs
-- [Fortify FAQs](tools-faq/#fortify-and-webinspect)
+- [Fortify FAQs](tools-faq)
 
 
 ## Resources
