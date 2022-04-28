@@ -16,15 +16,6 @@
 
 *Not applicable to Bamboo
 
-
-```mermaid
-graph TD
-A(Plugin Request) -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
 ```mermaid
 graph TD
 A(Plugin Request) --> B{Plugin Evaluation: Data centre approved?}
