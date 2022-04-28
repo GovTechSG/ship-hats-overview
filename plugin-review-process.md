@@ -25,3 +25,11 @@ C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
 ```
 
+```mermaid
+graph TD
+A(Plugin Request) --> B{Plugin Evaluation: Data centre approved?}
+B --> C{Plugin Evaluation: Cloud Supported}
+C --> D{Plugin Evaluation: Atlassian Endorsed as Trusted Partner?}
+D --> E{Plugin Evaluation: Review Stars > 3}
+C -->|Two| E[Result 2]
+```
