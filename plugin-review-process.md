@@ -24,19 +24,4 @@ C --> |Yes| D{Plugin Evaluation: Atlassian Endorsed as Trusted Partner?}
 D --> |Yes| E{Plugin Evaluation: Review Stars > 3}
 E --> |Yes| F{Plugin Evaluation: Votes > 50}
 F --> |Yes| G{Plugin Evaluation: Vendor Supported}
-G --> |Yes| H(Plugin Installed and Tested in Dev Env)
-H --> |yes| I{Dev testing OK?}
-I --> |Yes| J(Install Trial Version > 1 month)
-J --> K{Get Tenants Feedback - Good/Bad}
-K --> |Good| L(Cost, Budget, and Legal Review)
-L --> |Passed| M(Purchasing of Plugin)
-B --> |No| N(Rejected)
-C --> |No| N(Rejected)
-D --> |No| N(Rejected)
-E --> |No| N(Rejected)
-F --> |No| N(Rejected)
-G --> |No| N(Rejected)
-I --> |No| N(Rejected)
-K --> |Bad| N(Rejected)
-L --> |Rejected| N(Rejected)
 ```
