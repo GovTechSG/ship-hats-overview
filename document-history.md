@@ -4,6 +4,7 @@ The following table describes important additions to the SHIP-HATS documentation
 
 | Change | Description | Date |
 | --- | --- | --- | 
+| [Plugin Review Process](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/plugin-review-process)| Plugin review process documentation added| April 2022|
 |[SonarQube](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/hats-sonarqube-overview)|SonarQube documentation added|April 2022|
 |[Bitbucket](ship-bitbucket-overview)|Bitbucket documentation added|April 2022|
 |[Manage users within a Project Tool](#manage-users-within-a-project-tool)|How to manage users within a Project tool|April 2022|
