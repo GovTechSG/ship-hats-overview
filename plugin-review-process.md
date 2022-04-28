@@ -38,7 +38,7 @@ H --> I{Dev testing OK?}
 I --> J(Install Trial Version > 1 month)
 J --> K{Get Tenants Feedback (Good/Bad)}
 K --> L(Cost, Budget, and Legal Review)
-L --> M (Purchasing og Plugin)
+L --> M(Purchasing og Plugin)
 C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
 ```
