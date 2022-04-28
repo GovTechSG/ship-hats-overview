@@ -4,6 +4,7 @@
 
 ## Minimum requirement for a plugin request
 
+Following are the minimum requirements for a plugin request:
 - Data center approved
 - *Cloud Supported
 - Atlassian endorsed as Trusted Partners
@@ -17,6 +18,8 @@
 *Not applicable to Bamboo
 
 ## Plugin Review Process
+
+Following diagram shows the plugin review process:
 
 ![Plugin Review Process](plugin-review-process.png)
 
