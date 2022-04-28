@@ -16,4 +16,8 @@
 
 *Not applicable to Bamboo
 
-<kbd>![Plugin Review Process](plugin-review-process.png)
+## Plugin Review Process
+
+![Plugin Review Process](plugin-review-process.png)
+
+<kbd>![Plugin Review Process](plugin-review-process.png)</kbd>
