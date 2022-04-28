@@ -25,20 +25,3 @@ C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
 ```
 
-```mermaid
-graph TD
-A(Plugin Request) --> B{Plugin Evaluation: Data centre approved?}
-B --> C{Plugin Evaluation: Cloud Supported}
-C --> D{Plugin Evaluation: Atlassian Endorsed as Trusted Partner?}
-D --> E{Plugin Evaluation: Review Stars > 3}
-E --> F{Plugin Evaluation: Votes > 50}
-F --> G{Plugin Evaluation: Vendor Supported}
-G --> H(Plugin Installed and Tested in Dev Env)
-H --> I{Dev testing OK?}
-I --> J(Install Trial Version > 1 month)
-J --> K{Get Tenants Feedback (Good/Bad)}
-K --> L(Cost, Budget, and Legal Review)
-L --> M(Purchasing og Plugin)
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
