@@ -38,5 +38,14 @@ H --> I{Dev testing OK?}
 I --> |Yes| J(Install Trial Version > 1 month)
 J --> K{Get Tenants Feedback (Good/Bad)}
 K --> |Good| L(Cost, Budget, and Legal Review)
-L --> |Passed| M(Purchasing og Plugin)
+L --> |Passed| M(Purchasing of Plugin)
+B --> |No| N(Rejected)
+C --> |No| N(Rejected)
+D --> |No| N(Rejected)
+E --> |No| N(Rejected)
+F --> |No| N(Rejected)
+G --> |No| N(Rejected)
+I --> |No| N(Rejected)
+K --> |Bad| N(Rejected)
+L --> |Rejected| N(Rejected)
 ```
