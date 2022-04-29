@@ -72,6 +72,6 @@
   - [Confluence]()
   - [JIRA]()
   - [pCloudy](pcloudy-overview)
-  - [WebInspect]()
+  - [WebInspect](webinspect-overview)
   - [Prisma Cloud]()
   - [Purple HATS]()-->
