@@ -1,34 +1,44 @@
 # Scan via API
 
-
-
-
 **Topics**  
 
-- [Workflow](#webinspect-workflow)
-- [Scan via API](#webinspect-scan-via-api)
-- [WebInspect User Access Control](#webinspect-user-access-control)
-- [Scan via Windows App](webinspect-scan-via-windows-app)
-- [Additional Resources](webinspect-additional-resources)
+- [Prerequisites](#prerequisites)
+- 
 
 ## Prerequisites
 
-WIE server has access to your website
-Your agency has completed the onboarding process for WebInspect
-Your agency has access to SHIP bamboo
-Your agency has access to Fortify SSC
-For web applications that do not have a login page, please follow steps 1,2,3 and 4a.
+- WIE server has access to your website
+- Your agency has completed the onboarding process for WebInspect
+- Your agency has access to SHIP bamboo
+- Your agency has access to Fortify SSC
 
-For web appications that is protected by a login page, please follow steps 1,2,3,4b,5 and 6.
+For web applications that do not have a login page, follow steps 1,2,3, and 4a.
 
-1. Getting an Authentication Token
-Created by Leon Tay, last modified on Oct 01, 2020
+For web appications that is protected by a login page, follow steps 1,2,3,4b,5, and 6.
+
+### To scan via API:
+1. [Generate an Authentication Token](#generate-an-authentication-token)
+1. [Get Project Version Data](#get-project-version-data)
+1. [Choose a Scan Policy](#choose-a-scan-policy)
+1. [Run the Scan without Login Macro](#run-the-scan-without-login-macro)
+1. [Record a Login Macro](#record-a-login-macro)
+1. [Create and Upload MacroData](#create-and-upload-macrodata)
+1. [Run the scan with Login Macro](#run-the-scan-with-login-macro)
+
+
+## Generate an Authentication Token
 To authenticate with the WIE API, an authentication token is required. To generate the Authentication Token, invoke the following cURL command.
 
 The username and password credentials are similar to your Fortify SSC credentials.
 
+<!-- tabs:start -->
+### **Command**
 
+### **Sample Response**
 
+<!-- tabs:end -->
+
+```
 curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/auth' \
 --header 'Accept: application/json' \
 --header 'Content-Type: application/json' \
@@ -36,7 +46,7 @@ curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/au
 "username": "username",
 "password": "password"
 }'
-
+```
 
 
 Sample Response
@@ -50,7 +60,7 @@ Sample Response
 If you do not have the following JSON response, it is likely that your user account is unauthorized to use WIE. Please go to WIE Service Tickets for more details.
 
 
-2. Getting Project Version Data
+## Get Project Version Data
 Created by Leon Tay, last modified on Nov 04, 2020
 Similar to Fortify SCA scans, before scanning the application, WebInspect needs to know the specific Application Project Version before uploading the scan results.
 
@@ -59,6 +69,13 @@ You can get the projectVersions ID by navigating to the application in Fortify S
 
 
 Based on the browser URL above we can see that the projectVersions ID is 9999. Go ahead and invoke the cURL command to get the Project Version Data.
+
+<!-- tabs:start -->
+### **Command**
+
+### **Sample Response**
+
+<!-- tabs:end -->
 
 curl --location --request GET 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/projectVersions/9999' \
 --header 'Accept: application/json' \
@@ -105,7 +122,7 @@ You should get a response similar to this. The Project Version Data is the infor
   "message": null
 }
 
-3. Choosing a Scan Policy
+## Choose a Scan Policy
 Created by Leon Tay, last modified on Mar 18, 2022
 A Scan Policy is a collection of vulnerability checks and attack methodologies that WIE deploys against a Web application.
 
@@ -132,13 +149,20 @@ The screenshot below shows exactly how to find the policy ID which is highlighte
 
 <kbd>![]()
 
-4. Running the Scan without Login Macro
+## Run the Scan without Login Macro
 Created by Leon Tay, last modified on Oct 14, 2021
 Ignore this step and proceed to Step 4b if your web application is protected by a Login Page.
 
 
 
 Once you have completed steps 1-3, you are ready to run your scan. Fill in the information that was bolded in previous steps and run the cURL command.
+
+<!-- tabs:start -->
+### **Command**
+
+### **Sample Response**
+
+<!-- tabs:end -->
 
 curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v2/scans' \
 --header 'Accept: application/json' \
@@ -163,7 +187,7 @@ After running the API call, you should receive a response with a responseCode of
 Once the scan is completed, you will be able to see the scan results in the Fortify SSC.
 
 
-4. Recording a Login Macro
+## Record a Login Macro
 For web applications that have a login form, WebInspect will require a login macro to be created to crawl the website.
 
 You should be redirected to the page below. Click Download WIE Desktop Application and after it has successfully downloaded, go ahead and install it.
@@ -253,13 +277,19 @@ Once it has successfully saved, click the close button.
 
 The login macro has successfully been created and reflected on WIEDesktop application.
 
-5. Create and Upload MacroData
+## Create and Upload MacroData
 
 This step is only essential if the web application has a login form. Please take a look at 4b. Recording a Login Macro if you have not done so.
 
 1.Creating MacroData for a Project
 Run the following cURL request to create MacroData for your project. The values of {{auth_token}} and {{projectVersion_data}} are created in Steps 1 and 2 respectively.
 
+<!-- tabs:start -->
+### **Command**
+
+### **Sample Response**
+
+<!-- tabs:end -->
 curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/macros' \
 --header 'Accept: application/json' \
 --header 'Content-Type: application/json' \
@@ -298,6 +328,13 @@ Under --form  we will reference to absolute path of the Macro we have created in
 
 Run the cURL command below.
 
+<!-- tabs:start -->
+### **Command**
+
+### **Sample Response**
+
+<!-- tabs:end -->
+
 curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/macros/87uu1b26d-5ca3-4d50-b011-c1e930bce0981/macroData' \
 --header 'Accept: application/json' \
 --header 'Content-Type: multipart/form-data' \
@@ -316,10 +353,15 @@ You should receive a responseCode of 201 to show that the resource is successful
 
 Congratulations! You are now ready to run a scan using your newly created Login Macro!
 
-6. Running the scan with Login Macro
+## Run the scan with Login Macro
 
 Once you have completed steps 1,2,3,4a and 5, you are ready to run your scan. Fill in the information that was bolded in previous steps and run the cURL command.
+<!-- tabs:start -->
+### **Command**
 
+### **Sample Response**
+
+<!-- tabs:end -->
 curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v2/scans' \
 --header 'Accept: application/json' \
 --header 'Content-Type: application/json' \
@@ -347,4 +389,3 @@ curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v2/sc
 After running the API call, you should receive a response with a responseCode of 201 indicating that the resource (scan) is created. Do note that even though the scan is created, the scan may take awhile to start depending on the number of pending scans in the queue.
 
 Once the scan is completed, you will be able to see the scan results in the Fortify SSC.
-
