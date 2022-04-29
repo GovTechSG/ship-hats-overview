@@ -143,45 +143,41 @@ Based on best practices designed to test applications for the most pervasive and
 
     The screenshot below shows how to find the policy ID (highlighted in yellow). 
 
-    <kbd>![Policy ID](webinspect-policy-id.png)
+    ![Policy ID](webinspect-policy-id.png)
     <!-- tabs:end -->
 
 ## Run the Scan without Login Macro
-Created by Leon Tay, last modified on Oct 14, 2021
-Ignore this step and proceed to Step 4b if your web application is protected by a Login Page.
+
+>**Note:** If your web application is protected by a Login page, proceed to [Record a Login Macro](#record-a-login-macro).
+
+1. Fill in the information that was bolded in previous steps and run the cURL command.
+    After the scan is complete, you will be able to view the scan results in the Fortify SSC.
 
 
+    <!-- tabs:start -->
+    ### **Command**
+    ```
+    curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v2/scans' \
+    --header 'Accept: application/json' \
+    --header 'Content-Type: application/json' \
+    --header 'Authorization: FORTIFYTOKEN MDA2NDMzMDMtYjQ3NC00MGg89Tg0MDYtZjNkNmU3ZmI3YTBl' \
+    --data-raw '{
+    "name": "Sample Scan",
+    "projectVersion": {"id": 12345, "name": "1.0", "siteId": "3Rc43121-4823-433e-ac85-h3021h120"},
+    "overrides": {
+    "startMethod": "url",
+    "startUrls": [
+    "https://sampleurl.com"
+    ],
+    "policyID": "2387b73d-3a5f-4700-8ff2-85135e05d659" }
 
-Once you have completed steps 1-3, you are ready to run your scan. Fill in the information that was bolded in previous steps and run the cURL command.
+    }'
+    ```
+    After running the API call, you should receive a response with a responseCode of 201 indicating that the resource (scan) is created. 
 
-<!-- tabs:start -->
-### **Command**
+    >**Note:** Even though the scan is created, the scan may take awhile to start depending on the number of pending scans in the queue.
 
-### **Sample Response**
-
-<!-- tabs:end -->
-
-curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v2/scans' \
---header 'Accept: application/json' \
---header 'Content-Type: application/json' \
---header 'Authorization: FORTIFYTOKEN MDA2NDMzMDMtYjQ3NC00MGg89Tg0MDYtZjNkNmU3ZmI3YTBl' \
---data-raw '{
-"name": "Sample Scan",
-"projectVersion": {"id": 12345, "name": "1.0", "siteId": "3Rc43121-4823-433e-ac85-h3021h120"},
-"overrides": {
-"startMethod": "url",
-"startUrls": [
-"https://sampleurl.com"
-],
-"policyID": "2387b73d-3a5f-4700-8ff2-85135e05d659" }
-
-}'
-
-
-
-After running the API call, you should receive a response with a responseCode of 201 indicating that the resource (scan) is created. Do note that even though the scan is created, the scan may take awhile to start depending on the number of pending scans in the queue.
-
-Once the scan is completed, you will be able to see the scan results in the Fortify SSC.
+    <!-- tabs:end -->
 
 
 ## Record a Login Macro
