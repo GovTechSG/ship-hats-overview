@@ -8,6 +8,7 @@ For more information on Prisma Cloud, refer to https://docs.paloaltonetworks.com
 
 - [Retrieve Prisma Cloud Token](#retrieve-prisma-cloud-token)
 - [Image Scan for Bamboo](#image-scan-from-bamboo)
+- [FAQs](#faqs)
 
 ## Retrieve Prisma Cloud Token
 
@@ -64,3 +65,10 @@ For more information on Prisma Cloud, refer to https://docs.paloaltonetworks.com
 1. Add `hats_linux_image` as a requirement to your job.
 1. Add a variable for the token that you retrieved from the SHIP-HATS portal. 
 1. Define an artifact for the json file to download it as an artifact.
+
+## FAQs
+
+<details>
+    <summary>Is Prisma Cloud (Container Image Scanner) offered in the subscription tier? </summary><br>
+Container Scanner is available with all tiers and at no cost.
+</details>
