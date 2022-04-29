@@ -4,6 +4,8 @@ The following table describes important additions to the SHIP-HATS documentation
 
 | Change | Description | Date |
 | --- | --- | --- | 
+|[Prisma Cloud](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/prisma-cloud-overview)|Prisma Cloud content added|April 2022|
+|[pCloudy](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/pcloudy-overview)|pCloudy content added|April 2022|
 | [Plugin Review Process](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/plugin-review-process)| Plugin review process documentation added| April 2022|
 |[SonarQube](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/hats-sonarqube-overview)|SonarQube documentation added|April 2022|
 |[Bitbucket](ship-bitbucket-overview)|Bitbucket documentation added|April 2022|

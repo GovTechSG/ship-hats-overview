@@ -2,17 +2,12 @@
 
 Prisma Cloud is a container vulnerability scanner that protects custom container images, configured by subscribers.
 
-For more information on Prisma Cloud, see https://docs.paloaltonetworks.com/prisma/prisma-cloud.html
+For more information on Prisma Cloud, refer to https://docs.paloaltonetworks.com/prisma/prisma-cloud.html
 
 **Topics**  
 
-- [Fortify SSC User Roles](fortify-user-roles-and-permissions)
-- [Set up Bamboo Plan](fortify-set-up-bamboo-plan)
-- [Generate PDF report from fpr file](fortify-generate-pdf)
-- [Add users to Fortify App on SSC](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-fortify-applications?id=manage-user-role-in-fortify-applications)
-- [Manage Application Version](fortify-manage-application-version)
-- [Manage Fortify user tokens](fortify-manage-user-tokens)
-- [Additional Resources](fortify-additional-resources)
+- [Retrieve Prisma Cloud Token](#retrieve-prisma-cloud-token)
+- [Image Scan for Bamboo](#image-scan-from-bamboo)
 
 ## Retrieve Prisma Cloud Token
 
@@ -69,11 +64,3 @@ For more information on Prisma Cloud, see https://docs.paloaltonetworks.com/pris
 1. Add `hats_linux_image` as a requirement to your job.
 1. Add a variable for the token that you retrieved from the SHIP-HATS portal. 
 1. Define an artifact for the json file to download it as an artifact.
-
-
-
-
-
-
-
-
