@@ -61,14 +61,15 @@ If you do not have the following JSON response, it is likely that your user acco
 
 Similar to Fortify SCA scans, before scanning the application, WebInspect needs to know the specific Application Project Version before uploading the scan results.
 
-To get the *projectVersions ID*:
+### To get the projectVersions ID:
+
 1. Navigate to the application in Fortify SSC.
 
     <kbd>![Project Version Data](webinspect-project-version-data.png)
 
     Based on the browser URL above, the **projectVersions ID** is *9999*. 
     
-1. Invoke the following cURL command to get the Project Version Data.
+1. Invoke the following cURL command to get the Project Version Data:
 
     <!-- tabs:start -->
     ### **Command**
@@ -121,36 +122,29 @@ To get the *projectVersions ID*:
     <!-- tabs:end -->
 
 
-
-
-
-
 ## Choose a Scan Policy
-Created by Leon Tay, last modified on Mar 18, 2022
+
 A Scan Policy is a collection of vulnerability checks and attack methodologies that WIE deploys against a Web application.
 
 Based on best practices designed to test applications for the most pervasive and problematic web application security vulnerabilities, we recommend using one of the following policies with their policy ID attached.
 
-OWASP Top 10 2021 (2387b73d-3a5f-4700-8ff2-85135e05d659) - This policy provides a minimum standard for web application security. The OWASP Top 10 2021 represents a broad consensus about the most critical web application security flaws.
-SANS Top 25 (1690337d-ae32-43ea-a008-bb0959a279fc)- The SANS Top 25 Most Dangerous Software Errors provides an enumeration of the most widespread and critical errors, categorised by Common Weakness Enumeration (CWE) identifiers, that lead to serious vulnerabilities in software.
-Standard (cb72a7c2-9207-4ee7-94d0-edd14a47c15c)- A standard scan includes an automated crawl of the server and performs checks for known and unknown vulnerabilities such as SQL Injection and Cross-Site Scripting as well as poor error handling and weak SSL configuration at the web server, web application server, and web application layers.
-You can go ahead and choose one of the policy ID above to continue with the scan process.
+- Choose one of the following policy ID to continue with the scan process:
+    - **OWASP Top 10 2021 (2387b73d-3a5f-4700-8ff2-85135e05d659):** This policy provides a minimum standard for web application security. The OWASP Top 10 2021 represents a broad consensus about the most critical web application security flaws.
+    - **SANS Top 25 (1690337d-ae32-43ea-a008-bb0959a279fc):** The SANS Top 25 Most Dangerous Software Errors provides an enumeration of the most widespread and critical errors, categorised by Common Weakness Enumeration (CWE) identifiers, that lead to serious vulnerabilities in software.
+    - **Standard (cb72a7c2-9207-4ee7-94d0-edd14a47c15c):** A standard scan includes an automated crawl of the server and performs checks for known and unknown vulnerabilities such as SQL Injection and Cross-Site Scripting as well as poor error handling and weak SSL configuration at the web server, web application server, and web application layers.
+- Alternatively, you can invoke the **Get Scan Policies API** using the following cURL command if you view all the available policies that WebInspect has to offer:
+    <!-- tabs:start -->
+    ### **Command**
+    ```
+    curl --location --request GET 'https://wie.hats.stack.gov.sg/WIE/REST/api/v1/policies' \
+    --header 'Authorization: {{auth_token}}'
+    ```
+    The cURL response will return a JSON Array with over 50 scan policies, including metadata such as description and policy category. You can go ahead and choose a scan policy that suits your needs better.
 
+    The screenshot below shows how to find the policy ID (highlighted in yellow). 
 
-
-Invoking the Get Scan Policies API
-Alternatively, you could invoke the Get Scan Policies API using the following cURL command if you would like to take a look at all the available policies that WebInspect has to offer.
-
-curl --location --request GET 'https://wie.hats.stack.gov.sg/WIE/REST/api/v1/policies' \
---header 'Authorization: {{auth_token}}'
-
-
-
-The cURL response will return a JSON Array with over 50 scan policies, including metadata such as description and policy category. You can go ahead and choose a scan policy that suits your needs better.
-
-The screenshot below shows exactly how to find the policy ID which is highlighted in yellow. 
-
-<kbd>![]()
+    <kbd>![Policy ID](webinspect-policy-id.png)
+    <!-- tabs:end -->
 
 ## Run the Scan without Login Macro
 Created by Leon Tay, last modified on Oct 14, 2021
