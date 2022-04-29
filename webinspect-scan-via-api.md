@@ -2,8 +2,14 @@
 
 **Topics**  
 
-- [Prerequisites](#prerequisites)
-- 
+1. [Prerequisites](#prerequisites)
+1. [Generate an Authentication Token](#generate-an-authentication-token)
+1. [Get Project Version Data](#get-project-version-data)
+1. [Choose a Scan Policy](#choose-a-scan-policy)
+1. [Run the Scan without Login Macro](#run-the-scan-without-login-macro)
+1. [Record a Login Macro](#record-a-login-macro)
+1. [Create and Upload MacroData](#create-and-upload-macrodata)
+1. [Run the scan with Login Macro](#run-the-scan-with-login-macro)
 
 ## Prerequisites
 
@@ -16,28 +22,16 @@ For web applications that do not have a login page, follow steps 1,2,3, and 4a.
 
 For web appications that is protected by a login page, follow steps 1,2,3,4b,5, and 6.
 
-### To scan via API:
-1. [Generate an Authentication Token](#generate-an-authentication-token)
-1. [Get Project Version Data](#get-project-version-data)
-1. [Choose a Scan Policy](#choose-a-scan-policy)
-1. [Run the Scan without Login Macro](#run-the-scan-without-login-macro)
-1. [Record a Login Macro](#record-a-login-macro)
-1. [Create and Upload MacroData](#create-and-upload-macrodata)
-1. [Run the scan with Login Macro](#run-the-scan-with-login-macro)
-
 
 ## Generate an Authentication Token
-To authenticate with the WIE API, an authentication token is required. To generate the Authentication Token, invoke the following cURL command.
+To authenticate with the WIE API, an authentication token is required. 
+
+1. To generate the Authentication Token, invoke the following cURL command:
 
 The username and password credentials are similar to your Fortify SSC credentials.
 
 <!-- tabs:start -->
 ### **Command**
-
-### **Sample Response**
-
-<!-- tabs:end -->
-
 ```
 curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/auth' \
 --header 'Accept: application/json' \
@@ -47,80 +41,89 @@ curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/au
 "password": "password"
 }'
 ```
-
-
-Sample Response
-
+### **Sample Response**
+```
 {
   "data": "FORTIFYTOKEN MDA2NDMzMDMtYjQ3NC00MGg89Tg0MDYtZjNkNmU3ZmI3YTBl",
   "responseCode": 200,
   "message": null
 }
-
+```
 If you do not have the following JSON response, it is likely that your user account is unauthorized to use WIE. Please go to WIE Service Tickets for more details.
 
 
-## Get Project Version Data
-Created by Leon Tay, last modified on Nov 04, 2020
-Similar to Fortify SCA scans, before scanning the application, WebInspect needs to know the specific Application Project Version before uploading the scan results.
-
-You can get the projectVersions ID by navigating to the application in Fortify SSC.
-
-
-
-Based on the browser URL above we can see that the projectVersions ID is 9999. Go ahead and invoke the cURL command to get the Project Version Data.
-
-<!-- tabs:start -->
-### **Command**
-
-### **Sample Response**
-
 <!-- tabs:end -->
 
-curl --location --request GET 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/projectVersions/9999' \
---header 'Accept: application/json' \
---header 'Content-Type: application/json' \
---header 'Authorization: FORTIFYTOKEN <token>'
 
-Sample Response
 
-You should get a response similar to this. The Project Version Data is the information bolded in black. Do store the information somewhere because we will be using it for other API calls later on.
 
-{
-  "data": {
-    "url": null,
-    "project": {
-      "id": 12345,
-      "name": "Sample Application"
-    },
-    "securityGroup": {
-      "id": "321g37-g31873-3h183-213j3",
-      "name": "SAMPLE GROUP"
-    },
-    "organization": {
-      "id": "u3yi3-31283-231hu-321h0",
-      "name": "SAMPLE ORGANIZATION"
-    },
-    "permissions": {
-      "PERM_SITE_CREATE": false,
-      "PERM_SITE_GEN_REPORT": false,
-      "PERM_SITE_DELETE": false,
-      "PERM_SITE_UPDATE": true,
-      "PERM_SITE_LINK_SCANS": true,
-      "PERM_SITE_SCANS_CREATE": true,
-      "PERM_SITE_SCHEDULED_SCANS_CREATE": false,
-      "PERM_SITE_SCANS_REPEAT": true
-    },
-    "id": 12345,
-    "name": "1.0",
-    "siteId": "3Rc43121-4823-433e-ac85-h3021h120"
-  },
-  "links": {
-    "scans": "https://wie.hats.stack.gov.sg/wie/rest/api/v1/projectVersions/9999/scans"
-  },
-  "responseCode": 200,
-  "message": null
-}
+## Get Project Version Data
+
+Similar to Fortify SCA scans, before scanning the application, WebInspect needs to know the specific Application Project Version before uploading the scan results.
+
+To get the *projectVersions ID*:
+1. Navigate to the application in Fortify SSC.
+
+    <kbd>![Project Version Data](webinspect-project-version-data.png)
+
+    Based on the browser URL above, the **projectVersions ID** is *9999*. 
+    
+1. Invoke the following cURL command to get the Project Version Data.
+
+    <!-- tabs:start -->
+    ### **Command**
+    ```
+    curl --location --request GET 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/projectVersions/9999' \
+    --header 'Accept: application/json' \
+    --header 'Content-Type: application/json' \
+    --header 'Authorization: FORTIFYTOKEN <token>'
+    ```
+    ### **Sample Response**
+    You should get a response similar to the following response. The Project Version Data is the information bolded in black. Do store the information somewhere because we will be using it for other API calls later on.
+    ```
+    {
+      "data": {
+        "url": null,
+        "project": {
+          "id": 12345,
+          "name": "Sample Application"
+        },
+        "securityGroup": {
+          "id": "321g37-g31873-3h183-213j3",
+          "name": "SAMPLE GROUP"
+        },
+        "organization": {
+          "id": "u3yi3-31283-231hu-321h0",
+          "name": "SAMPLE ORGANIZATION"
+        },
+        "permissions": {
+          "PERM_SITE_CREATE": false,
+          "PERM_SITE_GEN_REPORT": false,
+          "PERM_SITE_DELETE": false,
+          "PERM_SITE_UPDATE": true,
+          "PERM_SITE_LINK_SCANS": true,
+          "PERM_SITE_SCANS_CREATE": true,
+          "PERM_SITE_SCHEDULED_SCANS_CREATE": false,
+          "PERM_SITE_SCANS_REPEAT": true
+        },
+        "id": 12345,
+        "name": "1.0",
+        "siteId": "3Rc43121-4823-433e-ac85-h3021h120"
+      },
+      "links": {
+        "scans": "https://wie.hats.stack.gov.sg/wie/rest/api/v1/projectVersions/9999/scans"
+      },
+      "responseCode": 200,
+      "message": null
+    }
+      ```
+
+    <!-- tabs:end -->
+
+
+
+
+
 
 ## Choose a Scan Policy
 Created by Leon Tay, last modified on Mar 18, 2022
@@ -194,13 +197,13 @@ You should be redirected to the page below. Click Download WIE Desktop Applicati
 
 To create a macro, users will need to download a standalone Windows program to record the macro manually, and upload to the WIE server via an API call.
 
-1.Downloading and installing WIEDesktop.exe
+1. Downloading and installing WIEDesktop.exe
 Do note that WIEDesktop.exe only supports Windows. Head over to https://wie.hats.stack.gov.sg and login with your Fortify SSC credentials.
 
 You should be redirected to the page below. Click Download WIE Desktop Application and after it has successfully downloaded, go ahead and install it.
 
 
-2.Starting up WIEDesktop.exe
+2. Starting up WIEDesktop.exe
 After installing WIEDesktop, Click on Guided Scan.
 
 
@@ -281,7 +284,7 @@ The login macro has successfully been created and reflected on WIEDesktop applic
 
 This step is only essential if the web application has a login form. Please take a look at 4b. Recording a Login Macro if you have not done so.
 
-1.Creating MacroData for a Project
+1. Creating MacroData for a Project
 Run the following cURL request to create MacroData for your project. The values of {{auth_token}} and {{projectVersion_data}} are created in Steps 1 and 2 respectively.
 
 <!-- tabs:start -->
@@ -319,7 +322,7 @@ Take note of the id  value as we will be using it for the uploading of MacroData
   "message": null
 }
 
-2.Uploading MacroData to the Project
+2. Uploading MacroData to the Project
 Once a MacroData is created for the Project, what is left to do is to upload to contents of the Macro you have created in 4b. Recording a Login Macro.
 
 We will use the id  value generated in the previous step as reference to tell the server where we want the MacroData to be uploaded to.
@@ -388,4 +391,4 @@ curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v2/sc
 
 After running the API call, you should receive a response with a responseCode of 201 indicating that the resource (scan) is created. Do note that even though the scan is created, the scan may take awhile to start depending on the number of pending scans in the queue.
 
-Once the scan is completed, you will be able to see the scan results in the Fortify SSC.
+After the scan is completed, you will be able to see the scan results in the Fortify SSC.
