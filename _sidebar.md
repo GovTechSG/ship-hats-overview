@@ -40,6 +40,7 @@
     - [CLI](pcloudy-cli)
     - [Testing](pcloudy-testing)
     - [FAQs](pcloudy-faqs)
+  - [Prisma Cloud](prisma-cloud-overview)  
   - [SonarQube](hats-sonarqube-overview)
     - [Community Edition](sonarqube-set-up-community-edition)
     - [Developer Edition](sonarqube-set-up-developer-edition)
