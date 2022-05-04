@@ -163,7 +163,7 @@ Based on best practices designed to test applications for the most pervasive and
 >**Note:** If your web application is protected by a Login page, proceed to [Record a Login Macro](#record-a-login-macro).
 
 1. Fill in the required information from previous steps, and then run the cURL command.
-    >**Notes:** 
+    >**Information from previous steps:** 
     >- Authorization: FORTIFYTOKEN MDA2NDMzMDMtYjQ3NC00MGg89Tg0MDYtZjNkNmU3ZmI3YTBl'
     After the scan is complete, you will be able to view the scan results in the Fortify SSC.
     >- "id": 12345,
@@ -172,7 +172,7 @@ Based on best practices designed to test applications for the most pervasive and
 
     <!-- tabs:start -->
     ### **Command**
-    
+
     ```
     curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v2/scans' \
     --header 'Accept: application/json' \
@@ -208,13 +208,19 @@ For web applications that have a login form, WebInspect will require a login mac
 
     <kbd>![Download WIE Desktop Application](webinspect-download-wie.png)
 
-1. Click **Guided Scan**. A window appears, asking permission to open WIEDesktop.exe.
+1. Click **Guided Scan**. 
+    
+    A window appears, asking permission to open WIEDesktop.exe.
+
     <kbd>![Guided Scan](webinspect-download-wie-guided-scan.png)
 1. Clik **Open Link**.
+
     <kbd>![Open Link](webinspect-download-wie-open-link.png)
 1. Select the **Create a Standard Web Site Scan** option. 
+
     <kbd>![Standard Web Site Scan](webinspect-download-wie-create-scan.png)
 1. Fill in the Start URL with the URL for which you want to create a login macro. 
+
     <kbd>![Start URL](webinspect-download-wie-start-url.png)
 
 1. Click **Application Authentication**, and then click **Create**.  
@@ -231,9 +237,11 @@ For web applications that have a login form, WebInspect will require a login mac
     The first action of navigating to the URL is detected and is indicated in the left panel. Recording in progress is indicated in the lower-left panel.
     <kbd>![Left Panel](webinspect-wie-truclient-record-left-panel.png)
 1. Log in as you would for a normal user. 
+
     > **Note:** The login macro file is encrypted. Therefore, there is no risk of your credentials being compromised.
     
     Your actions being populated are visible in the left panel.
+
     <kbd>![Log In](webinspect-wie-truclient-log-in.png)
 1. After you have logged in successfully, verify that all the actions are correctly populated. 
 1. Click the **Stop** button.
@@ -250,7 +258,6 @@ For web applications that have a login form, WebInspect will require a login mac
     For this demo, I clicked on the accounts panel. Depending on how your website is designed, you would need to click on an object on the website that is only shown when the user has logged in.
 
     <kbd>![Accounts Panel](webinspect-truclient-accounts-panel.png)
-
 
     After clicking an object on the right panel, you would see on the bottom left that the macro is now trying to automatically detect logout conditions. Do give it sometime to allow the macro to finish up the process.
 
