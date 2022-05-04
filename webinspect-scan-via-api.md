@@ -18,15 +18,27 @@
 - Your agency has access to SHIP bamboo
 - Your agency has access to Fortify SSC
 
-For web applications that do not have a login page, follow steps 1,2,3, and 4a.
+For web applications that do not have a login page, follow these steps:
+<!--1,2,3, and 4a.-->
+1. [Generate an Authentication Token](#generate-an-authentication-token)
+1. [Get Project Version Data](#get-project-version-data)
+1. [Choose a Scan Policy](#choose-a-scan-policy)
+1. [Run the Scan without Login Macro](#run-the-scan-without-login-macro)
 
-For web appications that is protected by a login page, follow steps 1,2,3,4b,5, and 6.
-
+For web appications that is protected by a login page, follow these steps: 
+<!--steps 1,2,3,4b,5, and 6.-->
+1. [Generate an Authentication Token](#generate-an-authentication-token)
+1. [Get Project Version Data](#get-project-version-data)
+1. [Choose a Scan Policy](#choose-a-scan-policy)
+1. [Record a Login Macro](#record-a-login-macro)
+1. [Create and Upload MacroData](#create-and-upload-macrodata)
+1. [Run the scan with Login Macro](#run-the-scan-with-login-macro)
 
 ## Generate an Authentication Token
 To authenticate with the WIE API, an authentication token is required. 
 
-1. To generate the Authentication Token, invoke the following cURL command:
+### To generate the Authentication Token:
+1. Invoke the following cURL command:
 
 The username and password credentials are similar to your Fortify SSC credentials.
 
@@ -53,8 +65,6 @@ If you do not have the following JSON response, it is likely that your user acco
 
 
 <!-- tabs:end -->
-
-
 
 
 ## Get Project Version Data
@@ -128,7 +138,7 @@ A Scan Policy is a collection of vulnerability checks and attack methodologies t
 
 Based on best practices designed to test applications for the most pervasive and problematic web application security vulnerabilities, we recommend using one of the following policies with their policy ID attached.
 
-- Choose one of the following policy ID to continue with the scan process:
+- Select one of the following policy ID to continue with the scan process:
     - **OWASP Top 10 2021 (2387b73d-3a5f-4700-8ff2-85135e05d659):** This policy provides a minimum standard for web application security. The OWASP Top 10 2021 represents a broad consensus about the most critical web application security flaws.
     - **SANS Top 25 (1690337d-ae32-43ea-a008-bb0959a279fc):** The SANS Top 25 Most Dangerous Software Errors provides an enumeration of the most widespread and critical errors, categorised by Common Weakness Enumeration (CWE) identifiers, that lead to serious vulnerabilities in software.
     - **Standard (cb72a7c2-9207-4ee7-94d0-edd14a47c15c):** A standard scan includes an automated crawl of the server and performs checks for known and unknown vulnerabilities such as SQL Injection and Cross-Site Scripting as well as poor error handling and weak SSL configuration at the web server, web application server, and web application layers.
@@ -150,8 +160,13 @@ Based on best practices designed to test applications for the most pervasive and
 
 >**Note:** If your web application is protected by a Login page, proceed to [Record a Login Macro](#record-a-login-macro).
 
-1. Fill in the information that was bolded in previous steps and run the cURL command.
+1. Fill in the required information from previous steps, and then run the cURL command.
+    >**Notes:** 
+    >- Authorization: FORTIFYTOKEN MDA2NDMzMDMtYjQ3NC00MGg89Tg0MDYtZjNkNmU3ZmI3YTBl'
     After the scan is complete, you will be able to view the scan results in the Fortify SSC.
+    >- "id": 12345,
+    >- "name": "1.0",
+    >- "siteId": "3Rc43121-4823-433e-ac85-h3021h120"
 
 
     <!-- tabs:start -->
@@ -175,7 +190,7 @@ Based on best practices designed to test applications for the most pervasive and
     ```
     After running the API call, you should receive a response with a responseCode of 201 indicating that the resource (scan) is created. 
 
-    >**Note:** Even though the scan is created, the scan may take awhile to start depending on the number of pending scans in the queue.
+    >**Note:** Even though the scan is created, the scan may take some time to start depending on the number of pending scans in the queue.
 
     <!-- tabs:end -->
 
@@ -183,106 +198,98 @@ Based on best practices designed to test applications for the most pervasive and
 ## Record a Login Macro
 For web applications that have a login form, WebInspect will require a login macro to be created to crawl the website.
 
-You should be redirected to the page below. Click Download WIE Desktop Application and after it has successfully downloaded, go ahead and install it.
+### To create and record a macro:
+1. Navigate to https://wie.hats.stack.gov.sg, and then log in with your Fortify SSC credentials. 
+1. Download and install **WIEDesktop.exe**.
 
-To create a macro, users will need to download a standalone Windows program to record the macro manually, and upload to the WIE server via an API call.
+    >**Note:** WIEDesktop.exe supports Windows only. 
 
-1. Downloading and installing WIEDesktop.exe
-Do note that WIEDesktop.exe only supports Windows. Head over to https://wie.hats.stack.gov.sg and login with your Fortify SSC credentials.
+    <kbd>![Download WIE Desktop Application](webinspect-download-wie.png)
 
-You should be redirected to the page below. Click Download WIE Desktop Application and after it has successfully downloaded, go ahead and install it.
+1. Click **Guided Scan**. A window appears, asking permission to open WIEDesktop.exe.
+    <kbd>![Guided Scan](webinspect-download-wie-guided-scan.png)
+1. Clik **Open Link**.
+    <kbd>![Open Link](webinspect-download-wie-open-link.png)
+1. Select the **Create a Standard Web Site Scan** option. 
+    <kbd>![Standard Web Site Scan](webinspect-download-wie-create-scan.png)
+1. Fill in the Start URL with the URL for which you want to create a login macro. 
+    <kbd>![Start URL](webinspect-download-wie-start-url.png)
 
+1. Click **Application Authentication**, and then click **Create**.  
 
-2. Starting up WIEDesktop.exe
-After installing WIEDesktop, Click on Guided Scan.
+    <kbd>![Application Authentication](webinspect-wie-app-auth.png)
 
+    This launches another window (Truclient) in which we will start our recording process. After Truclient is launched, you would notice that there are two panels in the foreground. The panel on the left contains controls that would help you record the macro. The panel on the right contains the browser in which the recording will be performed.
 
+    <kbd>![Truclient](webinspect-wie-truclient.png)    
+1. Click the **Record** button to start recording. 
 
-You will see that Windows is asking permission to open WIEDesktop.exe. Go ahead and click Open link.
+    <kbd>![Record](webinspect-wie-truclient-record.png)
 
+    The first action of navigating to the URL is detected and is indicated in the left panel. Recording in progress is indicated in the lower-left panel.
+    <kbd>![Left Panel](webinspect-wie-truclient-record-left-panel.png)
+1. Log in as you would for a normal user. 
+    > **Note:** The login macro file is encrypted. Therefore, there is no risk of your credentials being compromised.
+    
+    Your actions being populated are visible in the left panel.
+    <kbd>![Log In](webinspect-wie-truclient-log-in.png)
+1. After you have logged in successfully, verify that all the actions are correctly populated. 
+1. Click the **Stop** button.
+    
+    <kbd>![Stop](webinspect-wie-truclient-stop.png)
 
+    The **Stop** button should be greyed out as shown below. Click the **Replay** button for the login macro to complete verification.
+    
+    <kbd>![Replay](webinspect-wie-truclient-replay.png)
+    
+    After completing the replay, the macro would require final step to verify that it has successfully reached a *login* state. 
+1. Select a new object on the right panel to make sure that the macro knows that the login condition has been fulfilled. 
+    
+    For this demo, I clicked on the accounts panel. Depending on how your website is designed, you would need to click on an object on the website that is only shown when the user has logged in.
 
-Once the program is opened, select Create a Standard Web Site Scan option.
-
-
-
-Fill in the Start URL with the URL which you want to create a login macro for. For demo purpose, I will leave it as it is.
-
-
-
-After filling in the URL, click on Application Authentication (highlighted in yellow) and you would see that the page on the right is prompting for a login macro.
-
-Click Create to create a new macro. This will launch another window (Truclient) in which we will start our recording process.
-
-
-
-Once Truclient is launched, you would notice that there are two panels in the foreground. The panel on the left contains controls that would help you record the macro. The panel on the right contains the browser in which the recording will be performed.
-
-
-
-Click the record button annotated in red, to start recording.
-
-
-
-You should see that on the left, the first action of navigating to the URL has been detected. You can also see at the bottom that it is recording.
-
-
-
-Go ahead and login as you could for a normal user. Do note that the entire login macro file will be encrypted, therefore there is no risk of your credentials being compromised.
-
-You should also see your actions being populated on the left panel.
-
-
-
-Once you have login successfully, do a quick check to see that all the actions are correctly populated. Once done, click the Stop button annotated in red.
+    <kbd>![Accounts Panel](webinspect-truclient-accounts-panel.png)
 
 
+    After clicking an object on the right panel, you would see on the bottom left that the macro is now trying to automatically detect logout conditions. Do give it sometime to allow the macro to finish up the process.
 
-The Stop button should be greyed out as shown below. You would need to click the Replay button in order for the login macro to do a verification check.
+    <kbd>![Log Out](webinspect-truclient-logout.png)
 
+    After it is done, it will say Successfully created an automatic logout condition.
 
+    <kbd>![Successful](webinspect-truclient-success.png)
 
-Upon completing the replay, the macro would require final step to verify that it has successfully reached a "login" state. As shown in the instruction below, you would need to select a new object on the right panel - annotated in green to make sure that the macro knows that the login condition has been fulfilled.
+1. Click **Save As** to ensure that the login macro is successfully saved so that you can manually upload it for API scans in the future.
 
-For this demo, I clicked on the accounts panel. Depending on how your website is designed, you would need to click on an object on the website that is only shown when the user has logged in.
-
-
-
-Upon clicking an object on the right panel, you would see on the bottom left that the macro is now trying to automatically detect logout conditions. Do give it sometime to allow the macro to finish up the process.
-
+    <kbd>![Save As](webinspect-truclient-save-as.png)
 
 
-Once it is done, it will say Successfully created an automatic logout condition.
+1. Save the login macro at any location and name the macro accordingly.
 
+    <kbd>![Save](webinspect-truclient-save.png)
 
+1. Click the **Close** button.
 
-Do click Save As to ensure that the login macro is successfully saved so that you can manually upload it for API scans in the future.
+    <kbd>![Close](webinspect-truclient-close.png)
 
+    The login macro has successfully been created and reflected on WIEDesktop application.
 
-
-Save the login macro at any location and name the macro accordingly.
-
-
-
-Once it has successfully saved, click the close button.
-
-
-
-The login macro has successfully been created and reflected on WIEDesktop application.
+    <kbd>![Desktop](webinspect-truclient-desktop.png)
 
 ## Create and Upload MacroData
 
-This step is only essential if the web application has a login form. Please take a look at 4b. Recording a Login Macro if you have not done so.
+This step is only essential if the web application has a login form. Make sure that you have completed the [Record a Login Macro](#record-a-login-macro) step. 
 
-1. Creating MacroData for a Project
-Run the following cURL request to create MacroData for your project. The values of {{auth_token}} and {{projectVersion_data}} are created in Steps 1 and 2 respectively.
+**Topics**
+1. [Create MacroData](#to-create-macrodata-for-a-project)
+1. [Upload MacroData](#to-upload-macrodata-to-the-project)
+
+### To create MacroData for a project:
+
+Run the following cURL request to create MacroData for your project. The values of `{{auth_token}}` and `{{projectVersion_data}}` are created in the [Generate an Authentication Token](#generate-an-authentication-token) and [Get Project Version Data](#get-project-version-data) steps respectively.
 
 <!-- tabs:start -->
 ### **Command**
-
-### **Sample Response**
-
-<!-- tabs:end -->
+```
 curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/macros' \
 --header 'Accept: application/json' \
 --header 'Content-Type: application/json' \
@@ -291,13 +298,12 @@ curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/ma
 "name": "Test Macro",
 "projectVersion": {"id": 12345, "name": "1.0", "siteId": "3Rc43121-4823-433e-ac85-h3021h120"}
 }'
+```
+### **Sample Response**
 
-Sample Response
+You should receive a response as shown below. Take note of the id value as you will use it for the uploading MacroData.
 
-You should receive a response like this. Do note that even though MacroData is created, the contents of the MacroData is not uploaded yet.
-
-Take note of the id  value as we will be using it for the uploading of MacroData.
-
+```
 {
   "data": {
     "id": "87uu1b26d-5ca3-4d50-b011-c1e930bce0981",
@@ -311,50 +317,50 @@ Take note of the id  value as we will be using it for the uploading of MacroData
   "responseCode": 201,
   "message": null
 }
+```
+<!-- tabs:end -->
 
-2. Uploading MacroData to the Project
-Once a MacroData is created for the Project, what is left to do is to upload to contents of the Macro you have created in 4b. Recording a Login Macro.
 
-We will use the id  value generated in the previous step as reference to tell the server where we want the MacroData to be uploaded to.
+### To upload MacroData to the project:
 
-Under --form  we will reference to absolute path of the Macro we have created in Step 4b. For our example, we assume that the webmacro we created was saved at C:/Users/Guest/Desktop/webmacro.webmacro
+After the MacroData is created for the Project, upload the contents of the Macro you have created in the [Record a Login Macro](#record-a-login-macro) step. 
+
+Use the id value generated in the previous step as reference to tell the server where we want the MacroData to be uploaded to.
+
+Under `--form`, reference to absolute path of the Macro created in the [Record a Login Macro](#record-a-login-macro) step. For our example, we assume that the webmacro we created was saved at *C:/Users/Guest/Desktop/webmacro.webmacro*
 
 Run the cURL command below.
 
 <!-- tabs:start -->
 ### **Command**
-
-### **Sample Response**
-
-<!-- tabs:end -->
-
+```
 curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/macros/87uu1b26d-5ca3-4d50-b011-c1e930bce0981/macroData' \
 --header 'Accept: application/json' \
 --header 'Content-Type: multipart/form-data' \
 --header 'Authorization: FORTIFYTOKEN {{auth_token}}' \
 --form 'data=@/C:/Users/Guest/Desktop/webmacro.webmacro'
-
-Sample Response
+```
+### **Sample Response**
 
 You should receive a responseCode of 201 to show that the resource is successfully created. Do remember the values of your macro ID and macro name as they will be used in the final step.
-
+```
 {
   "data": null,
   "responseCode": 201,
   "message": null
 }
+```
+Congratulations! You are now ready to [run a scan](#run-the-scan-with-login-macro) using your newly created Login Macro!
 
-Congratulations! You are now ready to run a scan using your newly created Login Macro!
+
+<!-- tabs:end -->
 
 ## Run the scan with Login Macro
 
-Once you have completed steps 1,2,3,4a and 5, you are ready to run your scan. Fill in the information that was bolded in previous steps and run the cURL command.
+Provide the information from the previous steps and run the following cURL command.
 <!-- tabs:start -->
 ### **Command**
-
-### **Sample Response**
-
-<!-- tabs:end -->
+```
 curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v2/scans' \
 --header 'Accept: application/json' \
 --header 'Content-Type: application/json' \
@@ -376,9 +382,9 @@ curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v2/sc
 }
 
 }'
+```
+<!-- tabs:end -->
 
+After running the API call, you should receive a response with a responseCode of 201 indicating that the resource (scan) is created. Even though the scan is created, the scan may take some time to start depending on the number of pending scans in the queue.
 
-
-After running the API call, you should receive a response with a responseCode of 201 indicating that the resource (scan) is created. Do note that even though the scan is created, the scan may take awhile to start depending on the number of pending scans in the queue.
-
-After the scan is completed, you will be able to see the scan results in the Fortify SSC.
+After the scan is completed, you will be able to view the scan results in the Fortify SSC.

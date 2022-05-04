@@ -1,4 +1,4 @@
-# Webinspect
+# WebInspect
 
 WebInspect is a Dynamic Application Security Testing (DAST) tool that will execute a series of security probes against a running web application in order to identify potential security vulnerabilities.
 
