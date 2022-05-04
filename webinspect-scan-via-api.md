@@ -25,7 +25,7 @@ For web applications that do not have a login page, follow these steps:
 1. [Choose a Scan Policy](#choose-a-scan-policy)
 1. [Run the Scan without Login Macro](#run-the-scan-without-login-macro)
 
-For web appications that is protected by a login page, follow these steps: 
+For web appications that are protected by a login page, follow these steps: 
 <!--steps 1,2,3,4b,5, and 6.-->
 1. [Generate an Authentication Token](#generate-an-authentication-token)
 1. [Get Project Version Data](#get-project-version-data)
@@ -38,33 +38,34 @@ For web appications that is protected by a login page, follow these steps:
 To authenticate with the WIE API, an authentication token is required. 
 
 ### To generate the Authentication Token:
-1. Invoke the following cURL command:
 
-The username and password credentials are similar to your Fortify SSC credentials.
+1. Invoke the following cURL command. 
 
-<!-- tabs:start -->
-### **Command**
-```
-curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/auth' \
---header 'Accept: application/json' \
---header 'Content-Type: application/json' \
---data-raw '{
-"username": "username",
-"password": "password"
-}'
-```
-### **Sample Response**
-```
-{
-  "data": "FORTIFYTOKEN MDA2NDMzMDMtYjQ3NC00MGg89Tg0MDYtZjNkNmU3ZmI3YTBl",
-  "responseCode": 200,
-  "message": null
-}
-```
-If you do not have the following JSON response, it is likely that your user account is unauthorized to use WIE. Please go to WIE Service Tickets for more details.
+    The username and password credentials are similar to your Fortify SSC credentials.
+
+    <!-- tabs:start -->
+    ### **Command**
+    ```
+    curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/auth' \
+    --header 'Accept: application/json' \
+    --header 'Content-Type: application/json' \
+    --data-raw '{
+    "username": "username",
+    "password": "password"
+    }'
+    ```
+    ### **Sample Response**
+    ```
+    {
+      "data": "FORTIFYTOKEN MDA2NDMzMDMtYjQ3NC00MGg89Tg0MDYtZjNkNmU3ZmI3YTBl",
+      "responseCode": 200,
+      "message": null
+    }
+    ```
+    If you do not have the following JSON response, it is likely that your user account is unauthorized to use WIE. Please go to WIE Service Tickets for more details.
 
 
-<!-- tabs:end -->
+    <!-- tabs:end -->
 
 
 ## Get Project Version Data
@@ -143,6 +144,7 @@ Based on best practices designed to test applications for the most pervasive and
     - **SANS Top 25 (1690337d-ae32-43ea-a008-bb0959a279fc):** The SANS Top 25 Most Dangerous Software Errors provides an enumeration of the most widespread and critical errors, categorised by Common Weakness Enumeration (CWE) identifiers, that lead to serious vulnerabilities in software.
     - **Standard (cb72a7c2-9207-4ee7-94d0-edd14a47c15c):** A standard scan includes an automated crawl of the server and performs checks for known and unknown vulnerabilities such as SQL Injection and Cross-Site Scripting as well as poor error handling and weak SSL configuration at the web server, web application server, and web application layers.
 - Alternatively, you can invoke the **Get Scan Policies API** using the following cURL command if you view all the available policies that WebInspect has to offer:
+
     <!-- tabs:start -->
     ### **Command**
     ```
@@ -168,9 +170,9 @@ Based on best practices designed to test applications for the most pervasive and
     >- "name": "1.0",
     >- "siteId": "3Rc43121-4823-433e-ac85-h3021h120"
 
-
     <!-- tabs:start -->
     ### **Command**
+    
     ```
     curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v2/scans' \
     --header 'Accept: application/json' \
