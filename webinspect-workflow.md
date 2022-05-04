@@ -27,6 +27,8 @@ Agency and Application must onboard WIE (via HATS Service Request) to use.
 
 ### Audience
 - These steps should be performed by someone intimately familiar with the Web Application under test, such as an Application Security Tester or a Security Lead.
+
+
 ### To set up initial scan:
 1. Configure a scan to create a suitable configuration for scanning the Web Application and to save that configuration to be reused for repeated scans.
 2. Create a reusable scan template for scanning the web app.
