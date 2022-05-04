@@ -271,7 +271,6 @@ For web applications that have a login form, WebInspect will require a login mac
 
     <kbd>![Save As](webinspect-truclient-save-as.png)
 
-
 1. Save the login macro at any location and name the macro accordingly.
 
     <kbd>![Save](webinspect-truclient-save.png)
