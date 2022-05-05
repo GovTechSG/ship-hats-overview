@@ -60,9 +60,10 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 >**Note:** Following additional guidelines are available for accessibility checks marked with asterisks(*).
 
 **1.1  Provide text alternatives for any non-text content**  
+
 |Success Criteria|AXE Rules Coverage|  
 |---|---|  
-|1.1.1  Provide text alternatives that serves the equivalent purpose for all non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.|Y|
+|1.1.1  Provide text alternatives that serves the equivalent purpose for all non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.|Y|  
 
 ---
 
@@ -175,10 +176,11 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 3.3.4  For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, ensure submissions are reversible, data is checked for input error and can be corrected, or a mechanism is available to review and confirm before submission.|
 
 **4.1    Maximize compatibility with current and future user agents, including assistive technologies.**  
+
 |Success Criteria|AXE Rules Coverage|  
 |---|---|  
-4.1.1  Ensure elements have complete start and end tags, nested according to their specifications, do not contain duplicate attributes.|Y
-4.1.2  Allows all user interface components name and role to be programmatically determined.|Y
-4.1.3  *In content implemented using markup languages, status messages can be programmatically determined through role or properties such that they can be presented to the user by assistive technologies without receiving focus.|
+4.1.1  Ensure elements have complete start and end tags, nested according to their specifications, do not contain duplicate attributes.|Y  
+4.1.2  Allows all user interface components name and role to be programmatically determined.|Y  
+4.1.3  *In content implemented using markup languages, status messages can be programmatically determined through role or properties such that they can be presented to the user by assistive technologies without receiving focus.|  
 
 
