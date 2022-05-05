@@ -71,7 +71,7 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 |Success Criteria|AXE Rules Coverage|  
 |---|---|  
-1.2.1   Provide alternative for prerecorded audio-only content, and alternative or audio track for prerecorded video-only content.|  
+1.2.1   Provide alternative for prerecorded audio-only content, and alternative or audio track for prerecorded video-only content.|-|  
 1.2.2   Provide captions for all prerecorded audio content in synchronized media.|Y<br>(New in AXE 4.1)  
 1.2.3  Provide alternative or audio description of the prerecorded video content in   synchronized media.|Y<br>(New in AXE 4.1)  
 
@@ -81,11 +81,11 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 |Success Criteria|AXE Rules Coverage|Notes  
 |---|---|--|  
-1.3.1 Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.|Y|  
-1.3.2 When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.||  
-1.3.3 Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound.||  
-1.3.4 *Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is essential.|Y|Cannot force users of mobile devices to hold their devices in or rotate them to a certain orientation in order to see/use the content.  
-1.3.5 *The purpose of each input field collecting information about the user can be programmatically determined.|Y|A piece of code must be able to tell what is expected to be entered by a user or what’s the meaning of a piece of entered information. This will enable the browser to autofill input fields based on data previously entered by the user.  
+1.3.1 Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.|Y|-  
+1.3.2 When the sequence in which content is presented affects its meaning, a correct reading sequence can be programmatically determined.|-|-  
+1.3.3 Instructions provided for understanding and operating content do not rely solely on sensory characteristics of components such as shape, size, visual location, orientation, or sound.|-|-  
+1.3.4 Content does not restrict its view and operation to a single display orientation, such as portrait or landscape, unless a specific display orientation is essential.|Y|Cannot force users of mobile devices to hold their devices in or rotate them to a certain orientation in order to see/use the content.  
+1.3.5 The purpose of each input field collecting information about the user can be programmatically determined.|Y|A piece of code must be able to tell what is expected to be entered by a user or what’s the meaning of a piece of entered information. This will enable the browser to autofill input fields based on data previously entered by the user.  
 
 ---
 
@@ -93,15 +93,15 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 |Success Criteria|AXE Rules Coverage|Notes|    
 |---|---|---|  
-1.4.1   Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.|Y|  
-1.4.2   If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level, or text part of a logo or brand name.|Y|  
-1.4.3   The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for large text, text or images of text that are part of an inactive user interface component.|Y|  
-1.4.4  Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.|Y
-1.4.5   If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text.||  
-1.4.10 *Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions.||Users must be able to browse the digital service using a 320 pixel wide screen without having to scroll horizontally. In other words, it must be mobile responsive.|  
-1.4.11 *The visual presentation of the user interface components and graphical objects have a contrast ratio of at least 3:1 against adjacent color(s).||High contrast for text on interface components (buttons) as well as for colors used in non-text content (infographics and diagrams).|  
-1.4.12 *In content implemented using markup languages that support the following text style properties, no loss of content or functionality occurs by setting all of the following and by changing no other style property.|Y|The distances between paragraphs, rows, words and characters must be able to be increased to certain values without leading to loss of functionality or loss of content. Avoid setting fixed heights on elements containing text.|  
-1.4.13 *Where receiving and then removing pointer hover or keyboard focus, it triggers additional content to become visible and then hidden.||If users trigger content in the form of a window, tooltip or a similar component, they must be able to dismiss the content without moving mouse / keyboard (e.g. use Esc key), use mouse to scroll to the content without making the content disappear (when cursor is moved), and dismiss the content solely on their own terms.|    
+1.4.1   Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.|Y|-  
+1.4.2   If any audio on a Web page plays automatically for more than 3 seconds, either a mechanism is available to pause or stop the audio, or a mechanism is available to control audio volume independently from the overall system volume level, or text part of a logo or brand name.|Y|-  
+1.4.3   The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for large text, text or images of text that are part of an inactive user interface component.|Y|-  
+1.4.4  Except for captions and images of text, text can be resized without assistive technology up to 200 percent without loss of content or functionality.|Y|-
+1.4.5   If the technologies being used can achieve the visual presentation, text is used to convey information rather than images of text.|-|-  
+1.4.10 Content can be presented without loss of information or functionality, and without requiring scrolling in two dimensions.|-|Users must be able to browse the digital service using a 320 pixel wide screen without having to scroll horizontally. In other words, it must be mobile responsive.|  
+1.4.11 The visual presentation of the user interface components and graphical objects have a contrast ratio of at least 3:1 against adjacent color(s).|-|High contrast for text on interface components (buttons) as well as for colors used in non-text content (infographics and diagrams).|  
+1.4.12 In content implemented using markup languages that support the following text style properties, no loss of content or functionality occurs by setting all of the following and by changing no other style property.|Y|The distances between paragraphs, rows, words and characters must be able to be increased to certain values without leading to loss of functionality or loss of content. Avoid setting fixed heights on elements containing text.|  
+1.4.13 Where receiving and then removing pointer hover or keyboard focus, it triggers additional content to become visible and then hidden.|-|If users trigger content in the form of a window, tooltip or a similar component, they must be able to dismiss the content without moving mouse / keyboard (e.g. use Esc key), use mouse to scroll to the content without making the content disappear (when cursor is moved), and dismiss the content solely on their own terms.|    
 
 ---
 
@@ -109,9 +109,9 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 |Success Criteria|AXE Rules Coverage|Notes|  
 |---|---|---|  
-2.1.1   All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.|Y|  
-2.1.2   If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.||  
-2.1.4 *If a keyboard shortcut is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then a mechanism is available to turn the shortcut off, remap the shortcut or make it active only on focus.||If the digital service supports keyboard shortcuts in the form of single characters like letters, symbols, numbers or punctuations, the shortcuts can be turned off, the shortcuts can be changed to also require pressing keyboard keys like Ctrl, Alt and Cmd, or the shortcut for a certain element is only active when that element has focus.|    
+2.1.1   All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.|Y|-  
+2.1.2   If keyboard focus can be moved to a component of the page using a keyboard interface, then focus can be moved away from that component using only a keyboard interface, and, if it requires more than unmodified arrow or tab keys or other standard exit methods, the user is advised of the method for moving focus away.|-|-  
+2.1.4 If a keyboard shortcut is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, then a mechanism is available to turn the shortcut off, remap the shortcut or make it active only on focus.|-|If the digital service supports keyboard shortcuts in the form of single characters like letters, symbols, numbers or punctuations, the shortcuts can be turned off, the shortcuts can be changed to also require pressing keyboard keys like Ctrl, Alt and Cmd, or the shortcut for a certain element is only active when that element has focus.|    
 
 ---
 
@@ -128,7 +128,7 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 |Success Criteria|AXE Rules Coverage|  
 |---|---|  
-2.3.1   Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds.|  
+2.3.1   Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds.|-  
 
 ---
 
@@ -138,10 +138,10 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 |---|---|  
 2.4.1  A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.|Y  
 2.4.2   Web pages have titles that describe topic or purpose.|Y  
-2.4.3  If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.|  
+2.4.3  If a Web page can be navigated sequentially and the navigation sequences affect meaning or operation, focusable components receive focus in an order that preserves meaning and operability.|-  
 2.4.4   The purpose of each link can be determined from the link text alone or from the link text together with its programmatically determined link context, except where the purpose of the link would be ambiguous to users in general.|Y  
-2.4.5  More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.|  
-2.4.6  Headings and labels describe topic or purpose.|  
+2.4.5  More than one way is available to locate a Web page within a set of Web pages except where the Web Page is the result of, or a step in, a process.|-  
+2.4.6  Headings and labels describe topic or purpose.|-  
 2.4.7 Any keyboard operable user interface has a mode of operation where the keyboard focus indicator is visible.|Y  
 
 ---
@@ -150,10 +150,10 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 |Success Criteria|AXE Rules Coverage|Notes|  
 |---|---|---|  
-2.5.1 *All functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential.||Actions performed using complex gestures like pinch zooming and swiping must also be able to be performed using simpler gestures like single taps, double taps and long presses.  
-2.5.2 *For functionality that can be operated using a single pointer, there is no down-event to execute the function, a mechanism to abort or undo the function after completion, up-event reverses preceding down-event, or completing the function on down-event is essential.||When interacting with a screen by clicking, tapping and long pressing, triggered functionality doesn’t happen on the down-event, functionality is triggered on the up-event, up-event cancels what happened on the down-event, or triggering of the functionality on the down-event has to occur for some important reason.|  
-2.5.3 *For user interface components with labels that include text or images of text, the name contains the text that is presented visually.|Y|The text that is shown on interface components like buttons must be able to be read to users of assistive technologies like screen readers or triggered by voice commands by users who take advantage of speech recognition software.|  
-2.5.4 *Functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation.||The functionality that is triggered by moving one’s mobile device must also be able to be triggered by interacting with interface components like buttons and sliders. Responses to (accidental) motion must also be able to be turned off unless the motion is supported through an accessible interface or the motion is essential for the functionality.|  
+2.5.1 All functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential.|-|Actions performed using complex gestures like pinch zooming and swiping must also be able to be performed using simpler gestures like single taps, double taps and long presses.  
+2.5.2 For functionality that can be operated using a single pointer, there is no down-event to execute the function, a mechanism to abort or undo the function after completion, up-event reverses preceding down-event, or completing the function on down-event is essential.|-|When interacting with a screen by clicking, tapping and long pressing, triggered functionality doesn’t happen on the down-event, functionality is triggered on the up-event, up-event cancels what happened on the down-event, or triggering of the functionality on the down-event has to occur for some important reason.|  
+2.5.3 For user interface components with labels that include text or images of text, the name contains the text that is presented visually.|Y|The text that is shown on interface components like buttons must be able to be read to users of assistive technologies like screen readers or triggered by voice commands by users who take advantage of speech recognition software.|  
+2.5.4 Functionality that can be operated by device motion or user motion can also be operated by user interface components and responding to the motion can be disabled to prevent accidental actuation.|-|The functionality that is triggered by moving one’s mobile device must also be able to be triggered by interacting with interface components like buttons and sliders. Responses to (accidental) motion must also be able to be turned off unless the motion is supported through an accessible interface or the motion is essential for the functionality.|  
 
 ---
 
@@ -170,10 +170,10 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 |Success Criteria|AXE Rules Coverage|  
 |---|---|  
-3.2.1  When any component receives focus, it does not initiate a change of context.|
-3.2.2  Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.|  
-3.2.3  Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.|  
-3.2.4  Components that have the same functionality within a set of Web pages are identified consistently.|  
+3.2.1  When any component receives focus, it does not initiate a change of context.|-
+3.2.2  Changing the setting of any user interface component does not automatically cause a change of context unless the user has been advised of the behavior before using the component.|-  
+3.2.3  Navigational mechanisms that are repeated on multiple Web pages within a set of Web pages occur in the same relative order each time they are repeated, unless a change is initiated by the user.|-  
+3.2.4  Components that have the same functionality within a set of Web pages are identified consistently.|-  
 
 ---
 
@@ -181,17 +181,17 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 |Success Criteria|AXE Rules Coverage|  
 |---|---|  
-3.3.1  If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.|  
+3.3.1  If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.|-  
 3.3.2  Labels or instructions are provided when content requires user input.|Y  
-3.3.3  If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.|  
-3.3.4  For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, ensure submissions are reversible, data is checked for input error and can be corrected, or a mechanism is available to review and confirm before submission.|  
+3.3.3  If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.|-  
+3.3.4  For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, ensure submissions are reversible, data is checked for input error and can be corrected, or a mechanism is available to review and confirm before submission.|-  
 
 **4.1    Maximize compatibility with current and future user agents, including assistive technologies.**  
 
 |Success Criteria|AXE Rules Coverage|Notes|  
 |---|---|---|  
-4.1.1  Ensure elements have complete start and end tags, nested according to their specifications, do not contain duplicate attributes.|Y|  
-4.1.2  Allows all user interface components name and role to be programmatically determined.|Y|  
-4.1.3  *In content implemented using markup languages, status messages can be programmatically determined through role or properties such that they can be presented to the user by assistive technologies without receiving focus.||Content that is updated dynamically must be notified to users of assistive technologies (like screen readers) without getting visual focus.|  
+4.1.1  Ensure elements have complete start and end tags, nested according to their specifications, do not contain duplicate attributes.|Y|-  
+4.1.2  Allows all user interface components name and role to be programmatically determined.|Y|-  
+4.1.3  *In content implemented using markup languages, status messages can be programmatically determined through role or properties such that they can be presented to the user by assistive technologies without receiving focus.|-|Content that is updated dynamically must be notified to users of assistive technologies (like screen readers) without getting visual focus.|  
 
 
