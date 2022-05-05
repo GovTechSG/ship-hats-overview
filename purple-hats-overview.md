@@ -4,60 +4,65 @@ Purple HATS is a customisable, automated accessibility testing tool that allows 
 
 **Topics**  
 
-- 
+- [Onboarding and Dedicating HATS Linux Elastic Agent](#onboarding-and-dedicating-hats-linux-elastic-agent)
+- [Technical Queries](#technical-queries)
+- [Purple Hats Usage](#purple-hats-usage)
+- [Run Scans on Local Web Projects](#run-scans-on-local-web-projects)
+- [AXE to WCAG Mapping](#axe-to-wcag-mapping)
 
 
-## Onboarding / Dedication of HATS Linux Elastic Agent
+## Onboarding and Dedicating HATS Linux Elastic Agent
 
-If you have onboarded SHIP-HATS previously, you would have been dedicated with the Linux elastic agent to do security scans with Fortify and/or SonarQube. You can use the same Linux agent for Purple HATS scan as well.
+- If you have onboarded SHIP-HATS previously, you would have a dedicated Linux elastic agent to perform the security scans with Fortify and/or SonarQube. You can use the same Linux agent for Purple HATS scan as well.
 
-If you are new, please raise a HATS service request to request for dedication of elastic agent. Please provide the following information as well
-
-Your project's Bamboo build project/ build plan
+- If you are new, please raise a [HATS service request](https://go.gov.sg/hats-ssd) to request for dedication of elastic agent. Include information on Bamboo build project/build plan for your project.
 
 ## Technical Queries
 
-If you face difficulties in using Purple HATS, please raise a service request under Purple HATS - Accessibility Testing.
+For any technical issues in using Purple HATS, raise a service request under [Purple HATS - Accessibility Testing](https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/212).
 
 
 
 ## Purple HATS Usage
 
-The following is the Purple HATS CLI provided in the Bamboo elastic agent. If you are looking to running Purple HATS locally, you may refer to our GitHub repository at https://github.com/GovTechSG/purple-hats
+If you are looking to run Purple HATS locally, refer to our GitHub repository at https://github.com/GovTechSG/purple-hats.
 
-## Running Scans on Local Web Projects
+## Run Scans on Local Web Projects
 
-You can checkout your website project in the pipeline to run the scans. For NPM, you can use `start-server-and-test`. For other package manager, you may need to find an equivalent packages performing the same function.
+You can checkout your website project in the pipeline to run the scans. 
+- For NPM, you can use `start-server-and-test`. 
+- For other package manager, you may need to find an equivalent packages performing the same function.
 
-Please include the following NPM script name in your package.json. In this case, the NPM script name, `scan`, has been defined in the package.json with the Purple HATS CLI command. 
-The `ci` NPM script name is defined to be used in the pipeline.
-In this walkthrough, a React project is being used to perform a website scan.
+Include the following NPM script name in your `package.json`. In this case:
+- The NPM script name, `scan`, has been defined in the `package.json` with the Purple HATS CLI command. 
+- The `ci` NPM script name is defined to be used in the pipeline.
+- In this walkthrough, a React project is being used to perform a website scan.
+
+    ![NPM Script](purple-hats-npm-script.png)
 
 
+In your Bamboo build plan:
 
+- Add `export CI=true` into the Script task. This will ensure that the `start-server-and-test` (or equivalent) tool is able to run in the pipeline before running the NPM scripts.  
 
-In your Bamboo build plan,
-
-Please add `export CI=true` into the Script task to ensure the tool "start-server-and-test" or equivalent is able to run in the pipeline, before running the NPM scripts
-
+    <kbd>![Bamboo Build Plan](purple-hats-bamboo-build-plan.png)
 
 ## AXE to WCAG Mapping
 
 Purple HATS is currently using AXE 3.5
+- We will be updating to use AXE 4.x which covers 2 more clauses
+- Refer to AXE rules and remediation Advice here
 
-We will be updating to use AXE 4.x which covers 2 more clauses (Highlighted in yellow)
-Refer to AXE rules and remediation Advice here
-Please note the following that Purple HATS also covers the following WCAG clauses while not included in the accessibility checks
+Purple HATS also covers the following WCAG clauses while not included in the accessibility checks:
 
 - [WCAG 2.2.4 Link Purpose (Link Only)](https://www.w3.org/TR/UNDERSTANDING-WCAG20/navigation-mechanisms-link.html)
 - [WCAG 2.4.9 Interruptions](https://www.w3.org/TR/UNDERSTANDING-WCAG20/time-limits-postponed.html)
 - [WCAG 3.2.5 Change on Request](https://www.w3.org/TR/UNDERSTANDING-WCAG20/consistent-behavior-no-extreme-changes-context.html)
 
-## WCAG2.1 success criteria from W3C, consists of Level AA except clause 1.2
+### WCAG2.1 success criteria from W3C, consists of Level AA except clause 1.2
 
-Below is the AXE to WCAG mapping on the success criteria coverage for the accessibility checks. 
+Following tables provide the AXE to WCAG mapping on the success criteria coverage for the accessibility checks. 
 
->**Note:** Following additional guidelines are available for accessibility checks marked with asterisks(*).
 
 **1.1  Provide text alternatives for any non-text content**  
 
@@ -192,6 +197,6 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 |---|---|---|  
 4.1.1  Ensure elements have complete start and end tags, nested according to their specifications, do not contain duplicate attributes.|Y|-  
 4.1.2  Allows all user interface components name and role to be programmatically determined.|Y|-  
-4.1.3  *In content implemented using markup languages, status messages can be programmatically determined through role or properties such that they can be presented to the user by assistive technologies without receiving focus.|-|Content that is updated dynamically must be notified to users of assistive technologies (like screen readers) without getting visual focus.|  
+4.1.3  In content implemented using markup languages, status messages can be programmatically determined through role or properties such that they can be presented to the user by assistive technologies without receiving focus.|-|Content that is updated dynamically must be notified to users of assistive technologies (like screen readers) without getting visual focus.|  
 
 
