@@ -59,14 +59,14 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 >**Note:** Following additional guidelines are available for accessibility checks marked with asterisks(*).
 
-**1.1  Provide text alternatives for any non-text content**
+**1.1  Provide text alternatives for any non-text content**  
 |Success Criteria|AXE Rules Coverage|
 |---|---|  
 |1.1.1  Provide text alternatives that serves the equivalent purpose for all non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.|Y|
 
 ---
 
-**1.2 Provide alternatives for time-based media (audio-video captions, transcripts, sign language)**
+**1.2 Provide alternatives for time-based media (audio-video captions, transcripts, sign language)**  
 |Success Criteria|AXE Rules Coverage|
 |---|---|  
 1.2.1   Provide alternative for prerecorded audio-only content, and alternative or audio track for prerecorded video-only content.|
@@ -75,7 +75,7 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 ---
 
-**1.3 Create content that can be presented in different ways (for example simpler layout) without losing information or structure**
+**1.3 Create content that can be presented in different ways (for example simpler layout) without losing information or structure**  
 |Success Criteria|AXE Rules Coverage|Notes
 |---|---|--|  
 1.3.1 Information, structure, and relationships conveyed through presentation can be programmatically determined or are available in text.|Y|
@@ -86,7 +86,7 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 ---
 
-**1.4  Make it easier for users to see and hear content including separating foreground from background**
+**1.4  Make it easier for users to see and hear content including separating foreground from background**  
 |Success Criteria|AXE Rules Coverage|
 |---|---|  
 1.4.1   Color is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element.|Y
@@ -101,7 +101,7 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 ---
 
-**2.1  Make all functionality available from a keyboard**
+**2.1  Make all functionality available from a keyboard**  
 |Success Criteria|AXE Rules Coverage|
 |---|---|  
 2.1.1   All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.|Y
@@ -110,7 +110,7 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 ---
 
-**2.2 Enough Time: Provide users enough time to read and use content. No timing, interruptions can be postponed or suppressed by the user except interruptions involving an emergency, when an authenticated session expires, the user can continue the activity without loss of data after re-authenticating**
+**2.2 Enough Time: Provide users enough time to read and use content. No timing, interruptions can be postponed or suppressed by the user except interruptions involving an emergency, when an authenticated session expires, the user can continue the activity without loss of data after re-authenticating**  
 |Success Criteria|AXE Rules Coverage|
 |---|---|  
 2.2.1 For each time limit that is set by the content, allow user to turn off, adjust, or extend. No need for this if the time limit is a required of a real-time event, the time limit is essential, or the time limit is longer than 20 hours.|Y
@@ -118,14 +118,14 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 ---
 
-**2.3 Seizures: Do not design content in a way that is known to cause seizures**
+**2.3 Seizures: Do not design content in a way that is known to cause seizures**  
 |Success Criteria|AXE Rules Coverage|
 |---|---|  
 2.3.1   Web pages do not contain anything that flashes more than three times in any one second period, or the flash is below the general flash and red flash thresholds.|
 
 ---
 
-**2.4  Provide ways to help users navigate, find content and determine where they are, bypass blocks, page titles, focus order, link purpose from text alone, breadcrumbs**
+**2.4  Provide ways to help users navigate, find content and determine where they are, bypass blocks, page titles, focus order, link purpose from text alone, breadcrumbs**  
 |Success Criteria|AXE Rules Coverage|
 |---|---|  
 2.4.1  A mechanism is available to bypass blocks of content that are repeated on multiple Web pages.|Y
@@ -138,7 +138,7 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 ---
 
-**2.5  Input Modalities: Make it easier for users to operate functionality through various inputs beyond keyboard.**
+**2.5  Input Modalities: Make it easier for users to operate functionality through various inputs beyond keyboard.**  
 |Success Criteria|AXE Rules Coverage|
 |---|---|  
 2.5.1 *All functionality that uses multipoint or path-based gestures for operation can be operated with a single pointer without a path-based gesture, unless a multipoint or path-based gesture is essential.|
@@ -148,7 +148,7 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 ---
 
-**3.1  Readable: make text content readable and understandable, identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon, abbreviations, difficult pronunciations**
+**3.1  Readable: make text content readable and understandable, identifying specific definitions of words or phrases used in an unusual or restricted way, including idioms and jargon, abbreviations, difficult pronunciations**  
 |Success Criteria|AXE Rules Coverage|
 |---|---|  
 3.1.1 The default human language of each Web page can be programmatically determined.|Y
@@ -156,7 +156,7 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 ---
 
-**3.2  Predictable: make web pages appear and operate in predictable ways, consistent navigation, consistent identification**
+**3.2  Predictable: make web pages appear and operate in predictable ways, consistent navigation, consistent identification**  
 |Success Criteria|AXE Rules Coverage|
 |---|---|  
 3.2.1  When any component receives focus, it does not initiate a change of context.|
@@ -166,7 +166,7 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 
 ---
 
-**3.3  Input Assistance: help users avoid and correct mistakes, prevention – reversible, checked, confirmed**
+**3.3  Input Assistance: help users avoid and correct mistakes, prevention – reversible, checked, confirmed**  
 |Success Criteria|AXE Rules Coverage|
 |---|---|  
 3.3.1  If an input error is automatically detected, the item that is in error is identified and the error is described to the user in text.|
@@ -174,7 +174,7 @@ Below is the AXE to WCAG mapping on the success criteria coverage for the access
 3.3.3  If an input error is automatically detected and suggestions for correction are known, then the suggestions are provided to the user, unless it would jeopardize the security or purpose of the content.|
 3.3.4  For Web pages that cause legal commitments or financial transactions for the user to occur, that modify or delete user-controllable data in data storage systems, or that submit user test responses, ensure submissions are reversible, data is checked for input error and can be corrected, or a mechanism is available to review and confirm before submission.|
 
-**4.1    Maximize compatibility with current and future user agents, including assistive technologies.**
+**4.1    Maximize compatibility with current and future user agents, including assistive technologies.**  
 |Success Criteria|AXE Rules Coverage|
 |---|---|  
 4.1.1  Ensure elements have complete start and end tags, nested according to their specifications, do not contain duplicate attributes.|Y
