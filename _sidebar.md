@@ -16,7 +16,8 @@
   - [Projects](manage-projects)
   - [Fortify applications](manage-fortify-applications)
   - [DGP Systems](declaring-dgp-systems)
-- Tools
+- [Tools](tools-overview)
+  - [Service Accounts](service-accounts)
   - [Tools Permission](ship-hats-tools-permission)
     - [Confluence User Roles and Permission](confluence-user-role)
     - [Jira User Roles and Permission](jira-user-role)
@@ -51,7 +52,7 @@
     - [Scan via API](webinspect-scan-via-api)
     - [WebInspect User Access Control](webinspect-user-access-control)
     - [Scan via Windows App](webinspect-scan-via-windows-app)
-    - [Additional Resources](webinspect-additional-resources)   
+    - [Additional Resources](webinspect-additional-resources)  
 - Support & FAQs
   - [Subscription FAQ](subscription)
   - [Tools FAQ](tools-faq)
