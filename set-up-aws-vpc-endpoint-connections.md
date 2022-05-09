@@ -44,7 +44,7 @@ For more information, refer to the [Annex A (New Domain ship.gov.sg)](#annex-a-n
 
     <Kbd>![URL](ship-aws-endpoints-url.png)</kbd>
 
- 
+
 ## Point the Full URL to the Endpoint DNS Name using Route 53
 1.	Go to Route53 in your AWS console, and then click **Hosted Zones**.<br />
 
