@@ -51,7 +51,8 @@ For example, if TEAM tier was provisioned on 1 February 2021 and later you
 <details>
  <summary>How do I cancel my subscription?</summary><br>
 
-Subscription Administrator can raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11)<sup>ii</sup> to cancel after the Minimum Commitment Period<sup>iii</sup>.  Please note that we do not pro-rate our billings.
+Subscription Administrator can cancel the subscription. For more information, refer to the [Off-board an Account](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-account?id=off-board-an-account) documentation. 
+<!--Subscription Administrator can raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11)<sup>ii</sup> to cancel after the Minimum Commitment Period<sup>iii</sup>.  Please note that we do not pro-rate our billings.-->
  </details>
  
 <details>
