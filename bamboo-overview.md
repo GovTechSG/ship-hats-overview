@@ -77,7 +77,7 @@ If approved, the group is created with the agency name prefixed to it. For examp
 ### Run a remote agent 
 After you have installed the remote agent, run the remote agent by executing the following command line from the directory containing the remote agent jar file:  
 
-    `java -jar atlassian-bamboo-agent-installer-8.0.6.jar https://bamboo.ship.gov.sg/agentServer/`
+    `java -jar atlassian-bamboo-agent-installer-8.2.1.jar https://bamboo.ship.gov.sg/agentServer/`
 
 This will start a service wrapper for your agent, which will automatically restart in case of failure. You may also add extra system properties like `-Dbamboo.home=...` to customize the home location of the agent.
 
@@ -92,15 +92,15 @@ For more information, refer to the [Atlassian](https://confluence.atlassian.com/
 
 ## Upgrade Remote Agent 
 
-### To upgrade remote agent after Bamboo version 8.0.6 is deployed:
+### To upgrade remote agent after Bamboo version 8.2.1 is deployed:
 
-If you already ran with `6.10.4 JAR` file, you can skip these steps as `6.10.4 JAR` is compatible with `8.0.6`.
+If you already ran with `6.10.4 JAR` file, you can skip these steps as `6.10.4 JAR` is compatible with `8.2.1`.
 
 1.	Stop the original agent.
 2.	Backup the `BAMBOO_AGENT_HOME/conf/wrapper.conf` file.
 3.	Remove the `BAMBOO_AGENT_HOME/conf` directory.
-4.	Download a new Remote Agent JAR from your Bamboo Server: `atlassian-bamboo-agent-installer-8.0.6.jar` (Via SHIP VPN), and then rename it as `atlassian-bamboo-agent-installer-8.0.6.jar`
-5.	Launch the remote agent: `java -jar atlassian-bamboo-agent-installer-8.0.6.jar` https://bamboo.ship.gov.sg/agentServer/
+4.	Download a new Remote Agent JAR from your Bamboo Server: `atlassian-bamboo-agent-installer-8.2.1.jar` (Via SHIP VPN), and then rename it as `atlassian-bamboo-agent-installer-8.2.1.jar`
+5.	Launch the remote agent: `java -jar atlassian-bamboo-agent-installer-8.2.1.jar` https://bamboo.ship.gov.sg/agentServer/
     
     This will create new `wrapper.conf` file. If you want to re-enact your custom configuration in that file, you can do it now.
 
