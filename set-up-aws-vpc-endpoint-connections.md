@@ -9,12 +9,15 @@
 
 ## Connect to SHIP AWS VPC Endpoint
 To connect to SHIPs AWS VPC Endpoint Connections, complete the following steps:
-1.	Create the endpoint via VPC Endpoints.
-2.	Configure your DNS server to point the full URL to the DNS name for the endpoint connection created. 
+1.	[Create the endpoint via VPC Endpoints](#create-a-vpc-endpoint).
+2.	[Configure your DNS server to point the full URL to the DNS name for the endpoint connection created](#point-the-full-url-to-the-endpoint-dns-name-using-route-53).  
+
 For more information, refer to the [Annex A (New Domain ship.gov.sg)](#annex-a-new-domain-shipgovsg) documentation. Steps provide DNS configuration using AWS Route53. If you have a different DNS setup, you may proceed with your own configuration to point the full URL to the DNS name.
 
+>**Note:** This VPC Endpoint request is open to all SHIP-HATS tools (For example, BitBucket, Bamboo, Nexus Repo, Nexus IQ)
+
 ## Create a VPC Endpoint
-1.	Raise a ticket in SHIP Service Desk with the following details:
+1.	[Raise a ticket in SHIP Service Desk](https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/190) with the following details:
     - AWS Account ID
     - Service you would like to connect and why you are connecting
     - Is your account GCC Restricted
