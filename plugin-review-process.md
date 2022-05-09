@@ -1,6 +1,6 @@
 # Plugin Review Process
 
->**Important:** This document is provided for information only. The information contained herein is subject to change and the plugins can be rejected at ship’s own discretion
+>**Important:** The information provided in this document is for reference only. To request for a plugin review, you must [raise a service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11). The information contained herein is subject to change and the plugins can be rejected at the discretion of SHIP-HATS team.  
 
 ## Minimum requirement for a plugin request
 
