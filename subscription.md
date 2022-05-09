@@ -84,24 +84,24 @@ Based on Total Cost of Ownership which includes set up and operating costs (incl
  <summary>Can I subscribe to individual tools like Jira or Confluence only?</summary><br>
  
 We are not offering tools individually now; our bundles have been carefully designed to enable agencies adopt good DevSecOps practices. However, if you are keen and have valid reasons, please let us know using [SHIP-HATS Enquiries](https://go.gov.sg/she) form so that we may assess the possibility based on the demand.
- </details>
+</details>
  
 <details>
- <summary>Can I request for a trial subscription?</summary><br>
+<summary>Can I request for a trial subscription?</summary><br>
 
 Yes, we offer a 1-month trial account subject to availability. Agencies can reach <enquiries_ENP@tech.gov.sg> to request for trial accounts.
- </details>
+</details>
  
 <details>
  <summary>What security classification is supported by SHIP-HATS?</summary><br>
 
 SHIP-HATS supports applications and content that are “Restricted” or below.
  </details>
- 
+ <!-- CODEX-113261 -->
 <details>
- <summary>Can I use an existing email address to create a new subscription request?</summary><br>
+ <summary>Can I use an existing email address to add a new user account?</summary><br>
 
-No. Each subscription account requires a unique email address. For each new subscription account, you must use a new email address. 
+No. Each user account requires a unique email address. For each new user account, you must use a new email address. 
  </details> 
 
 <details>
