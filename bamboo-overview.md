@@ -79,6 +79,8 @@ After you have installed the remote agent, run the remote agent by executing the
 
     `java -jar atlassian-bamboo-agent-installer-8.2.1.jar https://bamboo.ship.gov.sg/agentServer/`
 
+Click [atlassian-bamboo-agent-installer-8.2.1.jar](https://confluence.ship.gov.sg/download/attachments/293471268/atlassian-bamboo-agent-installer-8.2.1.jar?version=1&modificationDate=1650678379000&api=v2) to download the jar file.
+
 This will start a service wrapper for your agent, which will automatically restart in case of failure. You may also add extra system properties like `-Dbamboo.home=...` to customize the home location of the agent.
 
 
@@ -101,8 +103,10 @@ If you already ran with `6.10.4 JAR` file, you can skip these steps as `6.10.4 J
 3.	Remove the `BAMBOO_AGENT_HOME/conf` directory.
 4.	Download a new Remote Agent JAR from your Bamboo Server: `atlassian-bamboo-agent-installer-8.2.1.jar` (Via SHIP VPN), and then rename it as `atlassian-bamboo-agent-installer-8.2.1.jar`
 5.	Launch the remote agent: `java -jar atlassian-bamboo-agent-installer-8.2.1.jar` https://bamboo.ship.gov.sg/agentServer/
+
+    Click [atlassian-bamboo-agent-installer-8.2.1.jar](https://confluence.ship.gov.sg/download/attachments/293471268/atlassian-bamboo-agent-installer-8.2.1.jar?version=1&modificationDate=1650678379000&api=v2) to download the jar file.
     
-    This will create new `wrapper.conf` file. If you want to re-enact your custom configuration in that file, you can do it now.
+    This will create a new `wrapper.conf` file. If you want to re-enact your custom configuration in that file, you can do it now.
 
 ### To register the remote agent, Agency must complete the following steps:
 
