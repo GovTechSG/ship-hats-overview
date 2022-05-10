@@ -1,6 +1,6 @@
 # Purple HATS
 
-Purple HATS is a customisable, automated accessibility testing tool that allows software development teams to assess whether their products are user-friendly to persons with disabilities (PWDs).
+Purple HATS is a customisable, automated accessibility testing tool that allows software development teams to assess whether their products are user-friendly to persons with disabilities (PWDs). This product is available with all [subscription tiers](https://www.developer.tech.gov.sg/products/categories/devops/ship-hats/subscription). To enable Purple hats, [raise a service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/group/57). For more information, refer to the [Purple Hats GitHub repository](https://github.com/GovTechSG/purple-hats/blob/master/README.md).
 
 **Topics**  
 
@@ -25,7 +25,7 @@ For any technical issues in using Purple HATS, raise a service request under [Pu
 
 ## Purple HATS Usage
 
-If you are looking to run Purple HATS locally, refer to our GitHub repository at https://github.com/GovTechSG/purple-hats.
+If you are looking to run Purple HATS locally, refer to our [Purple Hats GitHub repository](https://github.com/GovTechSG/purple-hats).
 
 ## Run Scans on Local Web Projects
 
