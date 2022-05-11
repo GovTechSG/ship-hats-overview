@@ -37,6 +37,9 @@
     - [Additional Resources](fortify-additional-resources)
   - [JIRA](jira-overview)  
     - [Roles and Permissions](jira-user-role)
+  - [Nexus IQ](nexusiq-overview)
+    - [Roles and Permissions](nexusiq-roles-and-permissions)
+  - [Nexus Repository](nexus-repository-overview)  
   - [pCloudy](pcloudy-overview)    
     - [Register Devices](pcloudy-register-devices)
     - [CLI](pcloudy-cli)
@@ -48,7 +51,7 @@
     - [Community Edition](sonarqube-set-up-community-edition)
     - [Developer Edition](sonarqube-set-up-developer-edition)
     - [Self Help Guide](sonarqube-self-help-guide)
-  - [WebInspect](webinspect-overview)
+  - [Fortify WebInspect](webinspect-overview)
     - [Workflow](webinspect-workflow)
     - [Service Tickets Guide](webinspect-service-tickets-guide)
     - [Scan via API](webinspect-scan-via-api)
@@ -76,8 +79,7 @@
 -->
 <!--
   
-  - [Confluence](confluence-overview)
-  - [JIRA](jira-overview)
+
   - [Nexus IQ](nexusiq-overview)
     - [Roles and Permissions](nexusiq-roles-and-permissions)
 

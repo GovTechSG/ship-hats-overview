@@ -1,10 +1,8 @@
-# User Roles and Permissions
+# Roles and Permissions
 
 User roles and their permissions determine the actions a user can perform in NexusIQ. NexusIQ as a COTS product comes with system defined roles and permissions. We have customised these system-defined roles and permissions to meet your requirements.
 
 The following table lists the roles and permissions available on NexusIQ with SHIP-HATS.
-
-
 
 |Roles |Permissions|
 |---|---|
