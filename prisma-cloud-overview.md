@@ -32,6 +32,7 @@ For more information on Prisma Cloud, refer to https://docs.paloaltonetworks.com
 1. Select **Scanner type**, and then enter the **App name**.
 
     <kbd>![Scanner](prisma-cloud-app-name.png ':size=100%')
+1. Click **Add**.  
 1. Click **Manage**.
 
     <kbd>![Manage](prisma-cloud-qa-sec-manage.png ':size=100%')
