@@ -18,9 +18,6 @@
   - [DGP Systems](declaring-dgp-systems)
 - [Tools](tools-overview)
   - [Service Accounts](service-accounts)
-  - [Tools Permission](ship-hats-tools-permission)
-    - [Confluence User Roles and Permission](confluence-user-role)
-    - [Jira User Roles and Permission](jira-user-role)
   - [Access Tools](use-techpass-to-access-ship-hats-and-tools)
   - [Bamboo](bamboo-overview)
   - [Bitbucket](ship-bitbucket-overview)
@@ -28,6 +25,8 @@
     - [Security for Bitbucket](ship-bitbucket-security)
     - [Protect Changes to sensitive files/folders](ship-bitbucket-protect-changes-sensitive)
     - [Create a Repository](ship-bitbucket-create-repository)
+  - [Confluence](confluence-overview)
+    - [Roles and Permissions](confluence-user-role)
   - [Fortify](fortify-overview)
     - [Roles and Permissions](fortify-user-roles-and-permissions)
     - [Bamboo Plan](fortify-set-up-bamboo-plan)
@@ -36,6 +35,8 @@
     - [Application Version](fortify-manage-application-version)
     - [Fortify user tokens](fortify-manage-user-tokens) 
     - [Additional Resources](fortify-additional-resources)
+  - [JIRA](jira-overview)  
+    - [Roles and Permissions](jira-user-role)
   - [pCloudy](pcloudy-overview)    
     - [Register Devices](pcloudy-register-devices)
     - [CLI](pcloudy-cli)
@@ -75,9 +76,9 @@
 -->
 <!--
   
-  - [Confluence]()
-  - [JIRA]()
-  - [Nexus IQ]()
+  - [Confluence](confluence-overview)
+  - [JIRA](jira-overview)
+  - [Nexus IQ](nexusiq-overview)
     - [Roles and Permissions](nexusiq-roles-and-permissions)
 
   -->
