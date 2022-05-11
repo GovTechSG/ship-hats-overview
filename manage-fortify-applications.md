@@ -41,7 +41,7 @@ This document guides PAs to do the following from [SHIP-HATS portal](https://www
 
     System displays the current quota available to add applications. In the above example, one application can be added as per the quota displayed.
 
-6. Specify **App name** and click **Add**. The application gets added to the project. *GOVTECH-Documentation-Marvel Heroes* is an eaxmple application.
+6. Specify **App name** and click **Add**. The application gets added to the project. *GOVTECH-Documentation-Marvel Heroes* is an example application.
 
     <kbd>![added-app](added-app.png ':size=75%')</kbd>
 

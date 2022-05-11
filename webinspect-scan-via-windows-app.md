@@ -21,6 +21,7 @@ To log in to WIE in the desktop app, use the following details:
 - **Password:** *SHIP_password*
 
 ## Create a Scan
+This is an optional step.
 
 ### To create a guided scan:
 1. Log in to https://wie.hats.stack.gov.sg/.
@@ -64,6 +65,8 @@ This is an optional step. You can complete this step for for repeated execution 
 
 
 ## Find Scan Template ID
+This is an optional step.  
+
 All templates (that are visible to your account) can be accessed via the menu item 'Scan Templates'.
 
 ### To find scan template ID:

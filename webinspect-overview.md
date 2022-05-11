@@ -8,6 +8,7 @@ WebInspect Enterprise (WIE) integrates with Microfocus SSC, where SSC provides a
 **Topics**  
 
 - [Workflow](webinspect-workflow)
+- [WebInspect Service Tickets Guide](webinspect-service-tickets-guide)
 - [Scan via API](webinspect-scan-via-api)
 - [WebInspect User Access Control](webinspect-user-access-control)
 - [Scan via Windows App](webinspect-scan-via-windows-app)

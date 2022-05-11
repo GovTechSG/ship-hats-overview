@@ -49,8 +49,9 @@
     - [Self Help Guide](sonarqube-self-help-guide)
   - [WebInspect](webinspect-overview)
     - [Workflow](webinspect-workflow)
+    - [Service Tickets Guide](webinspect-service-tickets-guide)
     - [Scan via API](webinspect-scan-via-api)
-    - [WebInspect User Access Control](webinspect-user-access-control)
+    - [User Access Control](webinspect-user-access-control)
     - [Scan via Windows App](webinspect-scan-via-windows-app)
     - [Additional Resources](webinspect-additional-resources)  
 - Support & FAQs

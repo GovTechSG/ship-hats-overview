@@ -9,7 +9,7 @@ To interact with your HATS applications in your CI/CD pipelines, we recommend fo
 ### Use auto-generated token from SHIP-HATS portal:
 - If you do not want to manage your own service accounts and tokens 
 
-In the [SHIP-HATS portal](https://www.ship.gov.sg/), we manage local service account for each project. This account has permission to perform CI/CD. You would be required to log in to the portal and retrieve the token from it. For more information on how to retrieve the token, refer to the corresponding section in respective tool area in [the Tools documentation](tools-overview). 
+In the [SHIP-HATS portal](https://www.ship.gov.sg/), we manage local service account for each project. This account has permission to perform CI/CD. You would be required to log in to the portal and retrieve the token from it. For more information on how to retrieve the token, click [here](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-fortify-applications?id=get-token-for-fortify-application).
 
 ### Who can do it? 
 Project Admins can retrieve the tokens.

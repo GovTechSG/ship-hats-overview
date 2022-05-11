@@ -9,7 +9,7 @@
 
 ## Prerequisites
 
-Agency and Application must onboard WIE (via HATS Service Request) to use. 
+Agency and Application must onboard WIE (via HATS Service Request) to use. Additionally, refer to [WebInspect Service Tickets Guide](webinspect-service-tickets-guide).
 
 - Fortify Application & Application Version to be accessible in WIE
     - Existing Fortify Applications to use WebInspect shall be specified in the HATS Service Request
@@ -23,11 +23,17 @@ Agency and Application must onboard WIE (via HATS Service Request) to use.
         - **Manager:** A manager can perform and delete scans.
     - We suggest that agencies only assign **Manager** role to a maximum of 2 users whom you want to provide the *Delete* access.
 
+
 ## Set up Initial Scan
 
 ### Audience
 - These steps should be performed by someone intimately familiar with the Web Application under test, such as an Application Security Tester or a Security Lead.
 
+### Prerequisites
+
+- [Ensure that your Fortify applications have been onboarded to WIE](webinspect-service-tickets-guide).
+- [Configure a scan using API in your bamboo plan to be reused for repeated scans](webinspect-scan-via-api).
+- (Optional) [Verify that the scan configuration adequately tests the Web Application](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/webinspect-scan-via-windows-app?id=verify-a-scan) (that is all endpoints are hit or pages are crawled).  
 
 ### To set up initial scan:
 1. Configure a scan to create a suitable configuration for scanning the Web Application and to save that configuration to be reused for repeated scans.
