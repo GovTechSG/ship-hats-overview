@@ -24,12 +24,12 @@
   - [Access Tools](use-techpass-to-access-ship-hats-and-tools)
   - [Bamboo](bamboo-overview)
   - [Bitbucket](ship-bitbucket-overview)
-    - [User Roles and Permission](bitbucket-user-role)
+    - [Roles and Permission](bitbucket-user-role)
     - [Security for Bitbucket](ship-bitbucket-security)
     - [Protect Changes to sensitive files/folders](ship-bitbucket-protect-changes-sensitive)
     - [Create a Repository](ship-bitbucket-create-repository)
   - [Fortify](fortify-overview)
-    - [User Roles](fortify-user-roles-and-permissions)
+    - [Roles and Permissions](fortify-user-roles-and-permissions)
     - [Bamboo Plan](fortify-set-up-bamboo-plan)
     - [PDF report](fortify-generate-pdf)
     - [Fortify Applications](manage-fortify-applications)
@@ -74,13 +74,10 @@
 
 -->
 <!--
-  - [Bamboo](bamboo-overview)
-    - [Set up VPC Endpoint Connections](set-up-aws-vpc-endpoint-connections)
-  - [pCloudy](pcloudy-overview)    
-
+  
   - [Confluence]()
   - [JIRA]()
-  - [pCloudy](pcloudy-overview)
-  - [WebInspect](webinspect-overview)
-  - [Prisma Cloud]()
-  - [Purple HATS]()-->
+  - [Nexus IQ]()
+    - [Roles and Permissions](nexusiq-roles-and-permissions)
+
+  -->

@@ -13,4 +13,3 @@ Application Security Tester|Tests security vulnerabilities<br>Can change securit
 Component Evaluator|Evaluates inidvisual components<br>Views policy violation results for a specific application|
 Developer|Views all information for their assigned organisation or application|
 Legal Reviewer|Reviews legal obligations for component licenses|
-
