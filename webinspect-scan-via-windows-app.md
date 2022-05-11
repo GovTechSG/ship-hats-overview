@@ -3,10 +3,10 @@
 **Topics**  
 
 - [Prerequisites](#prerequisites)
-- [Create a Scan](#create-a-scan)
+- [Create a Scan - Optional](#create-a-scan)
 - [Verify a Scan](#verify-a-scan)
 - [Create a Scan Template](#create-a-scan-template)
-- [Find Scan Template ID](#find-scan-template-id)
+- [Find Scan Template ID - Optional](#find-scan-template-id)
 - [Resources](#resources)
 
 ## Prerequisites
