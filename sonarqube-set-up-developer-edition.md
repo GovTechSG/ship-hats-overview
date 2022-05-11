@@ -15,7 +15,7 @@ Only **Project Admin (PA)** can get the details of the SonarQube application. Pl
 
 ### Pre-requisites
 
-- All Project Admins must log in to https://sonar.hats.stack.gov.sg/sonar with their SHIP LDAP credentials to trigger the account creation.
+- All Project Admins must log in to https://sonar1.hats.stack.gov.sg/sonar with their SHIP LDAP credentials to trigger the account creation.
 - This also applies to project admins that are added subsequently. In this case, the project admins must log in before being assigned as a project admin. 
 
 Failing to so may result in an error when either of the scenarios occurs:
