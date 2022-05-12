@@ -7,4 +7,11 @@ Nexus Repository provides the following features:
 - Reduces errors due to differences in build artifacts
 - Provides version control for your release artifacts to enable better control and easier rollback
 
-For more information on Nexus Repository Manager, refer to https://www.sonatype.com/product-nexus-repository.
+## FAQs
+
+- [FAQs](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/tools-faq?id=sonatype-nexus-repository-faq)
+
+## Additional Resources
+
+- [Cleanup Policy for Nexus Repository](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/ship-hats-cleanup-policy-for-nexus-repository)
+- [Nexus Repository Manager](https://www.sonatype.com/product-nexus-repository)
