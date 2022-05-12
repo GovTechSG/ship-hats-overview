@@ -14,10 +14,11 @@ For more information on Bamboo, refer to https://www.atlassian.com/software/bamb
 
 - [Roles and Permissions](#roles-and-permissions)
 - [Access Bamboo](#access-bamboo)
-- [Install a Remote Agent](#install-a-remote-agent)
+- [Install Remote Agent](#install-remote-agent)
+- [Register Remote Agent](#register-remote-agent)
 - [Upgrade Remote Agent](#upgrade-remote-agent)
-- [Create an Elastic Agent](#create-an-elastic-agent)
-- [Register an Elastic Agent](#register-an-elastic-agent)
+- [Create Elastic Agent](#create-elastic-agent)
+- [Register Elastic Agent](#register-elastic-agent)
 - [Base Elastic Agent AMI](#base-elastic-agent-ami)
 - [Fair Usage Guidelines for Elastic Agents](#fair-usage-guidelines-for-elastic-agents)
 - [FAQs](#bamboo-faqs)
@@ -68,25 +69,44 @@ If approved, the group is created with the agency name prefixed to it. For examp
 - [Access Bamboo](use-techpass-to-access-ship-hats-and-tools#confluence-jira-gdsjira-bitbucket-and-bamboo)
 
 
-## Install a Remote Agent
+## Install Remote Agent
+
+### Prerequisites
+
+- Make sure that you are a [Subscription Admin (SA), a Project Admin (PA), or a Developer](user-roles-permissions).
+- Make sure that you provision for Bamboo Remote Agent. Bamboo Remote Agent is an add-on tool, which is not part of the standard subscription. Ensure that you have a sufficient quota of bamboo agents subscribed. If there are none subscribed/insufficient quota, SA will need to subscribe/increase the quota by raising a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11) ticket. 
+- [Install the Remote Agent](#install-remote-agent)
+- [Set up VPC Endpoint Connections](set-up-aws-vpc-endpoint-connections). This is required if you are setting up an agent in AWS, you can leverage VPC endpoints to connect to VPC endpoint services provided by SHIP. You must create VPC endpoints for SHIP's endpoint services in the same VPC as the DevOps zone.  
+    Note the following requirements:
+    -	Bamboo and Bamboo Broker endpoints services are required to register Bamboo agents.
+    -	Bitbucket and Bitbucket endpoint services are required to check out configuration and deployment scripts.
+- Set up Machine VPN. This step is required if you are setting up an agent outside AWS (e.g. Azure) or if you cannot leverage VPC endpoints to connect to VPC endpoint services provided by SHIP.  
+    Complete the following steps:  
+    1.	Submit a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11) to SHIP for OpenVPN Client config file for the Bamboo agent. This config file should not require password authentication. 
+    2.	[Install OpenVPN client](https://openvpn.net/vpn-server-resources/how-to-connect-to-access-server-from-a-linux-computer/). 
+
+>**Note:** Based on the prerequisites mentioned above, [raise a service request ticket](https://jira.ship.gov.sg/servicedesk/customer/portal/11) as needed.
+
 
 ### Prerequisites
 1.	Make sure that you have Java Runtime Environment 8.0 installed on the agent machine.
 2.	Download the remote agent JAR file to a directory on the agent machine.
 
 ### Run a remote agent 
-After you have installed the remote agent, run the remote agent by executing the following command line from the directory containing the remote agent jar file:  
+1.	Install Java Runtime Environment 8.0 on the agent machine.
+1.	Download the remote agent JAR file to a directory on the agent machine.
+1. Run the remote agent by running the following command line from the directory containing the remote agent jar file:  
 
     `java -jar atlassian-bamboo-agent-installer-8.2.1.jar https://bamboo.ship.gov.sg/agentServer/`
 
-Click [atlassian-bamboo-agent-installer-8.2.1.jar](https://confluence.ship.gov.sg/download/attachments/293471268/atlassian-bamboo-agent-installer-8.2.1.jar?version=1&modificationDate=1650678379000&api=v2) to download the jar file.
+1. Click [atlassian-bamboo-agent-installer-8.2.1.jar](https://confluence.ship.gov.sg/download/attachments/293471268/atlassian-bamboo-agent-installer-8.2.1.jar?version=1&modificationDate=1650678379000&api=v2) to download the jar file.
 
-This will start a service wrapper for your agent, which will automatically restart in case of failure. You may also add extra system properties like `-Dbamboo.home=...` to customize the home location of the agent.
+    This will start a service wrapper for your agent, which will automatically restart in case of failure. You may also add extra system properties like `-Dbamboo.home=...` to customize the home location of the agent.
 
 
 For more information, refer to the [Atlassian](https://confluence.atlassian.com/bamboo0800/bamboo-remote-agent-installation-guide-1077778446.html) documentation. 
 
-### Register a remote agent
+## Register Remote Agent
 - Create a SHIP Service Ticket for Agent Approvals with UUID information.  
 
     ![Sample Information](bamboo-remote-agent-register-sample.png)
@@ -122,23 +142,7 @@ If you already ran with `6.10.4 JAR` file, you can skip these steps as `6.10.4 J
 1.	After the agent is approved, Agency needs to provide the agent name so that SHIP-HATS team can rename the agent with the correct billing account and dedicate it to the Agency's project.
 
 
-## Create an Elastic Agent
-
-### Prerequisites
-
-- Make sure that you are a [Subscription Admin (SA), a Project Admin (PA), or a Developer](user-roles-permissions).
-- Make sure that you provision for Bamboo Remote Agent. Bamboo Remote Agent is an add-on tool, which is not part of the standard subscription. Ensure that you have a sufficient quota of bamboo agents subscribed. If there are none subscribed/insufficient quota, SA will need to subscribe/increase the quota by raising a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11) ticket. 
-- [Install the Remote Agent](#install-a-remote-agent)
-- [Set up VPC Endpoint Connections](set-up-aws-vpc-endpoint-connections). This is required if you are setting up an agent in AWS, you can leverage VPC endpoints to connect to VPC endpoint services provided by SHIP. You must create VPC endpoints for SHIP's endpoint services in the same VPC as the DevOps zone.  
-    Note the following requirements:
-    -	Bamboo and Bamboo Broker endpoints services are required to register Bamboo agents.
-    -	Bitbucket and Bitbucket endpoint services are required to check out configuration and deployment scripts.
-- Set up Machine VPN. This is required if you are setting up an agent outside AWS (e.g. Azure) or if you cannot leverage VPC endpoints to connect to VPC endpoint services provided by SHIP.  
-    Complete the following steps:  
-    1.	Submit a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11) to SHIP for OpenVPN Client config file for the Bamboo agent. This config file should not require password authentication. 
-    2.	[Install OpenVPN client](https://openvpn.net/vpn-server-resources/how-to-connect-to-access-server-from-a-linux-computer/). 
-
->**Note:** Based on the prerequisites mentioned above, [raise a service request ticket](https://jira.ship.gov.sg/servicedesk/customer/portal/11) as needed.
+## Create Elastic Agent
 
 ### To create an Elastic Agent:
 
@@ -156,7 +160,7 @@ If you already ran with `6.10.4 JAR` file, you can skip these steps as `6.10.4 J
     >- Use the default instance type as T3 Burstable Performance Large (Unless the tenants having).
     >- Make sure to select the correct subnets.
 
-## Register an Elastic Agent
+## Register Elastic Agent
 
 ### To register and elastic agent:
 1.	The SHIP Bamboo golden image is configured to have the required capabilities (as shown below). We highly recommend using SHIP Bamboo Base Image as it will reduce the effort to test and build your own image and this image is constantly enhanced and scanned to ensure no security vulnerabilities. 
