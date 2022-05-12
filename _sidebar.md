@@ -37,6 +37,7 @@
     - [Additional Resources](fortify-additional-resources)
   - [JIRA](jira-overview)  
     - [Roles and Permissions](jira-user-role)
+    - [Webhook](jira-webhook)
   - [Nexus IQ](nexusiq-overview)
     - [Roles and Permissions](nexusiq-roles-and-permissions)
   - [Nexus Repository](nexus-repository-overview)  
