@@ -78,8 +78,8 @@ If approved, the group is created with the agency name prefixed to it. For examp
 - [Install the Remote Agent](#install-remote-agent)
 - [Set up VPC Endpoint Connections](set-up-aws-vpc-endpoint-connections). This is required if you are setting up an agent in AWS, you can leverage VPC endpoints to connect to VPC endpoint services provided by SHIP. You must create VPC endpoints for SHIP's endpoint services in the same VPC as the DevOps zone.  
     Note the following requirements:
-    -	Bamboo and Bamboo Broker endpoints services are required to register Bamboo agents.
-    -	Bitbucket and Bitbucket endpoint services are required to check out configuration and deployment scripts.
+    -	[Bamboo and Bamboo Broker endpoints services are required to register Bamboo agents](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/set-up-aws-vpc-endpoint-connections?id=annex-a-new-domain-shipgovsg).
+    -	[Bitbucket and Bitbucket endpoint services are required to check out configuration and deployment scripts](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/set-up-aws-vpc-endpoint-connections?id=annex-a-new-domain-shipgovsg).
 - Set up Machine VPN. This step is required if you are setting up an agent outside AWS (e.g. Azure) or if you cannot leverage VPC endpoints to connect to VPC endpoint services provided by SHIP.  
     Complete the following steps:  
     1.	Submit a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11) to SHIP for OpenVPN Client config file for the Bamboo agent. This config file should not require password authentication. 
