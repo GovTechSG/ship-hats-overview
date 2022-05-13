@@ -1,4 +1,4 @@
-# SHIP-HATS integrated tools version
+# SHIP-HATS Integrated Tools Version
 Updated on: 25 April, 2022
 
 | **Category** | **Tools integrated with SHIP-HATS** | **Version on SHIP-HATS** | **Endpoint(URL)** |
@@ -20,10 +20,16 @@ Updated on: 25 April, 2022
 | Automated Accessibility Testing | Purple HATS | NA | NA as it is a CLI tool. |
 | VPN | Open VPN | 2.8.8 | https://vpn.ship.gov.sg |
 
+
+>**Notes:**
+>- For more information on how to use Purple Hats, refer to our [Purple HATS](purple-hats-overview) documentation.
+>- As the pCloudy web dashboard needs proxy settings configured in your browser, we recommend you use Firefox to use pCloudy so that these proxy settings do not impact your system&#39;s proxy. For more information, refer to our [pCloudy](pcloudy-overview) documentation.
+
+<!--
 >**Notes:**
 >- To know more on how to use Purple Hats, refer to our Confluence page on [Purple HATS](https://confluence.ship.gov.sg/display/HATSKB/Purple+HATS).
 >- As the pCloudy web dashboard needs proxy settings configured in your browser, we recommend you use Firefox to use pCloudy so that these proxy settings do not impact your system&#39;s proxy. For more information, refer to [pCloudy Onboarding guide for SHIP-HATS](https://confluence.ship.gov.sg/display/HATSKB/pCloudy+Onboarding+Guide).
-
+-->
 <!--- To access Digital.ai services, raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/create/214). In this request you will be asked to provide an email address. 
 To the email address provided, following information will be sent:  
     - Login credentials for Digital.ai Deploy (Intranet) and Digital.ai Release as an encrypted .zip file  

@@ -1,8 +1,13 @@
-# Set up SHIP-HATS OpenVPN
+# OpenVPN
 
-This is a guide to set up SHIP-HATS [OpenVPN](https://vpn.ship.gov.sg) on Internet devices. All users are required to set up OpenVPN when onboarding to SHIP-HATS or when a reset is needed due to a version upgrade or other reasons. Users connect to OpenVPN to log in to SHIP-HATS Portal and SHIP-HATS tools such as Jira, Confluence, Bitbucket, Bamboo, Sonarqube, and Nexus.
+OpenVPN protects the CI/CD pipeline to ensure that your build process is secure from outside influence. SHIP-HATS enforces two-factor authentication for OpenVPN to provide an additional layer of security.
 
-SHIP-HATS enforces two-factor authentication for OpenVPN to provide an additional layer of security.
+For more information, refer to https://openvpn.net.
+
+## Set Up OpenVPN
+
+This is a guide to set up SHIP-HATS [OpenVPN](https://vpn.ship.gov.sg) on the Internet devices. 
+- All users are required to set up OpenVPN when onboarding to SHIP-HATS or when a reset is needed due to a version upgrade or other reasons. - Users connect to OpenVPN to log in to the SHIP-HATS Portal and SHIP-HATS tools such as Jira, Confluence, Bitbucket, Bamboo, Sonarqube, and Nexus.
 
 ### To set up OpenVPN:
 
