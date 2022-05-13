@@ -15,5 +15,5 @@ The following table lists the roles and permissions available on Fortify with SH
 
 
 >**Notes:**
->- To run dynamic scans, the user must either have a **User** or **Manager** [role in WebInspect (WIE)](https://confluence.ship.gov.sg/pages/viewpage.action?spaceKey=HATSKB&amp;title=WebInspect+User+Access+Control).
->- PAs can refer to [WIE service request guidelines](https://confluence.ship.gov.sg/display/HATSKB/WebInspect+Service+Tickets+Guide) and raise service request to add users and assign roles in WIE. You can access these pages only if you have access to Confluence in your organisation.
+>- To run dynamic scans, the user must either have a **User** or **Manager** [role in WebInspect (WIE)](webinspect-user-access-control).
+>- PAs can refer to [WIE service request guidelines](webinspect-service-tickets-guide) and raise service request to add users and assign roles in WIE. You can access these pages only if you have access to Confluence in your organisation.

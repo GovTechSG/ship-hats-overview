@@ -170,7 +170,7 @@ To further reduce bamboo agent waiting times, we are putting in place a Fair Usa
 |  2. Agencies are recommended to run jobs in their own CI/CD pipeline, only schedule jobs when necessary during low peak hours. | Nil |
 |  3. Agencies are reminded NOT to perform load tests using elastic bamboo agents. | Nil |
 
-As we continually seek to improve our solutions, we encourage you to refer to the confluence page, [Bamboo Elastic Agents – Fair Usage guideline](https://confluence.ship.gov.sg/display/SHIP/Bamboo+elastic+agents+-+fair+usage+guideline) for the **latest** Fair Usage Policy guidelines.
+As we continually seek to improve our solutions, we encourage you to refer to the confluence page, [Bamboo Elastic Agents – Fair Usage guideline](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/bamboo-overview?id=fair-usage-guidelines-for-elastic-agents) for the **latest** Fair Usage Policy guidelines.
 
 **Questions?**
 

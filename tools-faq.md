@@ -82,7 +82,7 @@ If your build job needs to connect back to your own resources or run parallel jo
   <summary>4. What is the requirement for Remote agents?</summary><br>
 Agency must ensure the Remote agents are clean and secure before SHIP-HATS approves the registration with Bamboo server.
 
-To setup Remote Bamboo agents, please refer to this <a href="https://confluence.ship.gov.sg/display/SHIP/Installing+Remote+Agent">guide</a>. This page is on SHIP-HATS confluence. Please log in to the account to access.
+To setup Remote Bamboo agents, refer to the [Install Remote Agent](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/bamboo-overview?id=install-remote-agent) documentation. 
 
 To ensure that Remote agents are clean and secure, refer to <a href="https://confluence.atlassian.com/bamboo/securing-your-remote-agents-289277197.html">securing your Remote agents</a>. This page is on SHIP-HATS confluence. Please log in to the account to access.
 </details>
@@ -93,7 +93,7 @@ To ensure that Remote agents are clean and secure, refer to <a href="https://con
 
   SHIP-HATS does not offer Mac OS agent as of now.
 
-  For more information on specifying required capabilities, refer to <a href="https://confluence.ship.gov.sg/display/SHIP/Bamboo+Agent+Registration+Process">Bamboo agent registration process</a>. This page is on SHIP-HATS confluence. Please log in to the account to access.
+  For more information on specifying required capabilities, refer to [Register a Remote Agent](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/bamboo-overview?id=register-remote-agent).
 </details>
 <br>
 <details>
@@ -103,7 +103,8 @@ To ensure that Remote agents are clean and secure, refer to <a href="https://con
 <br>
 <details>
   <summary>7. What tools are already installed on the Shared agents?</summary><br>
-  Refer to <a href="https://confluence.ship.gov.sg/display/SHIP/SHIP+Bamboo+Elastic+Agent+for+SHIP+Users">SHIP Bamboo Elastic Agent for SHIP Users</a>. This page is on SHIP-HATS confluence. Please log in to the account to access.
+  Refer to the <a href="https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/bamboo-overview?id=register-elastic-agent">Register an Elastic Agent</a> document.
+  
 </details>
 <br>
 <details>

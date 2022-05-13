@@ -23,6 +23,5 @@ SHIP-HATS provides following tools while adhering to security and compliance req
 | VPN | Open VPN | 2.8.8 | https://vpn.ship.gov.sg |
 
 >**Notes:**
->- To know more on how to use Purple Hats, refer to our Confluence page on [Purple HATS](https://confluence.ship.gov.sg/display/HATSKB/Purple+HATS).
->- As the pCloudy web dashboard needs proxy settings configured in your browser, we recommend you use Firefox to use pCloudy so that these proxy settings do not impact your system&#39;s proxy. For more information, refer to [pCloudy Onboarding guide for SHIP-HATS](https://confluence.ship.gov.sg/display/HATSKB/pCloudy+Onboarding+Guide).
-
+>- For more information on how to use Purple Hats, refer to our [Purple HATS](purple-hats-overview) documentation.
+>- As the pCloudy web dashboard needs proxy settings configured in your browser, we recommend you use Firefox to use pCloudy so that these proxy settings do not impact your system&#39;s proxy. For more information, refer to our [pCloudy](pcloudy-overview) documentation.

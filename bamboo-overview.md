@@ -156,7 +156,7 @@ If you already ran with `6.10.4 JAR` file, you can skip these steps as `6.10.4 J
     <kbd>![Subnets](bamboo-subnets.png)</kbd>
 
     >**Notes:**
-    >- The Latests AMI IDs can find in this page : [SHIP Bamboo Elastic Agent for SHIP Users - SHIP - SHIP Confluence](https://confluence.ship.gov.sg/display/SHIP/SHIP+Bamboo+Elastic+Agent+for+SHIP+Users).
+    >- For the latest AMI IDs, refer to the [Base Elastic Agent AMI](#base-elastic-agent-ami) section.
     >- Use the default instance type as T3 Burstable Performance Large (Unless the tenants having).
     >- Make sure to select the correct subnets.
 
