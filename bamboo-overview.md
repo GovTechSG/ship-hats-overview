@@ -397,6 +397,52 @@ This will allow all tenants to have equal usage on the shared pool of bamboo ela
 - Elastic bamboo agents should not be used to perform load testing. For agency that needs to conduct performance or load testing, please run the load test using own remote agent.
 - Run jobs in your CI pipeline. Schedule jobs only when necessary, and during low peak hours. You could reach out to SHIP team to find out the recommended timing.
 
+## Bamboo clean up and best practices
+
+Bamboo is a great CI/CD tool. It offers a powerful tool for automating software development, however, knowledge of some of the tips and tricks helps our shared Bamboo system to be used effectively. Maintenance and cleanup is a shared responsibility (SHIP & Tenants) to keep the growing environment clean. It also helps all of us to ease the migration tasks. Due to our growing volume and size, we have to keep upgrading our EBS size that causes frequent maintenance and downtimes. Therefore, follow these steps to keep the environment available.
+
+- Check all the **disabled plans** in your bamboo project and delete those which are not necessary because these disabled plans use space in the bamboo with the build artefacts, logs, etc. 
+- When creating a **source code checkout** task, always make sure to start a clean build. Make sure that the **Force Clean Build** check box is selected as shown below.
+    ![Source Code Directory](bamboo-force-clean-build.png)
+
+- Do not change the default expiry for the builds. Currently our bamboo build store last 10 artefacts for the plan. If you change this settings to ensure that bamboo build does not store unnecessary artefacts, build results, and logs in the system.  
+If you have enabled this by mistake please clear the check box in the **Plan configuration** > **Other** settings.
+
+    ![Other Settings](bamboo-other-settings.png)
+- You can also enable Plan-branches expiry to delete branches from Bamboo after they are removed from your repository. This will reduce the number of branches and make Bamboo cleaner. To activate this option for a plan, complete the following step for each plan, and choose the required criteria: **Plan Configuration** > **Branches** > **Delete plan branch** 
+
+    ![Delete Branch Plan](bamboo-delete-branch-plan.png)
+
+- Configure a Plan branch cleanup. For more information, refer to the [Using plan branches - Bamboo Server - Atlassian](https://confluence.atlassian.com/bamboo/using-plan-branches-289276872.html) documentation.
+
+- Download the plan artefacts of the disabled plans and delete the plans which are not in use any more. If you want to download the artefacts:
+    1. Go to the plan build logs. 
+    1. Select the last successful build icon which takes you to the build log.
+
+        ![Plan Artefacts](bamboo-plan-artefacts.png)
+
+    1. Go to the **Artifacts** tab, and then click the artifact to download it.  
+
+        ![Artifacts](bamboo-artifacts.png)
+
+    1. If you would like to download the logs, go to the **Logs** tab, and then download the logs.
+
+        ![Logs](bamboo-logs.png)
+
+- If you want to copy the existing plan: 
+    1. Click **Create** > **Clone plan**, and then select the plan which you want to clone and give the new plan name for it. 
+    1. After the new plan is created, delete the old plan.
+
+
+### Addtional best practices
+Following section provides few additional best practices in administrating the CI/CD tool:
+
+- Restrict the number of admin to the project to less number (< 3) and keep checking the permissions in your project and plans.
+- Use the service account id and password in your bamboo plan variables
+- Store the release artefact in nexus repository or push it to in your own S3 bucket for safer side.
+
+
+
 ## Bamboo FAQs
 
 - [Bamboo FAQs](tools-faq)
