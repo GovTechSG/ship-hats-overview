@@ -200,11 +200,6 @@ If you already ran with `6.10.4 JAR` file, you can skip these steps as `6.10.4 J
 
 |Environment|Platform|Netcore|AMI#|	AWS Visibility|Latest Patch Level|Elastic Agent Version|
 |---|---|---|---|---|---|---|
-
-
-
-|Environment|Platform|Netcore|AMI#|	AWS Visibility|Latest Patch Level|Elastic Agent Version|
-|---|---|---|---|---|---|---|
 |Dev / GCC Prod|Windows|Netcore 31 MSbuild 16|ami-080c9eadfa32623af (04-04-2022)<br><br>[ami-0654a797b21f3b2fe](https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#ImageDetails:imageId=ami-0654a797b21f3b2fe) (17-02-2022) <br><br>[ami-0da6744c404a4eb49](https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#ImageDetails:imageId=ami-0654a797b21f3b2fe) (14-12-2021)|Public|Apr-2022|6.21|
 |Dev / GCC Prod|Windows|Netcore 22 MSbuild 15|ami-09589f812ce820c6b (04-04-2022)<br><br>[ami-08045c912e58aa213](https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#ImageDetails:imageId=ami-08045c912e58aa213) (17-02-2022)<br><br>[ami-0df3811b1877e9cd3](https://ap-southeast-1.console.aws.amazon.com/ec2/v2/home?region=ap-southeast-1#ImageDetails:imageId=ami-0df3811b1877e9cd3) (14-12-2021)|Public|Apr-2022|6.21|
 
@@ -221,7 +216,7 @@ export PATH=$JAVA_HOME/bin:$PATH
 |---|---|---|---|---|
 |UAT/Dev|Linux|ami-053706a68d7863705|11 March 2021|docker -version 19.03.6<br>docker-compose -version 1.25.0<br>JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64<br>Open JDK 11= /usr/lib/jvm/openjdk-11<br>SDK<br>Node -v14.16.0, v12, v8<br>nvm- source /home/bamboo/.nvm/nvm.sh<br>Helm - 3.5.2<br>Ansible - 2.9.6<br>Terraform - 0.14.7<br>Packer - 1.7<br>aws cli - 1.19.14<br>Terragrunt<br>tfsec<br>tfswitch<br>jq 1.5-1<br>yq 4.6.0<br>aws credential helper<br>gpg<br>go version go1.11 linux/amd64<br>gosec<br>pkg<br>composer<br>Nexus IQ jar- /home/bamboo/nexus-iq-cli-1.106.0-01.jar|  
 |Prod|Linux|ami-030031b9b267e32c9 (40GB)<br>ami-0333853a94c244e9e (20GB)|1 July 2021|docker -version 19.03.6<br>docker-compose -version 1.25<br>JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64<br>Open JDK 11= /usr/lib/jvm/openjdk-11<br>SDK<br>Node -v14.16.0, v12, v8<br>nvm- source /home/bamboo/.nvm/nvm.sh<br>Helm - 3.5.2<br>Ansible - 2.9.6<br>Terraform - 0.14.7<br>Packer - 1.7<br>aws cli - 1.19.14<br>Terragrunt<br>tfsec<br>tfswitch<br>jq 1.5-1<br>yq 4.6.0<br>aws credential helper<br>gpg<br>go version go1.11<br>go version go1.12.4 /home/bamboo/sdk/go1.12.4<br>go version go1.15.13 /home/bamboo/sdk/go1.15.13<br>go version go1.16.5 /home/bamboo/sdk/go1.16.5<br>gosec<br>pkg<br>composer<br>Nexus IQ jar- /home/bamboo/nexus-iq-cli-1.106.0-01.jar<br>bundler 2.1.4<br>rails 5.2.6<br>ruby 2.7 <br>yarn 1.22.10|
-|Early Release|Linux|ami-01d05990da9319006 (40GB) - 21032022<br>To use this AMI in your test build, submit a ticket to us and request for this AMI to be attached to your plan. |21 March 2022|docker --version 20.10.12<br>docker-compose --version 1.29.2<br>docker-credential-ecr-login - /home/bamboo/amazon-ecr-credential-helper-main/bin/local<br>JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64<br>Open JDK 11= /usr/lib/jvm/openjdk-11<br>[SDK](https://sdkman.io/usage)<br>Node - v16.14.0, v14.18.1, v12, v10, v8<br>nvm- source /home/bamboo/.nvm/nvm.sh<br>kubectl - /home/bamboo/.local/bin/kubectl<br>k9s - /home/bamboo/.local/opt/k9s-v0.24.15/bin/k9s<br>Helm - 3.8.0<br>Ansible - 2.9.6<br>Terraform - 1.1.6 (switch from [tfswitch](https://tfswitch.warrensbox.com/Quick-Start/))<br>Packer - 1.7.10<br>Terragrunt<br>tfsec v1.4.2<br>tfswitch v0.13.1201 (tfswitch -b $HOME/bin/terraform 1.x.x )<br>jq 1.5-1<br>yq 4.6.0<br>aws credential helper<br>aws sam cli<br>gpg<br>go version go1.12.4 /user/bamboo/sdk/go1.12.4<br>go version go1.15.13 /user/bamboo/sdk/go1.15.13<br>go version go1.16.5 /user/bamboo/sdk/go1.16.5<br>go version go1.16.6 /user/bamboo/sdk/go1.16.6<br>go version go1.18 /user/bamboo/sdk/go.1.18/go<br>gosec<br>pkg<br>composer<br>Nexus IQ jar- /home/bamboo/nexus-iq-cli-1.133.0.jar<br>bundler 2.1.4<br>rails 5.2.6<br>ruby 2.7 <br>yarn 1.22.10<br>aws cli v2.4.21<br>[asdf multiple runtime manager](https://asdf-vm.com/guide/getting-started.html#_4-install-a-plugin)<br>checkov v2.0.917<br>SonarScanner v4.6.2<br>Python v3.9.10|
+|Early Release|Linux|ami-0a3ab6e015788f738 (40GB) - 28042022<br>To use this AMI in your test build, submit a ticket to us and request for this AMI to be attached to your plan. |28 April 2022|docker --version 20.10.12<br>docker-compose --version 1.29.2<br>docker-credential-ecr-login - /home/bamboo/amazon-ecr-credential-helper-main/bin/local<br>JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64<br>Open JDK 11= /usr/lib/jvm/openjdk-11<br>[SDK](https://sdkman.io/usage)<br>Node - v16.14.0, v14.18.1, v12, v10, v8<br>nvm- source /home/bamboo/.nvm/nvm.sh<br>kubectl - /home/bamboo/.local/bin/kubectl<br>k9s - /home/bamboo/.local/opt/k9s-v0.24.15/bin/k9s<br>Helm - 3.8.0<br>Ansible - 2.9.6<br>Terraform - 1.1.6 (switch from [tfswitch](https://tfswitch.warrensbox.com/Quick-Start/))<br>Packer - 1.7.10<br>Terragrunt<br>tfsec v1.4.2<br>tfswitch v0.13.1201 (tfswitch -b $HOME/bin/terraform 1.x.x )<br>jq 1.5-1<br>yq 4.6.0<br>aws credential helper<br>aws sam cli<br>gpg<br>go version go1.12.4 /user/bamboo/sdk/go1.12.4<br>go version go1.15.13 /user/bamboo/sdk/go1.15.13<br>go version go1.16.5 /user/bamboo/sdk/go1.16.5<br>go version go1.16.6 /user/bamboo/sdk/go1.16.6<br>go version go1.18 /user/bamboo/sdk/go.1.18/go<br>gosec<br>pkg<br>composer<br>Nexus IQ jar- /home/bamboo/nexus-iq-cli-1.133.0.jar<br>bundler 2.1.4<br>rails 5.2.6<br>ruby 2.7 <br>yarn 1.22.10<br>aws cli v2.4.21<br>[asdf multiple runtime manager](https://asdf-vm.com/guide/getting-started.html#_4-install-a-plugin)<br>checkov v2.0.917<br>SonarScanner v4.6.2<br>Python v3.9.10|  
 
 
 ### Base Linux Agent Image Capabilities
@@ -230,49 +225,57 @@ export PATH=$JAVA_HOME/bin:$PATH
 
 |Executable Label<br>A label to uniquely identify this executable|Path<br>Please enter the path to your executable|  
 |---|---|
-Maven 2.1 (Maven 2.x)	|/opt/maven-2.1
-Maven 2.2 (Maven 2.x)	|/opt/maven-2.2
-Maven 3 (Maven 3.x)	|/opt/maven-3.5
-Maven 3.2 (Maven 3.x)	|/opt/maven-3.2
-Maven 3.3 (Maven 3.x)	|/opt/maven-3.3
-Maven 3.5 (Maven 3.x)	|/opt/maven-3.5
-Maven 3.6 (Maven 3.6.3)	|/opt/maven-3.6
-Maven 3.8 (Maven 3.8.1)	|/opt/maven-3.8
-Node.js 4 (Node.js)	|/opt/node-4/bin/node
-Node.js 6 (Node.js)	|/opt/node-6/bin/node
-Node.js 8 (Node.js)	|/opt/node-8/bin/node
-PHPUnit 3.7 (PHPUnit)	|/opt/phpunit-3.7/phpunit
-PHPUnit 4.4 (PHPUnit)	|/opt/phpunit-4.4/phpunit
+[Ant](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.ant.Ant)(Ant)|/opt/ant-1.9  
+[Ant 1.10](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.ant.Ant+1.10) (Ant)	|/opt/ant-1.10
+[Ant 1.9](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.ant.Ant+1.9) (Ant)	|/opt/ant-1.9
+[Grails 2.4](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.grailsBuilder.Grails+2.4) (Grails)	|/opt/grails-2.4
+[Grails 3.2](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.grailsBuilder.Grails+3.2) (Grails)	|/opt/grails-3.2
+[Grails 3.3](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.grailsBuilder.Grails+3.3) (Grails)	|/opt/grails-3.3
+[Maven 2](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn2.Maven+2) (Maven 2.x)	|/opt/maven-2.2
+[Maven 2.0](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn2.Maven+2.0) (Maven 2.x)	|/opt/maven-2.0
+[Maven 2.1](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn2.Maven+2.1) (Maven 2.x)	|/opt/maven-2.1
+[Maven 2.2](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn2.Maven+2.2) (Maven 2.x)	|/opt/maven-2.2
+[Maven 3](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn3.Maven+3) (Maven 3.x)	|/opt/maven-3.5
+[Maven 3.2](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn3.Maven+3.2) (Maven 3.x)	|/opt/maven-3.2
+[Maven 3.3](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn3.Maven+3.3) (Maven 3.x)	|/opt/maven-3.3
+[Maven 3.5](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn3.Maven+3.5) (Maven 3.x)	|/opt/maven-3.5
+[Maven 3.6](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn3.Maven+3.6) (Maven 3.6.3)	|/opt/maven-3.6
+[Maven 3.8](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn3.Maven+3.8) (Maven 3.8.1)	|/opt/maven-3.8
+[Node.js 4](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.node.Node.js+4) (Node.js)	|/opt/node-4/bin/node
+[Node.js 6](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.node.Node.js+6) (Node.js)	|/opt/node-6/bin/node
+[Node.js 8](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.node.Node.js+8) (Node.js)	|/opt/node-8/bin/node
+[PHPUnit 3.7](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.phpunit.PHPUnit+3.7) (PHPUnit)	|/opt/phpunit-3.7/phpunit
+[PHPUnit 4.4](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.phpunit.PHPUnit+4.4) (PHPUnit)	|/opt/phpunit-4.4/phpunit
 
 **JDK:** JDK capabilities define the JDKs which are available to your build plans.
 
 |JDK Label|Java Home|  
 |---|---|
-JDK 1.7	|/opt/jdk-7
-JDK 1.8	|/opt/jdk-8
-JDK 11	|/opt/jdk-11
-JDK 17	|/opt/jdk-17
+[JDK 1.7](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.jdk.JDK+1.7)	|/opt/jdk-7
+[JDK 1.8](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.jdk.JDK+1.8)	|/opt/jdk-8
+[JDK 11](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.jdk.JDK+1.9)	|/opt/jdk-11
+[JDK 17](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.jdk.JDK+1.9)	|/opt/jdk-17
 
 **Mercurial**
 The path to the Mercurial executable (e.g. `C:\Program Files (x86)\Mercurial\hg.exe` or `/usr/local/bin/hg`)
 
 |Executable|Path|  
 |---|---|
-Mercurial	|/usr/bin/hg
+[Mercurial](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.hg.executable)	|/usr/bin/hg
 
 **Git**
 The path to the Git executable (e.g. `C:\Program Files (x86)\Git\git.exe` or `/usr/local/git/bin/git`)
 
 |Executable|Path|  
 |---|---|
-Git	|/usr/bin/git
+[Git](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.git.executable)	|/usr/bin/git
 
 **Docker**
 The path to the Docker executable (e.g. `/usr/bin/docker`)
 
 |Executable|Path|  
 |---|---|
-Docker	|/usr/bin/docker
+[Docker](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.docker.executable)	|/usr/bin/docker
 
 **Terraform**
 The path to the Terraform executable (e.g. `/usr/bin/terraform`)
@@ -291,71 +294,71 @@ Terraform	|/usr/bin/terraform
 
 |Executable Label|Path|  
 |---|---|  
-|Ant (Ant)|	C:\opt\ant-1.10
-Ant 1.10 (Ant)	|C:\opt\ant-1.10
-Ant 1.9 (Ant)	|C:\opt\ant-1.9
-Dotnet Core 3.1 (Command)	|C:\Program Files\dotnet\dotnet.exe
-Grails 2.4 (Grails)	|C:\opt\grails-2.4
-Grails 3.2 (Grails)	|C:\opt\grails-3.2
-Grails 3.3 (Grails)	|C:\opt\grails-3.3
-MSBuild for Sonar Scanner Home (MSBuild)	|C:\opt\sonar-scanner-msbuild-4.6.2
-MSBuild v15.0 (MSBuild)	|C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\MSBuild.exe
-MSBuild v16.0 (MSBuild)	|C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\amd64\MSBuild.exe
-MSBuild v3.5 (MSBuild)	|C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe
-MSBuild v4.0 (32bit) (MSBuild)	|C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe
-MSBuild v4.0 (64bit) (MSBuild)	|C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe
-Maven 2 (Maven 2.x)	|C:\opt\maven-2.2
-Maven 2.0 (Maven 2.x)	|C:\opt\maven-2.0
-Maven 2.1 (Maven 2.x)	|C:\opt\maven-2.1
-Maven 2.2 (Maven 2.x)	|C:\opt\maven-2.2
-Maven 3 (Maven 3.x)	|C:\opt\maven-3.5
-Maven 3.2 (Maven 3.x)	|C:\opt\maven-3.2
-Maven 3.3 (Maven 3.x)	|C:\opt\maven-3.3
-Maven 3.5 (Maven 3.x)	|C:\opt\maven-3.5
-Maven 3.6 (Maven 3.x)	|C:\opt\maven-3.6
-Nant (NAnt)	|C:\opt\nant-0.92
-Node.js 4 (Node.js)	|C:\opt\node-4\node.exe
-Node.js 6 (Node.js)	|C:\opt\node-6\node.exe
-Node.js 8 (Node.js)	|C:\opt\node-8\node.exe
-OpenCover (Command)	|C:\Program Files (x86)\OpenCover\OpenCover.Console.exe
-PHPUnit 3.7 (PHPUnit)	|C:\opt\phpunit-3.7\phpunit.cmd
-PHPUnit 4.4 (PHPUnit)	|C:\opt\phpunit-4.4\phpunit.cmd
-Python 3.7.3 (Command)	|C:\Program Files\hats\Python37\python.exe
-ReportGenerator (Command)	 |C:\Users\Bamboo\.dotnet\tools\ReportGenerator.exe
-SCA Fortify Dotnet (Fortify SCA)	|C:\apps\fortify_latest\bin\sourceanalyzer.exe
-Sonar Scanner Command for Windows (Command)	|C:\apps\sonar_latest\bin\sonar-scanner.bat
-Sonar Scanner Dotnet (Sonar Scanner Home)	|C:\apps\sonar_latest
-Sonar.MSBuild full path exe (MSBuild)	|C:\opt\sonar-scanner-msbuild-4.6.2\bin\SonarQube.Scanner.MSBuild.exe
-VSTest Runner (VSTest Runner)	|C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe
-nuget (Command)	|C:\opt\nuget\nuget.exe
-sqlpackage (Command)	|C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\130\sqlpackage.exe
-vstest.console.exe (Command)	|C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe
+|[Ant](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.ant.Ant) (Ant)|	C:\opt\ant-1.10
+[Ant 1.10](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.ant.Ant+1.10) (Ant)	|C:\opt\ant-1.10
+[Ant 1.9](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.ant.Ant+1.9) (Ant)	|C:\opt\ant-1.9
+[Dotnet Core 3.1](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.command.Dotnet+Core+3.1) (Command)	|C:\Program Files\dotnet\dotnet.exe
+[Grails 2.4](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.grailsBuilder.Grails+2.4) (Grails)	|C:\opt\grails-2.4
+[Grails 3.2](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.grailsBuilder.Grails+3.2) (Grails)	|C:\opt\grails-3.2
+[Grails 3.3](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.grailsBuilder.Grails+3.3) (Grails)	|C:\opt\grails-3.3
+[MSBuild for Sonar Scanner Home](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.msbuild.MSBuild+for+Sonar+Scanner+Home) (MSBuild)	|C:\opt\sonar-scanner-msbuild-4.6.2
+[MSBuild v15.0](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.msbuild.MSBuild+v15.0) (MSBuild)	|C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\bin\MSBuild.exe
+[MSBuild v16.0](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.msbuild.MSBuild+v16.0) (MSBuild)	|C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\amd64\MSBuild.exe
+[MSBuild v3.5](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.msbuild.MSBuild+v3.5) (MSBuild)	|C:\Windows\Microsoft.NET\Framework\v3.5\MSBuild.exe
+[MSBuild v4.0 (32bit)](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.msbuild.MSBuild+v4.0+%2832bit%29) (MSBuild)	|C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe
+[MSBuild v4.0 (64bit)](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.msbuild.MSBuild+v4.0+%2864bit%29) (MSBuild)	|C:\Windows\Microsoft.NET\Framework64\v4.0.30319\MSBuild.exe
+[Maven 2](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn2.Maven+2) (Maven 2.x)	|C:\opt\maven-2.2
+[Maven 2.0](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn2.Maven+2.0) (Maven 2.x)	|C:\opt\maven-2.0
+[Maven 2.1](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn2.Maven+2.1) (Maven 2.x)	|C:\opt\maven-2.1
+[Maven 2.2](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn2.Maven+2.2) (Maven 2.x)	|C:\opt\maven-2.2
+[Maven 3](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn3.Maven+3) (Maven 3.x)	|C:\opt\maven-3.5
+[Maven 3.2](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn3.Maven+3.2) (Maven 3.x)	|C:\opt\maven-3.2
+[Maven 3.3](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn3.Maven+3.3) (Maven 3.x)	|C:\opt\maven-3.3
+[Maven 3.5](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn3.Maven+3.5) (Maven 3.x)	|C:\opt\maven-3.5
+[Maven 3.6](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.mvn3.Maven+3.6) (Maven 3.x)	|C:\opt\maven-3.6
+[Nant (NAnt)](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.nant.Nant)	|C:\opt\nant-0.92
+[Node.js 4](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.node.Node.js+4) (Node.js)	|C:\opt\node-4\node.exe
+[Node.js 6](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.node.Node.js+6) (Node.js)	|C:\opt\node-6\node.exe
+[Node.js 8](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.node.Node.js+8) (Node.js)	|C:\opt\node-8\node.exe
+[OpenCover](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.command.OpenCover) (Command)	|C:\Program Files (x86)\OpenCover\OpenCover.Console.exe
+[PHPUnit 3.7](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.phpunit.PHPUnit+3.7) (PHPUnit)	|C:\opt\phpunit-3.7\phpunit.cmd
+[PHPUnit 4.4](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.phpunit.PHPUnit+4.4) (PHPUnit)	|C:\opt\phpunit-4.4\phpunit.cmd
+[Python 3.7.3](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.command.Python+3.7.3) (Command)	|C:\Program Files\hats\Python37\python.exe
+[ReportGenerator](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.command.ReportGenerator) (Command)	 |C:\Users\Bamboo\.dotnet\tools\ReportGenerator.exe
+[SCA Fortify Dotnet](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.sca.SCA+Fortify+Dotnet) (Fortify SCA)	|C:\apps\fortify_latest\bin\sourceanalyzer.exe
+[Sonar Scanner Command for Windows](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.command.Sonar+Scanner+Command+for+Windows) (Command)	|C:\apps\sonar_latest\bin\sonar-scanner.bat
+[Sonar Scanner Dotnet](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.sos.Sonar+Scanner+Dotnet) (Sonar Scanner Home)	|C:\apps\sonar_latest
+[Sonar.MSBuild full path exe](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.msbuild.Sonar.MSBuild+full+path+exe) (MSBuild)	|C:\opt\sonar-scanner-msbuild-4.6.2\bin\SonarQube.Scanner.MSBuild.exe
+[VSTest Runner](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.vstestconsole.VSTest+Runner) (VSTest Runner)	|C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe
+[nuget](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.command.nuget) (Command)	|C:\opt\nuget\nuget.exe
+[sqlpackage](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.command.sqlpackage) (Command)	|C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\130\sqlpackage.exe
+[vstest.console.exe](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.builder.command.vstest.console.exe) (Command)	|C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe
 
 
 **JDK:** JDK capabilities define the JDKs which are available to your build plans.
 
 |JDK|Label|  
 |---|---|  
-|JDK 1.8|C:\opt\jdk-8
+|[JDK 1.8](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.jdk.JDK+1.8)|C:\opt\jdk-8
 
 **Agent environment capabilities:** Capabilities tied to the execution environment of the agent, like the operating system, architecture, network access.
 
 |Capability|Value|  
 |---|---|  
-|EBS optimised|false
-|EC2 Instance type|t3.2xlarge
+|[EBS optimised](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.agent.environment.ebs.optimised)|false
+|[EC2 Instance type](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.agent.environment.ec2.instance.type)|t3.2xlarge
 
 **Mercurial:** The path to the Mercurial executable (e.g. `C:\Program Files (x86)\Mercurial\hg.exe` or `/usr/local/bin/hg`)
 
 |Executable|Path|  
 |---|---|  
-|Mercurial|C:\opt\mercurial\hg.exe
+|[Mercurial](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.hg.executable)|C:\opt\mercurial\hg.exe
 
 **Git:** The path to the Git executable (e.g. `C:\Program Files (x86)\Git\git.exe` or `/usr/local/git/bin/git`)
 
 |Executable|Path|  
 |---|---|  
-|Git|C:\opt\git\bin\git.exe|
+|[Git](https://bamboo.ship.gov.sg/admin/agent/viewCapabilityKey.action?capabilityKey=system.git.executable)|C:\opt\git\bin\git.exe|
 
 ### Base Windows Agent Package Versions
 
