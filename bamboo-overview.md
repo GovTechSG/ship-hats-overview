@@ -21,6 +21,7 @@ For more information on Bamboo, refer to https://www.atlassian.com/software/bamb
 - [Register Elastic Agent](#register-elastic-agent)
 - [Base Elastic Agent AMI](#base-elastic-agent-ami)
 - [Fair Usage Guidelines for Elastic Agents](#fair-usage-guidelines-for-elastic-agents)
+- [Bamboo Clean up and Best Practices](#bamboo-clean-up-and-best-practices)
 - [FAQs](#bamboo-faqs)
 
 ## Roles and Permissions
@@ -397,7 +398,7 @@ This will allow all tenants to have equal usage on the shared pool of bamboo ela
 - Elastic bamboo agents should not be used to perform load testing. For agency that needs to conduct performance or load testing, please run the load test using own remote agent.
 - Run jobs in your CI pipeline. Schedule jobs only when necessary, and during low peak hours. You could reach out to SHIP team to find out the recommended timing.
 
-## Bamboo clean up and best practices
+## Bamboo Clean up and Best Practices
 
 Bamboo is a great CI/CD tool. It offers a powerful tool for automating software development, however, knowledge of some of the tips and tricks helps our shared Bamboo system to be used effectively. Maintenance and cleanup is a shared responsibility (SHIP & Tenants) to keep the growing environment clean. It also helps all of us to ease the migration tasks. Due to our growing volume and size, we have to keep upgrading our EBS size that causes frequent maintenance and downtimes. Therefore, follow these steps to keep the environment available.
 
@@ -437,7 +438,7 @@ If you have enabled this by mistake please clear the check box in the **Plan con
 ### Addtional best practices
 Following section provides few additional best practices in administrating the CI/CD tool:
 
-- Restrict the number of admin to the project to less number (< 3) and keep checking the permissions in your project and plans.
+- Restrict the number of admin to the project to a less number (< 3) and keep checking the permissions in your project and plans.
 - Use the service account id and password in your bamboo plan variables
 - Store the release artefact in nexus repository or push it to in your own S3 bucket for safer side.
 
