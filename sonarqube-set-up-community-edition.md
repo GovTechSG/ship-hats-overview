@@ -183,9 +183,9 @@ Failing to so may result in an error when either of the scenarios occurs:
     <https://docs.sonarqube.org/9.3/analysis/scan/sonarscanner-for-gradle/>
 
 
-Declare org.sonarqube plugin in build.gradle in your repository
-<!-- tabs:start -->
-### **Command Format**
+    Declare org.sonarqube plugin in build.gradle in your repository
+    <!-- tabs:start -->
+    ### **Command Format**
 
         ```
         plugins {
@@ -194,11 +194,11 @@ Declare org.sonarqube plugin in build.gradle in your repository
 
         }
         ```
-<!-- tabs:end -->
+    <!-- tabs:end -->
 
-Format to put **Script body** iin step 7 in the [Configure Tasks](#configure-tasks) section:
-<!-- tabs:start -->
-### **Command Format**
+    Format to put **Script body** in step 7 in the [Configure Tasks](#configure-tasks) section:
+    <!-- tabs:start -->
+    ### **Command Format**
         ```
         gradle sonarqube \
         -Dsonar.projectKey=<App Key> \
@@ -206,7 +206,7 @@ Format to put **Script body** iin step 7 in the [Configure Tasks](#configure-tas
         -Dsonar.login=<Token-from-SHIP-HATS-Portal>
         ```
 
-### **Sample**
+    ### **Sample**
 
         ```
         gradle sonarqube \
@@ -214,7 +214,7 @@ Format to put **Script body** iin step 7 in the [Configure Tasks](#configure-tas
         -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
         -Dsonar.login=${bamboo.sonarqube_token_secret}
         ```
-<!-- tabs:end -->
+    <!-- tabs:end -->
 
 
 ### Sonar Scan for MSBuild
