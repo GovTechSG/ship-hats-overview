@@ -375,6 +375,7 @@ Jest provides a `jest.config.js` file for configuration. To pass test coverage i
     <!-- tabs:start -->
 
     ### **Command Format**
+    
     ```
     sonar-scanner \
     -Dsonar.projectKey=<App Key from SHIP HATS Portal\> \
