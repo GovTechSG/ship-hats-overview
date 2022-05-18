@@ -179,14 +179,12 @@ Failing to so may result in an error when either of the scenarios occurs:
 
     - Current Sonarqube version : 9.3
 
-    - Official documentation for the version 9.3
-    <https://docs.sonarqube.org/9.3/analysis/scan/sonarscanner-for-gradle/>
+    - Official documentation for the version 9.3: <https://docs.sonarqube.org/9.3/analysis/scan/sonarscanner-for-gradle/>
 
 
     Declare org.sonarqube plugin in build.gradle in your repository
     <!-- tabs:start -->
     ### **Command Format**
-
         ```
         plugins {
 
@@ -207,7 +205,6 @@ Failing to so may result in an error when either of the scenarios occurs:
         ```
 
     ### **Sample**
-
         ```
         gradle sonarqube \
         -Dsonar.projectKey=hats_multi \
