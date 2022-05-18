@@ -183,13 +183,13 @@ Failing to so may result in an error when either of the scenarios occurs:
     1. Declare org.sonarqube plugin in build.gradle in your repository
         <!-- tabs:start -->
         ### **Command Format**
-            ```
-            plugins {
-
-            id "org.sonarqube" version "<version">
-
-            }
-            ```
+        
+        ```
+        plugins 
+        {
+        id "org.sonarqube" version "<version">
+        }
+        ```
         
         <!-- tabs:end -->
 
@@ -197,7 +197,7 @@ Failing to so may result in an error when either of the scenarios occurs:
         <!-- tabs:start -->
 
         ### **Command Format**
-        
+
         ```
         gradle sonarqube \
         -Dsonar.projectKey=<App Key> \
