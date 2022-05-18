@@ -180,36 +180,36 @@ Failing to so may result in an error when either of the scenarios occurs:
     Current Sonarqube version : 9.3
     Official documentation for the version 9.3: <https://docs.sonarqube.org/9.3/analysis/scan/sonarscanner-for-gradle/>
 
-    Declare org.sonarqube plugin in build.gradle in your repository
-    <!-- tabs:start -->
-    ### **Command Format**
-        ```
-        plugins {
+    1. Declare org.sonarqube plugin in build.gradle in your repository
+        <!-- tabs:start -->
+        ### **Command Format**
+            ```
+            plugins {
 
-        id "org.sonarqube" version "<version">
+            id "org.sonarqube" version "<version">
 
-        }
-        ```
-    <!-- tabs:end -->
+            }
+            ```
+        <!-- tabs:end -->
 
-    Format to put **Script body** in step 7 in the [Configure Tasks](#configure-tasks) section:
-    <!-- tabs:start -->
-    ### **Command Format**
-        ```
-        gradle sonarqube \
-        -Dsonar.projectKey=<App Key> \
-        -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
-        -Dsonar.login=<Token-from-SHIP-HATS-Portal>
-        ```
-    
-    ### **Sample**
-        ```
-        gradle sonarqube \
-        -Dsonar.projectKey=hats_multi \
-        -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
-        -Dsonar.login=${bamboo.sonarqube_token_secret}
-        ```
-    <!-- tabs:end -->
+    1. Format to put **Script body** in step 7 in the [Configure Tasks](#configure-tasks) section:
+        <!-- tabs:start -->
+        ### **Command Format**
+            ```
+            gradle sonarqube \
+            -Dsonar.projectKey=<App Key> \
+            -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
+            -Dsonar.login=<Token-from-SHIP-HATS-Portal>
+            ```
+
+        ### **Sample**
+            ```
+            gradle sonarqube \
+            -Dsonar.projectKey=hats_multi \
+            -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
+            -Dsonar.login=${bamboo.sonarqube_token_secret}
+            ```
+        <!-- tabs:end -->
 
 
 ### Sonar Scan for MSBuild
