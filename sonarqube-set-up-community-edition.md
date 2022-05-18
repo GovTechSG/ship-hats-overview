@@ -190,25 +190,30 @@ Failing to so may result in an error when either of the scenarios occurs:
 
             }
             ```
+        
         <!-- tabs:end -->
 
     1. Format to put **Script body** in step 7 in the [Configure Tasks](#configure-tasks) section:
         <!-- tabs:start -->
+
         ### **Command Format**
-            ```
-            gradle sonarqube \
-            -Dsonar.projectKey=<App Key> \
-            -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
-            -Dsonar.login=<Token-from-SHIP-HATS-Portal>
-            ```
+        
+        ```
+        gradle sonarqube \
+        -Dsonar.projectKey=<App Key> \
+        -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
+        -Dsonar.login=<Token-from-SHIP-HATS-Portal>
+        ```
 
         ### **Sample**
-            ```
-            gradle sonarqube \
-            -Dsonar.projectKey=hats_multi \
-            -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
-            -Dsonar.login=${bamboo.sonarqube_token_secret}
-            ```
+
+        ```
+        gradle sonarqube \
+        -Dsonar.projectKey=hats_multi \
+        -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
+        -Dsonar.login=${bamboo.sonarqube_token_secret}
+        ```
+        
         <!-- tabs:end -->
 
 
