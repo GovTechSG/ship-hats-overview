@@ -183,7 +183,7 @@ Failing to so may result in an error when either of the scenarios occurs:
     1. Declare org.sonarqube plugin in build.gradle in your repository
         <!-- tabs:start -->
         ### **Command Format**
-        
+
         ```
         plugins 
         {
@@ -221,6 +221,9 @@ Failing to so may result in an error when either of the scenarios occurs:
 
 1. Format to put **Script body** in step 7 in the [Configure Tasks](#configure-tasks) section:
 
+    <!-- tabs:start -->
+
+    ### **Command Format**
     ```
     # Start of scan
 
@@ -235,9 +238,15 @@ Failing to so may result in an error when either of the scenarios occurs:
     SonarScanner.MSBuild.exe end /d:sonar.login="<token>"
     ```
 
+    <!-- tabs:end -->
+
 ### Sonar Scan for Dotnet
 
 1. Format to put **Script body** in step 7 in the [Configure Tasks](#configure-tasks) section:
+
+    <!-- tabs:start -->
+
+    ### **Command Format**
 
     ```
     # cd to the location where .csproj is located
@@ -261,7 +270,7 @@ Failing to so may result in an error when either of the scenarios occurs:
     dotnet sonarscanner end /d:sonar.login=<Token-from-SHIP-HATS-Portal>
     ```
 
-    **Sample**
+    ### **Sample**
 
     ```
     # cd to the location where .csproj is located
@@ -285,16 +294,26 @@ Failing to so may result in an error when either of the scenarios occurs:
     dotnet sonarscanner end /d:sonar.login=${bamboo.sonarqube_community_portal_token_secret}
     ```
 
+    <!-- tabs:end -->
+
 ### Sonar Scan for Others
 
 1. For Typescript or projects requiring Node modules, add the following line before scan:
 
-    **Typescript**
+    <!-- tabs:start -->
+
+    ### **Typescript**
     ```
     export NODE_PATH=${bamboo.hats.node_modules.path}
     ```
 
+    <!-- tabs:end -->
+
 1. Format to put **Script body** in step 7 in the [Configure Tasks](#configure-tasks) section:
+
+    <!-- tabs:start -->
+
+    ### **Command Format**
 
     ```
     sonar-scanner \
@@ -304,7 +323,7 @@ Failing to so may result in an error when either of the scenarios occurs:
     -Dsonar.login=<Token-from-SHIP-HATS-Portal\>
     ```
 
-    **Sample**
+    ### **Sample**
 
     ```
     sonar-scanner \
@@ -314,6 +333,8 @@ Failing to so may result in an error when either of the scenarios occurs:
     -Dsonar.login=${bamboo.sonarqube_token_secret}
     ```
 
+    <!-- tabs:end -->
+    
 ---
 
 ## Test Coverage
@@ -350,6 +371,9 @@ Jest provides a `jest.config.js` file for configuration. To pass test coverage i
 
 1. Format to put **Script body** in step 7 in the [Configure Tasks](#configure-tasks) section. Make sure that you indicate the coverage files with the **-Dsonar.javascript.lcov.reportPaths** option.
 
+    <!-- tabs:start -->
+
+    ### **Command Format**
     ```
     sonar-scanner \
     -Dsonar.projectKey=<App Key from SHIP HATS Portal\> \
@@ -359,7 +383,7 @@ Jest provides a `jest.config.js` file for configuration. To pass test coverage i
     -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
     ```
 
-    **Sample**
+    ### **Sample**
 
     ```
     sonar-scanner \
@@ -369,6 +393,8 @@ Jest provides a `jest.config.js` file for configuration. To pass test coverage i
     -Dsonar.login=${bamboo.sonarqube_token_secret} \
     -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
     ```
+
+    <!-- tabs:end -->
 ## Additional Resources
 
 - Bash script to check if scan passes quality gate: https://bitbucket.ship.gov.sg/projects/CLGLAB/repos/cicd-helper-scripts/browse/bash/sonarsource_sonarqube
