@@ -173,10 +173,12 @@ For more information on setting up SonarQube for your CICD pipeline, refer to th
 
 ### To rename an untagged analysis:
 
-1. Log in to the [SonarQube](https://sonar.hats.stack.gov.sg/) dashboard, and then click the **Activity** tab.
-1. Navigate to the analysis that you want to rename. 
-1. Click the pencil icon to edit the version tag.
+1. Go to your [SonarQube](https://sonar.hats.stack.gov.sg/) project, and then click the **Activity** tab.
+1. Navigate to the analysis that you want to rename, and then click the pencil icon to edit the version tag.
+1. In the **Name** field, specify the version name. 
 1. Click **Change** to apply the changes.
+
+    <kbd>![Change Version](sonarqube-change-version.png)</kbd>
 
 ### To configure New Code setting:
 
@@ -196,9 +198,12 @@ For more information on setting up SonarQube for your CICD pipeline, refer to th
 
 - To access unresolved issues, click **Resolution**. 
 - To access resolved issues (for example, bug, vulnerability, code smell, etc.), under the **Resolution** dropdown, click **Fixed**.
+
+  <kbd>![Filter Issues](hats-sonarqube-filter-issues.png)</kbd>
+
 - If you want to filter issues based specific date range, under the **Creation Date** section, select the required start and end date.
 
-<kbd>![Filter Issues](hats-sonarqube-filter-issues.png)</kbd>
+  <kbd>![Creation Date](hats-sonarqube-filter-issues-fixed.png)</kbd>
 
 
 ## FAQs

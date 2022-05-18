@@ -127,7 +127,7 @@ Failing to so may result in an error when either of the scenarios occurs:
     
     ![](hats-community-image15.png)
 
-1.  Copy the sonar scan script based on the language of your repository (Refer to samples in the [Sona Scan for different languages](#sonar-scan-for-different-languages) section below), and replace **Variable name** as the value of `-Dsonar.login=`
+1.  Copy the sona scan script based on the language of your repository (Refer to samples in the [Sona Scan for different languages](#sonar-scan-for-different-languages) section below), and replace **Variable name** as the value of `-Dsonar.login=`
 
     >**Note:** Do **not** store the token as plaintext in the script.
 
@@ -150,7 +150,34 @@ Failing to so may result in an error when either of the scenarios occurs:
 
 - **Maven**
 
+    Format to put **Script body** in step 7 in the [Configure Tasks](#configure-tasks) section:
+    <!-- tabs:start -->
+    ### **Command Format**
+    ```
+        sonar-scanner \
+        -Dsonar.projectKey=<App Key> \
+        -Dsonar.sources=src/main/java \
+        -Dsonar.java.binaries=target/classes \
+        -Dsonar.language=java \
+        -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
+        -Dsonar.login=<Token-from-SHIP-HATS-Portal>
+    ```        
+        
+    ### **Sample**
+        ```
+        sonar-scanner \
+        -Dsonar.projectKey=hats_multi \
+        -Dsonar.sources=src/main/java \
+        -Dsonar.java.binaries=target/classes \
+        -Dsonar.language=java \
+        -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
+        -Dsonar.login=${bamboo.sonarqube_token_secret}
+        ```
+    <!-- tabs:end -->
+
     1. Format to put **Script body** in step 7 in the [Configure Tasks](#configure-tasks) section:
+
+        
 
         ```
         sonar-scanner \
@@ -175,10 +202,10 @@ Failing to so may result in an error when either of the scenarios occurs:
 
 - **Gradle**
 
-    - Current Sonarqube version : 8.9
+    - Current Sonarqube version : 9.3
 
-    - Official documentation for the version 8.9
-    <https://docs.sonarqube.org/8.9/analysis/scan/sonarscanner-for-gradle/>
+    - Official documentation for the version 9.3
+    <https://docs.sonarqube.org/9.3/analysis/scan/sonarscanner-for-gradle/>
 
     1. Declare org.sonarqube plugin in build.gradle in your repository
 
@@ -314,7 +341,7 @@ SonarQube app. For the unit test coverage to be visible in your SonarQube app, y
 -   As each project uses different testing frameworks with different supported report format. Please refer to official SonarQube documentation on the types of Test Coverage report path provided that suits your project requirements.
 
 -   Official Documentation:
-    <https://docs.sonarqube.org/8.9/analysis/coverage/>
+    <https://docs.sonarqube.org/9.3/analysis/coverage/>
 
 -   In this example, we use Jest Testing Framework as an example.
 
@@ -331,11 +358,11 @@ Jest provides a `jest.config.js` file for configuration. To pass test coverage i
 
     - The directory where Jest should output its coverage files
 
-        ```coverageDirectory: \'coverage\',```
+        ```coverageDirectory: 'coverage',```
 
     - A list of reporter names that Jest uses when writing coverage reports
 
-        ```coverageReporters: \[\'lcov\', \'text\', \'text-summary\', \'json\'\],```
+        ```coverageReporters: ['lcov', 'text', 'text-summary', 'json'],```
     
 
 1. Format to put **Script body** in step 7 in the [Configure Tasks](#configure-tasks) section. Make sure that you indicate the coverage files with the **-Dsonar.javascript.lcov.reportPaths** option.
@@ -359,3 +386,6 @@ Jest provides a `jest.config.js` file for configuration. To pass test coverage i
     -Dsonar.login=${bamboo.sonarqube_token_secret} \
     -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
     ```
+## Additional Resources
+
+- Bash script to check if scan passes quality gate: https://bitbucket.ship.gov.sg/projects/CLGLAB/repos/cicd-helper-scripts/browse/bash/sonarsource_sonarqube
