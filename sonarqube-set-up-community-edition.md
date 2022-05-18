@@ -177,10 +177,8 @@ Failing to so may result in an error when either of the scenarios occurs:
 
 - **Gradle**
 
-    - Current Sonarqube version : 9.3
-
-    - Official documentation for the version 9.3: <https://docs.sonarqube.org/9.3/analysis/scan/sonarscanner-for-gradle/>
-
+    Current Sonarqube version : 9.3
+    Official documentation for the version 9.3: <https://docs.sonarqube.org/9.3/analysis/scan/sonarscanner-for-gradle/>
 
     Declare org.sonarqube plugin in build.gradle in your repository
     <!-- tabs:start -->
@@ -203,7 +201,7 @@ Failing to so may result in an error when either of the scenarios occurs:
         -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
         -Dsonar.login=<Token-from-SHIP-HATS-Portal>
         ```
-
+    
     ### **Sample**
         ```
         gradle sonarqube \
