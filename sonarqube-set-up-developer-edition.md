@@ -3,8 +3,8 @@
 To set up SonarQube Developer edition, complete the following steps:
 
 1. [Retrieve App Key and Token ID](#retrieve-app-key-and-token-id)
-2. [Configure Bamboo plan](#configure-bamboo-plan)
-3. [Set up Sonar Scan for different languages](#sonar-scan-for-different-languages)
+2. [Configure Bamboo Plan](#configure-bamboo-plan)
+3. [Set up Sonar Scan for Different Languages](#sonar-scan-for-different-languages)
 4. [Test Coverage](#test-coverage)
 
 ---
@@ -47,7 +47,7 @@ Failing to so may result in an error when either of the scenarios occurs:
 ---
 
 
-## Configure Bamboo plan
+## Configure Bamboo Plan
 
 **Topics**
 - [Configure Repositories (Bitbucket)](#configure-repositories-bitbucket)
@@ -169,7 +169,7 @@ This is an optional step.
 
 ---
 
-## Sonar Scan for different languages
+## Sonar Scan for Different Languages
 
 >**Note:** Remove the line `-Dsonar.branch.name=${bamboo.planRepository.branchName} \` if you are not using branch analysis.
 
@@ -179,6 +179,8 @@ This is an optional step.
 - [Sonar Scan for MSBuild](#sonar-scan-for-msbuild)
 - [Sonar Scan for Dotnet](#sonar-scan-for-dotnet)
 - [Sonar Scan for Others](#sonar-scan-for-others)
+
+>**Note:** In the updated SonarQube version 9.3, certain type of scans such as Maven or Ant might fail due to Java 11 needed to perform analysis as shown in the [SonarQube Moving Analysis to Java 11](https://docs.sonarqube.org/9.3/analysis/analysis-with-java-11/). For information on how to resolve this, refer to the [Using Java 11 in Sonar Scanner](#using-java-11-in-sonar-scanner) documentation.
 
 ### Sonar Scan for Java
 
@@ -405,3 +407,68 @@ Jest provides a `jest.config.js` file for configuration. To pass test coverage i
 ## Additional Resources
 
 - Bash script to check if scan passes quality gate: https://bitbucket.ship.gov.sg/projects/CLGLAB/repos/cicd-helper-scripts/browse/bash/sonarsource_sonarqube
+
+## Using Java 11 in Sonar Scanner
+
+In the updated SonarQube version 9.3, certain type of scans such as Maven or Ant might fail due to Java 11 needed to perform analysis as shown in the [SonarQube Moving Analysis to Java 11](https://docs.sonarqube.org/9.3/analysis/analysis-with-java-11/).
+
+To resolve this, add an additional line depending on the requirements or images used as shown in the [Configure Requirements](#configure-requirements) section. This additional line should be added just before the start of sonar scan as described in the [Set up Sonar Scan for Different Languages](#sonar-scan-for-different-languages) section.
+
+### For requirements/images using hats_linux_image
+
+<!-- tabs:start -->
+
+### **Command Format**
+
+```
+export JAVA_HOME=${bamboo.hats.image.linux.correttojdk11.path}
+or
+export JAVA_HOME="/opt/amazon-corretto-11"
+```
+
+### **Sample**
+
+```
+export JAVA_HOME=${bamboo.hats.image.linux.correttojdk11.path}
+ 
+cd sample/sonarqube-scanner-maven/maven-basic/
+ 
+mvn clean package
+ 
+mvn sonar:sonar \
+    -Dsonar.projectKey=${bamboo.sonarqube.projectKey} \
+    -Dsonar.host.url=${bamboo.hats.sonarqube.url} \
+    -Dsonar.login=${bamboo.sonarqube_community_portal_token_secret} \
+    -Dsonar.java.binaries=./target/classes
+```
+
+<!-- tabs:end -->
+
+### For requirements/images using hats_windows_image
+
+<!-- tabs:start -->
+
+### **Command Format**
+
+```
+set JAVA_HOME=${bamboo.hats.image.windows.correttojdk11.path}
+or
+set JAVA_HOME="C:\opt\jdk-11-aws-corretto"
+```
+
+### **Sample**
+
+```
+set JAVA_HOME=${bamboo.hats.image.windows.correttojdk11.path}
+ 
+cd sample/sonarqube-scanner-msbuild/CSharpProject/SomeConsoleApplication
+ 
+SonarScanner.MSBuild.exe begin /k:${bamboo.sonarqube.projectKey} /d:sonar.host.url=${bamboo.hats.sonarqube.url}
+/d:sonar.login=${bamboo.sonarqube_community_portal_token_secret}
+ 
+MsBuild.exe /t:Rebuild
+ 
+SonarScanner.MSBuild.exe end /d:sonar.login=${bamboo.sonarqube_community_portal_token_secret}
+```
+
+<!-- tabs:end -->
