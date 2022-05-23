@@ -42,8 +42,7 @@ We have moved all the proxy repositories to S3-Proxy blobstore. So any new proxy
 |---|---|---|---|---|  
 1	|Bower|	bower-proxy|	https://nexus.ship.gov.sg/repository/bower-proxy/	|https://registry.bower.io
 2	|NPM|	npm-proxy|	https://nexus.ship.gov.sg/repository/npm-proxy/|	https://registry.npmjs.org/
-3|	Docker|	docker-proxy|	
-https://nexus.ship.gov.sg/repository/docker-proxy/|https://registry-1.docker.io
+3|	Docker|	docker-proxy|	https://nexus.ship.gov.sg/repository/docker-proxy | https://registry-1.docker.io
 4|	Nuget V2|	nuget-proxy|	https://nexus.ship.gov.sg/repository/nuget-proxy/	|https://www.nuget.org/api/v2/
 5|	Pypi	|pypi-proxy|	https://nexus.ship.gov.sg/repository/pypi-proxy/	|https://pypi.org
 6|	Rubygems|	rubygems-proxy|	https://nexus.ship.gov.sg/repository/rubygems-proxy/	|https://rubygems.org
