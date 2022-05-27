@@ -17,7 +17,7 @@ This section describes the following:
 ## [Invite users](#invite-users)
 Subscription Admin (SA) and Project Admin (PA) can invite and add users to the subscription. Note that only SA can add a user as PA to their SHIP-HATS projects.
 
-### To invite users:
+### To invite users
 
 1. Log in to the [SHIP-HATS portal](https://www.ship.gov.sg/).  
    Make sure that you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
@@ -35,7 +35,7 @@ You will receive an invitation email with a link to onboard to SHIP-HATS portal 
 
 Access the link via the onboarding email and perform the following steps based on the account that you want to create. 
 
-### To create an account for a Public Officer:
+### To create an account for a Public Officer
 
 1. In the Invitation form, select the role as **Public Officer**. 
 
@@ -49,7 +49,7 @@ Access the link via the onboarding email and perform the following steps based o
 
    <kbd>![create_account](signing2.png ':size=100%')</kbd>
 
-### To create an account for a Vendor:
+### To create an account for a Vendor
 
 1. In the Invitation form, select the role as **Vendor**.  
 
@@ -71,7 +71,7 @@ Access the link via the onboarding email and perform the following steps based o
 ## [Approve new users](#approve-new-users)
 After a user submits the completed SHIP-HATS **Invitation Form**, Subscription Admin (SA) and Project Admin (PA) will be notified by an email to approve the user registration.
 
-### To approve new user registration:
+### To approve new user registration
 1. Log in to the [SHIP-HATS portal](https://www.ship.gov.sg/).  
    Make sure that you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
 
@@ -108,13 +108,14 @@ This user is now approved as SHIP-HATS user under this account.
 
 Subscription Admin (SA) and Project Admin (PA) can view all users associated with a subscription account and their roles in your account.
 
-### To view users:
+### To view users
 
 1. Log in to the [SHIP-HATS portal](https://www.ship.gov.sg/).  
    Make sure that you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
 
 1. From the side menu, click **Users > All Users**.  
-   A list of users appears, along with following details:
+   A list of users appears, along with following details:  
+
    Column|Description
    |---|---|
    **Name**|Indicates the name of the user. <br>If *First Name* and *Last Name* were not provided when creating a new user account, only email address will appear in this column.<br>If a user is a Subscription Admin, it is indicated by the label **Subscr Admin** beside the username.
