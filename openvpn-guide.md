@@ -11,8 +11,9 @@ This is a guide to set up SHIP-HATS [OpenVPN](https://vpn.ship.gov.sg) on the In
 
 ### To set up OpenVPN:
 
-1. Go to [SHIP-HATS OpenVPN](https://vpn.ship.gov.sg/) in your internet facing PC or Mac.
-Note: This website is not supported by Safari.
+1. Go to [SHIP-HATS OpenVPN](https://vpn.ship.gov.sg/) in your internet facing PC or Mac.  
+    
+    >**Note:** This website is not supported by Safari.
 1. Enter the **username** provided in the onboarding email from the SHIP-HATS administrator.
 1. Enter **password** you have set using the link provided in onboarding email.
 1. Click **Sign In**.

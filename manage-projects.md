@@ -5,6 +5,8 @@ This section explains how a Subscription Admin creates SHIP-HATS projects and ho
 - [Remove projects](#remove-projects)
 - [Remove project tools](#remove-project-tools)
 - [Add project tools](#add-project-tools)
+- [Add project admins](#add-project-admins)
+- [Add project tools](#add-project-tools)
 - [Create Project tool with customised project key](#creation-of-project-tool-with-customised-project-key)
 - [Manage users within a Project Tool](#manage-users-within-a-project-tool)
 
@@ -16,16 +18,22 @@ Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SA
 
 1. From the side menu, click **Projects** > **Create New**.  
 
->**Tip:** Alternatively, if you are viewing **All Projects** , click **Create Project**.  
+>**Tip:** Alternatively, if you are viewing **All Projects**, click **Create Project**.  
 
 <kbd>![create-new-project](create-new-project-2.png ':size=100%')</kbd>
 
-2. Specify **Project Name** , **Project Description** and at least **Project Admin 1**.
+2. Provide information in the following fields:
+
+    - **Project Name:** Specify name of the project. 
+    - **Project Description**: Specify details of the project. 
+    - **Project Admin 1:** Select Project Admin from the drop-down list. If *First Name* and *Last Name* were not provided when creating a new user account, email address will appear in the drop-down list.
+    - **Project Admin 2:** This is an optional field. Select a second Project Admin from the drop-down list. If *First Name* and *Last Name* were not provided when creating a new user account, email address will appear in the drop-down list. 
 3. Click **Create Project**. The created project details are displayed as shown below.
 
     <kbd>![newly-created-project](newly-created-project.png ':size=100%')</kbd>
 
-SA or PA can add tools and additional PAs. Note that SA can add up to three PAs using the SHIP-HATS portal.
+SA or PA can add tools and additional PAs. 
+> **Note:** The number of PAs each project is entitled to is based on the [subscription tier](https://www.developer.tech.gov.sg/products/categories/devops/ship-hats/subscription) quota for which the agency has subscribed.
 
 ## [View projects](#view-projects)
 
@@ -73,7 +81,9 @@ Subscription Admin and Project Admin can remove a tool/app when it is not requir
 
 ## [Add project admins](#add-project-admins)
 
-Subscription Admins can add up to three Project Admins using the SHIP-HATS portal. While creating a project in an account it is mandatory to specify at least one Project Admin. SAs can add the other two PAs anytime in the future.
+Subscription Admins can add Project Admins using the SHIP-HATS portal. When creating a project in an account, it is mandatory to specify at least one Project Admin. SAs can add any additional PAs anytime in the future.  
+
+> **Note:** The number of PAs each project is entitled to is based on the [subscription tier](https://www.developer.tech.gov.sg/products/categories/devops/ship-hats/subscription) quota for which the agency has subscribed.
 
 ### To add a project admin:
 
@@ -90,6 +100,7 @@ Subscription Admins can add up to three Project Admins using the SHIP-HATS porta
 
     <kbd>![add-pa-3-correct](add-pa-3-correct-resized.png ':size=100%')</kbd>
 
+    >**Note:** If *First Name* and *Last Name* were not provided when creating a new user account, email address will appear in the drop-down list.
 5. Click **Add** to add this user as a project admin. Once successfully added, an email notification will be sent to the requesting SA with copy sent to the other SA and the newly added PA.
 
 >**Note:** To know how to remove a Project Admin, refer to **Remove User**.
