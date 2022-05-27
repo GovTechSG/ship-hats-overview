@@ -157,9 +157,9 @@ You can generate a report to view all details for the active and removed users.
 
    |Field|Description|
    |---|---|
-   **Username**|Indicates the username for the user
-   **Name**|Indicates the full name of the user
-   **Email**|Indicates the email address of the user
+   **Username**|Indicates the username for the user.
+   **Name**|Indicates the full name of the user.
+   **Email**|Indicates the email address of the user.
    **Subscription Admin**|Indicates whether the user is a Subscription Admin. 
    **Project Role**|Indicates whether the user is a Project Admin.
    **Quota consumed**|Indicates whether the user is consuming quota from the current subscription.  
@@ -171,7 +171,7 @@ You can generate a report to view all details for the active and removed users.
    **Approved By**|Indicated the name of the SA or PA who approved the user.
    **Removed Date**| Indicates the date when the user was removed.
    **Removed By**|Indicates the name of the SA or PA who removed the user.
-   **Removal Reason**|Indicates the reason for removal of a user as entered by the SA or PA
+   **Removal Reason**|Indicates the reason for removal of a user as entered by the SA or PA.
 
 ## [Manage Access](#manage-access)
 
@@ -242,7 +242,7 @@ To change or transfer the existing PA role to another user, one of the SAs can a
 
 1. Name of users will be displayed based on the project role.
 
-### To add PAs:
+### To add PAs  
 1. Log in to [SHIP-HATS Portal](http://www.ship.gov.sg).
 1. Click **Overview** > **Project**. 
 
