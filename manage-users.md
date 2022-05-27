@@ -116,7 +116,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 1. From the side menu, click **Users > All Users**.  
    A list of users appears, along with following details:  
 
-   Column|Description
+   |Column|Description|
    |---|---|
    **Name**|Indicates the name of the user. <br>If *First Name* and *Last Name* were not provided when creating a new user account, only email address will appear in this column.<br>If a user is a Subscription Admin, it is indicated by the label **Subscr Admin** beside the username.
    **Project Role**|Indicates whether a user is a Project Admin.
@@ -145,7 +145,7 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 ## Generate a User Report
 You can generate a report to view all details for the active and removed users.
 
-### To generate a user report:
+### To generate a user report
 1. Log in to the [SHIP-HATS portal](https://www.ship.gov.sg/).   
    Make sure that you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
 1. From the side menu, click **Users > All Users**.
@@ -155,7 +155,7 @@ You can generate a report to view all details for the active and removed users.
 1. Click **Export CSV**.  
    The CSV report is downloaded to the your machine with the following details:
 
-   Field|Description
+   |Field|Description|
    |---|---|
    **Username**|Indicates the username for the user
    **Name**|Indicates the full name of the user
@@ -175,7 +175,7 @@ You can generate a report to view all details for the active and removed users.
 
 ## [Manage Access](#manage-access)
 
-### To manage access for a user:
+### To manage access for a user
 
 1. Log in to the [SHIP-HATS portal](https://www.ship.gov.sg/).   
    Make sure that you are in the required account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
@@ -208,7 +208,7 @@ We recommend Subscription Admin (SA) and Project Admin (PA) to periodically revi
 
 >**Note:** SA and PA can remove a user who does not have the Project Admin or Subscription Admin roles in the subscription account.
 
-### To remove a user:
+### To remove a user
 
 >**Notes:**
 >- You can remove a user that is added to the billing subscription (quota consumed) only.
@@ -233,7 +233,7 @@ To change or transfer the existing SA role to another user, one of the SAs can r
 ## [Change PA](#change-pa)
 To change or transfer the existing PA role to another user, one of the SAs can add or remove PA on the [SHIP-HATS Portal](http://www.ship.gov.sg).
 
-### To view existing PAs:
+### To view existing PAs
 1. Log in to [SHIP-HATS Portal](http://www.ship.gov.sg).
 1. Click **Users > All users**.
 1. Click **Project Role**.
@@ -261,7 +261,7 @@ To change or transfer the existing PA role to another user, one of the SAs can a
 
 You have successfully added a PA.
 
-### To remove PAs:
+### To remove PAs
 1. Log in to [SHIP-HATS Portal](http://www.ship.gov.sg).
 1. Click **Overview** > **Project**.
 
@@ -290,7 +290,7 @@ On day 91, if the user is still inactive on SHIP-HATS, user status changes from 
 
 <!--SA and PA can reactivate a suspended user back to their account if required.-->
 
-### To reactivate a user:
+### To reactivate a user
 
 If you are **a TechPass user**, the SA can raise a service request using the [TechPass Support form](https://form.gov.sg/#!/5f69797d0666cb0011cc59da). It will take 1-3 business days to process the service request.
 
