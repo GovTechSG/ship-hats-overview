@@ -69,7 +69,7 @@
   - [Cleanup Policy for Nexus Repository](ship-hats-cleanup-policy-for-nexus-repository)
   - [Plugin Review Process](plugin-review-process)
 - [Document History](document-history)
--->
+
 <!--
   - [Integrated Tools Version](get-started/ship-hats-integrated-tools-version)
   - [SHIP-HATS Portal Guide](portal-guide/overview-of-ship-hats-portal)
