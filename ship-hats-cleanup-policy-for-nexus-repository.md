@@ -34,12 +34,12 @@ We highly recommend you to periodically review your repositories and to maintain
  <summary> <b>Can I have my own cleanup policy?</b></summary><br>
    Yes. Raise a service request to SHIP-HATS with your requirements.
 </details>
-
+<br>
 <details>
  <summary><b>How to check which of our repositories are using the maximum space?</b></summary><br>
    Contact your repo administrator to get this information.
 </details> 
-
+<br>
 <details>
  <summary> <b>Will there be any communications sent to agencies for the cleanups?</b> </summary><br>
    There was an initial communication sent to our tenants on September 24, 2021 about SHIP-HATS cleanup policy. As this is a recurring task scheduled every day at   01:00 AM, there will be no ongoing communications.
