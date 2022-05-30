@@ -2,11 +2,11 @@
 
 ## About this document
 
-This document gives an overview about SHIP-HATS cleanup policy for your Nexus Repositories, recommendations that you can follow to improve performance and maintenance.
+This section provides an overview on SHIP-HATS cleanup policy for your Nexus Repositories and recommendations that you can follow to improve performance and maintenance.
 
 ## Audience
 
-SHIP-HATS users.
+SHIP-HATS users
 
 ## Why do we need a cleanup policy?
 
@@ -18,26 +18,31 @@ Our default cleanup policy is configured to automatically delete a component fro
 
 This policy is applied to your repositories from October 11 2021, and the task is scheduled to run daily at 01.00 AM.
 
-We highly recommend you to periodically review your repositories and to housekeep them from your end.
+We highly recommend you to periodically review your repositories and to maintain them from your end.
 
 ## FAQs
 
-1. Will there be any customer impact when the cleanup task is running?
-
+<details>
+ <summary> <b>Will there be any customer impact when the cleanup task is running?</b> </summary><br>
    No, there will be no customer impact.
+</details>
 
-2. What should I do if I wish to retain some of my artifacts of a repository beyond 180 days?
-
+<details>
+ <summary> <b>What should I do if I wish to retain some of my artifacts of a repository beyond 180 days?</b> </summary><br>
    Raise a service request to SHIP-HATS with your requirements.
+</details>
 
-3. Can I have my own cleanup policy?
-
+<details>
+ <summary> <b>Can I have my own cleanup policy?</b></summary><br>
    Yes. Raise a service request to SHIP-HATS with your requirements.
+</details>
 
-4. How to check which of our repositories are using the maximum space?
-
+<details>
+ <summary><b>How to check which of our repositories are using the maximum space?</b></summary><br>
    Contact your repo administrator to get this information.
+</details> 
 
-5. Will there be any communications sent to agencies for the cleanups?
-
+<details>
+ <summary> <b>Will there be any communications sent to agencies for the cleanups?</b> </summary><br>
    There was an initial communication sent to our tenants on September 24, 2021 about SHIP-HATS cleanup policy. As this is a recurring task scheduled every day at   01:00 AM, there will be no ongoing communications.
+</details>
