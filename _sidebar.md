@@ -62,7 +62,6 @@
   - [Tools FAQ](tools-faq)
   - [General FAQ](general-faq)
   - [Maintenance Timing](maintenance-timing)
-  - [Releases](ship-hats-releases)
 - Terms & Policy Related
   - [Announcements and Policies](ship-hats-policy-announcements)
   - [Service Level Agreement](service-level-agreement)
@@ -76,4 +75,7 @@
   - [OpenVPN](get-started/openvpn-guide)
 - Newbie Path
   - [Pitstop 1: Preparing to Onboard](preparing-to-onboard)
+
+  - [Releases](ship-hats-releases)
+
 -->
