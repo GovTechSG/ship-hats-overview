@@ -25,11 +25,11 @@ We highly recommend you to periodically review your repositories and to maintain
 <details>
  <summary> <b>Will there be any customer impact when the cleanup task is running?</b> </summary><br>No, there will be no customer impact.
 </details>
-
+<br>
 <details>
  <summary> <b>What should I do if I wish to retain some of my artifacts of a repository beyond 180 days?</b> </summary><br>Raise a service request to SHIP-HATS with your requirements.
 </details>
-
+<br>
 <details>
  <summary> <b>Can I have my own cleanup policy?</b></summary><br>
    Yes. Raise a service request to SHIP-HATS with your requirements.
