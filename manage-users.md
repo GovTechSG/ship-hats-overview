@@ -118,15 +118,12 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
 
    |Column|Description|
    |---|---|
-   **Name**|Indicates the name of the user. <br>If *First Name* and *Last Name* were not provided when creating a new user account, only email address will appear in this column.<br>If a user is a Subscription Admin, it is indicated by the label **Subscr Admin** beside the username.
-   **Project Role**|Indicates whether a user is a Project Admin.
-   **Quota consumed**|Indicates whether the user is consuming quota from the current subscription. <ul><li>If user is not consuming quota of the subscription, a tag **free user**, appears beside the name. When you hover over the tag, you can view the billing subscription under which the quota is being consumed.</li></ul>   
+   **Name**|Indicates the name of the user. <ul><li>If a user is a Subscription Admin, it is indicated by the label **Subscr Admin** beside the username.</li><li>If user is not consuming quota of the subscription, a tag **free user**, appears beside the name. When you hover over the tag, you can view the billing subscription under which the quota is being consumed.</li></ul>
+   **Project Role**|Indicates whether a user is a Project Admin.    
    **CI**| Indicates whether the user is consuming the CI tools quota from the current subscription. 
    **Sonatype**|Indicates whether the user is consuming Sonatype tools quota from the current subscription.
    **Last Login**|Indicates the date and time when the user logged in the last time.
    **Action**|Enables you to [Manage access](#manage-accessmanage-access) and [Remove User](#remove-usersremove-users).
-
-   <kbd>![all-users-new](all-users-new.png ':size=100%')</kbd>
 
    You can perform following additional functions on this screen:
    - **Sort:** You can sort this list in ascending or descending order by one of the following options:
@@ -134,13 +131,15 @@ Subscription Admin (SA) and Project Admin (PA) can view all users associated wit
       - Project Role
       - CI
       - Sonatype
-      - Quota consumed  
       - Last Login
     - **Search:** You can quickly search for a user by typing the username in the search box.
 
-       <kbd>![search_user](export-csv.png ':size=100%')</kbd>
+   <!--       <kbd>![search_user](export-csv.png ':size=100%')</kbd>-->
 
     - **Download:** If you want to download the user list as a .csv file to your local machine, click **Export CSV**. This csv lists the active and removed users along with the approval and removal details. For more details, refer to the [Generate a User Report](#generate-a-user-report) documentation.
+
+   <kbd>![all-users-new](all-users-new.png ':size=100%')</kbd>
+
 
 ## Generate a User Report
 You can generate a report to view all details for the active and removed users.
@@ -332,6 +331,7 @@ An SA and PA can view and manage all the existing user groups that are assigned 
 1. 
 
 
-
+<li>If *First Name* and *Last Name* were not provided when creating a new user account, only email address will appear in this column.</li>
+**Quota consumed**|Indicates whether the user is consuming quota from the current subscription. <ul><li>If user is not consuming quota of the subscription, a tag **free user**, appears beside the name. When you hover over the tag, you can view the billing subscription under which the quota is being consumed.</li></ul> 
 
 -->
