@@ -178,6 +178,11 @@ If you already ran with `6.10.4 JAR` file, you can skip these steps as `6.10.4 J
 
 ## Base Elastic Agent AMI
 
+For information on available Base Elastic Agent AMI, refer to the **Base Elastic Agent AMI**
+ section in the [SHIP Bamboo Elastic Agent for SHIP Users](https://confluence.ship.gov.sg/pages/viewpage.action?spaceKey=SHIP&title=SHIP+Bamboo+Elastic+Agent+for+SHIP+Users) confluence. 
+
+<!--
+https://jira.ship.gov.sg/browse/CODEX-198056
 **Topics**
 
 - [Base Linux Elastic Image (version 6.10.4 build 61009)](#base-linux-elastic-image-version-6104-build-61009)
@@ -374,6 +379,8 @@ Terraform	|/usr/bin/terraform
 |Nuget Version|	NuGet Version: 5.8.0.6930
 |Python Version	|Python 3.7.3
 |Sonar Scanner Version|	SonarScanner 4.6.1.2450 Java 11.0.3 AdoptOpenJDK (64-bit) Windows Server 2016 10.0 amd64
+
+-->
 
 ## Fair Usage Guidelines for Elastic Agents
 
