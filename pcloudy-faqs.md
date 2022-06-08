@@ -1,8 +1,10 @@
 # FAQs
 
+The following section provides frequently asked questions related to pCloudy. Click on a question to view the answer.
+
 <details>
   <summary><b>What testing frameworks are supported by pCloudy?</b></summary><br>
-    Please refer to the official documentation for more information: https://www.pcloudy.com/app-testing-tools-and-frameworks-integration/.
+    Please refer to the official documentation for more information: https://www.pcloudy.com/app-testing-tools-and-frameworks-integration/
 </details>
 <br>
 <details>
