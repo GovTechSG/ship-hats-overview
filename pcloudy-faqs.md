@@ -4,13 +4,12 @@ The following section provides frequently asked questions related to pCloudy. Cl
 
 <details>
   <summary><b>What testing frameworks are supported by pCloudy?</b></summary><br>
-    Please refer to the official documentation for more information: https://www.pcloudy.com/app-testing-tools-and-frameworks-integration/
+    Refer to the official documentation for more information: <a href="https://www.pcloudy.com/app-testing-tools-and-frameworks-integration/">https://www.pcloudy.com/app-testing-tools-and-frameworks-integration/.</a>
 </details>
 <br>
 <details>
   <summary><b>Is there email restriction?</b></summary><br>
-    No, there is no email restriction for user sign up for manual testing.
-Please raise a service ticket as we will only accept pending user registration strictly based on the signup email stated in the ticket.
+    No, there is no email restriction for user sign up for manual testing. Please raise a service ticket as we will only accept pending user registration strictly based on the signup email stated in the ticket.
 </details>
 <br>
 <details>
