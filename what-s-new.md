@@ -3,8 +3,20 @@
 This section contains release information for the SHIP-HATS platform releases.  
 
 **Topics**
+- [3.17.17 and 3.17.18]()
 - [3.16.15 and 3.16.16](#release-31615-and-31616)
 - [3.15.14 and 3.15.15](#release-31514-and-31515)
+
+## Release 3.17.17 and 3.17.18
+
+The following section contains the new features, enhancements, and changes released on June 24, 2022:
+
+| Change/Feature |Description|
+|---|---|
+|**User Groups**|You can now manage user permissions through user groups. You can group multiple users together and assign same permissions to all users in a group. For more information, refer to the [Manage User Groups](manage-user-groups) documentation.|
+|**Nexus IQ**|You can now add Nexus IA to the project via the SHIP-HATS portal. You can also assign the Nexus IQ roles via the portal. For more information refer to the [Manage Projects](manage-projects) documentation. |  
+|**Security Patching and Update**|<ul><li>Bitbucket</li><li>Nexus Repo</li></ul>|  
+|**Version Upgrade**|Refer to the [SHIP-HATS Integrated Tools Version](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/ship-hats-integrated-tools-version) section for latest supported version of various tools.|
 
 ## Release 3.16.15 and 3.16.16
 

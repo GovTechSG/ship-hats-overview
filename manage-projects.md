@@ -1,20 +1,21 @@
 # Manage Projects
+
 This section explains how a Subscription Admin creates SHIP-HATS projects and how Project Admin manages these projects by adding the required users and tools.
+
 - [Create new projects](#create-new-projects)
-- [View projects](#view-projects)
-- [Remove projects](#remove-projects)
-- [Remove project tools](#remove-project-tools)
-- [Add project tools](#add-project-tools)
 - [Add project admins](#add-project-admins)
+- [View projects](#view-projects)
 - [Add project tools](#add-project-tools)
 - [Create Project tool with customised project key](#creation-of-project-tool-with-customised-project-key)
 - [Manage users within a Project Tool](#manage-users-within-a-project-tool)
+- [Remove projects](#remove-projects)
+- [Remove project tools](#remove-project-tools)
 
-## [Create new projects](#create-new-projects)
+## Create new projects
 
 Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SAs assign Project Admins (PA). Both SA and PA can manage the projects by adding project tools and add users.
 
-### To create a new project:
+### To create a new project
 
 1. From the side menu, click **Projects** > **Create New**.  
 
@@ -24,10 +25,12 @@ Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SA
 
 2. Provide information in the following fields:
 
-    - **Project Name:** Specify name of the project. 
-    - **Project Description**: Specify details of the project. 
-    - **Project Admin 1:** Select Project Admin from the drop-down list. If *First Name* and *Last Name* were not provided when creating a new user account, email address will appear in the drop-down list.
-    - **Project Admin 2:** This is an optional field. Select a second Project Admin from the drop-down list. If *First Name* and *Last Name* were not provided when creating a new user account, email address will appear in the drop-down list. 
+    |Field|Description|
+    |---|---|
+    | **Project Name** |Specify name of the project. 
+    |**Project Description**| Specify details of the project. 
+    |**Project Admin 1**| Select Project Admin from the drop-down list. If *First Name* and *Last Name* were not provided when creating a new user account, email address will appear in the drop-down list.
+    |**Project Admin 2**| This is an optional field. Select a second Project Admin from the drop-down list. If *First Name* and *Last Name* were not provided when creating a new user account, email address will appear in the drop-down list. 
 3. Click **Create Project**. The created project details are displayed as shown below.
 
     <kbd>![newly-created-project](newly-created-project.png ':size=100%')</kbd>
@@ -35,64 +38,21 @@ Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SA
 SA or PA can add tools and additional PAs. 
 > **Note:** The number of PAs each project is entitled to is based on the [subscription tier](https://www.developer.tech.gov.sg/products/categories/devops/ship-hats/subscription) quota for which the agency has subscribed.
 
-## [View projects](#view-projects)
-
-SA and PAs of a subscription account can view all the projects of the subscription account.
-
-### To view a project in a subscription account:
-
-1. From the side menu click **Projects** > **All Projects**.
-
-    Tile view of all the projects in this subscription account is displayed. If needed, refer to Switch account
-
-    <kbd>![](view-all-projects-tile-view.png ':size=100%')</kbd>
-
-2. Click **Manage** to view tools that are currently added to the project.
-
-## [Remove projects](#remove-projects)
-
-Subscription Admin can remove a project as long as no tool has been added to it.
-
-### To remove a project:
-
-1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
-2. Locate the project and click **Manage**. You will see ![remove-project-icon](remove-project-icon.png) beside the project name as shown below.
-
-    <kbd>![remove-project](remove-project.png ':size=100%')</kbd>
-
-3. Click the three dots and then choose **Remove project**.
-
-## [Remove project tools](#remove-project-tools)
-Subscription Admin and Project Admin can remove a tool/app when it is not required. These tools are Jira, Confluence, Bitbucket, Fortify, and WebInspect. 
-
-1. Go to **Projects> All Projects> Manage**.
-2. Click **Manage** on the tool you’d like to remove. 
-3. Select **Remove App** from the dropdown menu. 
-
-    ![removetool](removetool.png)
-
-4. Click **Remove**
-
-    ![remove](confirmremove.png)
-
-5. Enter the required action  
-
-    ![proceed](proceed.png)
-
-## [Add project admins](#add-project-admins)
+## Add project admins
 
 Subscription Admins can add Project Admins using the SHIP-HATS portal. When creating a project in an account, it is mandatory to specify at least one Project Admin. SAs can add any additional PAs anytime in the future.  
 
 > **Note:** The number of PAs each project is entitled to is based on the [subscription tier](https://www.developer.tech.gov.sg/products/categories/devops/ship-hats/subscription) quota for which the agency has subscribed.
 
-### To add a project admin:
+### To add a project admin
 
-1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to Switch account.
-2. Locate the project and click **Manage**.
+1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
+2. Locate the project, and then click **Manage**.
 
     <kbd>![add-pa-1-resized](add-pa-1-resized.png ':size=100%')</kbd>
 
-3. Click the edit icon. **Manage Admin** panel is displayed.
+3. Click the edit icon.  
+    The **Manage Admin** panel appears.
 
     <kbd>![add-pa-2-resized](add-pa-2-resized.png ':size=100%')</kbd>
 
@@ -105,44 +65,52 @@ Subscription Admins can add Project Admins using the SHIP-HATS portal. When crea
 
 >**Note:** To know how to remove a Project Admin, refer to **Remove User**.
 
-## [Add project tools](#add-project-tools)
+## View projects
 
-SA or PA can add the required project tools as explained below. You can add tools for Development, Build, QA &amp; Security and Release phases as per the tools quota allotted for your subscription type. Note that currently you need to raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/) for adding the following:
+SA and PAs of a subscription account can view all the projects of the subscription account.
 
-- Build tool - Nexus IQ and Nexus Repo
-- Release and Deploy tool- Digital.ai Release and Digital.ai Deploy
+### To view a project in a subscription account
 
-> **Note:** SA and PA must have logged in to SonarQube at least once before proceeding to create applications in SonarQube.
+1. From the side menu, click **Projects** > **All Projects**.
+
+    Tile view of all the projects in this subscription account is displayed. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
+
+    <kbd>![](view-all-projects-tile-view.png ':size=100%')</kbd>
+
+2. Click **Manage** to view tools that are currently added to the project.
+
+## Add project tools
+
+SA or PA can add the required project tools as explained below. You can add tools for **Development**, **Build**, **QA &amp; Security**, and **Release** phases as per the tools quota allotted for your subscription type. 
+
+>**Notes:** 
+>- If you want to add *Nexus Repo* or *Release and Deploy* tools, you must raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/).
+>- If you want to add SonarQube and add related applications, you must have logged in to SonarQube at least once.
 
 
-### To add project tools:
+### To add project tools
 
-1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to Switch account.
-2. Locate the project and click **Manage**.
+1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
+2. Locate the project to which you want to add a tool, and then click **Manage**.
+
+3. Go to the required tab, and then click **Add tool**. For example if you want to add JIRA, go to **Development** tab, and then click **Add tool**.
 
     <kbd>![add-new-development-tool](add-new-development-tool.png ':size=100%')</kbd>
 
-3. Go to the required tab and click **Add tool**.
-4. For example, go to **Development** tab and click **Add tool**.
-
-    <kbd>![add-new-development-tool](add-new-development-tool.png ':size=100%')</kbd>
-
-5. Select the required tool and click **Add**. This tool gets integrated with your SHIP-HATS project and a project is automatically created in the tool with the same name. For example, in this case, the SHIP-HATS project name is _Govtech-Documentation_ and hence the Jira project inherits this name.
+5. Select the required tool, and then click **Add**. The selected tool gets integrated with your SHIP-HATS project and a project is automatically created in the tool with the same name. For example, if the SHIP-HATS project name is *Govtech-Documentation*, the newly added JIRA project inherits this name.
 
     <kbd>![project-created-for-tools](project-created-for-tools.png ':size=100%')</kbd>
 
-You can add build tools other than Nexus IQ and Nexus Repo in the same manner from the **Build** tab.
-
 >**Notes:**
->- While adding tools such as WebInspect Fortify SCA under the **QA &amp; Security** tab, the system displays the quota remaining for your subscription as shown below.
+>- When adding tools such as WebInspect Fortify SCA under the **QA &amp; Security** tab, the system displays the quota remaining for your subscription as shown below.
 ><kbd>![tool-quota](tool-quota-resized-2.png ':size=100%')</kbd>
->- Once you have reached the quota, the respective tool name(s) will be disabled in the **Select Tool** drop-down list. If you still want to add these tools, please do raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/).
+>- After you have reached the quota, the respective tool name(s) will be disabled in the **Select Tool** drop-down list. If you still want to add these tools, raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/).
 
 
-## [Creation of Project tool with customised project key](#creation-of-project-tool-with-customised-project-key)
+## Creation of Project tool with customised project key
 Subscription Admin (SA) and Project Admin (PA) can customise the project keys when adding app tools on SHIP-HATS. This is currently applicable for Jira, Bitbucket, and Confluence.  
 
-### To customise project key: 
+### To customise project key
 
 1. Go to **Projects> All Projects>** > Manage > to view and select the relevant project. 
 2. Click Add tool under **Development** tab.
@@ -162,9 +130,14 @@ Subscription Admin (SA) and Project Admin (PA) can customise the project keys wh
 
 ## Manage Users within a Project Tool
 
-Subscription Admin and Project Admin can manage users within a project tool or app when it is not required. These tools are Bamboo, Bitbucket, Confluence, and JIRA. 
+As a Subscription Admin or a Project Admin, you can manage users within a project tool or app. You can manage users for the following tools:
+- Bamboo
+- Bitbucket
+- Confluence
+- JIRA
+- Nexus IQ
 
-### To manage users for your project tool or app:
+### To manage users for your project tool or app
 
 1. Go to **Projects** > **All Projects**.
 
@@ -187,3 +160,42 @@ Subscription Admin and Project Admin can manage users within a project tool or a
     >**Note:** The link to tool or app server, includes the project key that you selected. This enables you to get to the project in the tool or app server directly. This is applicable for all Atlassian apps (Bamboo, Bitbucket, Confluence, and JIRA).  
     >
     ><kbd>![All Projects](portal-projects-manage-users.png  ':size=60%')</kbd>
+
+## Remove projects
+
+As a Subscription Admin, you can remove a project as long as no tool has been added to it.
+
+### To remove a project
+
+1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
+1. Locate the project, and then click **Manage**. You will see ![remove-project-icon](remove-project-icon.png) beside the project name as shown below.
+
+    <kbd>![remove-project](remove-project.png ':size=100%')</kbd>
+1. Click the three dots, and then choose **Remove project**.
+
+## Remove project tools
+As a Subscription Admin or a Project Admin, you can remove a tool or an app when it is not required. You can remove the following tools: 
+- Confluence
+- Bitbucket
+- Jira
+- Nexus IQ
+- WebInspect
+
+### To remove a project tool
+1. Go to **Projects** > **All Projects**.
+1. Navigate to the project whose tool you want to remove, and then click **Manage**.
+1. On the tool that want to remove, click **Manage**.  
+    The **Manage Tool** window appears.
+1. From the dropdown, select **Remove App**. 
+    **Select App to Remove:** appears, displaying a list of apps. 
+
+    ![removetool](removetool.png)
+
+1. Next to the app that want to remove, click **Remove**.  
+    The **Remove** window appears.
+
+    ![remove](confirmremove.png)
+1. Enter the requested information, and then click **Proceed**.  
+
+    ![proceed](proceed.png)
+    The selected app is removed. If this the last app for the tool, the project tool is also removed. 

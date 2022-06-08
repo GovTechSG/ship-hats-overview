@@ -11,6 +11,7 @@
 - [SHIP-HATS Portal Guide](overview-of-ship-hats-portal)
   - [Accounts](manage-account)
   - [Users](manage-users)
+  - [User Groups](manage-user-groups)
   - [Projects](manage-projects)
   - [Fortify applications](manage-fortify-applications)
   - [DGP Systems](declaring-dgp-systems)
