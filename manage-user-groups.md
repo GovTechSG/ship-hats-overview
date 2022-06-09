@@ -7,16 +7,16 @@ Using the user groups, you can:
 
 **Topics**
 
-- [Create User Groups](#create-user-groups)
-- [Access User Groups](#access-user-groups)
+- [Create user groups](#create-user-groups)
+- [Access user groups](#access-user-groups)
 - [Add users to user groups](#add-users-to-user-groups)
-- [Modify User Groups](#modify-user-groups)
-- [Remove User Groups](#remove-user-groups)
+- [Modify user groups](#modify-user-groups)
+- [Remove user groups](#remove-user-groups)
 - [Remove users from user groups](#remove-users-from-user-groups)
 
 
 
-## Create User Groups
+## Create user groups
 
 You can create upto 200 user groups. 
 
@@ -39,7 +39,7 @@ You can create upto 200 user groups.
    <kbd>![User Groups All](user-groups-all.png)</kbd>
 
 
-## Access User Groups
+## Access user groups
 
 ### To access a user group
 1. From the side menu, click **Users** > **All User Groups**.  
@@ -66,14 +66,14 @@ You can create upto 200 user groups.
 1. on respective tool's user mgmt page, assign permissions to the group.
 1. once assigned, all users in groups will have same permissions.
 
-## Modify User Groups
+## Modify user groups
 
 ### To modify a user group
 
 Under **Actions**, select **Manage**.
 
 
-## Remove User Groups
+## Remove user groups
 
 ### To remove a user group
 1. From the side menu, click **Users** > **All User Groups**.
@@ -84,7 +84,7 @@ Under **Actions**, select **Manage**.
 1. Click **Proceed**.  
    The user group is removed. 
 
-## Remove Users from User Groups
+## Remove users from user groups
 
 ### To remove a user from a user group
 1. From the side menu, click **Users** > **All User Groups**.

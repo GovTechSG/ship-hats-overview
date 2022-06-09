@@ -54,6 +54,7 @@
     - [FAQs](pcloudy-faqs)
   - [Prisma Cloud](prisma-cloud-overview) 
   - [SonarQube](hats-sonarqube-overview)
+    - [User Roles and Permissions](sonarqube-user-roles-and-permissions)
     - [Community Edition](sonarqube-set-up-community-edition)
     - [Developer Edition](sonarqube-set-up-developer-edition)
     - [Self Help Guide](sonarqube-self-help-guide)

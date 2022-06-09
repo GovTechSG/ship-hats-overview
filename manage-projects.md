@@ -7,6 +7,7 @@ This section explains how a Subscription Admin creates SHIP-HATS projects and ho
 - [View projects](#view-projects)
 - [Add project tools](#add-project-tools)
 - [Create Project tool with customised project key](#creation-of-project-tool-with-customised-project-key)
+- [Manage user groups within a Project tool](#manage-user-groups-within-a-project-tool)
 - [Manage users within a Project Tool](#manage-users-within-a-project-tool)
 - [Remove projects](#remove-projects)
 - [Remove project tools](#remove-project-tools)
@@ -93,13 +94,32 @@ SA or PA can add the required project tools as explained below. You can add tool
 1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
 2. Locate the project to which you want to add a tool, and then click **Manage**.
 
-3. Go to the required tab, and then click **Add tool**. For example if you want to add JIRA, go to **Development** tab, and then click **Add tool**.
+3. Go to the required tab, and then click **Add tool**.  
+
+
+    For example if you want to add Jira, go to **Development** tab, and then click **Add tool**.
 
     <kbd>![add-new-development-tool](add-new-development-tool.png ':size=100%')</kbd>
 
 5. Select the required tool, and then click **Add**. The selected tool gets integrated with your SHIP-HATS project and a project is automatically created in the tool with the same name. For example, if the SHIP-HATS project name is *Govtech-Documentation*, the newly added JIRA project inherits this name.
 
     <kbd>![project-created-for-tools](project-created-for-tools.png ':size=100%')</kbd>
+
+- **Development:** You can add following tools using this tab:
+    - **Jira**
+    - **Confluence**
+    - **Bitbucket** 
+- **Build:** You can add following tools using this tab:
+    - **Bamboo**
+    - **Nexus IQ:** Provide values in the **Application Name** and **Application ID** fields to enable the **Add** button.
+    - **Nexus Repo:** Submit a ticket to add this tool.
+- **QA &amp; Security:** You can add following tools using this tab:
+    - **pCloudy Device Farm & HATS Browser Farm** 
+    - **SonarQube - Community Edition:** Provide value in the **App name** field to enable the **Add** button.
+    - **SonarQube - Developer Edition:** Provide value in the **App name** field to enable the **Add** button.
+    - **Fortify SCA & WebInspect:** Provide value in the **App name** field to enable the **Add** button. When you are this tool, the remaining quota will appear for your subscription. 
+    - **Container Image Scanner:** Provide values in the **Scanner type** and **App name** fields to enable the **Add** button.
+
 
 >**Notes:**
 >- When adding tools such as WebInspect Fortify SCA under the **QA &amp; Security** tab, the system displays the quota remaining for your subscription as shown below.
@@ -128,6 +148,35 @@ Subscription Admin (SA) and Project Admin (PA) can customise the project keys wh
 
 <!--CODEX-49288 https://gdsjira.ship.gov.sg/browse/PORTAL-2133 -->
 
+
+## Manage user groups within a project tool
+
+As a Subscription Admin or a Project Admin, you can manage user groups within a project tool or app. You can manage user groups for the following tools:
+- Bamboo
+- Bitbucket
+- Confluence
+- JIRA
+- Nexus IQ
+
+### To manage user groups for your project tool or app
+
+1. Go to **Projects** > **All Projects**.
+
+    <kbd>![All Projects](portal-projects-all-projects.png)</kbd>
+
+1. Navigate to your project, and then click **Manage** on the project tool whose users you want to manage. 
+
+    <kbd>![All Projects](portal-projects-manage-app.png)</kbd>
+
+1. In the **Manage Tool** window that appears, from the dropdown, select **Manage/add user group**. 
+
+    <kbd>![All Projects](portal-projects-manage-tool.png  ':size=60%')</kbd>
+
+1. To manage users, follow the on-screen instructions. 
+
+
+
+
 ## Manage Users within a Project Tool
 
 As a Subscription Admin or a Project Admin, you can manage users within a project tool or app. You can manage users for the following tools:
@@ -151,7 +200,7 @@ As a Subscription Admin or a Project Admin, you can manage users within a projec
 
     <kbd>![All Projects](portal-projects-manage-app.png)</kbd>
 
-1. In the **Manage Tool** window that appears, from the dropdown, select **Manage users**. 
+1. In the **Manage Tool** window that appears, from the dropdown, select **Manage/add user**. 
 
     <kbd>![All Projects](portal-projects-manage-tool.png  ':size=60%')</kbd>
 
