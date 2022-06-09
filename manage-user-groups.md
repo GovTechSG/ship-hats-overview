@@ -10,7 +10,6 @@ Using the user groups, you can:
 - [Create user groups](#create-user-groups)
 - [Access user groups](#access-user-groups)
 - [Add users to user groups](#add-users-to-user-groups)
-- [Modify user groups](#modify-user-groups)
 - [Remove user groups](#remove-user-groups)
 - [Remove users from user groups](#remove-users-from-user-groups)
 
@@ -19,10 +18,6 @@ Using the user groups, you can:
 ## Create user groups
 
 You can create user groups based on quota specified for your projects based on your subscription.  
-
-shows quota at the top.
-
-with full quota, Create button is disabled.
 
 ### To create a user group
 1. From the side menu, click **Users** > **All User Groups**. 
