@@ -13,8 +13,9 @@ The following section contains the new features, enhancements, and changes relea
 
 | Change/Feature |Description|
 |---|---|
-|**User Groups**|You can now manage user permissions through user groups. You can group multiple users together and assign same permissions to all users in a group. For more information, refer to the [Manage User Groups](manage-user-groups) documentation.|
+|**User Groups**|You can now manage user permissions or roles through user groups. You can group multiple users together and assign same permissions or roles to all users in a group. You can then assign the user groups to the project tools (SonarQube and Nexus IQ) and apps. For more information, refer to the [Manage User Groups](manage-user-groups) and [Manage Projects](manage-projects) documentation.|
 |**Nexus IQ**|You can now add Nexus IA to the project via the SHIP-HATS portal. You can also assign the Nexus IQ roles via the portal. For more information refer to the [Manage Projects](manage-projects) documentation. |  
+|||
 |**Security Patching and Update**|<ul><li>Bitbucket</li><li>Nexus Repo</li></ul>|  
 |**Version Upgrade**|Refer to the [SHIP-HATS Integrated Tools Version](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/ship-hats-integrated-tools-version) section for latest supported version of various tools.|
 
