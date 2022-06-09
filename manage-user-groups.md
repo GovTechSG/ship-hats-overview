@@ -3,7 +3,7 @@
 Using the user groups, you can:
 - Group multiple users together
 - Assign tool's permissions to a group
-- Assign same permissions to all users in a group
+- Assign same permissions or roles to all users in a group
 
 **Topics**
 
@@ -18,17 +18,22 @@ Using the user groups, you can:
 
 ## Create user groups
 
-You can create upto 200 user groups. 
+You can create user groups based on quota specified for your projects based on your subscription.  
+
+shows quota at the top.
+
+with full quota, Create button is disabled.
 
 ### To create a user group
 1. From the side menu, click **Users** > **All User Groups**. 
-1. Click **Create Group**.
-   The **Create New User Group** window appears.
+1. Click **Create Group**.  
+   The **Create New User Group** window appears.  
+   >**Note:** If you have consumed the quota available for user groups, the **Create Group** button is disabled. If you want to continue to add user groups beyond the available quota limit, create a service request.
 1. Enter values in the following fields:     
    |Field|Description|
    |---|---|
-   **Group Name**|Enter name for the group|
-   |**Group Description**|Enter description for the group|
+   **Group Name**|Enter name for the group. conditions to enter name: no ?|
+   |**Group Description**|Enter description for the group < 250 characters|
    **Group Members**|Select usres to be added to the group from the drop-down list. Only active users will be visible in list|
 
    <kbd>![New User Group](user-groups-new.png)</kbd>
@@ -45,8 +50,10 @@ You can create upto 200 user groups.
 1. From the side menu, click **Users** > **All User Groups**.  
 
    The **All User Groups** window appears, displaying all the user groups listed under the **Group Name** column.  
+   At the top, you can view the quota consumed and available. In the image below, you can see available quota is 200 and number of groups created is 100.  
 
    <kbd>![User Groups All](user-groups-all.png)</kbd>
+
 
 
 ## Add users to user groups
@@ -55,22 +62,22 @@ You can create upto 200 user groups.
 
 1. From the side menu, click **Users** > **All User Groups**.
 1. Next to the user group to which you want to add a new user, under **Actions**, select **Manage**.   
-1. In **Add users**, select additional users, and then click **Add**. 
+1. In **Add users**, select additional users, and then click **Add**.  
    The newly added user appears under the **Name** column.
 
    <kbd>![Add Users](user-groups-add-users.png)</kbd>
 
----
+## Remove users from user groups
 
-1. Add users to groups
-1. on respective tool's user mgmt page, assign permissions to the group.
-1. once assigned, all users in groups will have same permissions.
+### To remove a user from a user group
+1. From the side menu, click **Users** > **All User Groups**.
+1. Next to the user group to which you want to add a new user, under **Actions**, select **Manage**.
+1. Under the **Name** column, next to the user that you want to remove, click **Remove**.  
+A pop-up appears indicating that the selected user will lose all the permissions assigned to the user group.  
 
-## Modify user groups
-
-### To modify a user group
-
-Under **Actions**, select **Manage**.
+   <kbd>![Remove Users](user-groups-remove-users.png)</kbd>
+1. Click **Proceed**.  
+   The user is removed.
 
 
 ## Remove user groups
@@ -84,14 +91,3 @@ Under **Actions**, select **Manage**.
 1. Click **Proceed**.  
    The user group is removed. 
 
-## Remove users from user groups
-
-### To remove a user from a user group
-1. From the side menu, click **Users** > **All User Groups**.
-1. Next to the user group to which you want to add a new user, under **Actions**, select **Manage**.
-1. Under the **Name** column, next to the user that you want to remove, click **Remove**.  
-A pop-up appears indicating that the selected user will lose all the permissions assigned to the user group.  
-
-   <kbd>![Remove Users](user-groups-remove-users.png)</kbd>
-1. Click **Proceed**.  
-   The user is removed.

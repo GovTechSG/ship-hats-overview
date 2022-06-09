@@ -151,12 +151,13 @@ Subscription Admin (SA) and Project Admin (PA) can customise the project keys wh
 
 ## Manage user groups within a project tool
 
-As a Subscription Admin or a Project Admin, you can manage user groups within a project tool or app. You can manage user groups for the following tools:
-- Bamboo
-- Bitbucket
-- Confluence
-- JIRA
+As a Subscription Admin or a Project Admin, you can manage following within a project tool or app:  
+- User groups
+- Permissions or Roles  
+
+You can manage user groups and permissions/roles for the following tools:
 - Nexus IQ
+- SonarQube
 
 ### To manage user groups for your project tool or app
 
@@ -164,16 +165,18 @@ As a Subscription Admin or a Project Admin, you can manage user groups within a 
 
     <kbd>![All Projects](portal-projects-all-projects.png)</kbd>
 
-1. Navigate to your project, and then click **Manage** on the project tool whose users you want to manage. 
+1. Navigate to your project, and then click **Manage** on the project tool for which you want to manage/add user groups. 
 
     <kbd>![All Projects](portal-projects-manage-app.png)</kbd>
 
 1. In the **Manage Tool** window that appears, from the dropdown, select **Manage/add user group**. 
+    - **SonarQube:** Provide values in the **App Name** and **User Group** fields, and then select the required permissions. The **Browse** permission is selected by default along with any other permission.
 
-    <kbd>![All Projects](portal-projects-manage-tool.png  ':size=60%')</kbd>
-
-1. To manage users, follow the on-screen instructions. 
-
+        <kbd>![Manage Tool](sonarqube-manage-user-group.png ':size=60%')
+    - **Nexus IQ:** Provide value in the **User Group** field, and then select the required roles.
+        
+        <kbd>![Manage Tool](nexus-iq-manage-user-group.png  ':size=60%')</kbd> 
+1. Click **Update**.
 
 
 
@@ -209,6 +212,27 @@ As a Subscription Admin or a Project Admin, you can manage users within a projec
     >**Note:** The link to tool or app server, includes the project key that you selected. This enables you to get to the project in the tool or app server directly. This is applicable for all Atlassian apps (Bamboo, Bitbucket, Confluence, and JIRA).  
     >
     ><kbd>![All Projects](portal-projects-manage-users.png  ':size=60%')</kbd>
+
+## Remove user groups from a project tool
+
+As a Subscription Admin or a Project Admin, you can remove permissions and roles within a project tool or app for the following tools:
+- Nexus IQ
+- SonarQube
+
+### To remove user groups for your project tool or app
+
+1. Go to **Projects** > **All Projects**.
+
+    <kbd>![All Projects](portal-projects-all-projects.png)</kbd>
+
+1. Navigate to your project, and then click **Manage** on the project tool for which you want to manage/add user groups. 
+
+    <kbd>![All Projects](portal-projects-manage-app.png)</kbd>
+
+1. In the **Manage Tool** window that appears, from the dropdown, select **Manage/add user group**. 
+1. In the **App Name** and **User Group** fields, select the App and user group for which you want to update permissions or roles.  
+1. Next to the permissions or roles that you want to remove, clear the check box, and then click **Update**. 
+The permissions or roles are updated.
 
 ## Remove projects
 
