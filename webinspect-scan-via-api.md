@@ -47,8 +47,8 @@ To authenticate with the WIE API, an authentication token is required.
 
     The username and password credentials are similar to your Fortify SSC credentials.
 
-    <!-- tabs:start -->
-    ### **Command**
+  
+    ### Command
     ```
     curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/auth' \
     --header 'Accept: application/json' \
@@ -58,7 +58,7 @@ To authenticate with the WIE API, an authentication token is required.
     "password": "password"
     }'
     ```
-    ### **Sample Response**
+    ### Sample Response
     ```
     {
       "data": "FORTIFYTOKEN MDA2NDMzMDMtYjQ3NC00MGg89Tg0MDYtZjNkNmU3ZmI3YTBl",
@@ -67,9 +67,6 @@ To authenticate with the WIE API, an authentication token is required.
     }
     ```
     If you do not have the following JSON response, it is likely that your user account is unauthorized to use WIE. Please go to WIE Service Tickets for more details.
-
-
-    <!-- tabs:end -->
 
 ### **TechPass Users**
 
