@@ -3,7 +3,7 @@
 This section contains release information for the SHIP-HATS platform releases.  
 
 **Topics**
-- [3.17.17 and 3.17.18]()
+- [3.17.17 and 3.17.18](#release-31717-and-31718)
 - [3.16.15 and 3.16.16](#release-31615-and-31616)
 - [3.15.14 and 3.15.15](#release-31514-and-31515)
 
