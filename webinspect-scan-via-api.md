@@ -91,7 +91,7 @@ This method is good when you are testing using your own account and running scan
 2. Create/Use existing SHIP LDAP account to generate auth token
 As SHIP LDAP service accounts are not migrated to Techpass, you can still use the account's credentials to generate an auth token programmatically as shown in the guide in [1. Getting an Authentication Token (LDAP users)](#to-generate-the-authentication-token-ldap-users).
 
-If not, you can raise an SR for the SHIP team to create one. Do raise a separate request for us to grant the user access to [WIE - WebInspect Service Tickets Guide](https://confluence.ship.gov.sg/display/HATSKB/WebInspect+Service+Tickets+Guide).
+If not, you can raise an SR for the SHIP team to create one. Do raise a separate request for us to grant the user access to [WIE - WebInspect Service Tickets Guide](webinspect-service-tickets-guide).
 
 <!-- tabs:end -->
 
