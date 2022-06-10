@@ -18,14 +18,14 @@
 - Your agency has access to SHIP bamboo
 - Your agency has access to Fortify SSC
 
-For web applications that do not have a login page, follow these steps:
+For web applications that **do not have a login** page, follow these steps:
 <!--1,2,3, and 4a.-->
 1. [Generate an Authentication Token](#generate-an-authentication-token)
 1. [Get Project Version Data](#get-project-version-data)
 1. [Choose a Scan Policy](#choose-a-scan-policy)
 1. [Run the Scan without Login Macro](#run-the-scan-without-login-macro)
 
-For web appications that are protected by a login page, follow these steps: 
+For web applications that **are protected by a login** page, follow these steps: 
 <!--steps 1,2,3,4b,5, and 6.-->
 1. [Generate an Authentication Token](#generate-an-authentication-token)
 1. [Get Project Version Data](#get-project-version-data)
@@ -37,7 +37,11 @@ For web appications that are protected by a login page, follow these steps:
 ## Generate an Authentication Token
 To authenticate with the WIE API, an authentication token is required. 
 
-### To generate the Authentication Token:
+<!-- tabs:start -->
+
+### **LDAP Users**
+
+### To generate the Authentication Token (LDAP Users)
 
 1. Invoke the following cURL command. 
 
@@ -67,12 +71,39 @@ To authenticate with the WIE API, an authentication token is required.
 
     <!-- tabs:end -->
 
+### **TechPass Users**
+
+### To generate the Authentication Token (TechPass Users)
+
+There are two approaches on how to get a valid authentication token for Techpass migrated users.
+
+1. Manually Generate Auth Token in Fortify
+Go to Fortify SSC > Administration > Tokens (https://ssc.hats.stack.gov.sg/ssc/html/ssc/admin/tokens) and click New.
+
+<kbd>![Create Token](webinspect-create-token.png)
+
+Choose the Token Type as UnifiedLoginToken, fill in some description and click Save.
+
+<kbd>![Unified Login Token](webinspect-unified-login-token.png)
+
+
+You will see that an encoded and decode token is generated, please use the encoded token for WIE scans.
+
+This method is good when you are testing using your own account and running scans at an ad-hoc basis. But do note that it expires daily so it is not recommended for CICD.
+
+2. Create/Use existing SHIP LDAP account to generate auth token
+As SHIP LDAP service accounts are not migrated to Techpass, you can still use the account's credentials to generate an auth token programmatically as shown in the guide in [1. Getting an Authentication Token (LDAP users)](#to-generate-the-authentication-token-ldap-users).
+
+If not, you can raise an SR for the SHIP team to create one. Do raise a separate request for us to grant the user access to [WIE - WebInspect Service Tickets Guide](https://confluence.ship.gov.sg/display/HATSKB/WebInspect+Service+Tickets+Guide).
+
+<!-- tabs:end -->
+
 
 ## Get Project Version Data
 
 Similar to Fortify SCA scans, before scanning the application, WebInspect needs to know the specific Application Project Version before uploading the scan results.
 
-### To get the projectVersions ID:
+### To get the projectVersions ID
 
 1. Navigate to the application in Fortify SSC.
 
@@ -200,7 +231,7 @@ Based on best practices designed to test applications for the most pervasive and
 ## Record a Login Macro
 For web applications that have a login form, WebInspect will require a login macro to be created to crawl the website.
 
-### To create and record a macro:
+### To create and record a macro
 1. Navigate to https://wie.hats.stack.gov.sg, and then log in with your Fortify SSC credentials. 
 1. Download and install **WIEDesktop.exe**.
 
@@ -291,7 +322,7 @@ This step is only essential if the web application has a login form. Make sure t
 1. [Create MacroData](#to-create-macrodata-for-a-project)
 1. [Upload MacroData](#to-upload-macrodata-to-the-project)
 
-### To create MacroData for a project:
+### To create MacroData for a project
 
 Run the following cURL request to create MacroData for your project. The values of `{{auth_token}}` and `{{projectVersion_data}}` are created in the [Generate an Authentication Token](#generate-an-authentication-token) and [Get Project Version Data](#get-project-version-data) steps respectively.
 
@@ -329,7 +360,7 @@ You should receive a response as shown below. Take note of the id value as you w
 <!-- tabs:end -->
 
 
-### To upload MacroData to the project:
+### To upload MacroData to the project
 
 After the MacroData is created for the Project, upload the contents of the Macro you have created in the [Record a Login Macro](#record-a-login-macro) step. 
 
