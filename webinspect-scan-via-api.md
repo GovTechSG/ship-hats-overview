@@ -73,25 +73,26 @@ To authenticate with the WIE API, an authentication token is required.
 ### To generate the Authentication Token (TechPass Users)
 
 There are two approaches on how to get a valid authentication token for Techpass migrated users.
+- [Manually generate auth token in Fortify](#manually-generate-auth-token-in-fortify)
+- [Create/Use existing SHIP LDAP account to generate auth token](#createuse-existing-ship-ldap-account-to-generate-auth-token)
 
-1. Manually Generate Auth Token in Fortify
-Go to Fortify SSC > Administration > Tokens (https://ssc.hats.stack.gov.sg/ssc/html/ssc/admin/tokens) and click New.
-
-<kbd>![Create Token](webinspect-create-token.png)
-
-Choose the Token Type as UnifiedLoginToken, fill in some description and click Save.
-
-<kbd>![Unified Login Token](webinspect-unified-login-token.png)
-
-
-You will see that an encoded and decode token is generated, please use the encoded token for WIE scans.
+#### Manually generate auth token in Fortify
 
 This method is good when you are testing using your own account and running scans at an ad-hoc basis. But do note that it expires daily so it is not recommended for CICD.
 
-2. Create/Use existing SHIP LDAP account to generate auth token
-As SHIP LDAP service accounts are not migrated to Techpass, you can still use the account's credentials to generate an auth token programmatically as shown in the guide in [1. Getting an Authentication Token (LDAP users)](#to-generate-the-authentication-token-ldap-users).
+1. Go to Fortify SSC > Administration > Tokens (https://ssc.hats.stack.gov.sg/ssc/html/ssc/admin/tokens) and click New.
+    
+    <kbd>![Create Token](webinspect-create-token.png) 
+1. Choose the Token Type as UnifiedLoginToken, fill in some description and click Save. 
 
-If not, you can raise an SR for the SHIP team to create one. Do raise a separate request for us to grant the user access to [WIE - WebInspect Service Tickets Guide](webinspect-service-tickets-guide).
+    <kbd>![Unified Login Token](webinspect-unified-login-token.png)  
+
+    You will see that an encoded and decode token is generated, please use the encoded token for WIE scans.
+
+#### Create/Use existing SHIP LDAP account to generate auth token
+
+1. As SHIP LDAP service accounts are not migrated to Techpass, you can still use the account's credentials to generate an auth token programmatically as shown in the [To generate the Authentication Token (LDAP Users)](#to-generate-the-authentication-token-ldap-users) documentation.
+1. If not, you can raise an SR for the SHIP team to create one. Do raise a separate request for us to grant the user access to [WIE - WebInspect Service Tickets Guide](webinspect-service-tickets-guide).
 
 <!-- tabs:end -->
 
