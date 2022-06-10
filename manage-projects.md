@@ -198,7 +198,7 @@ You can manage user groups and permissions/roles for the following tools:
         
         <kbd>![Manage Tool](nexus-iq-manage-user-group.png  ':size=60%')</kbd> 
 1. Click **Update**.
-    The permissions and roles are updated in the portal as well as respective tools.
+    The permissions or roles are updated in the portal as well as respective tools. Any permissions assigned via portal will override the previously assigned permissions in NexusIQ at the app level.
 
 
 ## Manage Users within a Project Tool
