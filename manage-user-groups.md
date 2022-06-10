@@ -1,6 +1,6 @@
 # Manage User Groups
 
-Using the user groups, you can:
+Using the user groups, as an SA or a PA, you can:
 - Group multiple users together
 - Assign tool's permissions to a group
 - Assign same permissions or roles to all users in a group
@@ -17,7 +17,7 @@ Using the user groups, you can:
 
 ## Create user groups
 
-You can create user groups based on quota specified for your projects based on your subscription.  
+As an SA/PA, you can create user groups based on quota specified for your projects based on your subscription.  
 
 ### To create a user group
 1. From the side menu, click **Users** > **All User Groups**. 
