@@ -107,7 +107,8 @@ SA or PA can add the required project tools as explained below. You can add tool
     |Release|NA|<ol><li>Submit a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/) to add the tools.</li><ol>.|
     
     >**Note:** After you reach the quota, the respective tool name(s) will be disabled in the **Select Tool** drop-down list. If you still want to add these tools, raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/).    
-1. Click **Add**. 
+1. Click **Add**.   
+    
     The selected project tool and application is added.
     <!--
     - **Development:** You can add following tools using this tab:
