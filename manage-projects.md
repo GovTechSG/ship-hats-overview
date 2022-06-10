@@ -84,19 +84,52 @@ SA and PAs of a subscription account can view all the projects of the subscripti
 
 SA or PA can add the required project tools as explained below. You can add tools for **Development**, **Build**, **QA &amp; Security**, and **Release** phases as per the tools quota allotted for your subscription type. 
 
->**Notes:** 
->- If you want to add *Nexus Repo* or *Release and Deploy* tools, you must raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/).
->- If you want to add SonarQube and add related applications, you must have logged in to SonarQube at least once.
-
-
 ### To add project tools
 
 1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
 2. Locate the project to which you want to add a tool, and then click **Manage**.
 
-3. Go to the required tab, and then click **Add tool**.  
+3. Go to the required tab, and then click **Add tool**. Follow the steps in table for the tool that you want to add. 
+
+    |Tab|Available Tools|Steps|
+    |---|---|---|
+    |Development|Jira|<ol><li>Click the **Select Tool** drop-down list, and select **Jira**.</li><ol>|
+    |Development|Confluence|<ol><li>Click the **Select Tool** drop-down list, and select **Confluence**.</li><ol>|
+    |Development|Bitbucket|<ol><li>Click the **Select Tool** drop-down list, and select **Bitbucket**.</li><ol>
+    |Build|Bamboo|<ol><li>Click the **Select Tool** drop-down list, and select **Bamboo**.</li><ol>
+    |Build|Nexus IQ|<ol><li>Click the **Select Tool** drop-down list.</li><li> Provide values in the **App Name** and **App ID** fields.</li><ol>|
+    |Build|Nexus Repo|<ol><li>Submit a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/) to add this tool.</li><ol>|
+    |QA &amp; Security|pCloudy Device Farm & HATS Browser Farm|<ol><li>Click the **Select Tool** drop-down list, and select **pCloudy Device Farm & HATS Browser Farm**.</li><ol>|
+    |QA &amp; Security|SonarQube - Community Edition|Make sure that you have logged in to SonarQube at least once.<ol><li>Click the **Select Tool** drop-down list.</li><li> Provide values in the **App Name** and **App ID** fields.</li><ol>|
+    |QA &amp; Security|SonarQube - Community Edition|Make sure that you have logged in to SonarQube at least once.<ol><li>Click the **Select Tool** drop-down list.</li><li> Provide values in the **App Name** and **App ID** fields.</li><ol>|
+    |QA &amp; Security|Fortify SCA & WebInspect|<ol><li>Click the **Select Tool** drop-down list.</li><li> Provide values in the **App Name** field.</li><ol>|
+    |QA &amp; Security|Container Image Scanner|<ol><li>Click the **Select Tool** drop-down list.</li><li> Provide values in the **Scanner Type** and **App Name** fields.</li><ol>|
+    |Release|NA|<ol><li>Submit a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/) to add the tools.</li><ol>.|
+    
+    >**Note:** After you reach the quota, the respective tool name(s) will be disabled in the **Select Tool** drop-down list. If you still want to add these tools, raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/).    
+1. Click **Add**. 
+    The selected project tool and application is added.
+    <!--
+    - **Development:** You can add following tools using this tab:
+        - **Jira**
+        - **Confluence**
+        - **Bitbucket** 
+    - **Build:** You can add following tools using this tab by selecting the **Select Tool** drop-down list:
+        - **Bamboo**
+        - **Nexus IQ:** Provide values in the **Application Name** and **Application ID** fields to enable the **Add** button.
+        - **Nexus Repo:** Submit a ticket to add this tool.
+    - **QA &amp; Security:** You can add following tools using this tab by selecting the **Select Tool** drop-down list:
+        - **pCloudy Device Farm & HATS Browser Farm** 
+        - **SonarQube - Community Edition:** Provide value in the **App name** field to enable the **Add** button.
+        - **SonarQube - Developer Edition:** Provide value in the **App name** field to enable the **Add** button.
+        - **Fortify SCA & WebInspect:** Provide value in the **App name** field to enable the **Add** button. When you are this tool, the remaining quota will appear for your subscription. 
+        - **Container Image Scanner:** Provide values in the **Scanner type** and **App name** fields to enable the **Add** button.
+    - **Release:** Submit a ticket to add these tools.
+
+    -->
 
 
+<!--
     For example if you want to add Jira, go to **Development** tab, and then click **Add tool**.
 
     <kbd>![add-new-development-tool](add-new-development-tool.png ':size=100%')</kbd>
@@ -105,20 +138,6 @@ SA or PA can add the required project tools as explained below. You can add tool
 
     <kbd>![project-created-for-tools](project-created-for-tools.png ':size=100%')</kbd>
 
-- **Development:** You can add following tools using this tab:
-    - **Jira**
-    - **Confluence**
-    - **Bitbucket** 
-- **Build:** You can add following tools using this tab:
-    - **Bamboo**
-    - **Nexus IQ:** Provide values in the **Application Name** and **Application ID** fields to enable the **Add** button.
-    - **Nexus Repo:** Submit a ticket to add this tool.
-- **QA &amp; Security:** You can add following tools using this tab:
-    - **pCloudy Device Farm & HATS Browser Farm** 
-    - **SonarQube - Community Edition:** Provide value in the **App name** field to enable the **Add** button.
-    - **SonarQube - Developer Edition:** Provide value in the **App name** field to enable the **Add** button.
-    - **Fortify SCA & WebInspect:** Provide value in the **App name** field to enable the **Add** button. When you are this tool, the remaining quota will appear for your subscription. 
-    - **Container Image Scanner:** Provide values in the **Scanner type** and **App name** fields to enable the **Add** button.
 
 
 >**Notes:**
@@ -126,6 +145,7 @@ SA or PA can add the required project tools as explained below. You can add tool
 ><kbd>![tool-quota](tool-quota-resized-2.png ':size=100%')</kbd>
 >- After you have reached the quota, the respective tool name(s) will be disabled in the **Select Tool** drop-down list. If you still want to add these tools, raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/).
 
+-->
 
 ## Creation of Project tool with customised project key
 Subscription Admin (SA) and Project Admin (PA) can customise the project keys when adding app tools on SHIP-HATS. This is currently applicable for Jira, Bitbucket, and Confluence.  
