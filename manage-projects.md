@@ -100,13 +100,13 @@ SA or PA can add the required project tools as explained below. You can add tool
     |Build|Nexus IQ|<ol><li>Click the **Select Tool** drop-down list.</li><li> Provide values in the **App Name** and **App ID** fields.</li><ol>|
     |Build|Nexus Repo|<ol><li>Submit a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/) to add this tool.</li><ol>|
     |QA &amp; Security|pCloudy Device Farm & HATS Browser Farm|<ol><li>Click the **Select Tool** drop-down list, and select **pCloudy Device Farm & HATS Browser Farm**.</li><ol>|
-    |QA &amp; Security|SonarQube - Community Edition|Make sure that you have logged in to SonarQube at least once.<ol><li>Click the **Select Tool** drop-down list.</li><li> Provide values in the **App Name** and **App ID** fields.</li><ol>|
-    |QA &amp; Security|SonarQube - Community Edition|Make sure that you have logged in to SonarQube at least once.<ol><li>Click the **Select Tool** drop-down list.</li><li> Provide values in the **App Name** and **App ID** fields.</li><ol>|
+    |QA &amp; Security|SonarQube - Community Edition|Make sure that you have logged in to [SonarQube](https://sonar.hats.stack.gov.sg/sonar) at least once.<ol><li>Click the **Select Tool** drop-down list.</li><li> Provide values in the **App Name** and **App ID** fields.</li><ol>|
+    |QA &amp; Security|SonarQube - Developer Edition|Make sure that you have logged in to [SonarQube](https://sonar1.hats.stack.gov.sg/sonar) at least once.<ol><li>Click the **Select Tool** drop-down list.</li><li> Provide values in the **App Name** and **App ID** fields.</li><ol>|
     |QA &amp; Security|Fortify SCA & WebInspect|<ol><li>Click the **Select Tool** drop-down list.</li><li> Provide values in the **App Name** field.</li><ol>|
     |QA &amp; Security|Container Image Scanner|<ol><li>Click the **Select Tool** drop-down list.</li><li> Provide values in the **Scanner Type** and **App Name** fields.</li><ol>|
     |Release|NA|<ol><li>Submit a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/) to add the tools.</li><ol>.|
     
-    >**Note:** After you reach the quota, the respective tool name(s) will be disabled in the **Select Tool** drop-down list. If you still want to add these tools, raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/).    
+    >**Note:** After you reach the quota, the respective tool name(s) will be disabled in the **Select Tool** drop-down list. If you still want to add these tools, send an email to enquiries_ENP@tech.gov.sg.    
 1. Click **Add**.   
     
     The selected project tool and application is added.
@@ -188,8 +188,6 @@ You can manage user groups and permissions/roles for the following tools:
 
 1. Navigate to your project, and then click **Manage** on the project tool for which you want to manage/add user groups. 
 
-    <kbd>![All Projects](portal-projects-manage-app.png)</kbd>
-
 1. In the **Manage Tool** window that appears, from the dropdown, select **Manage/add user group**. 
     - **SonarQube:** Provide values in the **App Name** and **User Group** fields, and then select the required permissions. The **Browse** permission is selected by default along with any other permission.
 
@@ -224,7 +222,7 @@ As a Subscription Admin or a Project Admin, you can manage users within a projec
 
     <kbd>![All Projects](portal-projects-manage-app.png)</kbd>
 
-1. In the **Manage Tool** window that appears, from the dropdown, select **Manage/add user**. 
+1. In the **Manage Tool** window that appears, from the dropdown, select **Manage user**. 
 
     <kbd>![All Projects](portal-projects-manage-tool.png  ':size=60%')</kbd>
 
@@ -247,9 +245,6 @@ As a Subscription Admin or a Project Admin, you can remove permissions and roles
     <kbd>![All Projects](portal-projects-all-projects.png)</kbd>
 
 1. Navigate to your project, and then click **Manage** on the project tool for which you want to manage/add user groups. 
-
-    <kbd>![All Projects](portal-projects-manage-app.png)</kbd>
-
 1. In the **Manage Tool** window that appears, from the dropdown, select **Manage/add user group**. 
 1. In the **App Name** and **User Group** fields, select the App and user group for which you want to update permissions or roles.  
 1. Next to the permissions or roles that you want to remove, clear the check box, and then click **Update**. 
@@ -271,9 +266,10 @@ As a Subscription Admin, you can remove a project as long as no tool has been ad
 As a Subscription Admin or a Project Admin, you can remove a tool or an app when it is not required. You can remove the following tools: 
 - Confluence
 - Bitbucket
+- Fortify SCA & WebInspect
 - Jira
 - Nexus IQ
-- WebInspect
+- SonarQube
 
 ### To remove a project tool
 1. Go to **Projects** > **All Projects**.
