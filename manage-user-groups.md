@@ -27,9 +27,9 @@ As an SA/PA, you can create user groups based on quota specified for your projec
 1. Enter values in the following fields:     
    |Field|Description|
    |---|---|
-   **Group Name**|Enter name for the group. <span style="color:red"> what are conditions to enter name: no ?</span>|
-   |**Group Description**|Enter description for the group < 250 characters <span style="color:red"> what are conditions to enter description:?</span>|
-   **Group Members**|Select users to be added to the group from the drop-down list. Only active users in the current subscription will be visible in list.|
+   **Group Name**|Enter name for the group. Make sure that the group name meets the following criteria: <ul><li>Group name must be alphanumeric</li><li>Group name must be less than 40 characters</li><li>Group name can contain only `-` and `_` special characters</li></ul>|
+   |**Group Description**|Enter description for the group. You can add upto 250 characters.|
+   **Group Members**|Select users to be added to the group from the drop-down list. You can select active users in the current subscription only. Though inactive (suspended) users will also appear in the list, you cannot add them as group members.|
 
    <kbd>![New User Group](user-groups-new.png)</kbd>
 

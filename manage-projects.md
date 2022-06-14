@@ -216,19 +216,20 @@ As a Subscription Admin or a Project Admin, you can manage users within a projec
 
 1. Navigate to your project, and then select **Manage**.
 
-    <kbd>![All Projects](portal-projects-manage.png  ':size=60%')</kbd>
+1. Go to the required tab, and then click **Manage** on the project tool whose users you want to manage. The **Manage Tool** window appears. 
+    
+    Follow the steps in table for the tool that you want to add.
 
-1. Click **Manage** on the project tool whose users you want to manage. 
+    |Tab|Available Tools|Steps|
+    |---|---|---|
+    |Development|Jira|<ol><li>Click the **Manage/add user** drop-down list, and follow the on-screen instructions.</li><ol>|
+    |Development|Confluence|<ol><li>Click the **Manage/add user** drop-down list, and follow the on-screen instructions.</li><ol>|
+    |Development|Bitbucket|<ol><li>Click the **Manage/add user** drop-down list, and follow the on-screen instructions.</li><ol>
+    |Build|Bamboo|<ol><li>Click the **Manage/add user** drop-down list, and follow the on-screen instructions.</li><ol>
+    |Build|Nexus IQ|<ol><li>Click the **Manage/add user** drop-down list.</li><li>Select the **User** drop-down list, and select a user.</li><li>Select the role that you want to assign to the user.</li><li>Click **Update**.</li><ol>|
+    |QA &amp; Security|SonarQube|<ol><li>Click the **Manage/add user** drop-down list, and follow the on-screen instructions.</li><ol>|
 
-    <kbd>![All Projects](portal-projects-manage-app.png)</kbd>
-
-1. In the **Manage Tool** window that appears, from the dropdown, select **Manage user**. 
-
-    <kbd>![All Projects](portal-projects-manage-tool.png  ':size=60%')</kbd>
-
-1. To manage users, follow the on-screen instructions. 
-
-    >**Note:** The link to tool or app server, includes the project key that you selected. This enables you to get to the project in the tool or app server directly. This is applicable for all Atlassian apps (Bamboo, Bitbucket, Confluence, and JIRA).  
+    >**Note:** For the Atlassian apps (Bamboo, Bitbucket, Confluence, and JIRA), in the **Manage Tool** window, the link to tool or app server, includes the project key that you selected. This enables you to get to the project in the tool or app server directly. 
     >
     ><kbd>![All Projects](portal-projects-manage-users.png  ':size=60%')</kbd>
 
