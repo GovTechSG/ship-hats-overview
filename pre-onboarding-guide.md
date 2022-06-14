@@ -46,7 +46,7 @@ These tasks may be completed by multiple people in your organization and SHIP-HA
 |7|SAs receive an email indicating that their account is provisioned.|SHIP-HATS |
 |8|[Configure OpenVPN](openvpn-guide)|Subscription Admin (SA)|
 |9|[Log in to the SHIP-HATS Portal](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-account?id=log-in-and-log-out).| Subscription Admin (SA)|
-|9|[Invite a User](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-users?id=invite-users)|Subscription Admin (SA)|
+|10|[Invite a User](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-users?id=invite-users)|Subscription Admin (SA)|
 
 <!--
 

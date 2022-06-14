@@ -4,7 +4,7 @@
   - [Integrated Tools Version](ship-hats-integrated-tools-version)
   - [User Roles and Permissions](user-roles-permissions)
 - Getting Started
-  - [Pre-Onboarding](pre-onboarding-guide)
+  - [Onboarding](pre-onboarding-guide)
   - [AWS VPC Endpoints](set-up-aws-vpc-endpoint-connections)
   - [CI Pipeline](how-to-setup-and-scan-sample-pipeline)
   - [OpenVPN](openvpn-guide)
