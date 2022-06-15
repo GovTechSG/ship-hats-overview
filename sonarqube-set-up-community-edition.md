@@ -135,7 +135,7 @@ Failing to so may result in an error when either of the scenarios occurs:
 
     >**Using variables in bash**
     >-   Bamboo variables are exported as bash shell variables. All full stops (periods) are converted to underscores.
-    >-   For example, the variable `bamboo.my.variable` is `\$bamboo_my_variable` in bash. This is related to File Script tasks (not Inline Script tasks).
+    >-   For example, the variable `bamboo.my.variable` is `$bamboo_my_variable` in bash. This is related to File Script tasks (not Inline Script tasks).
 
 ---
 
