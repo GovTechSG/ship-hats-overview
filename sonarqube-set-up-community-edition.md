@@ -166,7 +166,7 @@ Failing to so may result in an error when either of the scenarios occurs:
     ```        
         
     ### **Sample**
-        ```
+    ```
         sonar-scanner \
         -Dsonar.projectKey=hats_multi \
         -Dsonar.sources=src/main/java \
@@ -174,7 +174,7 @@ Failing to so may result in an error when either of the scenarios occurs:
         -Dsonar.language=java \
         -Dsonar.host.url=https://sonar.hats.stack.gov.sg/sonar \
         -Dsonar.login=${bamboo.sonarqube_token_secret}
-        ```
+    ```
     <!-- tabs:end -->
 
 - **Gradle**
