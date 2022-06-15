@@ -24,7 +24,7 @@ Failing to so may result in an error when either of the scenarios occurs:
 
 ---
 
-### To retrieve App Key and Token ID:
+### To retrieve App Key and Token ID
 
 1. Go to https://www.ship.gov.sg, and then log in with your SHIP Credentials.
 
@@ -127,7 +127,7 @@ Failing to so may result in an error when either of the scenarios occurs:
     
     ![](hats-community-image15.png)
 
-1.  Copy the sona scan script based on the language of your repository (Refer to samples in the [Sona Scan for different languages](#sonar-scan-for-different-languages) section below), and replace **Variable name** as the value of `-Dsonar.login=`
+1.  Copy the sonar scan script based on the language of your repository (Refer to samples in the [Sonar Scan for different languages](#sonar-scan-for-different-languages) section below), and replace **Variable name** as the value of `-Dsonar.login=`
 
     >**Note:** Do **not** store the token as plaintext in the script.
 
@@ -216,9 +216,10 @@ This is an optional step.
 
 - **Gradle**
 
-    Current Sonarqube version : 9.3  
-    Official documentation for the version 9.3
-    <https://docs.sonarqube.org/9.3/analysis/scan/sonarscanner-for-gradle/>  
+    **Current Sonarqube version:** 9.3  
+    **Official documentation for the version 9.3:** 
+    <https://docs.sonarqube.org/9.3/analysis/scan/sonarscanner-for-gradle/>   
+
 
     1. Declare **org.sonarqube** plugin in **build.gradle** in your repository.
 

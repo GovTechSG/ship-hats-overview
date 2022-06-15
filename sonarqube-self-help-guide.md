@@ -10,7 +10,7 @@
 
 ## Create Quality Gates and Profiles
 
-### To create a customized quality gate and profile:
+### To create a customized quality gate and profile
 
 >**Note:** Customized profiles are not following the standards set by the CTMO team in GovTech. Therefore, Agency will need to understand the risks and quality differences set by the new customized Quality gates.
 
@@ -140,7 +140,7 @@ wont_fix_issues	|	Won't Fix issues	|is greater than|	76
     or
 - Make sure that new user was invited through SHIP-HATS Portal so that the SonarQube account is auto-created.
 
-### To manage users in a SonarQube app:
+### To manage users in a SonarQube app
 
 1. Log in to [SonarQube](https://sonar.hats.stack.gov.sg/sonar) as a Project Admin (PA).  
 
@@ -166,12 +166,12 @@ This section is for project teams that are looking to compare the analysis from 
 ### Prerequisites
 - Make sure that you are an Administrator of the SonarQube project.
 
-### To include versioning for your analysis:
+### To include versioning for your analysis
 - In your CICD pipeline, include `-Dsonar.projectVersion <version>` into the `sonar-scanner` command.  
 
 For more information on setting up SonarQube for your CICD pipeline, refer to the setup guide.
 
-### To rename an untagged analysis:
+### To rename an untagged analysis
 
 1. Go to your [SonarQube](https://sonar.hats.stack.gov.sg/) project, and then click the **Activity** tab.
 1. Navigate to the analysis that you want to rename, and then click the pencil icon to edit the version tag.
@@ -180,7 +180,7 @@ For more information on setting up SonarQube for your CICD pipeline, refer to th
 
     <kbd>![Change Version](sonarqube-change-version.png)</kbd>
 
-### To configure New Code setting:
+### To configure New Code setting
 
 >**Note:** By default, New Code is defined to be based on the analysis following the previous version or analysis.
 
@@ -194,7 +194,7 @@ For more information on setting up SonarQube for your CICD pipeline, refer to th
 
     <kbd>![New Code Settings](hats-sonarqube-configure-new-code-setting.png)</kbd>
 
-### To filter issues:
+### To filter issues
 
 - To access unresolved issues, click **Resolution**. 
 - To access resolved issues (for example, bug, vulnerability, code smell, etc.), under the **Resolution** dropdown, click **Fixed**.
