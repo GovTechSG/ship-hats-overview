@@ -110,43 +110,7 @@ SA or PA can add the required project tools as explained below. You can add tool
 1. Click **Add**.   
     
     The selected project tool and application is added.
-    <!--
-    - **Development:** You can add following tools using this tab:
-        - **Jira**
-        - **Confluence**
-        - **Bitbucket** 
-    - **Build:** You can add following tools using this tab by selecting the **Select Tool** drop-down list:
-        - **Bamboo**
-        - **Nexus IQ:** Provide values in the **Application Name** and **Application ID** fields to enable the **Add** button.
-        - **Nexus Repo:** Submit a ticket to add this tool.
-    - **QA &amp; Security:** You can add following tools using this tab by selecting the **Select Tool** drop-down list:
-        - **pCloudy Device Farm & HATS Browser Farm** 
-        - **SonarQube - Community Edition:** Provide value in the **App name** field to enable the **Add** button.
-        - **SonarQube - Developer Edition:** Provide value in the **App name** field to enable the **Add** button.
-        - **Fortify SCA & WebInspect:** Provide value in the **App name** field to enable the **Add** button. When you are this tool, the remaining quota will appear for your subscription. 
-        - **Container Image Scanner:** Provide values in the **Scanner type** and **App name** fields to enable the **Add** button.
-    - **Release:** Submit a ticket to add these tools.
-
-    -->
-
-
-<!--
-    For example if you want to add Jira, go to **Development** tab, and then click **Add tool**.
-
-    <kbd>![add-new-development-tool](add-new-development-tool.png ':size=100%')</kbd>
-
-5. Select the required tool, and then click **Add**. The selected tool gets integrated with your SHIP-HATS project and a project is automatically created in the tool with the same name. For example, if the SHIP-HATS project name is *Govtech-Documentation*, the newly added JIRA project inherits this name.
-
-    <kbd>![project-created-for-tools](project-created-for-tools.png ':size=100%')</kbd>
-
-
-
->**Notes:**
->- When adding tools such as WebInspect Fortify SCA under the **QA &amp; Security** tab, the system displays the quota remaining for your subscription as shown below.
-><kbd>![tool-quota](tool-quota-resized-2.png ':size=100%')</kbd>
->- After you have reached the quota, the respective tool name(s) will be disabled in the **Select Tool** drop-down list. If you still want to add these tools, raise a [service request](https://jira.ship.gov.sg/servicedesk/customer/portal/11/).
-
--->
+    
 
 ## Creation of Project tool with customised project key
 Subscription Admin (SA) and Project Admin (PA) can customise the project keys when adding app tools on SHIP-HATS. This is currently applicable for Jira, Bitbucket, and Confluence.  
