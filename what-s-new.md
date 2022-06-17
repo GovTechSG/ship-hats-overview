@@ -3,20 +3,20 @@
 This section contains release information for the SHIP-HATS platform releases.  
 
 **Topics**
-- [3.17.17 and 3.17.18](#release-31717-and-31718)
+- [3.17.16 and 3.17.17](#release-31716-and-31717)
 - [3.16.15 and 3.16.16](#release-31615-and-31616)
 - [3.15.14 and 3.15.15](#release-31514-and-31515)
 
-## Release 3.17.17 and 3.17.18
+## Release 3.17.16 and 3.17.17
 
 The following section contains the new features, enhancements, and changes released on June 24, 2022:
 
 | Change/Feature |Description|
 |---|---|
 |**User Groups**|You can now manage user permissions or roles through user groups. You can group multiple users together and assign same permissions or roles to all users in a group. You can then assign the user groups to the project tools (SonarQube and Nexus IQ) and apps. For more information, refer to the [Manage User Groups](manage-user-groups) and [Manage Projects](manage-projects) documentation.|
-|**Nexus IQ**|You can now add Nexus IQ to the project via the SHIP-HATS portal. You can also assign the Nexus IQ roles via the portal. For more information refer to the [Manage Projects](manage-projects) documentation. |  
+|**Provisioning of Nexus IQ apps**|You can now add Nexus IQ tool and apps to a project via the SHIP-HATS portal. You can also assign the Nexus IQ roles via the portal. For more information refer to the [Manage Projects](manage-projects) documentation. |  
 |**Widget**|You can now access and navigate to resources for all products within SG Tech Stack. To do so, on the SHIP-HATS portal, in the upper-right corner, click ![Widget](widget-icon.png).|
-|**Security Patching and Update**|<ul><li>To be added</li><li>To be added</li></ul>|  
+|**Security Patching and Update**|<ul><li>Bamboo</li><li>Bitbucket</li><li>Digital.ai</li><li>Prisma Cloud</li></ul>|  
 |**Version Upgrade**|Refer to the [SHIP-HATS Integrated Tools Version](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/ship-hats-integrated-tools-version) section for latest supported version of various tools.|
 
 ## Release 3.16.15 and 3.16.16
