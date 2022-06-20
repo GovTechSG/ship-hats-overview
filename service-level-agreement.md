@@ -27,5 +27,9 @@ is temporary, GovTech will continue to work on the issue until a permanent solut
 ## Third Party Schedule 
 
 All applicable terms and conditions relating to the following: 
-1. Atlassian Service / Data Center Products - https://www.atlassian.com/legal/privacy-policy/product-family 
-2. OpenVPN - https://openvpn.net/terms  & https://openvpn.net/license 
+
+|Tool/Service|Link|
+|---|---|
+|Atlassian Service & Data Center Products| https://www.atlassian.com/legal/privacy-policy/product-family 
+|OpenVPN |https://openvpn.net/terms <br><br> https://openvpn.net/license 
+|SonarQube|https://www.gnu.org/licenses/lgpl-3.0.en.html <br><br>https://www.sonarsource.com/docs/sonarsource_terms_and_conditions.pdf
