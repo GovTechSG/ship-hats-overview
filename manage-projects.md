@@ -9,6 +9,8 @@ This section explains how a Subscription Admin creates SHIP-HATS projects and ho
 - [Create Project tool with customised project key](#creation-of-project-tool-with-customised-project-key)
 - [Manage user groups within a Project tool](#manage-user-groups-within-a-project-tool)
 - [Manage users within a Project Tool](#manage-users-within-a-project-tool)
+- [Retrieve token](#retrieve-token)
+- [Renew Token](#renew-token)
 - [Remove projects](#remove-projects)
 - [Remove project tools](#remove-project-tools)
 
@@ -214,6 +216,73 @@ As a Subscription Admin or a Project Admin, you can remove permissions and roles
 1. In the **App Name** and **User Group** fields, select the App and user group for which you want to update permissions or roles.  
 1. Next to the permissions or roles that you want to remove, clear the check box, and then click **Update**. 
 The permissions or roles are updated.
+
+## Retrieve token
+
+You can retrieve token for the following tools:
+- Fortify SCA & WebInspect
+- Container Image Scanner
+- pCloudy Device Farm & HATS Browser Farm
+- SonarQube
+
+### To get token ID
+
+1. From the side menu, click  **Projects**  >  **All Projects**  to view all the projects in this subscription account. If needed, refer to [**Switch account**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
+2. Find the project, and then click  **Manage**.
+3. Click **QA &amp; Security**.
+
+    <kbd>![share-token-id-manage](share-token-id-manage.png ':size=75%')</kbd>
+
+4. Click **Manage**. 
+    
+    The **Manage Tool** pane is displayed.
+
+    <kbd>![share-token-id-manage](share-token-id-manage.png ':size=75%')</kbd>
+
+5. Click the drop-down arrow, and then choose **Token**. The option may vary based on tool selected.
+
+    <kbd>![token-id-menu](token-id-menu.png ':size=75%')</kbd>
+
+6. Copy the **Token ID** and share this to the required users.
+
+    <kbd>![copy-token-id](copy-token-id.png ':size=75%')</kbd>
+
+> **Tip:** While PAs share tokens with users, make sure to include the project names to map them with the shared tokens.
+
+## Renew Token
+
+You can renew token for the following tools:
+- Fortify SCA & WebInspect
+- SonarQube
+
+### To renew an expired token
+
+1. From the side menu, click  **Projects**  >  **All Projects**  to view all the projects in this subscription account. If needed, refer to [**Switch account**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
+2. Find the project, and then click  **Manage**.
+3. Click **QA &amp; Security**.
+
+    <kbd>![share-token-id-manage](share-token-id-manage.png ':size=75%')</kbd>
+
+4. Click **Manage**. 
+    
+    The **Manage Tool** pane is displayed.
+
+    <kbd>![share-token-id-manage](share-token-id-manage.png ':size=75%')</kbd>
+
+5. Click the drop-down arrow, and then choose **Token**. The option may vary based on tool selected.
+
+    <kbd>![token-id-menu](token-id-menu.png ':size=75%')</kbd>
+
+6. Click **Renew Token**.
+
+    <kbd>![Renew Token](renew-token.png ':size=75%')</kbd>
+    A message appears, indicating that the token renewal is in progress. 
+
+    <kbd>![Renew Token In Progress](renew-token-inprogress.png ':size=75%')</kbd>
+
+1. Refresh the page to get the new token. 
+
+
 
 ## Remove projects
 

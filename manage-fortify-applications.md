@@ -19,6 +19,7 @@ This document guides PAs to do the following from [SHIP-HATS portal](https://www
 - [Manage user role in Fortify applications](#manage-user-role-in-fortify-applications)
 - [Remove users from Fortify applications](#remove-users-from-fortify-applications)
 - [Get token for Fortify applications](#get-token-for-fortify-application)
+- [Renew Token](#renew-token)
 - [Remove applications from Fortify SSC](#remove-applications-from-fortify-ssc)
 
 ## [Add applications to Fortify SSC](#add-applications-to-fortify-ssc)
@@ -146,6 +147,36 @@ Tokens are at project level and is generated when the first Fortify application 
     <kbd>![copy-token-id](copy-token-id.png ':size=75%')</kbd>
 
 > **Tip:** While PAs share tokens with users, make sure to include the project names to map them with the shared tokens.
+
+## Renew Token
+
+### To renew an expired token
+
+1. From the side menu, click  **Projects**  >  **All Projects**  to view all the projects in this subscription account. If needed, refer to [**Switch account**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
+2. Find the project, and then click  **Manage**.
+3. Click **QA &amp; Security**.
+
+    <kbd>![share-token-id-manage](share-token-id-manage.png ':size=75%')</kbd>
+
+4. Click **Manage**. 
+    
+    The **Manage Tool** pane is displayed.
+
+    <kbd>![share-token-id-manage](share-token-id-manage.png ':size=75%')</kbd>
+
+5. Click the drop-down arrow, and then choose **Token for bamboo pipeline**.
+
+    <kbd>![token-id-menu](token-id-menu.png ':size=75%')</kbd>
+
+6. Click **Renew Token**.
+
+    <kbd>![Renew Token](renew-token.png ':size=75%')</kbd>
+    A message appears, indicating that the token renewal is in progress. 
+
+    <kbd>![Renew Token In Progress](renew-token-inprogress.png ':size=75%')</kbd>
+
+1. Refresh the page to get the new token. 
+
 
 ## [Remove applications from Fortify SSC](#remove-applications-from-fortify-ssc)
 
