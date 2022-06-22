@@ -6,15 +6,14 @@ This page covers Frequently Asked Questions on [tools integrated with SHIP-HATS]
 - [Build Tools FAQ](#build-tools-faq)
 - [QA and Security Tools FAQ](#qa-and-security-tools-faq)
 
-## [Development Tools FAQ](#development-tools-faq)
-
+# Development Tools FAQ
 SHIP-HATS uses three tools used for the development component of the Continuous Integration Continuous Deployment (CICD):
 <!--
 - [OpenVPN](#openvpn-faq)
 - [Confluence](#confluence-faq)
 - [Bitbucket](#bitbucket-faq)
 -->
-## [OpenVPN FAQs](#openvpn-faq)
+## OpenVPN FAQs
 <details>
   <summary> Is there any IP or regional restriction for incoming VPN connections?</summary><br>
 There are no IP restrictions on incoming connectivity.
@@ -35,14 +34,14 @@ You will receive an email from your SHIP-HATS administrator containing your user
 OpenVPN works on Linux, Mac, Windows, Android and iOS.
 </details>
 
-## [Confluence FAQs](#confluence-faq)
+## Confluence FAQs
 
 <details>
-  <summary>1. How do I maintain my Confluence pages?</summary><br>
+  <summary>How do I maintain my Confluence pages?</summary><br>
   You can maintain <a href="https://confluence.ship.gov.sg/">Confluence</a> pages by checking the analytics on Confluence. It is available on Confluence>Analytics>Spaces. You should check on inactive pages. It is recommended to delete pages that old or are not in use.
 </details>
 
-## [Bitbucket FAQs](#bitbucket-faq)
+## Bitbucket FAQs
 
 <details>
   <summary>Can I have multiple repositories for a project? </summary><br>
@@ -54,14 +53,14 @@ Yes, you can host multiple repositories for one project.
 We do not recommend synchronising repositories into SHIP-HATS repositories as this may introduce security vulnerabilities. due to security between the two repositories. It is best to use SHIP-HATS bitbucket as the default and only source code repository to ensure the security settings are intact.
 </details>
 
-## [Build Tools FAQ](#build-tools-faq)
+# Build Tools FAQ
 
 SHIP-HATS has two tools used for the build component of the Continuous Integration/Continuous Deployment (CI/CD):
 <!--
 - [Atlassian Bamboo](#bamboo-faq)
 - Sonatype Nexus IQ and [Sonatype Nexus Repository](#sonatype-nexus-repository-faq)
 -->
-## [Bamboo FAQs](#bamboo-faq)
+## Bamboo FAQs
 
 <details>
   <summary> What is a Bamboo agent?</summary><br>
@@ -147,7 +146,7 @@ No. The number of Shared agent hours will reset on every 1st of the month.
 
   </details>
 
-## [Sonatype Nexus Repository FAQ](#sonatype-nexus-repository-faq)
+## Sonatype Nexus Repository FAQ
 
 <details>
   <summary>I want to use Nexus Repository in my project to publish custom libraries for the developers in my team to use. Is it possible?</summary><br>
@@ -169,7 +168,7 @@ All Artifacts will be deleted 180 days from the date of creation.
 
   </details>
 
-## [QA and Security Tools FAQ](#qa-and-security-tools-faq)
+# QA and Security Tools FAQ
 
 SHIP-HATS has a list of tools used for the Quality assurance (QA) and Security components of the Continuous Integration/Continuous Deployment (CI/CD):
 <!--
@@ -178,7 +177,7 @@ SHIP-HATS has a list of tools used for the Quality assurance (QA) and Security c
 - [Fortify & WebInspect](#fortify-and-webinspect)
 - [Container Scanner](#container-scanner)
 -->
-## [Test Farm](#test-farm)
+## Test Farm
 
 <details>
   <summary>What is a shared Test Farm?</summary><br>
@@ -216,7 +215,7 @@ Agencies are required to raise a <a href="https://jira.ship.gov.sg/servicedesk/c
 
   </details>
 
-## [SonarQube](#sonarqube)
+## SonarQube
 
 <details>
   <summary>What are the 15 supported languages?</summary><br>
@@ -240,7 +239,7 @@ Yes. SonarQube can scan for any customisation that the COTS product supports.
 Example: Configuration files in XML or Javascript/ Java or plugins written in Java or Python.
   </details>
 
-## [Fortify and WebInspect](#fortify-and-webinspect)
+## Fortify and WebInspect
 
  <details>
   <summary>How are applications counted within Fortify and Webinspect?</summary><br>
@@ -272,7 +271,7 @@ It will partially fulfil the clause. WebInspect covers the VA component. The Age
 Refer to <a href="https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/devsecops-playbook?id=static-application-security-testing-81s1-g8-g9">DevSecOps playbook</a> for best practices in terms of security testing.
 </details>
 
-## [Container Scanner](#container-scanner)
+## Container Scanner
 
 <details>
     <summary>Is Container Scanner offered in the subscription tier </summary><br>
