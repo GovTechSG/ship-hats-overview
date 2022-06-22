@@ -1,12 +1,5 @@
 # Manage Fortify applications
 
-[Manage Fortify applications](snippets/manage-fortify-applications.md ':include')
-
-
-**---old content after this--**
-
-
-<!--
 **Why Fortify?**
 
 Fortify Static Code Analyzer (SCA) is used to analyse the security vulnerabilities in your applications. Project Admins can add applications to their projects in the [SHIP-HATS portal](https://www.ship.gov.sg/) for Static Code Analysis(SCA) using Fortify SCA and Dynamic Code Analysis(DCA) using Fortify WebInspect. Both SCA and DCA scan results can be sent to the same Fortify Application.
@@ -221,5 +214,3 @@ PA [adds applications](https://docs.developer.tech.gov.sg/docs/ship-hats-documen
 
 ### Related Topics
 - [Manage Application Version](fortify-manage-application-version)
-
--->
