@@ -36,7 +36,7 @@
     - [Roles and Permissions](fortify-user-roles-and-permissions)
     - [Bamboo Plan](fortify-set-up-bamboo-plan)
     - [PDF report](fortify-generate-pdf)
-    - [Fortify Applications](manage-fortify-applications)
+    - [Fortify Applications](manage-fortify-application)
     - [Application Version](fortify-manage-application-version)
     - [Fortify user tokens](fortify-manage-user-tokens) 
     - [Additional Resources](fortify-additional-resources)
