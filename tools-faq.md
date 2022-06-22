@@ -4,7 +4,12 @@ This page covers Frequently Asked Questions on [tools integrated with SHIP-HATS]
 
 - [Development Tools FAQ](#development-tools-faq)
 - [Build Tools FAQ](#build-tools-faq)
-- [QA and Security Tools FAQ](#qa-and-security-tools-faq)
+- [QA and Security Tools FAQ](#qa-and-security-tools-faq)  
+
+
+
+>**Tip:** Click the triangle to view the answer.
+
 
 # Development Tools FAQ
 SHIP-HATS uses three tools used for the development component of the Continuous Integration Continuous Deployment (CICD):
@@ -14,6 +19,8 @@ SHIP-HATS uses three tools used for the development component of the Continuous 
 - [Bitbucket](#bitbucket-faq)
 -->
 ## OpenVPN FAQs
+>**Tip:** Click the triangle to view the answer.
+
 <details>
   <summary> Is there any IP or regional restriction for incoming VPN connections?</summary><br>
 There are no IP restrictions on incoming connectivity.
@@ -35,6 +42,7 @@ OpenVPN works on Linux, Mac, Windows, Android and iOS.
 </details>
 
 ## Confluence FAQs
+>**Tip:** Click the triangle to view the answer.
 
 <details>
   <summary>How do I maintain my Confluence pages?</summary><br>
@@ -42,6 +50,7 @@ OpenVPN works on Linux, Mac, Windows, Android and iOS.
 </details>
 
 ## Bitbucket FAQs
+>**Tip:** Click the triangle to view the answer.
 
 <details>
   <summary>Can I have multiple repositories for a project? </summary><br>
@@ -61,6 +70,7 @@ SHIP-HATS has two tools used for the build component of the Continuous Integrati
 - Sonatype Nexus IQ and [Sonatype Nexus Repository](#sonatype-nexus-repository-faq)
 -->
 ## Bamboo FAQs
+>**Tip:** Click the triangle to view the answer.
 
 <details>
   <summary> What is a Bamboo agent?</summary><br>
@@ -117,6 +127,7 @@ No, however, vendor can set up a Remote Bamboo agent. For this option, the Agenc
 </details>
 
 ### About Bamboo Subscription
+>**Tip:** Click the triangle to view the answer.
 
 <details>
   <summary>How can I view the number of hours utilised by a Shared agent?</summary><br>
@@ -147,6 +158,7 @@ No. The number of Shared agent hours will reset on every 1st of the month.
   </details>
 
 ## Sonatype Nexus Repository FAQ
+>**Tip:** Click the triangle to view the answer.
 
 <details>
   <summary>I want to use Nexus Repository in my project to publish custom libraries for the developers in my team to use. Is it possible?</summary><br>
@@ -178,6 +190,7 @@ SHIP-HATS has a list of tools used for the Quality assurance (QA) and Security c
 - [Container Scanner](#container-scanner)
 -->
 ## Test Farm
+>**Tip:** Click the triangle to view the answer.
 
 <details>
   <summary>What is a shared Test Farm?</summary><br>
@@ -216,6 +229,7 @@ Agencies are required to raise a <a href="https://jira.ship.gov.sg/servicedesk/c
   </details>
 
 ## SonarQube
+>**Tip:** Click the triangle to view the answer.
 
 <details>
   <summary>What are the 15 supported languages?</summary><br>
@@ -240,6 +254,7 @@ Example: Configuration files in XML or Javascript/ Java or plugins written in Ja
   </details>
 
 ## Fortify and WebInspect
+>**Tip:** Click the triangle to view the answer.
 
  <details>
   <summary>How are applications counted within Fortify and Webinspect?</summary><br>
@@ -272,6 +287,7 @@ Refer to <a href="https://docs.developer.tech.gov.sg/docs/devsecops-playbook/#/d
 </details>
 
 ## Container Scanner
+>**Tip:** Click the triangle to view the answer.
 
 <details>
     <summary>Is Container Scanner offered in the subscription tier </summary><br>
