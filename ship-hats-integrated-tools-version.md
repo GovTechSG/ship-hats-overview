@@ -1,6 +1,6 @@
 # SHIP-HATS Integrated Tools Version
 
-[Tools version](snippets/tools-version.md ':include')
+[Tools version](snippets/tool-version.md ':include')
 
 
 <!--

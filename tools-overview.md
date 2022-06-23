@@ -1,6 +1,6 @@
 # Tools Overview
 
-[Tools version](snippets/tools-version.md ':include')
+[Tools version](snippets/tool-version.md ':include')
 
 <!--
 Updated on: 24 June, 2022

@@ -1,4 +1,4 @@
-Updated on: 25 June, 2022
+Updated on: 24 June, 2022
 
 SHIP-HATS provides following tools while adhering to security and compliance requirements.  
 
