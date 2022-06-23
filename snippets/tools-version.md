@@ -1,6 +1,8 @@
 Updated on: 25 June, 2022
 
-SHIP-HATS provides following tools while adhering to security and compliance requirements. The following table provides a list of SHIP-HATS tools and the supported version:
+SHIP-HATS provides following tools while adhering to security and compliance requirements.  
+
+The following table provides a list of SHIP-HATS tools and the supported version:
 
 | **Category** | **Tools integrated with SHIP-HATS** | **Version on SHIP-HATS** | **Endpoint(URL)** |
 | --- | --- | --- | --- |
