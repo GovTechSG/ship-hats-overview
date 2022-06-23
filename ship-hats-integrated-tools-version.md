@@ -1,4 +1,9 @@
 # SHIP-HATS Integrated Tools Version
+
+[Tools version](snippets/tools-version.md ':include')
+
+
+<!--
 Updated on: 24 June, 2022
 
 SHIP-HATS provides following tools while adhering to security and compliance requirements. The following table provides a list of SHIP-HATS tools and the supported version:
@@ -21,7 +26,7 @@ SHIP-HATS provides following tools while adhering to security and compliance req
 | Consolidated Quality Dashboard | Thinking HATS | 2.15.0 | https://thinking.hats.stack.gov.sg/ |
 | Automated Accessibility Testing | [Purple HATS](purple-hats-overview) | 1.17.0 | NA as it is a CLI tool. <br><br>For more information on how to use Purple Hats, refer to our [Purple HATS](purple-hats-overview) documentation. |
 | VPN | Open VPN | [2.10.2](https://openvpn.net/vpn-server-resources/release-notes/) | https://vpn.ship.gov.sg |
-
+-->
 <!--
 >**Notes:**
 >- For more information on how to use Purple Hats, refer to our [Purple HATS](purple-hats-overview) documentation.
