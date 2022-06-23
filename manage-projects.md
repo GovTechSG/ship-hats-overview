@@ -150,17 +150,17 @@ You can manage user groups and permissions/roles for the following tools:
 
 1. Go to **Projects** > **All Projects**.
 
-    <kbd>![All Projects](portal-projects-all-projects.png)</kbd>
+    <!--<kbd>![All Projects](portal-projects-all-projects.png)</kbd>-->
 
 1. Navigate to your project, and then click **Manage** on the project tool for which you want to manage/add user groups. 
 
 1. In the **Manage Tool** window that appears, from the dropdown, select **Manage/add user group**. 
     - **SonarQube:** Provide values in the **App Name** and **User Group** fields, and then select the required permissions. The **Browse** permission is selected by default along with any other permission.
 
-        <kbd>![Manage Tool](sonarqube-manage-user-group.png ':size=60%')
+        <!--<kbd>![Manage Tool](sonarqube-manage-user-group.png ':size=60%')-->
     - **Nexus IQ:** Provide value in the **User Group** field, and then select the required roles.
         
-        <kbd>![Manage Tool](nexus-iq-manage-user-group.png  ':size=60%')</kbd> 
+        <!--<kbd>![Manage Tool](nexus-iq-manage-user-group.png  ':size=60%')</kbd>--> 
 1. Click **Update**.
     The permissions or roles are updated in the portal as well as respective tools. Any permissions assigned via portal will override the previously assigned permissions in NexusIQ at the app level.
 
@@ -209,7 +209,7 @@ As a Subscription Admin or a Project Admin, you can remove permissions and roles
 
 1. Go to **Projects** > **All Projects**.
 
-    <kbd>![All Projects](portal-projects-all-projects.png)</kbd>
+    <!--<kbd>![All Projects](portal-projects-all-projects.png)</kbd>-->
 
 1. Navigate to your project, and then click **Manage** on the project tool for which you want to manage/add user groups. 
 1. In the **Manage Tool** window that appears, from the dropdown, select **Manage/add user group**. 
