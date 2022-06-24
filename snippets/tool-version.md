@@ -6,7 +6,7 @@ The following table provides a list of SHIP-HATS tools and the supported version
 
 | **Category** | **Tools integrated with SHIP-HATS** | **Version on SHIP-HATS** | **Endpoint(URL)** |
 | --- | --- | --- | --- |
-| Project Management | Jira | [8.22.3](https://confluence.atlassian.com/jirasoftware/jira-software-8-21-x-release-notes-1095249705.html) |https://jira.ship.gov.sg/|
+| Project Management | Jira | [8.21.1](https://confluence.atlassian.com/jirasoftware/jira-software-8-21-x-release-notes-1095249705.html) |https://jira.ship.gov.sg/|
 | Documentation and Collaboration | Confluence | [7.17.4](https://confluence.atlassian.com/doc/confluence-7-17-release-notes-1108683391.html) |https://confluence.ship.gov.sg/|
 | Repository Management | Bitbucket | 7.17.5 |https://bitbucket.ship.gov.sg/|
 | Build Management | Bamboo | [8.2.3](https://confluence.atlassian.com/bamboo/bamboo-8-2-release-notes-1115684503.html) | https://bamboo.ship.gov.sg/ |
