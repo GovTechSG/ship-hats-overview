@@ -1,10 +1,10 @@
-# Pre-Onboarding
+# Onboarding
 
 **Topics**
-- [Pre-Requisites](#pre-requisites)
+- [Prerequisites](#prerequisites)
 - [Quick start guide to onboarding process](#quick-start-guide-to-the-onboarding-process)
 
-## Pre-Requisites 
+## Prerequisites 
 
 - Visit [Subscription info](https://www.developer.tech.gov.sg/singapore-government-tech-stack/toolchain/subscription) and [Subscription FAQ](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/subscription) for information on subscription tiers.  
 - A session is active for 20 minutes. Therefore, we recommend having the following details before clicking the onboarding link that you receive in your email: 
@@ -44,8 +44,9 @@ These tasks may be completed by multiple people in your organization and SHIP-HA
 |5|Reply `Approved` after receiving the email.|Agency Approver|
 |6|SHIP-HATS Team provisions account for the Primary and Secondary SA.|SHIP-HATS |
 |7|SAs receive an email indicating that their account is provisioned.|SHIP-HATS |
-|8|[Log in to the SHIP-HATS Portal](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-account?id=log-in-and-log-out).| Subscription Admin (SA)|
-|9|[Invite a User](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-users?id=invite-users)|Subscription Admin (SA)|
+|8|[Configure OpenVPN](openvpn-guide)|Subscription Admin (SA)|
+|9|[Log in to the SHIP-HATS Portal](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-account?id=log-in-and-log-out).| Subscription Admin (SA)|
+|10|[Invite a User](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-users?id=invite-users)|Subscription Admin (SA)|
 
 <!--
 

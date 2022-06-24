@@ -18,14 +18,14 @@
 - Your agency has access to SHIP bamboo
 - Your agency has access to Fortify SSC
 
-For web applications that do not have a login page, follow these steps:
+For web applications that **do not have a login** page, follow these steps:
 <!--1,2,3, and 4a.-->
 1. [Generate an Authentication Token](#generate-an-authentication-token)
 1. [Get Project Version Data](#get-project-version-data)
 1. [Choose a Scan Policy](#choose-a-scan-policy)
 1. [Run the Scan without Login Macro](#run-the-scan-without-login-macro)
 
-For web appications that are protected by a login page, follow these steps: 
+For web applications that **are protected by a login** page, follow these steps: 
 <!--steps 1,2,3,4b,5, and 6.-->
 1. [Generate an Authentication Token](#generate-an-authentication-token)
 1. [Get Project Version Data](#get-project-version-data)
@@ -37,14 +37,18 @@ For web appications that are protected by a login page, follow these steps:
 ## Generate an Authentication Token
 To authenticate with the WIE API, an authentication token is required. 
 
-### To generate the Authentication Token:
+<!-- tabs:start -->
+
+### **LDAP Users**
+
+### To generate the Authentication Token (LDAP Users)
 
 1. Invoke the following cURL command. 
 
     The username and password credentials are similar to your Fortify SSC credentials.
 
-    <!-- tabs:start -->
-    ### **Command**
+  
+    ### Command
     ```
     curl --location --request POST 'https://wie.hats.stack.gov.sg/wie/rest/api/v1/auth' \
     --header 'Accept: application/json' \
@@ -54,7 +58,7 @@ To authenticate with the WIE API, an authentication token is required.
     "password": "password"
     }'
     ```
-    ### **Sample Response**
+    ### Sample Response
     ```
     {
       "data": "FORTIFYTOKEN MDA2NDMzMDMtYjQ3NC00MGg89Tg0MDYtZjNkNmU3ZmI3YTBl",
@@ -64,15 +68,40 @@ To authenticate with the WIE API, an authentication token is required.
     ```
     If you do not have the following JSON response, it is likely that your user account is unauthorized to use WIE. Please go to WIE Service Tickets for more details.
 
+### **TechPass Users**
 
-    <!-- tabs:end -->
+### To generate the Authentication Token (TechPass Users)
+
+There are two options to get a valid authentication token for Techpass migrated users.
+- [Option 1: Manually generate auth token in Fortify](#option-1-manually-generate-auth-token-in-fortify)
+- [Option 2: Create/Use existing SHIP LDAP account to generate auth token](#option-2-createuse-existing-ship-ldap-account-to-generate-auth-token)
+
+### Option 1: Manually generate auth token in Fortify
+
+This method is good when you are testing using your own account and running scans at an ad-hoc basis. But do note that it expires daily so it is not recommended for CICD.
+
+1. Go to **Fortify SSC** > **Administration** > **Tokens** (https://ssc.hats.stack.gov.sg/ssc/html/ssc/admin/tokens), and then click **New**. 
+1. Choose the **Token Type** as *UnifiedLoginToken*, provide value in the **Description** field, and then click **Save**. 
+
+    <kbd>![Create Token](webinspect-create-token.png) 
+
+    Encoded and decoded tokens are generated. Use the encoded token for WIE scans.
+
+    <kbd>![Unified Login Token](webinspect-unified-login-token.png) 
+
+### Option 2: Create/Use existing SHIP LDAP account to generate auth token
+
+1. As SHIP LDAP service accounts are not migrated to Techpass, you can still use the account's credentials to generate an auth token programmatically as shown in the [To generate the Authentication Token (LDAP Users)](#to-generate-the-authentication-token-ldap-users) documentation.
+1. If you do not have service account in LDAP, you can raise an SR for the SHIP team to create one. You must raise a separate request for us to grant the user access to the [WIE - WebInspect Service Tickets Guide](webinspect-service-tickets-guide).
+
+<!-- tabs:end -->
 
 
 ## Get Project Version Data
 
 Similar to Fortify SCA scans, before scanning the application, WebInspect needs to know the specific Application Project Version before uploading the scan results.
 
-### To get the projectVersions ID:
+### To get the projectVersions ID
 
 1. Navigate to the application in Fortify SSC.
 
@@ -200,7 +229,7 @@ Based on best practices designed to test applications for the most pervasive and
 ## Record a Login Macro
 For web applications that have a login form, WebInspect will require a login macro to be created to crawl the website.
 
-### To create and record a macro:
+### To create and record a macro
 1. Navigate to https://wie.hats.stack.gov.sg, and then log in with your Fortify SSC credentials. 
 1. Download and install **WIEDesktop.exe**.
 
@@ -291,7 +320,7 @@ This step is only essential if the web application has a login form. Make sure t
 1. [Create MacroData](#to-create-macrodata-for-a-project)
 1. [Upload MacroData](#to-upload-macrodata-to-the-project)
 
-### To create MacroData for a project:
+### To create MacroData for a project
 
 Run the following cURL request to create MacroData for your project. The values of `{{auth_token}}` and `{{projectVersion_data}}` are created in the [Generate an Authentication Token](#generate-an-authentication-token) and [Get Project Version Data](#get-project-version-data) steps respectively.
 
@@ -329,7 +358,7 @@ You should receive a response as shown below. Take note of the id value as you w
 <!-- tabs:end -->
 
 
-### To upload MacroData to the project:
+### To upload MacroData to the project
 
 After the MacroData is created for the Project, upload the contents of the Macro you have created in the [Record a Login Macro](#record-a-login-macro) step. 
 

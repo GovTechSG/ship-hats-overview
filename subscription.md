@@ -1,4 +1,5 @@
 # Subscription Frequently Asked Questions
+>**Tip:** Click the triangle to view the answer.
 
 <br>
 <details>
