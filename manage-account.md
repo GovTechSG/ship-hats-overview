@@ -37,28 +37,29 @@ Once the above are successfully completed, you can proceed to log in to SHIP-HAT
 Refer to [**Switch Account**](#switch-account) to know how to switch between different subscription accounts.
 
 
-### To log in to SHIP-HATS:
+### To log in to SHIP-HATS
 
 1. Go to [SHIP-HATS portal](https://www.ship.gov.sg/).
-2. Click **Log In**.
+2. Click **LOGIN**.
+3. Enter your **Username**, **Password**, and then click **Login**.
 
-    <kbd>![log-in](log-in.png ':size=100%')</kbd>
+    <!--<kbd>![log-in](log-in.png ':size=100%')</kbd>-->
 
-3. Enter your **Username** ,**Password** and click **Log In**.
 
 ### Log out
 When you are done with your activities on the portal, you can log out as shown below.
 
 
-### To log out from SHIP-HATS:
+### To log out from SHIP-HATS
 
-- Hover over your profile icon and click **Log out**.
+- In the upper-right corner, hover over your profile icon, and then click **Log out**.
 
-<kbd>![log-out](log-out.png ':size=100%')</kbd>
+    <kbd>![log-out](log-out.png ':size=100%')</kbd>
 
-If you are inactive for five minutes on the portal, the system prompts you with the following message. Click **Yes, Keep me signed in** to continue your session.
+If you are inactive for five minutes on the portal, the system prompts you with the following message: 
+    <kbd>![idle-time-prompt-after-5-mins](idle-time-prompt-after-5-mins.png ':size=100%')</kbd>
 
-<kbd>![idle-time-prompt-after-5-mins](idle-time-prompt-after-5-mins.png ':size=100%')</kbd>
+- Click **Yes, Keep me signed in** to continue your session**.
 
 If you are inactive for 10 minutes on the portal, the system prompts you with the following message.
 
@@ -67,22 +68,22 @@ If you are inactive for 10 minutes on the portal, the system prompts you with th
 
 ## [Log in using TechPass](#log-in-techpass)
 
-### To log in to SHIP-HATS using TechPass:
+### To log in to SHIP-HATS using TechPass
 
 1. Go to [SHIP-HATS portal](https://www.ship.gov.sg/).
-2. Click **Log In with TechPass**.
+2. Click **Login with TechPass**.
 
     <kbd>![log-in](tplogin.png ':size=100%')</kbd>
 
-3. Enter your **Enter your TechPass details** and click **Next**.
+3. Enter your **Enter your TechPass details**, and then click **Next**.
 
     <kbd>![log-in](tp2.png ':size=100%')</kbd>
 
-4. You will be redirected to the GCC log-in page. Enter your TechPass email address along with the verification code from the Authenticator app and click sign in. 
+4. You will be redirected to the GCC log-in page. Enter your TechPass email address along with the verification code from the Authenticator app, and then click **Sign in**. 
 
     <kbd>![log-in](tpgcc1.png ':size=100%')</kbd>
 
-5. Read through the **TechPass** Terms of Use and click **Accept**.
+5. Read through the **TechPass** Terms of Use, and then click **Accept**.
 
     <kbd>![log-in](tptou.png ':size=100%')</kbd>
 
@@ -90,7 +91,7 @@ If you are inactive for 10 minutes on the portal, the system prompts you with th
 
     <kbd>![log-in](techpassmdm.png ':size=100%')</kbd>
 
-You have successfully linked your TechPass to SHIP-HATS. You can directly login using TechPass for future access. 
+You have successfully linked your TechPass to SHIP-HATS. You can directly log in using TechPass for future access. 
 
 ## [View dashboard](#view-dashboard)
 The **Overview** page of the subscription account gives the dashboard view of the subscription account. Only Subscription Admin (SA) and Project Admin (PA) can access this dashboard to view the following details:
