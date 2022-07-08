@@ -10,7 +10,7 @@ This section contains release information for the SHIP-HATS platform releases.
 
 ## Release 3.18.17 and 3.18.18
 
-The following section contains the new features, enhancements, and changes released on July 29, 2022:
+The following section contains the new features, enhancements, and changes released on August 26, 2022:
 
 | Change/Feature |Description|
 |---|---|
