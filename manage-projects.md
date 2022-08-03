@@ -22,11 +22,11 @@ Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SA
 
 1. From the side menu, click **Projects** > **Create New**.  
 
->**Tip:** Alternatively, if you are viewing **All Projects**, click **Create Project**.  
+    >**Tip:** Alternatively, if you are viewing **All Projects**, click **Create Project**.  
 
-<kbd>![create-new-project](create-new-project-2.png ':size=100%')</kbd>
+    <kbd>![create-new-project](create-new-project-2.png ':size=100%')</kbd>
 
-2. Provide information in the following fields:
+1. Provide information in the following fields:
 
     |Field|Description|
     |---|---|
@@ -34,11 +34,11 @@ Subscription Admin (SA) can create new projects in SHIP-HATS and manage them. SA
     |**Project Description**| Specify details of the project. 
     |**Project Admin 1**| Select Project Admin from the drop-down list. If *First Name* and *Last Name* were not provided when creating a new user account, email address will appear in the drop-down list.
     |**Project Admin 2**| This is an optional field. Select a second Project Admin from the drop-down list. If *First Name* and *Last Name* were not provided when creating a new user account, email address will appear in the drop-down list. 
-3. Click **Create Project**. The created project details are displayed as shown below.
+1. Click **Create Project**. The created project details are displayed as shown below.
 
     <kbd>![newly-created-project](newly-created-project.png ':size=100%')</kbd>
 
-SA or PA can add tools and additional PAs. 
+**SA or PA can add tools and additional PAs.**
 > **Note:** The number of PAs each project is entitled to is based on the [subscription tier](https://www.developer.tech.gov.sg/products/categories/devops/ship-hats/subscription) quota for which the agency has subscribed.
 
 ## Add project admins
@@ -50,21 +50,21 @@ Subscription Admins can add Project Admins using the SHIP-HATS portal. When crea
 ### To add a project admin
 
 1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
-2. Locate the project, and then click **Manage**.
+1. Locate the project, and then click **Manage**.
 
     <kbd>![add-pa-1-resized](add-pa-1-resized.png ':size=100%')</kbd>
 
-3. Click the edit icon.  
+1. Click the edit icon.  
     The **Manage Admin** panel appears.
 
     <kbd>![add-pa-2-resized](add-pa-2-resized.png ':size=100%')</kbd>
 
-4. Click **Add another** to select the required user from the drop-down list.
+1. Click **Add another** to select the required user from the drop-down list.
 
     <kbd>![add-pa-3-correct](add-pa-3-correct-resized.png ':size=100%')</kbd>
 
     >**Note:** If *First Name* and *Last Name* were not provided when creating a new user account, email address will appear in the drop-down list.
-5. Click **Add** to add this user as a project admin. Once successfully added, an email notification will be sent to the requesting SA with copy sent to the other SA and the newly added PA.
+1. Click **Add** to add this user as a project admin. Once successfully added, an email notification will be sent to the requesting SA with copy sent to the other SA and the newly added PA.
 
 >**Note:** To know how to remove a Project Admin, refer to **Remove User**.
 
@@ -80,7 +80,7 @@ SA and PAs of a subscription account can view all the projects of the subscripti
 
     <kbd>![](view-all-projects-tile-view.png ':size=100%')</kbd>
 
-2. Click **Manage** to view tools that are currently added to the project.
+1. Click **Manage** to view tools that are currently added to the project.
 
 ## Add project tools
 
@@ -89,9 +89,9 @@ SA or PA can add the required project tools as explained below. You can add tool
 ### To add project tools
 
 1. From the side menu, click **Projects** > **All Projects** to view all the projects in this subscription account. If needed, refer to [Switching account](https://docs.developer.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
-2. Locate the project to which you want to add a tool, and then click **Manage**.
+1. Locate the project to which you want to add a tool, and then click **Manage**.
 
-3. Go to the required tab, and then click **Add tool**. Follow the steps in table for the tool that you want to add. 
+1. Go to the required tab, and then click **Add tool**. Follow the steps in table for the tool that you want to add. 
 
     |Tab|Available Tools|Steps|
     |---|---|---|
@@ -120,16 +120,16 @@ Subscription Admin (SA) and Project Admin (PA) can customise the project keys wh
 ### To customise project key
 
 1. Go to **Projects> All Projects>** > Manage > to view and select the relevant project. 
-2. Click Add tool under **Development** tab.
-3. Choose the required tool.
+1. Click Add tool under **Development** tab.
+1. Choose the required tool.
 
     ![chara](chara.png)
 
-4.  Select **Customise Project Key**.
+1.  Select **Customise Project Key**.
 
     ![customise](customise.png)
 
-5. Enter the required project key. It can only have 2-10 characters, consisting of uppercase letters A-Z and numbers from0-9. First character must be an alphabet. 
+1. Enter the required project key. It can only have 2-10 characters, consisting of uppercase letters A-Z and numbers from0-9. First character must be an alphabet. 
 
     ![add](addnewkey.png)
 
@@ -143,6 +143,8 @@ As a Subscription Admin or a Project Admin, you can manage following within a pr
 - Permissions or Roles  
 
 You can manage user groups and permissions/roles for the following tools:
+<!--- Confluence
+- Jira-->
 - Nexus IQ
 - SonarQube
 
@@ -153,15 +155,26 @@ You can manage user groups and permissions/roles for the following tools:
 1. Navigate to your project, and then click **Manage** on the project tool for which you want to manage/add user groups. 
 
 1. In the **Manage Tool** window that appears, from the dropdown, select **Manage/add user group**. 
-    - **SonarQube:** Provide values in the **App Name** and **User Group** fields, and then select the required permissions. The **Browse** permission is selected by default along with any other permission.
 
-        <kbd>![Manage Tool](sonarqube-manage-user-group.png ':size=60%')
     - **Nexus IQ:** Provide value in the **User Group** field, and then select the required roles.
         
         <kbd>![Manage Tool](nexus-iq-manage-user-group.png  ':size=60%')</kbd> 
+    - **SonarQube:** Provide values in the **App Name** and **User Group** fields, and then select the required permissions. The **Browse** permission is selected by default along with any other permission.
+
+        <kbd>![Manage Tool](sonarqube-manage-user-group.png ':size=60%')
+    
 1. Click **Update**.
     The permissions or roles are updated in the portal as well as respective tools. Any permissions assigned via portal will override the previously assigned permissions in NexusIQ at the app level.
 
+<!--
+- **Confluence:** Provide value in the **User Group** field, and then select the required permissions.
+
+    <kbd>![Manage tool](confluence-manage-user-group.png) ':size=60%')</kbd>
+- **Jira:** Provide value in the **User Group** field, and then select the required roles.
+
+    <kbd>![Manage tool](jira-manage-user-group.png) ':size=60%')</kbd>
+    
+-->
 
 ## Manage Users within a Project Tool
 
@@ -200,6 +213,8 @@ As a Subscription Admin or a Project Admin, you can manage users within a projec
 ## Remove user groups from a project tool
 
 As a Subscription Admin or a Project Admin, you can remove permissions and roles within a project tool or app for the following tools:
+<!--- Confluence
+- Jira-->
 - Nexus IQ
 - SonarQube
 
@@ -224,22 +239,22 @@ You can retrieve token for the following tools:
 ### To get token ID
 
 1. From the side menu, click  **Projects**  >  **All Projects**  to view all the projects in this subscription account. If needed, refer to [**Switch account**](https://docs.developer.tech.gov.sg/docs/ship-hats-documentation/#/manage-account?id=switch-account).
-2. Find the project, and then click  **Manage**.
-3. Click **QA &amp; Security**.
+1. Find the project, and then click  **Manage**.
+1. Click **QA &amp; Security**.
 
     <kbd>![share-token-id-manage](share-token-id-manage.png ':size=75%')</kbd>
 
-4. Click **Manage**. 
+1. Click **Manage**. 
     
     The **Manage Tool** pane is displayed.
 
     <kbd>![share-token-id-manage](share-token-id-manage.png ':size=75%')</kbd>
 
-5. Click the drop-down arrow, and then choose **Token**. The option may vary based on tool selected.
+1. Click the drop-down arrow, and then choose **Token**. The option may vary based on tool selected.
 
     <kbd>![token-id-menu](token-id-menu.png ':size=75%')</kbd>
 
-6. Copy the **Token ID** and share this to the required users.
+1. Copy the **Token ID** and share this to the required users.
 
     <kbd>![copy-token-id](copy-token-id.png ':size=75%')</kbd>
 

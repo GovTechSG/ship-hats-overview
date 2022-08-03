@@ -3,10 +3,22 @@
 This section contains release information for the SHIP-HATS platform releases.  
 
 **Topics**
+<!--- [3.18.17 and 3.18.18](#release-31817-and-31818)-->
 - [3.17.16 and 3.17.17](#release-31716-and-31717)
 - [3.16.15 and 3.16.16](#release-31615-and-31616)
 - [3.15.14 and 3.15.15](#release-31514-and-31515)
 
+<!--## Release 3.18.17 and 3.18.18
+
+The following section contains the new features, enhancements, and changes released on August 26, 2022:
+
+| Change/Feature |Description|
+|---|---|
+|**User Groups**|You can now manage user permissions or roles through user groups for Jira and Confluence. For more information, refer to the [Manage Projects](manage-projects) documentation.|
+|**Help**|You can now access and navigate to the SHIP-HATS Documentation via the SHIP-HATS portal. To do so, on the SHIP-HATS portal, in the upper-right corner, click ?, and then click **Help**.|
+|**Security Patching and Update**|To be updated <ul><li>Bamboo</li><li>Bitbucket</li><li>Digital.ai</li><li>Prisma Cloud</li></ul>|  
+|**Version Upgrade**|Refer to the [SHIP-HATS Integrated Tools Version](ship-hats-integrated-tools-version) section for latest supported version of various tools.|
+-->
 ## Release 3.17.16 and 3.17.17
 
 The following section contains the new features, enhancements, and changes released on June 24, 2022:
