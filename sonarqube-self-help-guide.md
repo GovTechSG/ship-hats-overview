@@ -1,11 +1,39 @@
 # SonarQube Self Help Guide
 
 **Topics**
-- [Create Quality Gates and Profiles](#create-quality-gates-and-profiles)
 - [Manage Users](#manage-users)
+- [Create Quality Gates and Profiles](#create-quality-gates-and-profiles)
 - [Configure New Code Setting and Versioning](#configure-new-code-setting-and-versioning)
 - [FAQs](#faqs)
 - [Additional Resources](#additional-resources)
+
+
+## Manage Users
+
+### Prerequisites
+
+- Make sure that the user to be added must have logged in once to SonarQube to auto-create the account  
+    or
+- Make sure that new user was invited through SHIP-HATS Portal so that the SonarQube account is auto-created.
+
+### To manage users in a SonarQube app
+
+1. Log in to [SonarQube](https://sonar.hats.stack.gov.sg/sonar) as a Project Admin (PA).  
+
+    <kbd>![Log in](hats-sonarqube-log-in.png)</kbd>
+
+1. Search for the application and click to manage it.
+
+    <kbd>![Search app](hats-sonarqube-search.png)</kbd>
+1. Navigate to **Project Settings** > **Permissions**.
+
+    <kbd>![Project settings](hats-sonarqube-manage-app-permission.png)
+
+1. Give users permissions on individual apps.  
+    >**Tip:** You can click the ? icon to see what each permission allow the user to do.
+
+    <kbd>![User Permission](hats-sonarqube-give-user-permission.png)
+
 
 
 ## Create Quality Gates and Profiles
@@ -132,33 +160,6 @@ tests		|Unit Tests	|is less than|	74
 vulnerabilities	|	Vulnerabilities	|is greater than|	75
 wont_fix_issues	|	Won't Fix issues	|is greater than|	76
 
-## Manage Users
-
-### Prerequisites
-
-- Make sure that the user to be added must have logged in once to SonarQube to auto-create the account  
-    or
-- Make sure that new user was invited through SHIP-HATS Portal so that the SonarQube account is auto-created.
-
-### To manage users in a SonarQube app
-
-1. Log in to [SonarQube](https://sonar.hats.stack.gov.sg/sonar) as a Project Admin (PA).  
-
-    <kbd>![Log in](hats-sonarqube-log-in.png)</kbd>
-
-1. Search for the application and click to manage it.
-
-    <kbd>![Search app](hats-sonarqube-search.png)</kbd>
-1. Navigate to **Project Settings** > **Permissions**.
-
-    <kbd>![Project settings](hats-sonarqube-manage-app-permission.png)
-
-1. Give users permissions on individual apps.  
-    >**Tip:** You can click the ? icon to see what each permission allow the user to do.
-
-    <kbd>![User Permission](hats-sonarqube-give-user-permission.png)
-
-
 ## Configure New Code Setting and Versioning
 
 This section is for project teams that are looking to compare the analysis from a particular date or version against the latest scan.
@@ -215,14 +216,14 @@ Java, JavaScript, C#, TypeScript, Kotlin, Ruby, Go, Scala, Flex, Python, PHP, HT
 Do take note that there is no restriction of lines of code and number of applications.
 
   </details>
-
+<br>
  <details>
   <summary><b>Based on SonarQube’s add-ons, what are the 7 others supported languages?</b></summary><br>
 
 C, C++, Obj-C, Swift, ABAP, T-SQL, PL/SQL are supported. Public officers can refer to the <a href="https://sgdcs.sgnet.gov.sg/sites/IDA-GoSync/gdspdd-ai/ship/_layouts/15/start.aspx#/SitePages/Pricing.aspx">pricing</a> for the add-ons.
 
   </details>
-
+<br>
  <details>
   <summary><b>Are COTS (commercial off-the-shelf) products supported on SonarQube?</b></summary><br>
 
@@ -244,7 +245,7 @@ Refer to this section if you have previously been assigned permissions in SonarQ
 - Raise a [service request on JIRA](https://jira.ship.gov.sg) and let us know about this issue.  
 We will manually find your master LDAP group and create or rename your existing SonarQube group if any. After this is done, user will be automatically be reassigned to the SonarQube projects that they had access to previously.
 </details>
-
+<br>
 
 <details>
 <summary><b>How do we manage users in Sonarqube moving forward?</b>
@@ -257,7 +258,7 @@ We will manually find your master LDAP group and create or rename your existing 
 The user membership will be synced to the master LDAP group created for you and will be synced to the SonarQube group.</li></ol>
 
 </details>
-
+<br>
 
 ## Additional Resources
 
