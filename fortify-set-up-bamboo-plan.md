@@ -68,9 +68,11 @@ If you have not created the Fortify App, go to the [SHIP-HATS](https://www.ship.
  
 1.	Select the **Upload Fortify SCA scan results to Fortify Software Security Center** to automatically upload the scan results to [Fortify SSC](https://ssc.hats.stack.gov.sg/), and then enter details for the following parameters:
 
-    >**Note:** Make sure that you append *bamboo* in all your variables. For example, if your variable is *${fortify.password}*, you must reference it in Bamboo as *${bamboo.fortify.password}*.
+    >**Note:** Make sure that you append *bamboo* in all your variables. For example, if your variable is *${fortify.password}*, you must reference it in Bamboo as *${bamboo.fortify.password}*.    
+    
+    ![Fortify SCA Scan](fortify-scan.png)
 
-    ![Fortify SCA Scan](hats-fortify-scan.png)
+    <!--![Fortify SCA Scan](hats-fortify-scan.png)-->
 
     - **Fortify Software Security Center URL:**  You can use the same value as shown in the guide
     - **Fortify Software Security Center token:** Add in the environment variable containing the decoded value of the token under the Retrieval of Decoded Token step
