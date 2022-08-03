@@ -156,10 +156,10 @@ You can manage user groups and permissions/roles for the following tools:
 
 1. In the **Manage Tool** window that appears, from the dropdown, select **Manage/add user group**. 
 
-    - **Nexus IQ:** Provide value in the **User Group** field, and then select the required roles.
+    - **Nexus IQ:** Provide value in the **User Group** field, and then select the required roles. To know more about the roles, click the **Roles** dropdown list.
         
         <kbd>![Manage Tool](nexus-iq-manage-user-group.png  ':size=60%')</kbd> 
-    - **SonarQube:** Provide values in the **App Name** and **User Group** fields, and then select the required permissions. The **Browse** permission is selected by default along with any other permission.
+    - **SonarQube:** Provide values in the **App Name** and **User Group** fields, and then select the required permissions. The **Browse** permission is selected by default along with any other permission. To know more about the roles, click the **Permissions** dropdown list.
 
         <kbd>![Manage Tool](sonarqube-manage-user-group.png ':size=60%')
     
